@@ -33,6 +33,11 @@ When printing any of these components, choose the sides as the base in your slic
 
 ![CleanShot-2025-05-25-at-18 59 58@2x](https://github.com/user-attachments/assets/e96d5d98-4839-4aad-bda9-136ed2b8c5cf)
 
+
+## Mounting Eurorack modules
+
+The rails welcome standard M3 square nuts and you can use M3x8 screws to mount max 2mm thick panels. Use M3x10 screws for thicker panels.
+
 ## Photos
 
 ![IMG_2833](https://github.com/user-attachments/assets/8fa08ddf-dc6d-47ff-99b6-6fd0426b09e2)
