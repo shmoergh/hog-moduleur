@@ -4,6 +4,10 @@ Fully analog DIY-friendly modular synth. This is project is under development. F
 
 ![image](https://github.com/user-attachments/assets/776c0790-6a1d-4400-9554-031cb7f48dc3)
 
+## Modules
+
+- [00 — Eurorack frame](https://github.com/shmoergh/hog-moduleur/tree/main/00-eurorack-frame)
+
 
 ## License
 
