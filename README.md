@@ -1,8 +1,8 @@
 # Hog Moduleur
 
-Fully analog DIY-friendly modular synth. This is project is under development. Follow the progress on [shmoergh.com](https://shmoergh.com/) by subscribing to the newsletter.
+Fully analog DIY-friendly modular synth. This is project is under development. Follow the progress on [shmoergh.com](https://www.shmoergh.com/hog-moduleur/) — consider subscribing to the newsletter to get the latest updates in your inbox.
 
-[WORK IN PROGRESS]
+![image](https://github.com/user-attachments/assets/776c0790-6a1d-4400-9554-031cb7f48dc3)
 
 
 ## License
