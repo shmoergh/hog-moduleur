@@ -7732,7 +7732,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part No." ""
+		(property "Part No." "303-MF0W4FF1001A10 "
 			(at 259.08 36.83 0)
 			(effects
 				(font
@@ -7741,7 +7741,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part URL" ""
+		(property "Part URL" "https://mou.sr/3ZzOD6G"
 			(at 259.08 36.83 0)
 			(effects
 				(font
@@ -7750,7 +7750,7 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor" ""
+		(property "Vendor" "Mouser"
 			(at 259.08 36.83 0)
 			(effects
 				(font
@@ -8220,7 +8220,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part No." ""
+		(property "Part No." "737-BHR-16-VUA"
 			(at 215.9 157.48 0)
 			(effects
 				(font
@@ -8229,7 +8229,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part URL" ""
+		(property "Part URL" "https://mou.sr/4jUmWfT"
 			(at 215.9 157.48 0)
 			(effects
 				(font
@@ -8238,7 +8238,7 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor" ""
+		(property "Vendor" "Mouser"
 			(at 215.9 157.48 0)
 			(effects
 				(font
@@ -8318,7 +8318,7 @@
 		(at 255.27 83.82 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -8427,7 +8427,7 @@
 		(at 255.27 109.22 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -8719,7 +8719,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part No." ""
+		(property "Part No." "303-MF0W4FF1001A10 "
 			(at 245.11 36.83 0)
 			(effects
 				(font
@@ -8728,7 +8728,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part URL" ""
+		(property "Part URL" "https://mou.sr/3ZzOD6G"
 			(at 245.11 36.83 0)
 			(effects
 				(font
@@ -8737,7 +8737,7 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor" ""
+		(property "Vendor" "Mouser"
 			(at 245.11 36.83 0)
 			(effects
 				(font
@@ -9484,7 +9484,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part No." ""
+		(property "Part No." "737-BHR-16-VUA"
 			(at 182.88 157.48 0)
 			(effects
 				(font
@@ -9493,7 +9493,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part URL" ""
+		(property "Part URL" "https://mou.sr/4jUmWfT"
 			(at 182.88 157.48 0)
 			(effects
 				(font
@@ -9502,7 +9502,7 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor" ""
+		(property "Vendor" "Mouser"
 			(at 182.88 157.48 0)
 			(effects
 				(font
@@ -9815,7 +9815,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part No." ""
+		(property "Part No." "737-BHR-16-VUA"
 			(at 215.9 99.06 0)
 			(effects
 				(font
@@ -9824,7 +9824,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part URL" ""
+		(property "Part URL" "https://mou.sr/4jUmWfT"
 			(at 215.9 99.06 0)
 			(effects
 				(font
@@ -9833,7 +9833,7 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor" ""
+		(property "Vendor" "Mouser"
 			(at 215.9 99.06 0)
 			(effects
 				(font
@@ -9961,7 +9961,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part No." ""
+		(property "Part No." "737-BHR-16-VUA"
 			(at 116.84 99.06 0)
 			(effects
 				(font
@@ -9970,7 +9970,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part URL" ""
+		(property "Part URL" "https://mou.sr/4jUmWfT"
 			(at 116.84 99.06 0)
 			(effects
 				(font
@@ -9979,7 +9979,7 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor" ""
+		(property "Vendor" "Mouser"
 			(at 116.84 99.06 0)
 			(effects
 				(font
@@ -10125,7 +10125,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part No." ""
+		(property "Part No." "637-1N4001 "
 			(at 128.27 36.83 0)
 			(effects
 				(font
@@ -10134,7 +10134,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part URL" ""
+		(property "Part URL" "https://mou.sr/3DfEJyK"
 			(at 128.27 36.83 0)
 			(effects
 				(font
@@ -10143,7 +10143,7 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor" ""
+		(property "Vendor" "Mouser"
 			(at 128.27 36.83 0)
 			(effects
 				(font
@@ -10637,7 +10637,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part No." ""
+		(property "Part No." "737-BHR-16-VUA"
 			(at 116.84 157.48 0)
 			(effects
 				(font
@@ -10646,7 +10646,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part URL" ""
+		(property "Part URL" "https://mou.sr/4jUmWfT"
 			(at 116.84 157.48 0)
 			(effects
 				(font
@@ -10655,7 +10655,7 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor" ""
+		(property "Vendor" "Mouser"
 			(at 116.84 157.48 0)
 			(effects
 				(font
@@ -10785,7 +10785,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part No." ""
+		(property "Part No." "303-MF0W4FF1001A10 "
 			(at 231.14 36.83 0)
 			(effects
 				(font
@@ -10794,7 +10794,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part URL" ""
+		(property "Part URL" "https://mou.sr/3ZzOD6G"
 			(at 231.14 36.83 0)
 			(effects
 				(font
@@ -10803,7 +10803,7 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor" ""
+		(property "Vendor" "Mouser"
 			(at 231.14 36.83 0)
 			(effects
 				(font
@@ -11059,7 +11059,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part No." ""
+		(property "Part No." "737-BHR-16-VUA"
 			(at 82.55 157.48 0)
 			(effects
 				(font
@@ -11068,7 +11068,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part URL" ""
+		(property "Part URL" "https://mou.sr/4jUmWfT"
 			(at 82.55 157.48 0)
 			(effects
 				(font
@@ -11077,7 +11077,7 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor" ""
+		(property "Vendor" "Mouser"
 			(at 82.55 157.48 0)
 			(effects
 				(font
@@ -11311,7 +11311,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Converter_DCDC:Converter_DCDC_MeanWell_NSD10_THT"
+		(property "Footprint" "Shmoergh_Custom_Footprints:Converter_DCDC_MeanWell_NSD10_DKMW_THT"
 			(at 180.34 48.26 0)
 			(effects
 				(font
@@ -11534,7 +11534,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part No." ""
+		(property "Part No." "737-EBBA-02-C-SS-BU "
 			(at 133.35 16.51 0)
 			(effects
 				(font
@@ -11543,7 +11543,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part URL" ""
+		(property "Part URL" "https://mou.sr/4jUbpxn"
 			(at 133.35 16.51 0)
 			(effects
 				(font
@@ -11552,7 +11552,7 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor" ""
+		(property "Vendor" "Mouser"
 			(at 133.35 16.51 0)
 			(effects
 				(font
@@ -11932,7 +11932,7 @@
 		(at 154.94 53.34 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -12287,7 +12287,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part No." ""
+		(property "Part No." "604-WP710A10ID"
 			(at 245.11 46.99 0)
 			(effects
 				(font
@@ -12296,7 +12296,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part URL" ""
+		(property "Part URL" "https://mou.sr/45uKc0N"
 			(at 245.11 46.99 0)
 			(effects
 				(font
@@ -12305,7 +12305,7 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor" ""
+		(property "Vendor" "Mouser"
 			(at 245.11 46.99 0)
 			(effects
 				(font
@@ -12391,7 +12391,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part No." ""
+		(property "Part No." "737-BHR-16-VUA"
 			(at 182.88 99.06 0)
 			(effects
 				(font
@@ -12400,7 +12400,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part URL" ""
+		(property "Part URL" "https://mou.sr/4jUmWfT"
 			(at 182.88 99.06 0)
 			(effects
 				(font
@@ -12409,7 +12409,7 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor" ""
+		(property "Vendor" "Mouser"
 			(at 182.88 99.06 0)
 			(effects
 				(font
@@ -12604,7 +12604,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part No." ""
+		(property "Part No." "737-BHR-16-VUA"
 			(at 149.86 157.48 0)
 			(effects
 				(font
@@ -12613,7 +12613,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part URL" ""
+		(property "Part URL" "https://mou.sr/4jUmWfT"
 			(at 149.86 157.48 0)
 			(effects
 				(font
@@ -12622,7 +12622,7 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor" ""
+		(property "Vendor" "Mouser"
 			(at 149.86 157.48 0)
 			(effects
 				(font
@@ -12761,7 +12761,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part No." ""
+		(property "Part No." "604-WP710A10ID"
 			(at 259.08 46.99 0)
 			(effects
 				(font
@@ -12770,7 +12770,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part URL" ""
+		(property "Part URL" "https://mou.sr/45uKc0N"
 			(at 259.08 46.99 0)
 			(effects
 				(font
@@ -12779,7 +12779,7 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor" ""
+		(property "Vendor" "Mouser"
 			(at 259.08 46.99 0)
 			(effects
 				(font
@@ -12865,7 +12865,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part No." ""
+		(property "Part No." "737-BHR-16-VUA"
 			(at 149.86 99.06 0)
 			(effects
 				(font
@@ -12874,7 +12874,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part URL" ""
+		(property "Part URL" "https://mou.sr/4jUmWfT"
 			(at 149.86 99.06 0)
 			(effects
 				(font
@@ -12883,7 +12883,7 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor" ""
+		(property "Vendor" "Mouser"
 			(at 149.86 99.06 0)
 			(effects
 				(font
@@ -13212,7 +13212,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part No." ""
+		(property "Part No." "737-BHR-16-VUA"
 			(at 82.55 99.06 0)
 			(effects
 				(font
@@ -13221,7 +13221,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part URL" ""
+		(property "Part URL" "https://mou.sr/4jUmWfT"
 			(at 82.55 99.06 0)
 			(effects
 				(font
@@ -13230,7 +13230,7 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor" ""
+		(property "Vendor" "Mouser"
 			(at 82.55 99.06 0)
 			(effects
 				(font
@@ -13502,7 +13502,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part No." ""
+		(property "Part No." "604-WP710A10ID"
 			(at 231.14 46.99 0)
 			(effects
 				(font
@@ -13511,7 +13511,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part URL" ""
+		(property "Part URL" "https://mou.sr/45uKc0N"
 			(at 231.14 46.99 0)
 			(effects
 				(font
@@ -13520,7 +13520,7 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor" ""
+		(property "Vendor" "Mouser"
 			(at 231.14 46.99 0)
 			(effects
 				(font
@@ -13743,7 +13743,7 @@
 		(at 255.27 96.52 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
