@@ -11,7 +11,7 @@ Follow the progress on [shmoergh.com](https://www.shmoergh.com/hog-moduleur/) �
 ## Modules
 
 - [00 — Eurorack frame](https://github.com/shmoergh/hog-moduleur/tree/main/00-eurorack-frame)
-
+- [01 — Power supply](https://github.com/shmoergh/hog-moduleur/tree/main/01-psu)
 
 ## License
 
