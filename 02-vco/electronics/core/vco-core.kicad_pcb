@@ -4755,7 +4755,7 @@
 		(path "/8bc1c38c-66cf-4d37-87f2-6eda8e5acaa7/49dc35a7-069a-4c6f-b14b-9a05a9fe767b")
 		(sheetname "/Power/")
 		(sheetfile "sheets/power.kicad_sch")
-		(attr through_hole exclude_from_pos_files)
+		(attr through_hole exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start 1.33 -1.33)
 			(end 1.33 0)
@@ -10174,7 +10174,7 @@
 		(path "/81b20ede-32d6-4ae5-ac54-dfeb239fad81")
 		(sheetname "/")
 		(sheetfile "vco-core.kicad_sch")
-		(attr through_hole exclude_from_pos_files)
+		(attr through_hole exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start 1.33 -1.33)
 			(end 1.33 0)
@@ -12426,7 +12426,7 @@
 		(path "/b870749e-1596-4095-8b2c-fa982bdaa060/67d2c535-173c-4d4d-9d6a-9e0900ce323d")
 		(sheetname "/Waveshapers/")
 		(sheetfile "sheets/waveshapers.kicad_sch")
-		(attr through_hole exclude_from_pos_files)
+		(attr through_hole exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start 3.16 -3.795)
 			(end 3.16 1.255)
@@ -19689,7 +19689,7 @@
 		(path "/b870749e-1596-4095-8b2c-fa982bdaa060/dbc26da2-6aad-4921-8494-a33dd0386e47")
 		(sheetname "/Waveshapers/")
 		(sheetfile "sheets/waveshapers.kicad_sch")
-		(attr through_hole exclude_from_pos_files)
+		(attr through_hole exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start 3.16 -3.795)
 			(end 3.16 1.255)
@@ -21233,7 +21233,7 @@
 		(path "/8bc1c38c-66cf-4d37-87f2-6eda8e5acaa7/7e3222f2-9d20-4179-af2e-4d77216b5777")
 		(sheetname "/Power/")
 		(sheetfile "sheets/power.kicad_sch")
-		(attr through_hole exclude_from_pos_files)
+		(attr through_hole exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start -2.35 -0.5)
 			(end -2.35 0.5)
@@ -26307,7 +26307,7 @@
 		(path "/5bcbafd4-ff94-4205-82af-8a4e0a8ddef3")
 		(sheetname "/")
 		(sheetfile "vco-core.kicad_sch")
-		(attr through_hole exclude_from_pos_files)
+		(attr through_hole exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start 1.33 -1.33)
 			(end 1.33 0)
