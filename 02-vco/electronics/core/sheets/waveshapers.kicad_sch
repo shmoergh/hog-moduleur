@@ -1761,16 +1761,6 @@
 		)
 		(uuid "8331121f-8e78-41c4-97ac-a000f262968e")
 	)
-	(text "The pair of this is in power sheet"
-		(exclude_from_sim no)
-		(at -64.77 234.95 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "9d8e35b9-f517-485b-bc1a-60b49b92c8e6")
-	)
 	(text "Square pulse width\n-----------------\nConnect any number of CV inputs through input resistors \nto set the pulse width with a CV on SQR_SHAPE. Use the \nfollowing CV values:\n\n0V/GND: 	50%\n-5.5V: 		5%\n+5.5V: 		95%\n\nSet the input resistors so that the CV mixer's output value \nis between -/+5.5.\n\nExample:"
 		(exclude_from_sim no)
 		(at 226.06 149.86 0)
@@ -2075,18 +2065,6 @@
 		(color 0 0 0 0)
 		(uuid "fa786b72-8af5-458c-8519-3e2c1196b898")
 	)
-	(no_connect
-		(at -72.39 241.3)
-		(uuid "65ca64b5-8715-4ccd-9b4a-e2a126f8f919")
-	)
-	(no_connect
-		(at -57.15 243.84)
-		(uuid "842ce98f-8aea-4703-8565-8a66d06e8b48")
-	)
-	(no_connect
-		(at -72.39 246.38)
-		(uuid "cb43aec5-c438-4590-adb6-08ed6d001575")
-	)
 	(wire
 		(pts
 			(xy 111.76 116.84) (xy 118.11 116.84)
@@ -2276,6 +2254,16 @@
 			(type default)
 		)
 		(uuid "1fea948c-1837-4baf-9f02-e6ea8dc363e3")
+	)
+	(wire
+		(pts
+			(xy 251.46 160.02) (xy 254 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "206ef94e-22ff-4b88-8f2c-3a7c4b22b783")
 	)
 	(wire
 		(pts
@@ -3289,16 +3277,6 @@
 	)
 	(wire
 		(pts
-			(xy 251.46 160.02) (xy 254 160.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d3f65f0b-e46f-4b99-a757-0aaa340e80a6")
-	)
-	(wire
-		(pts
 			(xy 242.57 60.96) (xy 242.57 63.5)
 		)
 		(stroke
@@ -3876,7 +3854,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0f3708c3-6106-4747-8594-71bdbda60213")
-		(property "Reference" "U5"
+		(property "Reference" "U4"
 			(at 107.95 44.0182 0)
 			(effects
 				(font
@@ -4000,7 +3978,7 @@
 		(instances
 			(project "vco-core"
 				(path "/8e2e31f3-eed5-4de1-966c-f4162758c735/b870749e-1596-4095-8b2c-fa982bdaa060"
-					(reference "U5")
+					(reference "U4")
 					(unit 2)
 				)
 			)
@@ -4261,7 +4239,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "106ebe2d-7e94-4580-91f8-09e4250a1de3")
-		(property "Reference" "#PWR034"
+		(property "Reference" "#PWR035"
 			(at 93.98 162.56 0)
 			(effects
 				(font
@@ -4311,7 +4289,7 @@
 		(instances
 			(project "vco-core"
 				(path "/8e2e31f3-eed5-4de1-966c-f4162758c735/b870749e-1596-4095-8b2c-fa982bdaa060"
-					(reference "#PWR034")
+					(reference "#PWR035")
 					(unit 1)
 				)
 			)
@@ -4327,7 +4305,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "10f0b3ed-a22b-4b23-8619-6ec616f634e2")
-		(property "Reference" "#PWR033"
+		(property "Reference" "#PWR034"
 			(at 87.63 214.63 0)
 			(effects
 				(font
@@ -4377,7 +4355,7 @@
 		(instances
 			(project "vco-core"
 				(path "/8e2e31f3-eed5-4de1-966c-f4162758c735/b870749e-1596-4095-8b2c-fa982bdaa060"
-					(reference "#PWR033")
+					(reference "#PWR034")
 					(unit 1)
 				)
 			)
@@ -4393,7 +4371,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "110e4471-cb6e-4d33-86fa-3f77cdeda754")
-		(property "Reference" "#PWR040"
+		(property "Reference" "#PWR041"
 			(at 246.38 113.03 0)
 			(effects
 				(font
@@ -4443,7 +4421,7 @@
 		(instances
 			(project "vco-core"
 				(path "/8e2e31f3-eed5-4de1-966c-f4162758c735/b870749e-1596-4095-8b2c-fa982bdaa060"
-					(reference "#PWR040")
+					(reference "#PWR041")
 					(unit 1)
 				)
 			)
@@ -5278,7 +5256,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3dc59c26-88fa-4813-963f-570386c7d845")
-		(property "Reference" "#PWR038"
+		(property "Reference" "#PWR039"
 			(at 196.85 74.93 0)
 			(effects
 				(font
@@ -5328,7 +5306,7 @@
 		(instances
 			(project "vco-core"
 				(path "/8e2e31f3-eed5-4de1-966c-f4162758c735/b870749e-1596-4095-8b2c-fa982bdaa060"
-					(reference "#PWR038")
+					(reference "#PWR039")
 					(unit 1)
 				)
 			)
@@ -5533,7 +5511,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "50cbd6d5-6f98-416c-9d5b-abcc8715b2bc")
-		(property "Reference" "#PWR039"
+		(property "Reference" "#PWR040"
 			(at 242.57 69.85 0)
 			(effects
 				(font
@@ -5583,7 +5561,7 @@
 		(instances
 			(project "vco-core"
 				(path "/8e2e31f3-eed5-4de1-966c-f4162758c735/b870749e-1596-4095-8b2c-fa982bdaa060"
-					(reference "#PWR039")
+					(reference "#PWR040")
 					(unit 1)
 				)
 			)
@@ -5720,7 +5698,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "55abd22c-5829-49a4-9ccf-3282daf0de19")
-		(property "Reference" "#PWR028"
+		(property "Reference" "#PWR029"
 			(at 63.5 63.5 0)
 			(effects
 				(font
@@ -5770,7 +5748,7 @@
 		(instances
 			(project "vco-core"
 				(path "/8e2e31f3-eed5-4de1-966c-f4162758c735/b870749e-1596-4095-8b2c-fa982bdaa060"
-					(reference "#PWR028")
+					(reference "#PWR029")
 					(unit 1)
 				)
 			)
@@ -6172,7 +6150,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5ebb29c9-0873-4cb9-b22b-4e53a05918f9")
-		(property "Reference" "#PWR037"
+		(property "Reference" "#PWR038"
 			(at 185.42 81.28 0)
 			(effects
 				(font
@@ -6222,7 +6200,7 @@
 		(instances
 			(project "vco-core"
 				(path "/8e2e31f3-eed5-4de1-966c-f4162758c735/b870749e-1596-4095-8b2c-fa982bdaa060"
-					(reference "#PWR037")
+					(reference "#PWR038")
 					(unit 1)
 				)
 			)
@@ -6237,7 +6215,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "67001d42-bcb5-40fc-a07c-2f621dbd0872")
-		(property "Reference" "U6"
+		(property "Reference" "U5"
 			(at 232.41 109.22 0)
 			(effects
 				(font
@@ -6361,7 +6339,7 @@
 		(instances
 			(project "vco-core"
 				(path "/8e2e31f3-eed5-4de1-966c-f4162758c735/b870749e-1596-4095-8b2c-fa982bdaa060"
-					(reference "U6")
+					(reference "U5")
 					(unit 2)
 				)
 			)
@@ -6512,7 +6490,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "67fb2927-962d-43f6-a999-585681727e5c")
-		(property "Reference" "#PWR036"
+		(property "Reference" "#PWR037"
 			(at 97.79 64.77 0)
 			(effects
 				(font
@@ -6562,7 +6540,7 @@
 		(instances
 			(project "vco-core"
 				(path "/8e2e31f3-eed5-4de1-966c-f4162758c735/b870749e-1596-4095-8b2c-fa982bdaa060"
-					(reference "#PWR036")
+					(reference "#PWR037")
 					(unit 1)
 				)
 			)
@@ -6578,7 +6556,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6fe3c323-54b2-421c-87f2-1fef00880fdc")
-		(property "Reference" "#PWR035"
+		(property "Reference" "#PWR036"
 			(at 95.25 153.67 0)
 			(effects
 				(font
@@ -6628,7 +6606,7 @@
 		(instances
 			(project "vco-core"
 				(path "/8e2e31f3-eed5-4de1-966c-f4162758c735/b870749e-1596-4095-8b2c-fa982bdaa060"
-					(reference "#PWR035")
+					(reference "#PWR036")
 					(unit 1)
 				)
 			)
@@ -6867,7 +6845,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "88ba2f76-5e51-4b62-b07d-f1adbd4392df")
-		(property "Reference" "#PWR029"
+		(property "Reference" "#PWR030"
 			(at 64.77 203.2 0)
 			(effects
 				(font
@@ -6953,7 +6931,7 @@
 		(instances
 			(project "vco-core"
 				(path "/8e2e31f3-eed5-4de1-966c-f4162758c735/b870749e-1596-4095-8b2c-fa982bdaa060"
-					(reference "#PWR029")
+					(reference "#PWR030")
 					(unit 1)
 				)
 			)
@@ -7112,7 +7090,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "91ffeff8-2548-4609-b125-f2eaa2353a4c")
-		(property "Reference" "#PWR030"
+		(property "Reference" "#PWR031"
 			(at 64.77 217.17 0)
 			(effects
 				(font
@@ -7162,7 +7140,7 @@
 		(instances
 			(project "vco-core"
 				(path "/8e2e31f3-eed5-4de1-966c-f4162758c735/b870749e-1596-4095-8b2c-fa982bdaa060"
-					(reference "#PWR030")
+					(reference "#PWR031")
 					(unit 1)
 				)
 			)
@@ -7923,92 +7901,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Amplifier_Operational:TL072")
-		(at -64.77 243.84 0)
-		(mirror x)
-		(unit 2)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "a93d2350-84e9-420a-b7ad-a66e70f59229")
-		(property "Reference" "U4"
-			(at -64.77 254 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TL072"
-			(at -64.77 251.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at -64.77 243.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tl071.pdf"
-			(at -64.77 243.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Dual Low-Noise JFET-Input Operational Amplifiers, DIP-8/SOIC-8"
-			(at -64.77 243.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "64c7e132-c774-489b-b7c9-a62daad5b8d3")
-		)
-		(pin "1"
-			(uuid "d18b2df9-1d9a-4412-9096-d38a81d99621")
-		)
-		(pin "3"
-			(uuid "942ace16-01ad-48b7-9634-6e450066307e")
-		)
-		(pin "5"
-			(uuid "b5ce3b7d-a39b-4df6-b016-8e820f68d0d9")
-		)
-		(pin "6"
-			(uuid "03dcead2-5ee6-469f-a3c2-f92448829aa3")
-		)
-		(pin "7"
-			(uuid "074f1e66-2d71-47c9-ac13-0ed8b281d29b")
-		)
-		(pin "8"
-			(uuid "ae1ece39-8575-449a-b982-4a914d873d7f")
-		)
-		(pin "4"
-			(uuid "9363b4e9-8d88-44a2-8fc0-3d192f4b3f90")
-		)
-		(instances
-			(project "vco-core"
-				(path "/8e2e31f3-eed5-4de1-966c-f4162758c735/b870749e-1596-4095-8b2c-fa982bdaa060"
-					(reference "U4")
-					(unit 2)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 215.9 40.64 270)
 		(unit 1)
@@ -8139,7 +8031,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ad29de32-396c-4a00-b4d1-458a41cc0e61")
-		(property "Reference" "#PWR042"
+		(property "Reference" "#PWR043"
 			(at 257.81 167.64 0)
 			(effects
 				(font
@@ -8189,7 +8081,7 @@
 		(instances
 			(project "vco-core"
 				(path "/8e2e31f3-eed5-4de1-966c-f4162758c735/b870749e-1596-4095-8b2c-fa982bdaa060"
-					(reference "#PWR042")
+					(reference "#PWR043")
 					(unit 1)
 				)
 			)
@@ -8509,7 +8401,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b800cf95-211b-4e65-b456-d680137ee1b1")
-		(property "Reference" "#PWR031"
+		(property "Reference" "#PWR032"
 			(at 68.58 153.67 0)
 			(effects
 				(font
@@ -8559,7 +8451,7 @@
 		(instances
 			(project "vco-core"
 				(path "/8e2e31f3-eed5-4de1-966c-f4162758c735/b870749e-1596-4095-8b2c-fa982bdaa060"
-					(reference "#PWR031")
+					(reference "#PWR032")
 					(unit 1)
 				)
 			)
@@ -8576,7 +8468,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b869352d-00bc-49a3-a685-86b43f996aaf")
-		(property "Reference" "U7"
+		(property "Reference" "U6"
 			(at 252.73 48.26 0)
 			(effects
 				(font
@@ -8610,7 +8502,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Dual Low-Noise JFET-Input Operational Amplifiers, DIP-8/SOIC-8"
 			(at 252.73 58.42 0)
 			(effects
 				(font
@@ -8619,16 +8511,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C6961"
-			(at 252.73 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser" ""
+		(property "LCSC" ""
 			(at 252.73 58.42 0)
 			(effects
 				(font
@@ -8655,16 +8538,7 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor" "JLCPCB"
-			(at 252.73 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Field4" ""
+		(property "Vendor" ""
 			(at 252.73 58.42 0)
 			(effects
 				(font
@@ -8700,7 +8574,7 @@
 		(instances
 			(project "vco-core"
 				(path "/8e2e31f3-eed5-4de1-966c-f4162758c735/b870749e-1596-4095-8b2c-fa982bdaa060"
-					(reference "U7")
+					(reference "U6")
 					(unit 2)
 				)
 			)
@@ -8837,7 +8711,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bac7fc35-5755-4b0e-b6f6-a0a63254ea31")
-		(property "Reference" "#PWR041"
+		(property "Reference" "#PWR042"
 			(at 257.81 158.75 0)
 			(effects
 				(font
@@ -8887,7 +8761,7 @@
 		(instances
 			(project "vco-core"
 				(path "/8e2e31f3-eed5-4de1-966c-f4162758c735/b870749e-1596-4095-8b2c-fa982bdaa060"
-					(reference "#PWR041")
+					(reference "#PWR042")
 					(unit 1)
 				)
 			)
@@ -9290,7 +9164,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cf63670a-6de1-4c21-8af4-8838114518bd")
-		(property "Reference" "#PWR027"
+		(property "Reference" "#PWR028"
 			(at 44.45 78.74 0)
 			(effects
 				(font
@@ -9376,7 +9250,7 @@
 		(instances
 			(project "vco-core"
 				(path "/8e2e31f3-eed5-4de1-966c-f4162758c735/b870749e-1596-4095-8b2c-fa982bdaa060"
-					(reference "#PWR027")
+					(reference "#PWR028")
 					(unit 1)
 				)
 			)
@@ -9991,7 +9865,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "df04680a-1725-4501-a4de-534802e9f90e")
-		(property "Reference" "#PWR032"
+		(property "Reference" "#PWR033"
 			(at 78.74 166.37 0)
 			(effects
 				(font
@@ -10041,7 +9915,7 @@
 		(instances
 			(project "vco-core"
 				(path "/8e2e31f3-eed5-4de1-966c-f4162758c735/b870749e-1596-4095-8b2c-fa982bdaa060"
-					(reference "#PWR032")
+					(reference "#PWR033")
 					(unit 1)
 				)
 			)
@@ -10178,7 +10052,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f1f0b41c-e87f-45c1-bd18-35ec5f3c6826")
-		(property "Reference" "#PWR026"
+		(property "Reference" "#PWR027"
 			(at 35.56 69.85 0)
 			(effects
 				(font
@@ -10264,7 +10138,7 @@
 		(instances
 			(project "vco-core"
 				(path "/8e2e31f3-eed5-4de1-966c-f4162758c735/b870749e-1596-4095-8b2c-fa982bdaa060"
-					(reference "#PWR026")
+					(reference "#PWR027")
 					(unit 1)
 				)
 			)
