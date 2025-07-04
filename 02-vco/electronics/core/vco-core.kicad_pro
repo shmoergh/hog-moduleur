@@ -523,7 +523,7 @@
     "net_colors": {
       "+12V": "rgb(221, 133, 0)",
       "-12V": "rgb(0, 194, 194)",
-      "GND": "rgb(0, 132, 0)"
+      "GND": "rgba(0, 132, 0, 0.376)"
     },
     "netclass_assignments": null,
     "netclass_patterns": []

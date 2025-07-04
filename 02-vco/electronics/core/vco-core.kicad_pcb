@@ -29384,8 +29384,8 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "Track sizes:\nSignal — 20mil\nPower — 35mil"
-		(at 123.7 30.4 0)
+	(gr_text "Trace sizes:\nSignal — 20mil\nPower — 35mil"
+		(at 149.479 34.798 0)
 		(layer "User.2")
 		(uuid "5166af65-98c5-4dae-882a-efae8f0b9e1a")
 		(effects
