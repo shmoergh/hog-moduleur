@@ -1213,7 +1213,7 @@
 	)
 	(global_label "SAW_INV"
 		(shape output)
-		(at 227.33 109.22 0)
+		(at 227.33 111.76 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1223,7 +1223,7 @@
 		)
 		(uuid "1b09e414-10e8-4773-80c0-0cd3fc70e582")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 238.0562 109.22 0)
+			(at 238.0562 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1477,7 +1477,7 @@
 	)
 	(global_label "SAW"
 		(shape output)
-		(at 227.33 111.76 0)
+		(at 227.33 109.22 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1487,7 +1487,7 @@
 		)
 		(uuid "cdc99f3f-4948-449b-bf1b-072cf7d73711")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 234.0647 111.76 0)
+			(at 234.0647 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2065,106 +2065,6 @@
 			(project "vco-core"
 				(path "/8e2e31f3-eed5-4de1-966c-f4162758c735"
 					(reference "J2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Mechanical:MountingHole")
-		(at 241.3 160.02 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "82980677-70dd-4a9f-a6a7-09aab1e1a5b0")
-		(property "Reference" "H4"
-			(at 243.84 158.7499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MountingHole"
-			(at 243.84 161.2899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad"
-			(at 241.3 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 241.3 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Mounting Hole without connection"
-			(at 241.3 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part No." ""
-			(at 241.3 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part URL" ""
-			(at 241.3 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Vendor" ""
-			(at 241.3 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" ""
-			(at 241.3 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(instances
-			(project "vco-core"
-				(path "/8e2e31f3-eed5-4de1-966c-f4162758c735"
-					(reference "H4")
 					(unit 1)
 				)
 			)
