@@ -240,7 +240,7 @@
 		(path "/bbd52b2a-2ec0-4630-92f7-79f99868dfdc/32e52410-6d53-40ae-a480-f06decd5ea36")
 		(sheetname "/Raw oscillator/")
 		(sheetfile "sheets/raw-oscillator.kicad_sch")
-		(attr through_hole exclude_from_bom)
+		(attr through_hole exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start -16.11 1.255)
 			(end 3.16 1.255)
@@ -989,7 +989,7 @@
 		(path "/bbd52b2a-2ec0-4630-92f7-79f99868dfdc/28ced96e-6076-468a-ba68-c21d7c290ae6")
 		(sheetname "/Raw oscillator/")
 		(sheetfile "sheets/raw-oscillator.kicad_sch")
-		(attr through_hole exclude_from_bom)
+		(attr through_hole exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start -16.11 1.255)
 			(end 3.16 1.255)
@@ -1461,7 +1461,7 @@
 		(path "/bbd52b2a-2ec0-4630-92f7-79f99868dfdc/6d28294d-9479-4145-b8e0-b3860cbeed0b")
 		(sheetname "/Raw oscillator/")
 		(sheetfile "sheets/raw-oscillator.kicad_sch")
-		(attr smd exclude_from_bom)
+		(attr smd exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start -0.727064 -0.91)
 			(end 0.727064 -0.91)
@@ -2162,7 +2162,7 @@
 		(path "/bbd52b2a-2ec0-4630-92f7-79f99868dfdc/3ce8e15f-bdda-4955-90e9-73f9c4a41b2f")
 		(sheetname "/Raw oscillator/")
 		(sheetfile "sheets/raw-oscillator.kicad_sch")
-		(attr through_hole exclude_from_bom)
+		(attr through_hole exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start -16.11 1.255)
 			(end 3.16 1.255)
@@ -4755,7 +4755,7 @@
 		(path "/8bc1c38c-66cf-4d37-87f2-6eda8e5acaa7/49dc35a7-069a-4c6f-b14b-9a05a9fe767b")
 		(sheetname "/Power/")
 		(sheetfile "sheets/power.kicad_sch")
-		(attr through_hole)
+		(attr through_hole exclude_from_pos_files)
 		(fp_line
 			(start 1.33 -1.33)
 			(end 1.33 0)
@@ -5087,7 +5087,7 @@
 		(path "/bbd52b2a-2ec0-4630-92f7-79f99868dfdc/8cda122c-ed9e-4f75-a615-4a0620e0d997")
 		(sheetname "/Raw oscillator/")
 		(sheetfile "sheets/raw-oscillator.kicad_sch")
-		(attr through_hole exclude_from_bom)
+		(attr through_hole exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start 0.54 -1.37)
 			(end 7.08 -1.37)
@@ -7353,7 +7353,7 @@
 		(path "/b870749e-1596-4095-8b2c-fa982bdaa060/9f4bc5fe-2dbf-404f-a97e-ae22b5f25cdb")
 		(sheetname "/Waveshapers/")
 		(sheetfile "sheets/waveshapers.kicad_sch")
-		(attr through_hole exclude_from_bom dnp)
+		(attr through_hole exclude_from_pos_files exclude_from_bom dnp)
 		(fp_line
 			(start 1.25566 0)
 			(end 1.49 0)
@@ -9320,7 +9320,7 @@
 		(path "/bbd52b2a-2ec0-4630-92f7-79f99868dfdc/3e831f38-d237-42e7-9a3c-dd967ab8b78a")
 		(sheetname "/Raw oscillator/")
 		(sheetfile "sheets/raw-oscillator.kicad_sch")
-		(attr through_hole exclude_from_bom)
+		(attr through_hole exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start 0.54 -1.37)
 			(end 7.08 -1.37)
@@ -10294,7 +10294,7 @@
 		(path "/81b20ede-32d6-4ae5-ac54-dfeb239fad81")
 		(sheetname "/")
 		(sheetfile "vco-core.kicad_sch")
-		(attr through_hole)
+		(attr through_hole exclude_from_pos_files)
 		(fp_line
 			(start 1.33 -1.33)
 			(end 1.33 0)
@@ -11618,7 +11618,7 @@
 			)
 		)
 		(property ki_fp_filters "SOIC*3.9x4.9mm*P1.27mm* DIP*W7.62mm* TO*99* OnSemi*Micro8* TSSOP*3x3mm*P0.65mm* TSSOP*4.4x3mm*P0.65mm* MSOP*3x3mm*P0.65mm* SSOP*3.9x4.9mm*P0.635mm* LFCSP*2x2mm*P0.5mm* *SIP* SOIC*5.3x6.2mm*P1.27mm*")
-		(path "/bbd52b2a-2ec0-4630-92f7-79f99868dfdc/ca031c53-f063-4402-a95f-f5cd4f96eb59")
+		(path "/bbd52b2a-2ec0-4630-92f7-79f99868dfdc/64d08092-2399-499e-80ec-8b9eaa2c0744")
 		(sheetname "/Raw oscillator/")
 		(sheetfile "sheets/raw-oscillator.kicad_sch")
 		(attr smd)
@@ -12419,7 +12419,7 @@
 		(path "/b870749e-1596-4095-8b2c-fa982bdaa060/67d2c535-173c-4d4d-9d6a-9e0900ce323d")
 		(sheetname "/Waveshapers/")
 		(sheetfile "sheets/waveshapers.kicad_sch")
-		(attr through_hole)
+		(attr through_hole exclude_from_pos_files)
 		(fp_line
 			(start 3.16 -3.795)
 			(end 3.16 1.255)
@@ -13396,7 +13396,7 @@
 		(path "/b870749e-1596-4095-8b2c-fa982bdaa060/a64c0f38-14a0-43d5-889a-a90d1ff62dd8")
 		(sheetname "/Waveshapers/")
 		(sheetfile "sheets/waveshapers.kicad_sch")
-		(attr through_hole exclude_from_bom dnp)
+		(attr through_hole exclude_from_pos_files exclude_from_bom dnp)
 		(fp_line
 			(start 1.25566 0)
 			(end 1.49 0)
@@ -14543,7 +14543,7 @@
 		(path "/bbd52b2a-2ec0-4630-92f7-79f99868dfdc/6435da61-5ab4-4a64-bdbc-cde37b52a88e")
 		(sheetname "/Raw oscillator/")
 		(sheetfile "sheets/raw-oscillator.kicad_sch")
-		(attr through_hole exclude_from_bom)
+		(attr through_hole exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start -1.22 1.37)
 			(end 6.22 1.37)
@@ -15383,7 +15383,7 @@
 		(path "/b870749e-1596-4095-8b2c-fa982bdaa060/10098243-8267-46fb-b6dd-ae9f15f52ed6")
 		(sheetname "/Waveshapers/")
 		(sheetfile "sheets/waveshapers.kicad_sch")
-		(attr through_hole exclude_from_bom dnp)
+		(attr through_hole exclude_from_pos_files exclude_from_bom dnp)
 		(fp_line
 			(start 2.87 -1.12)
 			(end 2.87 -0.972)
@@ -16025,7 +16025,7 @@
 		(path "/bbd52b2a-2ec0-4630-92f7-79f99868dfdc/d9e6b294-dc01-45ad-9e81-a2f854894d5c")
 		(sheetname "/Raw oscillator/")
 		(sheetfile "sheets/raw-oscillator.kicad_sch")
-		(attr through_hole exclude_from_bom)
+		(attr through_hole exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start 0.485 0.92)
 			(end 2.015 0.92)
@@ -17750,7 +17750,7 @@
 		(path "/b870749e-1596-4095-8b2c-fa982bdaa060/213205f8-e5ca-4ba8-bffc-78b9df6c6130")
 		(sheetname "/Waveshapers/")
 		(sheetfile "sheets/waveshapers.kicad_sch")
-		(attr through_hole exclude_from_bom dnp)
+		(attr through_hole exclude_from_pos_files exclude_from_bom dnp)
 		(fp_line
 			(start -1.12 -1.37)
 			(end -1.12 1.37)
@@ -19742,7 +19742,7 @@
 		(path "/b870749e-1596-4095-8b2c-fa982bdaa060/dbc26da2-6aad-4921-8494-a33dd0386e47")
 		(sheetname "/Waveshapers/")
 		(sheetfile "sheets/waveshapers.kicad_sch")
-		(attr through_hole)
+		(attr through_hole exclude_from_pos_files)
 		(fp_line
 			(start 3.16 -3.795)
 			(end 3.16 1.255)
@@ -20845,7 +20845,7 @@
 		(path "/bbd52b2a-2ec0-4630-92f7-79f99868dfdc/49e9f63b-3de3-41c2-bc07-d715a2b99f99")
 		(sheetname "/Raw oscillator/")
 		(sheetfile "sheets/raw-oscillator.kicad_sch")
-		(attr through_hole exclude_from_bom)
+		(attr through_hole exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start 0.54 -1.37)
 			(end 7.08 -1.37)
@@ -21159,7 +21159,7 @@
 		(path "/8bc1c38c-66cf-4d37-87f2-6eda8e5acaa7/7e3222f2-9d20-4179-af2e-4d77216b5777")
 		(sheetname "/Power/")
 		(sheetfile "sheets/power.kicad_sch")
-		(attr through_hole)
+		(attr through_hole exclude_from_pos_files)
 		(fp_line
 			(start -2.35 -0.5)
 			(end -2.35 0.5)
@@ -25304,7 +25304,7 @@
 		(path "/bbd52b2a-2ec0-4630-92f7-79f99868dfdc/09d2655d-74c1-447e-8698-06c7f75d7b38")
 		(sheetname "/Raw oscillator/")
 		(sheetfile "sheets/raw-oscillator.kicad_sch")
-		(attr through_hole exclude_from_bom)
+		(attr through_hole exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start 7.08 1.37)
 			(end 7.08 1.04)
@@ -26106,7 +26106,7 @@
 		(path "/5bcbafd4-ff94-4205-82af-8a4e0a8ddef3")
 		(sheetname "/")
 		(sheetfile "vco-core.kicad_sch")
-		(attr through_hole)
+		(attr through_hole exclude_from_pos_files)
 		(fp_line
 			(start 1.33 -1.33)
 			(end 1.33 0)
@@ -26872,7 +26872,7 @@
 		(path "/bbd52b2a-2ec0-4630-92f7-79f99868dfdc/bb1a4e03-6def-43e3-8f20-b5fa56a5afac")
 		(sheetname "/Raw oscillator/")
 		(sheetfile "sheets/raw-oscillator.kicad_sch")
-		(attr through_hole exclude_from_bom)
+		(attr through_hole exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start -0.53 1.85)
 			(end 3.07 1.85)
@@ -28200,7 +28200,7 @@
 		(path "/bbd52b2a-2ec0-4630-92f7-79f99868dfdc/8ade5873-c4ea-4875-82db-b9beeb715dd1")
 		(sheetname "/Raw oscillator/")
 		(sheetfile "sheets/raw-oscillator.kicad_sch")
-		(attr through_hole exclude_from_bom)
+		(attr through_hole exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start 0.74 1.85)
 			(end 4.34 1.85)
@@ -28453,7 +28453,7 @@
 		(path "/bbd52b2a-2ec0-4630-92f7-79f99868dfdc/86cbd39c-3591-4cd8-9731-1198908bdd30")
 		(sheetname "/Raw oscillator/")
 		(sheetfile "sheets/raw-oscillator.kicad_sch")
-		(attr through_hole exclude_from_bom)
+		(attr through_hole exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start -16.11 1.255)
 			(end 3.16 1.255)
