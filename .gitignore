@@ -3,3 +3,4 @@ _deps
 cmake-*
 build
 .DS_Store
+*.lck
