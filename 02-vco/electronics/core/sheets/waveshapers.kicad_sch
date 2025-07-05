@@ -1738,7 +1738,7 @@
 	)
 	(text "10Vpp"
 		(exclude_from_sim no)
-		(at 121.92 50.8 0)
+		(at 121.92 45.72 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1964,6 +1964,12 @@
 		(uuid "5cbfbbd1-90b1-4f90-8b90-486eba81a646")
 	)
 	(junction
+		(at 130.81 142.24)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "641bcccb-d687-4fb6-aa33-8e23141af102")
+	)
+	(junction
 		(at 64.77 199.39)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2018,6 +2024,12 @@
 		(uuid "c0bc44e9-25ae-4488-a6d3-cefbd2998222")
 	)
 	(junction
+		(at 280.67 58.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c84dfaf4-f682-4df2-9e1d-8f09da23d6b3")
+	)
+	(junction
 		(at 95.25 139.7)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2028,6 +2040,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d70b6756-a8a9-4880-a87f-818273f758d6")
+	)
+	(junction
+		(at 130.81 53.34)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d8ad53f1-5d93-4553-acfc-d627e8258925")
 	)
 	(junction
 		(at 76.2 207.01)
@@ -2227,6 +2245,16 @@
 	)
 	(wire
 		(pts
+			(xy 130.81 142.24) (xy 132.08 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1c3d808a-6b82-4348-b00f-617e882268c4")
+	)
+	(wire
+		(pts
 			(xy 246.38 99.06) (xy 242.57 99.06)
 		)
 		(stroke
@@ -2244,6 +2272,16 @@
 			(type default)
 		)
 		(uuid "1e272330-8e05-465e-ae39-feb7f0250eac")
+	)
+	(wire
+		(pts
+			(xy 129.54 142.24) (xy 130.81 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1f41ac11-84af-4980-b99e-4742e9c3f83e")
 	)
 	(wire
 		(pts
@@ -2274,6 +2312,16 @@
 			(type default)
 		)
 		(uuid "2076a7e0-b0a3-4e40-8caa-c14130834d0f")
+	)
+	(wire
+		(pts
+			(xy 129.54 53.34) (xy 130.81 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "20e3f24f-1508-4194-a9e1-0ae0df2ccd50")
 	)
 	(wire
 		(pts
@@ -2627,6 +2675,16 @@
 	)
 	(wire
 		(pts
+			(xy 280.67 58.42) (xy 283.21 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5b71635e-a9a7-4920-8f47-eda5cf4ed4d4")
+	)
+	(wire
+		(pts
 			(xy 35.56 62.23) (xy 44.45 62.23)
 		)
 		(stroke
@@ -2904,6 +2962,16 @@
 			(type default)
 		)
 		(uuid "858a9e43-ffb9-4ccd-a896-2b91b2255976")
+	)
+	(wire
+		(pts
+			(xy 118.11 53.34) (xy 121.92 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "85d01f1c-96c0-40d8-9aed-a49a7810a6d2")
 	)
 	(wire
 		(pts
@@ -3327,6 +3395,16 @@
 	)
 	(wire
 		(pts
+			(xy 130.81 53.34) (xy 132.08 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e04410bb-faa9-4822-bc80-337295a0291f")
+	)
+	(wire
+		(pts
 			(xy 240.03 90.17) (xy 246.38 90.17)
 		)
 		(stroke
@@ -3337,6 +3415,16 @@
 	)
 	(wire
 		(pts
+			(xy 278.13 58.42) (xy 280.67 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ef2aba85-9487-48c8-9880-f2d50ae2aa4b")
+	)
+	(wire
+		(pts
 			(xy 231.14 55.88) (xy 227.33 55.88)
 		)
 		(stroke
@@ -3344,16 +3432,6 @@
 			(type default)
 		)
 		(uuid "f4d1500b-5d9c-4d79-bf92-a9df9f71966b")
-	)
-	(wire
-		(pts
-			(xy 121.92 53.34) (xy 118.11 53.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f95f99ab-2ea3-44d4-8149-fb54e5da1193")
 	)
 	(wire
 		(pts
@@ -3417,7 +3495,7 @@
 	)
 	(hierarchical_label "SAW"
 		(shape output)
-		(at 121.92 53.34 0)
+		(at 132.08 53.34 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3439,7 +3517,7 @@
 	)
 	(hierarchical_label "TRI"
 		(shape output)
-		(at 121.92 142.24 0)
+		(at 132.08 142.24 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3472,7 +3550,7 @@
 	)
 	(hierarchical_label "SQR"
 		(shape output)
-		(at 270.51 58.42 0)
+		(at 283.21 58.42 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3839,6 +3917,110 @@
 			(project "vco-core"
 				(path "/8e2e31f3-eed5-4de1-966c-f4162758c735/b870749e-1596-4095-8b2c-fa982bdaa060"
 					(reference "C14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 125.73 53.34 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0f2c850a-ecbd-4775-bb16-72b46cfa94ec")
+		(property "Reference" "R50"
+			(at 125.73 46.99 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1k"
+			(at 125.73 49.53 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 125.73 55.118 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 125.73 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 125.73 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C21190"
+			(at 125.73 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part No." ""
+			(at 125.73 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part URL" ""
+			(at 125.73 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor" ""
+			(at 125.73 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e4515dd5-a1f0-4d05-894a-7395bdb660ac")
+		)
+		(pin "2"
+			(uuid "97f146c8-da51-4965-8f4e-4624ecac894d")
+		)
+		(instances
+			(project "vco-core"
+				(path "/8e2e31f3-eed5-4de1-966c-f4162758c735/b870749e-1596-4095-8b2c-fa982bdaa060"
+					(reference "R50")
 					(unit 1)
 				)
 			)
@@ -4986,6 +5168,110 @@
 	)
 	(symbol
 		(lib_id "Device:R")
+		(at 274.32 58.42 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "313ce30c-32b5-43c3-b3cb-f91ed09666cd")
+		(property "Reference" "R53"
+			(at 274.32 52.07 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1k"
+			(at 274.32 54.61 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 274.32 60.198 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 274.32 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 274.32 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C21190"
+			(at 274.32 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part No." ""
+			(at 274.32 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part URL" ""
+			(at 274.32 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor" ""
+			(at 274.32 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "878bbfc5-ff90-49e1-8e36-d3d4d2ac42a6")
+		)
+		(pin "2"
+			(uuid "da210452-91c0-41ca-bb6b-3ffd08823812")
+		)
+		(instances
+			(project "vco-core"
+				(path "/8e2e31f3-eed5-4de1-966c-f4162758c735/b870749e-1596-4095-8b2c-fa982bdaa060"
+					(reference "R53")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
 		(at 107.95 128.27 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5496,6 +5782,110 @@
 			(project "vco-core"
 				(path "/8e2e31f3-eed5-4de1-966c-f4162758c735/b870749e-1596-4095-8b2c-fa982bdaa060"
 					(reference "R33")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 125.73 142.24 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "44054d72-dba8-4001-9f0e-c58284916102")
+		(property "Reference" "R52"
+			(at 125.73 135.89 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1k"
+			(at 125.73 138.43 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 125.73 144.018 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 125.73 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 125.73 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C21190"
+			(at 125.73 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part No." ""
+			(at 125.73 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part URL" ""
+			(at 125.73 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor" ""
+			(at 125.73 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "aafffb8f-e560-4bb4-a6c0-14fef9d1a9d4")
+		)
+		(pin "2"
+			(uuid "9ace078a-8077-46b0-95cb-c2aa24ad3fef")
+		)
+		(instances
+			(project "vco-core"
+				(path "/8e2e31f3-eed5-4de1-966c-f4162758c735/b870749e-1596-4095-8b2c-fa982bdaa060"
+					(reference "R52")
 					(unit 1)
 				)
 			)
@@ -6755,7 +7145,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 118.11 142.24 180)
+		(at 130.81 142.24 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -6763,7 +7153,7 @@
 		(dnp no)
 		(uuid "79db3e54-5df7-48f4-a36e-d9181aea554f")
 		(property "Reference" "TP8"
-			(at 118.11 150.495 0)
+			(at 130.81 150.495 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6771,7 +7161,7 @@
 			)
 		)
 		(property "Value" "TRI"
-			(at 118.11 148.59 0)
+			(at 130.81 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6779,7 +7169,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_THTPad_2.0x2.0mm_Drill1.0mm"
-			(at 113.03 142.24 0)
+			(at 125.73 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6788,7 +7178,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 113.03 142.24 0)
+			(at 125.73 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6797,7 +7187,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 118.11 142.24 0)
+			(at 130.81 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6806,7 +7196,7 @@
 			)
 		)
 		(property "Mouser" ""
-			(at 118.11 142.24 0)
+			(at 130.81 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6815,7 +7205,7 @@
 			)
 		)
 		(property "Field4" ""
-			(at 118.11 142.24 0)
+			(at 130.81 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8089,7 +8479,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 118.11 53.34 180)
+		(at 130.81 53.34 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -8097,7 +8487,7 @@
 		(dnp no)
 		(uuid "af12e5f9-d1af-4acd-a3dd-d059e73acbaa")
 		(property "Reference" "TP7"
-			(at 118.11 61.595 0)
+			(at 130.81 61.595 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8105,7 +8495,7 @@
 			)
 		)
 		(property "Value" "SAW"
-			(at 118.11 59.69 0)
+			(at 130.81 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8113,7 +8503,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_THTPad_2.0x2.0mm_Drill1.0mm"
-			(at 113.03 53.34 0)
+			(at 125.73 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8122,7 +8512,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 113.03 53.34 0)
+			(at 125.73 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8131,7 +8521,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 118.11 53.34 0)
+			(at 130.81 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8140,7 +8530,7 @@
 			)
 		)
 		(property "Mouser" ""
-			(at 118.11 53.34 0)
+			(at 130.81 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8149,7 +8539,7 @@
 			)
 		)
 		(property "Field4" ""
-			(at 118.11 53.34 0)
+			(at 130.81 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9258,7 +9648,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 266.7 58.42 180)
+		(at 280.67 58.42 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -9266,7 +9656,7 @@
 		(dnp no)
 		(uuid "d1eba927-8d4a-4796-a759-e75e8a4487b4")
 		(property "Reference" "TP10"
-			(at 266.7 66.675 0)
+			(at 280.67 66.675 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9274,7 +9664,7 @@
 			)
 		)
 		(property "Value" "SQR"
-			(at 266.7 64.77 0)
+			(at 280.67 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9282,7 +9672,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_THTPad_2.0x2.0mm_Drill1.0mm"
-			(at 261.62 58.42 0)
+			(at 275.59 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9291,7 +9681,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 261.62 58.42 0)
+			(at 275.59 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9300,7 +9690,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 266.7 58.42 0)
+			(at 280.67 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9309,7 +9699,7 @@
 			)
 		)
 		(property "Mouser" ""
-			(at 266.7 58.42 0)
+			(at 280.67 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9318,7 +9708,7 @@
 			)
 		)
 		(property "Field4" ""
-			(at 266.7 58.42 0)
+			(at 280.67 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
