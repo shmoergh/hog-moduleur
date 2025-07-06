@@ -39961,8 +39961,8 @@
 		(uuid "49686d4e-ad18-45f7-a8e8-b6bf2324c385")
 	)
 	(gr_line
-		(start 159.5 93.8)
-		(end 159.5 63.2)
+		(start 160.9344 93.8)
+		(end 160.9344 58.8)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -40014,7 +40014,7 @@
 	)
 	(gr_line
 		(start 165.3 58.8)
-		(end 159.9 58.8)
+		(end 160.9344 58.8)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -40368,8 +40368,8 @@
 		(uuid "dace5bee-069f-4f2a-a8b4-1f444925ca8a")
 	)
 	(gr_line
-		(start 166.5 93.8)
-		(end 159.5 93.8)
+		(start 168.1988 93.8)
+		(end 160.9344 93.8)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -40407,16 +40407,6 @@
 		)
 		(layer "B.SilkS")
 		(uuid "e83110a5-6e3c-4688-9666-5c82ceafb9a5")
-	)
-	(gr_line
-		(start 159.5 61.5)
-		(end 159.5 59.8)
-		(stroke
-			(width 0.1)
-			(type default)
-		)
-		(layer "B.SilkS")
-		(uuid "f626123e-832a-404c-9cb3-ca6219b35f41")
 	)
 	(gr_line
 		(start 173.609 93.138)
@@ -41199,8 +41189,8 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "1. Turn HI-FREQ all the way down. Play C1 on keyboard\n2. Use BIAS to set the frequency to C1 (32.703Hz)\n3. Play C4 and use BIAS to set the frequency \nto C4 (261.63Hz)\n4. Play C1 and use WIDTH to tune it to 32.703Hz\nLOOP 3 + 4\n---\n5. When C1 and C4 are in tune, \nplay higher octave \nC's and use HI-FREQ to adjust tuning \nfor them."
-		(at 160.274 92.757 270)
+	(gr_text "1. Turn HI-FREQ all the way down. Play C1 on keyboard\n2. Use BIAS to set the frequency to C1 (32.703Hz)\n3. Play C4 and use BIAS to set the frequency \nto C4 (261.63Hz)\n4. Play C1 and use WIDTH to tune it to 32.703Hz\nLOOP 3 + 4\n---\n5. When C1 and C4 are in tune, \nplay higher octave C's and use HI-FREQ \nto adjust tuning for them."
+		(at 161.8996 92.71 270)
 		(layer "B.SilkS")
 		(uuid "00dea3ef-b180-40ec-b88a-a14ea6089b94")
 		(effects
