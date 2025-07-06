@@ -1509,7 +1509,7 @@
 			)
 		)
 	)
-	(global_label "SAW_INV"
+	(global_label "SAW"
 		(shape input)
 		(at 38.1 101.6 180)
 		(fields_autoplaced yes)
@@ -1519,9 +1519,9 @@
 			)
 			(justify right)
 		)
-		(uuid "356a4d89-8def-4047-bfa5-276afe7d1064")
+		(uuid "1d447a82-82bd-4672-81ce-fac501dbf8a3")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 27.3738 101.6 0)
+			(at 31.3653 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3113,9 +3113,9 @@
 				(justify right)
 			)
 		)
-		(pin "SUB_SAW_INV" input
+		(pin "SUB_SAW" input
 			(at 41.91 101.6 180)
-			(uuid "6280261c-9b58-483b-b1f1-c5d5da8b8ff3")
+			(uuid "390e0a0e-97a5-4767-934e-1a3fe597e3c1")
 			(effects
 				(font
 					(size 1.27 1.27)

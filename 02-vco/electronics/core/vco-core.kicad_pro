@@ -68,7 +68,7 @@
           "Doesn't actually overlap with the power connector"
         ],
         [
-          "duplicate_footprints|130175000|135382000|a6545b56-b746-4c04-9d44-e5cca73c073c|57b86ec6-e579-4e42-8199-608bfc01b2f5",
+          "duplicate_footprints|129715000|132900000|a6545b56-b746-4c04-9d44-e5cca73c073c|57b86ec6-e579-4e42-8199-608bfc01b2f5",
           ""
         ],
         [
@@ -104,7 +104,7 @@
           ""
         ],
         [
-          "extra_footprint|130175000|135382000|a6545b56-b746-4c04-9d44-e5cca73c073c|00000000-0000-0000-0000-000000000000",
+          "extra_footprint|129715000|132900000|a6545b56-b746-4c04-9d44-e5cca73c073c|00000000-0000-0000-0000-000000000000",
           ""
         ],
         [
@@ -609,7 +609,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "plot/pdf/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",
