@@ -68,19 +68,19 @@
           "Doesn't actually overlap with the power connector"
         ],
         [
-          "duplicate_footprints|129715000|132900000|a6545b56-b746-4c04-9d44-e5cca73c073c|57b86ec6-e579-4e42-8199-608bfc01b2f5",
+          "duplicate_footprints|129715000|132900000|a6545b56-b746-4c04-9d44-e5cca73c073c|8ac9be66-a987-4523-9df1-82395ec334e9",
           ""
         ],
         [
-          "duplicate_footprints|141478000|81407000|0c083d83-2920-4968-8019-eb10f07d2f9b|57b86ec6-e579-4e42-8199-608bfc01b2f5",
+          "duplicate_footprints|141478000|81407000|0c083d83-2920-4968-8019-eb10f07d2f9b|8ac9be66-a987-4523-9df1-82395ec334e9",
           ""
         ],
         [
-          "duplicate_footprints|146431000|144018000|422ddaeb-42ba-496b-97b1-15af4c6756fb|57b86ec6-e579-4e42-8199-608bfc01b2f5",
+          "duplicate_footprints|146431000|144018000|422ddaeb-42ba-496b-97b1-15af4c6756fb|8ac9be66-a987-4523-9df1-82395ec334e9",
           ""
         ],
         [
-          "duplicate_footprints|150000000|114267000|5502e29e-5c4a-42eb-afd6-a7131dc98fee|57b86ec6-e579-4e42-8199-608bfc01b2f5",
+          "duplicate_footprints|150000000|114267000|5502e29e-5c4a-42eb-afd6-a7131dc98fee|8ac9be66-a987-4523-9df1-82395ec334e9",
           ""
         ],
         [
@@ -88,15 +88,7 @@
           ""
         ],
         [
-          "duplicate_footprints|163600000|99000000|9c9cbca5-ab8e-475e-9f00-0ef9a83d2391|57b86ec6-e579-4e42-8199-608bfc01b2f5",
-          ""
-        ],
-        [
           "duplicate_footprints|170180000|45466000|b7d5d369-d3f7-441c-bff8-586a933020fc|666aa610-bd5a-47d0-93df-5487cfd5554f",
-          ""
-        ],
-        [
-          "duplicate_footprints|175133000|60706000|8ac9be66-a987-4523-9df1-82395ec334e9|57b86ec6-e579-4e42-8199-608bfc01b2f5",
           ""
         ],
         [
@@ -121,14 +113,6 @@
         ],
         [
           "extra_footprint|158343600|136499600|bfd3e4d7-1477-438a-af55-cec438168ac3|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "extra_footprint|163600000|99000000|9c9cbca5-ab8e-475e-9f00-0ef9a83d2391|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "extra_footprint|166000000|92500000|57b86ec6-e579-4e42-8199-608bfc01b2f5|00000000-0000-0000-0000-000000000000",
           ""
         ],
         [

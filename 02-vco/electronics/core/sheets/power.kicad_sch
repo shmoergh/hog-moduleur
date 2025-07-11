@@ -2643,16 +2643,6 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 90.17) (xy 73.66 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "528b2931-c9b4-46d9-bf5e-67eef20a72fa")
-	)
-	(wire
-		(pts
 			(xy 60.96 106.68) (xy 63.5 106.68)
 		)
 		(stroke
@@ -2760,6 +2750,16 @@
 			(type default)
 		)
 		(uuid "6df8af0b-494a-4b81-9262-6e728a20a2b3")
+	)
+	(wire
+		(pts
+			(xy 73.66 90.17) (xy 80.01 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "722b2d1b-ca24-4a9c-bf16-19c14504673b")
 	)
 	(wire
 		(pts
@@ -4607,16 +4607,15 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_02x03_Odd_Even")
-		(at 68.58 87.63 180)
+		(at 66.04 87.63 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "49dc35a7-069a-4c6f-b14b-9a05a9fe767b")
 		(property "Reference" "J5"
-			(at 67.31 78.74 0)
+			(at 67.31 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4624,15 +4623,15 @@
 			)
 		)
 		(property "Value" "Conn_02x03_Odd_Even"
-			(at 67.31 81.28 0)
+			(at 67.31 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_2x03_P2.54mm_Vertical"
-			(at 68.58 87.63 0)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical"
+			(at 66.04 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4641,7 +4640,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 68.58 87.63 0)
+			(at 66.04 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4650,7 +4649,7 @@
 			)
 		)
 		(property "Description" "Generic connector, double row, 02x03, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 68.58 87.63 0)
+			(at 66.04 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4659,7 +4658,7 @@
 			)
 		)
 		(property "Part No." ""
-			(at 68.58 87.63 0)
+			(at 66.04 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4668,7 +4667,7 @@
 			)
 		)
 		(property "Part URL" ""
-			(at 68.58 87.63 0)
+			(at 66.04 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4677,7 +4676,7 @@
 			)
 		)
 		(property "Vendor" ""
-			(at 68.58 87.63 0)
+			(at 66.04 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4686,7 +4685,7 @@
 			)
 		)
 		(property "LCSC" ""
-			(at 68.58 87.63 0)
+			(at 66.04 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5881,7 +5880,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
 			(at 68.58 104.14 0)
 			(effects
 				(font

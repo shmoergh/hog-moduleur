@@ -1,4 +1,4 @@
-25679427703255227
+25682933679673074
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -94353,6 +94353,13 @@ HARWIN_S1711-46R
 1
 1
 Shmoergh_Custom_Footprints
+Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical_CircularHoles
+TRS 3.5mm, vertical, Thonkiconn, PCB mount, (http://www.qingpu-electronics.com/en/products/WQP-PJ398SM-362.html)
+WQP-PJ398SM WQP-PJ301M-12 TRS 3.5mm mono vertical jack thonkiconn qingpu
+0
+3
+3
+Shmoergh_Custom_Footprints
 NPTH-MouseBite-0.7mm
 
 
@@ -94485,6 +94492,13 @@ SPST_Narrow_Circular_Pushbutton_LED
 0
 6
 6
+Shmoergh_Custom_Footprints
+SR1712-0203
+
+
+0
+12
+10
 Shmoergh_Custom_Footprints
 STDN-3A24-ADJ
 
