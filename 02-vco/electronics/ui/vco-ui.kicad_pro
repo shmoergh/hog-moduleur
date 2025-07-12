@@ -60,6 +60,10 @@
       ],
       "drc_exclusions": [
         [
+          "courtyards_overlap|130005000|45906028|02fd4172-6973-472f-8709-03938eef1a60|7ec78656-03e4-45cf-a461-0a72c0691482",
+          "Should be fine as it's a mounting hole"
+        ],
+        [
           "duplicate_footprints|127937000|117025000|ed9905e4-c3c9-4e0f-b271-cf24db9e0047|6801b5d7-bacc-4e0e-9a3b-41b6249b1b92",
           ""
         ],
