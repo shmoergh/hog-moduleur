@@ -5213,6 +5213,7 @@
 		)
 	)
 	(footprint "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "1d95998d-e91e-44c5-83da-651e7cfd16c4")
 		(at 132.5 151 90)
@@ -40230,8 +40231,8 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "SUB"
-		(at 142.6944 149.2576 0)
+	(gr_text "XTRA"
+		(at 142.542 149.2576 0)
 		(layer "F.SilkS")
 		(uuid "0ccbe031-568a-43ed-ab1b-4506856cc183")
 		(effects
@@ -40439,7 +40440,7 @@
 		)
 	)
 	(gr_text "CV"
-		(at 140.1544 149.2068 0)
+		(at 140.1544 149.2576 0)
 		(layer "F.SilkS")
 		(uuid "53bd65f5-4cd5-4143-8f7b-0bb76156b3df")
 		(effects
@@ -40661,7 +40662,7 @@
 	)
 	(gr_text "OUT"
 		(at 145.2852 149.2576 0)
-		(layer "F.SilkS")
+		(layer "F.SilkS" knockout)
 		(uuid "d8cdfdbe-8e1a-4aea-99ae-dc01d03b8206")
 		(effects
 			(font
