@@ -1,4 +1,4 @@
-# Shmøergh Hog Moduleur PSU – ±12V Eurorack Power Supply
+# Hog Moduleur / PSU – ±12V Eurorack Power Supply
 
 This is the power supply unit for the Hog Moduleur, but it can be used in any Eurorack setup.
 
@@ -18,8 +18,8 @@ This is the power supply unit for the Hog Moduleur, but it can be used in any Eu
 
 ## 🛠️ How to Build
 
-- Gerber files for JLCPCB ordering are in the [`production`](./production) folder
-- BOM is also in the [`production`](./production) folder. All components are available at Mouser
+- Gerber files for JLCPCB ordering are in the [`electronics/production`](./electronics/production) folder
+- BOM is also in the [`electronics/production`](.electronics/production) folder. All components are available at Mouser
 - Use the KiCad schematic and PCB layout for soldering reference
 - **Before connecting any modules**, always measure the output voltages to confirm ±12V is stable
 
@@ -27,12 +27,19 @@ This is the power supply unit for the Hog Moduleur, but it can be used in any Eu
 
 ## 📷 Photos
 
-[PHOTOS]
+<img width="2968" height="1866" alt="CleanShot 2025-07-13 at 12 34 50@2x" src="https://github.com/user-attachments/assets/e8117d95-726b-40f4-b03a-bdb1c461af79" />
+
+![IMG_2939](https://github.com/user-attachments/assets/093e68c2-3c0d-4f67-8883-82444be80754)
+
+
 
 ## 🧪 License
 
-Open source under the [CERN-OHL-S v2 license](https://ohwr.org/cern_ohl_s_v2.txt)
-Feel free to fork, build, and tweak. We don't take any responsibility for this design.
+Open source licensed under [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/).
+
+Feel free to fork, build, and tweak.
+
+[Disclaimer](https://github.com/shmoergh/hog-moduleur)
 
 ---
 
