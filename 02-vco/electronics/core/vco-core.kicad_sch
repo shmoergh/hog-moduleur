@@ -2314,7 +2314,7 @@
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -2362,7 +2362,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part No." ""
+		(property "Part URL" "https://mou.sr/3TDBcz9"
 			(at 255.27 101.6 0)
 			(effects
 				(font
@@ -2371,16 +2371,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part URL" ""
-			(at 255.27 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Vendor" ""
+		(property "Vendor" "Mouser"
 			(at 255.27 101.6 0)
 			(effects
 				(font
@@ -2390,6 +2381,24 @@
 			)
 		)
 		(property "LCSC" ""
+			(at 255.27 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CHECKED" "YES"
+			(at 255.27 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part no." "200-HTSW10207TD"
 			(at 255.27 101.6 0)
 			(effects
 				(font
@@ -2540,15 +2549,6 @@
 				(hide yes)
 			)
 		)
-		(property "Part No." ""
-			(at 200.66 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Part URL" ""
 			(at 200.66 160.02 0)
 			(effects
@@ -2576,6 +2576,15 @@
 				(hide yes)
 			)
 		)
+		(property "CHECKED" "YES"
+			(at 200.66 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(instances
 			(project "vco-core"
 				(path "/8e2e31f3-eed5-4de1-966c-f4162758c735"
@@ -2590,7 +2599,7 @@
 		(at 215.9 81.28 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -2640,7 +2649,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part No." ""
+		(property "Part URL" "https://mou.sr/3UfnMcJ"
 			(at 215.9 81.28 0)
 			(effects
 				(font
@@ -2649,16 +2658,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part URL" ""
-			(at 215.9 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Vendor" ""
+		(property "Vendor" "Mouser"
 			(at 215.9 81.28 0)
 			(effects
 				(font
@@ -2668,6 +2668,24 @@
 			)
 		)
 		(property "LCSC" ""
+			(at 215.9 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CHECKED" "YES"
+			(at 215.9 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part no." "200-HTSW10407TS"
 			(at 215.9 81.28 0)
 			(effects
 				(font
@@ -2752,15 +2770,6 @@
 				(hide yes)
 			)
 		)
-		(property "Part No." ""
-			(at 179.07 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Part URL" ""
 			(at 179.07 160.02 0)
 			(effects
@@ -2780,6 +2789,15 @@
 			)
 		)
 		(property "LCSC" ""
+			(at 179.07 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CHECKED" "YES"
 			(at 179.07 160.02 0)
 			(effects
 				(font
@@ -2852,7 +2870,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part No." ""
+		(property "Part URL" "https://mou.sr/40bhVZG"
 			(at 215.9 58.42 0)
 			(effects
 				(font
@@ -2861,16 +2879,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part URL" ""
-			(at 215.9 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Vendor" ""
+		(property "Vendor" "Mouser"
 			(at 215.9 58.42 0)
 			(effects
 				(font
@@ -2880,6 +2889,24 @@
 			)
 		)
 		(property "LCSC" ""
+			(at 215.9 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CHECKED" "YES"
+			(at 215.9 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part no." "474-PRT-09280"
 			(at 215.9 58.42 0)
 			(effects
 				(font
@@ -2987,7 +3014,7 @@
 		(at 215.9 106.68 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -3035,7 +3062,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part No." ""
+		(property "Part URL" "https://mou.sr/40QhDaC"
 			(at 215.9 106.68 0)
 			(effects
 				(font
@@ -3044,16 +3071,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part URL" ""
-			(at 215.9 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Vendor" ""
+		(property "Vendor" "Mouser"
 			(at 215.9 106.68 0)
 			(effects
 				(font
@@ -3063,6 +3081,24 @@
 			)
 		)
 		(property "LCSC" ""
+			(at 215.9 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CHECKED" "YES"
+			(at 215.9 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part no." "200-TSW10507TD"
 			(at 215.9 106.68 0)
 			(effects
 				(font
@@ -3165,15 +3201,6 @@
 				(hide yes)
 			)
 		)
-		(property "Part No." ""
-			(at 220.98 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Part URL" ""
 			(at 220.98 160.02 0)
 			(effects
@@ -3193,6 +3220,15 @@
 			)
 		)
 		(property "LCSC" ""
+			(at 220.98 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CHECKED" "YES"
 			(at 220.98 160.02 0)
 			(effects
 				(font
@@ -3265,15 +3301,6 @@
 				(hide yes)
 			)
 		)
-		(property "Part No." ""
-			(at 241.3 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Part URL" ""
 			(at 241.3 160.02 0)
 			(effects
@@ -3293,6 +3320,15 @@
 			)
 		)
 		(property "LCSC" ""
+			(at 241.3 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CHECKED" "YES"
 			(at 241.3 160.02 0)
 			(effects
 				(font

@@ -5027,7 +5027,7 @@
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -5077,7 +5077,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part No." ""
+		(property "Part URL" "https://mou.sr/451l2py"
 			(at 104.14 134.62 0)
 			(effects
 				(font
@@ -5086,16 +5086,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part URL" ""
-			(at 104.14 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Vendor" ""
+		(property "Vendor" "Mouser"
 			(at 104.14 134.62 0)
 			(effects
 				(font
@@ -5106,6 +5097,15 @@
 		)
 		(property "LCSC" ""
 			(at 104.14 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part no." "200-HTSW10308TSRA"
+			(at 104.14 134.62 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5316,7 +5316,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part No." ""
+		(property "Part URL" "https://www.thonk.co.uk/shop/thonkiconn/"
 			(at 165.1 102.87 0)
 			(effects
 				(font
@@ -5325,16 +5325,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part URL" ""
-			(at 165.1 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Vendor" ""
+		(property "Vendor" "Thonk"
 			(at 165.1 102.87 0)
 			(effects
 				(font
@@ -5344,6 +5335,15 @@
 			)
 		)
 		(property "LCSC" ""
+			(at 165.1 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part no." "PJ398SM"
 			(at 165.1 102.87 0)
 			(effects
 				(font
@@ -5424,7 +5424,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part No." ""
+		(property "Part URL" "https://www.thonk.co.uk/shop/thonkiconn/"
 			(at 185.42 134.62 0)
 			(effects
 				(font
@@ -5433,16 +5433,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part URL" ""
-			(at 185.42 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Vendor" ""
+		(property "Vendor" "Thonk"
 			(at 185.42 134.62 0)
 			(effects
 				(font
@@ -5452,6 +5443,15 @@
 			)
 		)
 		(property "LCSC" ""
+			(at 185.42 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part no." "PJ398SM"
 			(at 185.42 134.62 0)
 			(effects
 				(font
@@ -5495,7 +5495,7 @@
 				)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "0203"
 			(at 50.8 20.32 0)
 			(effects
 				(font
@@ -5530,16 +5530,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part No." "105-SR1712F-23NS"
-			(at 50.8 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part URL" ""
+		(property "Part URL" "https://mou.sr/3U6bGTk"
 			(at 50.8 31.75 0)
 			(effects
 				(font
@@ -5558,6 +5549,15 @@
 			)
 		)
 		(property "LCSC" ""
+			(at 50.8 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part no." "105-SR1712F-23NS"
 			(at 50.8 31.75 0)
 			(effects
 				(font
@@ -5658,7 +5658,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part No." ""
+		(property "Part URL" "https://www.thonk.co.uk/shop/thonkiconn/"
 			(at 50.8 134.62 0)
 			(effects
 				(font
@@ -5667,16 +5667,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part URL" ""
-			(at 50.8 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Vendor" ""
+		(property "Vendor" "Thonk"
 			(at 50.8 134.62 0)
 			(effects
 				(font
@@ -5686,6 +5677,15 @@
 			)
 		)
 		(property "LCSC" ""
+			(at 50.8 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part no." "PJ398SM"
 			(at 50.8 134.62 0)
 			(effects
 				(font
@@ -5916,7 +5916,7 @@
 		(at 259.08 116.84 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -5964,7 +5964,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part No." ""
+		(property "Part URL" "https://mou.sr/4eSbYqI"
 			(at 259.08 116.84 0)
 			(effects
 				(font
@@ -5973,16 +5973,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part URL" ""
-			(at 259.08 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Vendor" ""
+		(property "Vendor" "Mouser"
 			(at 259.08 116.84 0)
 			(effects
 				(font
@@ -5992,6 +5983,15 @@
 			)
 		)
 		(property "LCSC" ""
+			(at 259.08 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part no." "200-SSW10206TD"
 			(at 259.08 116.84 0)
 			(effects
 				(font
@@ -6092,7 +6092,7 @@
 		(at 55.88 177.8 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -6140,7 +6140,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part No." ""
+		(property "Part URL" "https://mou.sr/4nM6IZz"
 			(at 55.88 177.8 0)
 			(effects
 				(font
@@ -6149,16 +6149,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part URL" ""
-			(at 55.88 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Vendor" ""
+		(property "Vendor" "Mouser"
 			(at 55.88 177.8 0)
 			(effects
 				(font
@@ -6168,6 +6159,15 @@
 			)
 		)
 		(property "LCSC" ""
+			(at 55.88 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part no." "200-HTSW10208TSRA"
 			(at 55.88 177.8 0)
 			(effects
 				(font
@@ -6246,15 +6246,6 @@
 				(hide yes)
 			)
 		)
-		(property "Part No." ""
-			(at 261.62 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Part URL" ""
 			(at 261.62 160.02 0)
 			(effects
@@ -6264,7 +6255,7 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor" ""
+		(property "Vendor" "-"
 			(at 261.62 160.02 0)
 			(effects
 				(font
@@ -6297,7 +6288,7 @@
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "49dc35a7-069a-4c6f-b14b-9a05a9fe767b")
@@ -6344,7 +6335,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part No." ""
+		(property "Part URL" "https://mou.sr/3GIDVEr"
 			(at 245.11 46.99 0)
 			(effects
 				(font
@@ -6353,16 +6344,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part URL" ""
-			(at 245.11 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Vendor" ""
+		(property "Vendor" "Mouser"
 			(at 245.11 46.99 0)
 			(effects
 				(font
@@ -6372,6 +6354,15 @@
 			)
 		)
 		(property "LCSC" ""
+			(at 245.11 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part no." "200-SSW10301TD"
 			(at 245.11 46.99 0)
 			(effects
 				(font
@@ -6592,7 +6583,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part No." ""
+		(property "Part URL" "https://www.thonk.co.uk/shop/thonkiconn/"
 			(at 50.8 102.87 0)
 			(effects
 				(font
@@ -6601,16 +6592,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part URL" ""
-			(at 50.8 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Vendor" ""
+		(property "Vendor" "Thonk"
 			(at 50.8 102.87 0)
 			(effects
 				(font
@@ -6620,6 +6602,15 @@
 			)
 		)
 		(property "LCSC" ""
+			(at 50.8 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part no." "PJ398SM"
 			(at 50.8 102.87 0)
 			(effects
 				(font
@@ -6701,15 +6692,6 @@
 				(hide yes)
 			)
 		)
-		(property "Part No." ""
-			(at 200.66 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Part URL" ""
 			(at 200.66 160.02 0)
 			(effects
@@ -6719,7 +6701,7 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor" ""
+		(property "Vendor" "-"
 			(at 200.66 160.02 0)
 			(effects
 				(font
@@ -6792,6 +6774,33 @@
 		)
 		(property "Description" "Resistor"
 			(at 121.92 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor" "Mouser"
+			(at 121.92 67.31 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part URL" "https://mou.sr/4hEwI4G"
+			(at 121.92 67.31 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part no." "603-MFR-25FRF52100K"
+			(at 121.92 67.31 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6885,7 +6894,7 @@
 		(at 222.25 96.52 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -6935,7 +6944,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part No." ""
+		(property "Part URL" "https://mou.sr/4kxE3Vr"
 			(at 222.25 96.52 0)
 			(effects
 				(font
@@ -6944,16 +6953,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part URL" ""
-			(at 222.25 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Vendor" ""
+		(property "Vendor" "Mouser"
 			(at 222.25 96.52 0)
 			(effects
 				(font
@@ -6963,6 +6963,15 @@
 			)
 		)
 		(property "LCSC" ""
+			(at 222.25 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part no." "200-SSW10401TMS"
 			(at 222.25 96.52 0)
 			(effects
 				(font
@@ -7046,6 +7055,15 @@
 				(hide yes)
 			)
 		)
+		(property "Vendor" "Mouser"
+			(at 50.8 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "996b5e39-7a8a-4d48-9eb6-21a8b87ddab2")
 		)
@@ -7116,7 +7134,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part No." ""
+		(property "Part URL" "https://mou.sr/4lnf48h"
 			(at 266.7 93.98 0)
 			(effects
 				(font
@@ -7125,16 +7143,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part URL" ""
-			(at 266.7 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Vendor" ""
+		(property "Vendor" "Mouser"
 			(at 266.7 93.98 0)
 			(effects
 				(font
@@ -7144,6 +7153,15 @@
 			)
 		)
 		(property "LCSC" ""
+			(at 266.7 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part no." "200-SSW10601TS"
 			(at 266.7 93.98 0)
 			(effects
 				(font
@@ -7234,15 +7252,6 @@
 				(hide yes)
 			)
 		)
-		(property "Part No." ""
-			(at 179.07 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Part URL" ""
 			(at 179.07 160.02 0)
 			(effects
@@ -7252,7 +7261,7 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor" ""
+		(property "Vendor" "-"
 			(at 179.07 160.02 0)
 			(effects
 				(font
@@ -7482,7 +7491,7 @@
 		(at 222.25 121.92 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -7530,7 +7539,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part No." ""
+		(property "Part URL" "https://mou.sr/4lVCZM9"
 			(at 222.25 121.92 0)
 			(effects
 				(font
@@ -7539,16 +7548,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part URL" ""
-			(at 222.25 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Vendor" ""
+		(property "Vendor" "Mouser"
 			(at 222.25 121.92 0)
 			(effects
 				(font
@@ -7558,6 +7558,15 @@
 			)
 		)
 		(property "LCSC" ""
+			(at 222.25 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part no." "200-SSW10501TD"
 			(at 222.25 121.92 0)
 			(effects
 				(font
@@ -7660,7 +7669,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part No." ""
+		(property "Part URL" "https://mou.sr/4694GMU"
 			(at 109.22 67.31 0)
 			(effects
 				(font
@@ -7669,16 +7678,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part URL" ""
-			(at 109.22 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Vendor" ""
+		(property "Vendor" "Mouser"
 			(at 109.22 67.31 0)
 			(effects
 				(font
@@ -7688,6 +7688,15 @@
 			)
 		)
 		(property "LCSC" ""
+			(at 109.22 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part no." "652-PTV09A4025FB104"
 			(at 109.22 67.31 0)
 			(effects
 				(font
@@ -7899,6 +7908,33 @@
 				(hide yes)
 			)
 		)
+		(property "Vendor" "Mouser"
+			(at 63.5 134.62 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part URL" "https://mou.sr/4hEwI4G"
+			(at 63.5 134.62 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part no." "603-MFR-25FRF52100K"
+			(at 63.5 134.62 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "962c9219-a38f-4139-8308-ccb3cf745e03")
 		)
@@ -8034,6 +8070,15 @@
 				(hide yes)
 			)
 		)
+		(property "Vendor" "Mouser"
+			(at 109.22 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "2bd37fd1-aee6-4e2e-a5c5-6b5ba0ae78fd")
 		)
@@ -8104,7 +8149,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part No." ""
+		(property "Part URL" "https://mou.sr/4lBvdHe"
 			(at 245.11 63.5 0)
 			(effects
 				(font
@@ -8113,16 +8158,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part URL" ""
-			(at 245.11 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Vendor" ""
+		(property "Vendor" "Mouser"
 			(at 245.11 63.5 0)
 			(effects
 				(font
@@ -8132,6 +8168,15 @@
 			)
 		)
 		(property "LCSC" ""
+			(at 245.11 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part no." "200-SSW10201TS"
 			(at 245.11 63.5 0)
 			(effects
 				(font
@@ -8210,15 +8255,6 @@
 				(hide yes)
 			)
 		)
-		(property "Part No." ""
-			(at 220.98 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Part URL" ""
 			(at 220.98 160.02 0)
 			(effects
@@ -8228,7 +8264,7 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor" ""
+		(property "Vendor" "-"
 			(at 220.98 160.02 0)
 			(effects
 				(font
@@ -8375,6 +8411,15 @@
 				(hide yes)
 			)
 		)
+		(property "Vendor" "Mouser"
+			(at 109.22 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "51136040-c44b-4402-95fd-32216d729c07")
 		)
@@ -8511,15 +8556,6 @@
 				(hide yes)
 			)
 		)
-		(property "Part No." ""
-			(at 241.3 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Part URL" ""
 			(at 241.3 160.02 0)
 			(effects
@@ -8529,7 +8565,7 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor" ""
+		(property "Vendor" "-"
 			(at 241.3 160.02 0)
 			(effects
 				(font
@@ -8741,7 +8777,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part No." ""
+		(property "Part URL" "https://www.thonk.co.uk/shop/thonkiconn/"
 			(at 109.22 102.87 0)
 			(effects
 				(font
@@ -8750,16 +8786,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part URL" ""
-			(at 109.22 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Vendor" ""
+		(property "Vendor" "Thonk"
 			(at 109.22 102.87 0)
 			(effects
 				(font
@@ -8769,6 +8796,15 @@
 			)
 		)
 		(property "LCSC" ""
+			(at 109.22 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part no." "PJ398SM"
 			(at 109.22 102.87 0)
 			(effects
 				(font
@@ -8849,7 +8885,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part No." ""
+		(property "Part URL" "https://www.thonk.co.uk/shop/thonkiconn/"
 			(at 133.35 134.62 0)
 			(effects
 				(font
@@ -8858,16 +8894,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part URL" ""
-			(at 133.35 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Vendor" ""
+		(property "Vendor" "Thonk"
 			(at 133.35 134.62 0)
 			(effects
 				(font
@@ -8877,6 +8904,15 @@
 			)
 		)
 		(property "LCSC" ""
+			(at 133.35 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part no." "PJ398SM"
 			(at 133.35 134.62 0)
 			(effects
 				(font
@@ -9024,7 +9060,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part No." ""
+		(property "Part URL" "https://mou.sr/4694GMU"
 			(at 165.1 67.31 0)
 			(effects
 				(font
@@ -9033,16 +9069,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part URL" ""
-			(at 165.1 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Vendor" ""
+		(property "Vendor" "Mouser"
 			(at 165.1 67.31 0)
 			(effects
 				(font
@@ -9052,6 +9079,15 @@
 			)
 		)
 		(property "LCSC" ""
+			(at 165.1 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part no." "652-PTV09A4025FB104"
 			(at 165.1 67.31 0)
 			(effects
 				(font
@@ -9131,6 +9167,33 @@
 				(hide yes)
 			)
 		)
+		(property "Vendor" "Mouser"
+			(at 177.8 67.31 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part URL" "https://mou.sr/46cEvF7"
+			(at 177.8 67.31 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part no." "603-MFR-25FRF52-220K"
+			(at 177.8 67.31 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "4ca596f0-7142-4b87-88ba-8a7d7e2d8121")
 		)
@@ -9201,7 +9264,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part No." ""
+		(property "Part URL" "https://mou.sr/4694GMU"
 			(at 50.8 67.31 0)
 			(effects
 				(font
@@ -9210,16 +9273,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part URL" ""
-			(at 50.8 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Vendor" ""
+		(property "Vendor" "Mouser"
 			(at 50.8 67.31 0)
 			(effects
 				(font
@@ -9229,6 +9283,15 @@
 			)
 		)
 		(property "LCSC" ""
+			(at 50.8 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part no." "652-PTV09A4025FB104"
 			(at 50.8 67.31 0)
 			(effects
 				(font
@@ -9301,6 +9364,33 @@
 		)
 		(property "Description" "Resistor"
 			(at 62.23 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor" "Mouser"
+			(at 62.23 67.31 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part URL" "https://mou.sr/4hEwI4G"
+			(at 62.23 67.31 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part no." "603-MFR-25FRF52100K"
+			(at 62.23 67.31 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9442,6 +9532,33 @@
 				(hide yes)
 			)
 		)
+		(property "Vendor" "Mouser"
+			(at 177.8 102.87 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part URL" "https://mou.sr/46cEvF7"
+			(at 177.8 102.87 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part no." "603-MFR-25FRF52-220K"
+			(at 177.8 102.87 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "3775af6a-1f73-4b04-a811-672f832c0192")
 		)
@@ -9462,7 +9579,7 @@
 		(at 99.06 177.8 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -9510,7 +9627,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part No." ""
+		(property "Part URL" "https://mou.sr/4nM6IZz"
 			(at 99.06 177.8 0)
 			(effects
 				(font
@@ -9519,16 +9636,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part URL" ""
-			(at 99.06 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Vendor" ""
+		(property "Vendor" "Mouser"
 			(at 99.06 177.8 0)
 			(effects
 				(font
@@ -9538,6 +9646,15 @@
 			)
 		)
 		(property "LCSC" ""
+			(at 99.06 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part no." "200-HTSW10208TSRA"
 			(at 99.06 177.8 0)
 			(effects
 				(font

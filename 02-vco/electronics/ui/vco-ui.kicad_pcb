@@ -183,7 +183,7 @@
 				)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "0203"
 			(at 0 13.4 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -221,20 +221,7 @@
 				)
 			)
 		)
-		(property "Part No." "105-SR1712F-23NS"
-			(at 0 0 270)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "68efb0ad-b042-434e-8bf2-8fd55394d63e")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Part URL" ""
+		(property "Part URL" "https://mou.sr/3U6bGTk"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -266,6 +253,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "73d23b91-9e2f-4575-88e0-a42280bc98e0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part no." "105-SR1712F-23NS"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e2fce679-6e99-452e-ac2c-a1893b994b99")
 			(effects
 				(font
 					(size 1 1)
@@ -841,20 +841,7 @@
 				)
 			)
 		)
-		(property "Part No." ""
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "3892ac7a-e310-4200-b18b-1fe64a7034f8")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Part URL" ""
+		(property "Part URL" "https://mou.sr/4nM6IZz"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -867,7 +854,7 @@
 				)
 			)
 		)
-		(property "Vendor" ""
+		(property "Vendor" "Mouser"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -893,11 +880,24 @@
 				)
 			)
 		)
+		(property "Part no." "200-HTSW10208TSRA"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "756c7994-4e37-4f4f-be0d-91831b163ade")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Jumper* TestPoint*2Pads* TestPoint*Bridge*")
 		(path "/4812ba72-d06c-46e8-a233-81cec8c49ae0")
 		(sheetname "/")
 		(sheetfile "vco-ui.kicad_sch")
-		(attr through_hole exclude_from_bom)
+		(attr through_hole)
 		(fp_line
 			(start 10.15 2.97)
 			(end 4.15 2.97)
@@ -1360,20 +1360,7 @@
 				)
 			)
 		)
-		(property "Part No." ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "37c31340-1044-4ef9-aa76-e27eed9d2aa1")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Part URL" ""
+		(property "Part URL" "https://www.thonk.co.uk/shop/thonkiconn/"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1386,7 +1373,7 @@
 				)
 			)
 		)
-		(property "Vendor" ""
+		(property "Vendor" "Thonk"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1405,6 +1392,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "7b742498-a678-4fb1-8546-273cd57c6167")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part no." "PJ398SM"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "09034f89-fb28-4134-b166-a7d0620b6183")
 			(effects
 				(font
 					(size 1 1)
@@ -1798,20 +1798,7 @@
 				)
 			)
 		)
-		(property "Part No." ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "769969ff-e9f2-48d7-8d82-0f50f13cc693")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Part URL" ""
+		(property "Part URL" "https://mou.sr/4nM6IZz"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1824,7 +1811,7 @@
 				)
 			)
 		)
-		(property "Vendor" ""
+		(property "Vendor" "Mouser"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1850,11 +1837,24 @@
 				)
 			)
 		)
+		(property "Part no." "200-HTSW10208TSRA"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4d7cab0b-9952-46db-9bf4-e8ed0d3cc96b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Jumper* TestPoint*2Pads* TestPoint*Bridge*")
 		(path "/f2c23c7c-49cd-481f-a00d-f93ce1317df2")
 		(sheetname "/")
 		(sheetfile "vco-ui.kicad_sch")
-		(attr through_hole exclude_from_bom)
+		(attr through_hole)
 		(fp_line
 			(start -1.27 -1.27)
 			(end 0 -1.27)
@@ -2315,20 +2315,7 @@
 				)
 			)
 		)
-		(property "Part No." ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "b70d80ce-e6e4-4a1e-8312-31b41ee7fd27")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Part URL" ""
+		(property "Part URL" "https://mou.sr/4lBvdHe"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2341,7 +2328,7 @@
 				)
 			)
 		)
-		(property "Vendor" ""
+		(property "Vendor" "Mouser"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2360,6 +2347,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "67bf7bf0-0cc3-467c-94fb-c4e65a5d71a8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part no." "200-SSW10201TS"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "28f1667b-d4f2-48c8-8aa0-3b9811128f41")
 			(effects
 				(font
 					(size 1 1)
@@ -2623,20 +2623,7 @@
 				)
 			)
 		)
-		(property "Part No." ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "27b873e3-eb2c-447d-8ac7-bb96867012ce")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Part URL" ""
+		(property "Part URL" "https://www.thonk.co.uk/shop/thonkiconn/"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2649,7 +2636,7 @@
 				)
 			)
 		)
-		(property "Vendor" ""
+		(property "Vendor" "Thonk"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2668,6 +2655,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "e75b868a-ad28-4074-adc7-d85e4bc4a1ea")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part no." "PJ398SM"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6be5b647-e334-4819-be1d-9be37974b1c3")
 			(effects
 				(font
 					(size 1 1)
@@ -3062,19 +3062,6 @@
 				)
 			)
 		)
-		(property "Part No." ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "eb8a4c09-6eda-4a48-8ccd-925c51dc2e03")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Part URL" ""
 			(at 0 0 0)
 			(unlocked yes)
@@ -3088,7 +3075,7 @@
 				)
 			)
 		)
-		(property "Vendor" ""
+		(property "Vendor" "-"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3218,20 +3205,7 @@
 				)
 			)
 		)
-		(property "Part No." ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "218db63c-03a9-4939-a89d-b89a4bf39ed6")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Part URL" ""
+		(property "Part URL" "https://www.thonk.co.uk/shop/thonkiconn/"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3244,7 +3218,7 @@
 				)
 			)
 		)
-		(property "Vendor" ""
+		(property "Vendor" "Thonk"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3263,6 +3237,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "7ae4ac8f-693f-4ead-9385-9121e795d076")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part no." "PJ398SM"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ca7dd97c-cb6f-4dab-b9e9-da9ad48f09d1")
 			(effects
 				(font
 					(size 1 1)
@@ -3657,19 +3644,6 @@
 				)
 			)
 		)
-		(property "Part No." ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "af2e5334-976f-405f-8ca0-012ef7b61c82")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Part URL" ""
 			(at 0 0 0)
 			(unlocked yes)
@@ -3683,7 +3657,7 @@
 				)
 			)
 		)
-		(property "Vendor" ""
+		(property "Vendor" "-"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3813,20 +3787,7 @@
 				)
 			)
 		)
-		(property "Part No." ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "815ff292-f5d8-48ac-8d68-c51e4465bf67")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Part URL" ""
+		(property "Part URL" "https://www.thonk.co.uk/shop/thonkiconn/"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3839,7 +3800,7 @@
 				)
 			)
 		)
-		(property "Vendor" ""
+		(property "Vendor" "Thonk"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3858,6 +3819,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "47f435bb-f7d6-4bbf-8166-262a9260e88c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part no." "PJ398SM"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d9f0295f-580e-493f-8156-9651724bd060")
 			(effects
 				(font
 					(size 1 1)
@@ -4249,6 +4223,45 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Vendor" "Mouser"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e3262c47-cd9f-4c1a-85a8-339c1cb054c5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part URL" "https://mou.sr/4hEwI4G"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "239698c3-eaeb-49d0-9632-ed2fb18f1b7b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part no." "603-MFR-25FRF52100K"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9be89244-111c-43c3-9d8a-04b27cbc469d")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -4649,20 +4662,7 @@
 				)
 			)
 		)
-		(property "Part No." ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "92174fd5-12df-4f41-bcd9-08e4b31d84fe")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Part URL" ""
+		(property "Part URL" "https://www.thonk.co.uk/shop/thonkiconn/"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -4675,7 +4675,7 @@
 				)
 			)
 		)
-		(property "Vendor" ""
+		(property "Vendor" "Thonk"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -4694,6 +4694,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "98a8e19a-ab15-46ff-884d-ede990f8ebe2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part no." "PJ398SM"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "256038ef-7475-452b-862a-f2de9df358af")
 			(effects
 				(font
 					(size 1 1)
@@ -5088,19 +5101,6 @@
 				)
 			)
 		)
-		(property "Part No." ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "a90c73cf-4042-4365-98fe-e5db022af390")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Part URL" ""
 			(at 0 0 0)
 			(unlocked yes)
@@ -5114,7 +5114,7 @@
 				)
 			)
 		)
-		(property "Vendor" ""
+		(property "Vendor" "-"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5242,19 +5242,6 @@
 				)
 			)
 		)
-		(property "Part No." ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "2662c96f-c493-4f84-925c-c07f54952747")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Part URL" ""
 			(at 0 0 0)
 			(unlocked yes)
@@ -5268,7 +5255,7 @@
 				)
 			)
 		)
-		(property "Vendor" ""
+		(property "Vendor" "-"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5393,6 +5380,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Vendor" "Mouser"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1bc72278-8e29-40cc-9114-5d292e56c7bf")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -5791,20 +5791,7 @@
 				)
 			)
 		)
-		(property "Part No." ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "09d613b4-3eb4-4b4a-b483-f076f25374bd")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Part URL" ""
+		(property "Part URL" "https://mou.sr/4694GMU"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5817,7 +5804,7 @@
 				)
 			)
 		)
-		(property "Vendor" ""
+		(property "Vendor" "Mouser"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5836,6 +5823,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "d17105ba-2082-469e-8bf9-0c506f238e3b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part no." "652-PTV09A4025FB104"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "25248d86-2bb4-4d99-a760-7fb0fe93ad08")
 			(effects
 				(font
 					(size 1 1)
@@ -6084,6 +6084,45 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Vendor" "Mouser"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9b623447-fabe-4862-8dde-4dcdc57dfdcb")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part URL" "https://mou.sr/4hEwI4G"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "32a5c729-ab47-4d26-acea-03f316cf37c7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part no." "603-MFR-25FRF52100K"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "31b3a4e6-061d-40bb-832f-dc56e000ee1f")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -6350,20 +6389,7 @@
 				)
 			)
 		)
-		(property "Part No." ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "05a80a86-3d55-4992-a0f3-a7047b896edc")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Part URL" ""
+		(property "Part URL" "https://mou.sr/4694GMU"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -6376,7 +6402,7 @@
 				)
 			)
 		)
-		(property "Vendor" ""
+		(property "Vendor" "Mouser"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -6395,6 +6421,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "85b91fea-1c92-4a4c-829a-82ddf44214d2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part no." "652-PTV09A4025FB104"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "78788870-ceb0-46a1-8da8-a60b24a9f1b3")
 			(effects
 				(font
 					(size 1 1)
@@ -6643,6 +6682,45 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Vendor" "Mouser"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "28f36ee0-71dd-430b-8d15-b66ed29c040c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part URL" "https://mou.sr/4hEwI4G"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2baf09c7-09fd-479a-8a8c-8dc6d456a233")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part no." "603-MFR-25FRF52100K"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "67bf1495-3824-4b61-a250-9a73a368dca0")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -6909,20 +6987,7 @@
 				)
 			)
 		)
-		(property "Part No." ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "83f2b354-837d-4415-a321-710a18e47da7")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Part URL" ""
+		(property "Part URL" "https://mou.sr/4694GMU"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -6935,7 +7000,7 @@
 				)
 			)
 		)
-		(property "Vendor" ""
+		(property "Vendor" "Mouser"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -6954,6 +7019,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "29f3a680-7061-4f27-98b6-1313432e3f32")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part no." "652-PTV09A4025FB104"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2e60e82e-f7dd-410a-a19c-dd58b3590197")
 			(effects
 				(font
 					(size 1 1)
@@ -7202,6 +7280,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Vendor" "Mouser"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ed35d0a6-f56e-4ee1-9005-b60dcd0386ed")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -7469,6 +7560,45 @@
 				)
 			)
 		)
+		(property "Vendor" "Mouser"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b686ce5c-83bb-4659-af7e-4475359b62ab")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part URL" "https://mou.sr/46cEvF7"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "096038e1-53d1-4cb1-9062-f11f5516146f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part no." "603-MFR-25FRF52-220K"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "bd396e6f-e3b0-4be2-b4e4-f743f584863b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/d7921906-0db7-40ab-b982-a3907ae1dfdc")
 		(sheetname "/")
@@ -7731,19 +7861,6 @@
 				)
 			)
 		)
-		(property "Part No." ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "671fff25-c6ea-4deb-8bc9-45828c964250")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Part URL" ""
 			(at 0 0 0)
 			(unlocked yes)
@@ -7757,7 +7874,7 @@
 				)
 			)
 		)
-		(property "Vendor" ""
+		(property "Vendor" "-"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -7882,6 +7999,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Vendor" "Mouser"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d7a79def-5f54-4e62-b76a-f9c3da7b5143")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -8150,20 +8280,7 @@
 				)
 			)
 		)
-		(property "Part No." ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "3ea6140f-39ac-494e-b3a4-cfbdec1a3e35")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Part URL" ""
+		(property "Part URL" "https://www.thonk.co.uk/shop/thonkiconn/"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -8176,7 +8293,7 @@
 				)
 			)
 		)
-		(property "Vendor" ""
+		(property "Vendor" "Thonk"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -8195,6 +8312,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "fda3409e-9aeb-4aa9-8f19-e9525d4c536d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part no." "PJ398SM"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6b0ef3df-7283-4693-bfe7-86b905be9295")
 			(effects
 				(font
 					(size 1 1)
@@ -8722,6 +8852,45 @@
 				)
 			)
 		)
+		(property "Vendor" "Mouser"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "df419b4a-8288-4d6f-b0ae-24ef39a825f7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part URL" "https://mou.sr/46cEvF7"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "da491878-3f4c-4fd6-ad2f-e16685887005")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part no." "603-MFR-25FRF52-220K"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "fc7d8454-4462-4b6a-904d-04e032903640")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/ef8bec6c-d5e8-40fd-8df7-931560dd0e35")
 		(sheetname "/")
@@ -8983,20 +9152,7 @@
 				)
 			)
 		)
-		(property "Part No." ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "41cdbca8-e624-4c8d-a830-d96ad6146462")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Part URL" ""
+		(property "Part URL" "https://mou.sr/451l2py"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -9009,7 +9165,7 @@
 				)
 			)
 		)
-		(property "Vendor" ""
+		(property "Vendor" "Mouser"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -9035,11 +9191,24 @@
 				)
 			)
 		)
+		(property "Part no." "200-HTSW10308TSRA"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b5cc92bd-e3e0-4b5e-903c-9f7175f1e3eb")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Jumper* TestPoint*3Pads* TestPoint*Bridge*")
 		(path "/0a3935cd-75e1-44f5-b6fc-5bb02c445254")
 		(sheetname "/")
 		(sheetfile "vco-ui.kicad_sch")
-		(attr through_hole exclude_from_bom)
+		(attr through_hole)
 		(fp_line
 			(start -1.27 -1.27)
 			(end 0 -1.27)
@@ -9769,21 +9938,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Part No." ""
-			(at 0 0 270)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "1672f2bb-496c-4c25-a4b1-06c1574b930d")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Part URL" ""
+		(property "Part URL" "https://mou.sr/4kxE3Vr"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -9797,7 +9952,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Vendor" ""
+		(property "Vendor" "Mouser"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -9825,11 +9980,25 @@
 				(justify mirror)
 			)
 		)
+		(property "Part no." "200-SSW10401TMS"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "bfa0928c-14c8-438a-8ff0-d64520a9d0bf")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/5bcbafd4-ff94-4205-82af-8a4e0a8ddef3")
 		(sheetname "/")
 		(sheetfile "vco-ui.kicad_sch")
-		(attr through_hole exclude_from_bom)
+		(attr through_hole)
 		(fp_line
 			(start 0 1.33)
 			(end 1.33 1.33)
@@ -10106,21 +10275,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Part No." ""
-			(at 0 0 270)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "abca8b3d-4509-4d6f-8670-66d56728dfb9")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Part URL" ""
+		(property "Part URL" "https://mou.sr/3GIDVEr"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -10134,7 +10289,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Vendor" ""
+		(property "Vendor" "Mouser"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -10162,11 +10317,25 @@
 				(justify mirror)
 			)
 		)
+		(property "Part no." "200-SSW10301TD"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "b60b6038-7ea0-49f2-be79-d170856feba3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(property ki_fp_filters "Connector*:*_2x??_*")
 		(path "/49dc35a7-069a-4c6f-b14b-9a05a9fe767b")
 		(sheetname "/")
 		(sheetfile "vco-ui.kicad_sch")
-		(attr through_hole exclude_from_bom)
+		(attr through_hole)
 		(fp_line
 			(start -3.87 1.33)
 			(end -1.27 1.33)
@@ -10485,21 +10654,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Part No." ""
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "c86451a4-af49-4818-ab5e-3abd6efdbbc2")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Part URL" ""
+		(property "Part URL" "https://mou.sr/4lnf48h"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -10513,7 +10668,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Vendor" ""
+		(property "Vendor" "Mouser"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -10533,6 +10688,20 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "ce2b4bcd-4e58-4cc8-80c6-cefb481cc3c6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Part no." "200-SSW10601TS"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "8bd56621-c19b-4812-9398-9558cb9e3852")
 			(effects
 				(font
 					(size 1 1)
@@ -11112,21 +11281,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Part No." ""
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "b9d9d1d8-dffc-408b-8417-760c919048a9")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Part URL" ""
+		(property "Part URL" "https://mou.sr/4eSbYqI"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -11140,7 +11295,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Vendor" ""
+		(property "Vendor" "Mouser"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -11168,11 +11323,25 @@
 				(justify mirror)
 			)
 		)
+		(property "Part no." "200-SSW10206TD"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "5bc60b57-01fd-4106-a46c-6900a6211316")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(property ki_fp_filters "Connector*:*_2x??_*")
 		(path "/438ce122-d8bf-4878-9d0d-963bd2ddbd91")
 		(sheetname "/")
 		(sheetfile "vco-ui.kicad_sch")
-		(attr through_hole exclude_from_bom)
+		(attr through_hole)
 		(fp_line
 			(start 1.33 1.33)
 			(end 1.33 0)
@@ -11603,21 +11772,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Part No." ""
-			(at 0 0 270)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "b049b68d-af36-4d22-9c42-9edb707e82c0")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Part URL" ""
+		(property "Part URL" "https://mou.sr/4lVCZM9"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -11631,7 +11786,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Vendor" ""
+		(property "Vendor" "Mouser"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -11659,11 +11814,25 @@
 				(justify mirror)
 			)
 		)
+		(property "Part no." "200-SSW10501TD"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "06576750-e6c6-40d6-9aeb-4a7ac12067b6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(property ki_fp_filters "Connector*:*_2x??_*")
 		(path "/81b20ede-32d6-4ae5-ac54-dfeb239fad81")
 		(sheetname "/")
 		(sheetfile "vco-ui.kicad_sch")
-		(attr through_hole exclude_from_bom)
+		(attr through_hole)
 		(fp_line
 			(start -3.87 1.33)
 			(end -1.27 1.33)

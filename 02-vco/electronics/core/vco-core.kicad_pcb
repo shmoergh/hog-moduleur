@@ -273,11 +273,76 @@
 				)
 			)
 		)
+		(property "Part URL" "https://mou.sr/41re1x3"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5f7ff059-1fdb-4b40-a16f-65a32e74fc53")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Vendor" "Mouser"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "11ad43b1-e9be-4378-ad69-420e2c5aa0d5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "528a123e-bace-4091-8bcd-d9bbd7921965")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "CHECKED" "YES"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b4d0283e-84a3-47a5-9e94-84331a495a09")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser Part no." "652-3006P-7-203-LF"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a959cab2-7dd0-4f5d-9a23-6256e9046929")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Potentiometer*")
 		(path "/bbd52b2a-2ec0-4630-92f7-79f99868dfdc/32e52410-6d53-40ae-a480-f06decd5ea36")
 		(sheetname "/Raw oscillator/")
 		(sheetfile "sheets/raw-oscillator.kicad_sch")
-		(attr through_hole exclude_from_pos_files exclude_from_bom)
+		(attr through_hole exclude_from_pos_files)
 		(fp_line
 			(start -16.11 1.255)
 			(end 3.16 1.255)
@@ -533,6 +598,32 @@
 				)
 			)
 		)
+		(property "CHECKED" "YES"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9af3dbe9-ab37-49f0-a066-fcc3eb72551f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Vendor" "JLCPCB"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7781bf5a-1906-4f47-be5c-27fb8227428e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/bbd52b2a-2ec0-4630-92f7-79f99868dfdc/b5dedd47-574b-4522-ba9e-6e611dc859d1")
 		(sheetname "/Raw oscillator/")
@@ -745,19 +836,6 @@
 				)
 			)
 		)
-		(property "Part No." ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "9ca6c2c5-6ee3-4d25-9e92-ee1bfcc1f5e7")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Part URL" ""
 			(at 0 0 0)
 			(unlocked yes)
@@ -771,12 +849,25 @@
 				)
 			)
 		)
-		(property "Vendor" ""
+		(property "Vendor" "JLCPCB"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "c0dba747-9f5d-43d0-9f11-743b0df5d44d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "CHECKED" "YES"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3261e602-5a9e-4224-a967-2e8d9d1ba318")
 			(effects
 				(font
 					(size 1 1)
@@ -983,25 +1074,12 @@
 				)
 			)
 		)
-		(property "LCSC" "C2907016"
+		(property "LCSC" "C4197"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "120e57fc-4726-44b0-bf5f-e617f0bb227a")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Part No." ""
-			(at 0 0 270)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "6abde511-889d-4cc1-8a4b-e0b1e5ee03e8")
 			(effects
 				(font
 					(size 1 1)
@@ -1035,12 +1113,12 @@
 				)
 			)
 		)
-		(property "Mouser" ""
+		(property "Field4" ""
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "f96adfa9-a61e-4863-acd7-e09f3ddb32c2")
+			(uuid "1b93885a-b2c9-424a-89a6-dab4c131fac2")
 			(effects
 				(font
 					(size 1 1)
@@ -1048,12 +1126,12 @@
 				)
 			)
 		)
-		(property "Field4" ""
+		(property "CHECKED" "YES"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "1b93885a-b2c9-424a-89a6-dab4c131fac2")
+			(uuid "68dc88ca-610d-4cc6-b44b-49f04106b8c2")
 			(effects
 				(font
 					(size 1 1)
@@ -1273,11 +1351,76 @@
 				)
 			)
 		)
+		(property "Part URL" "https://mou.sr/3ZK9AMt"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1533e61b-f324-4688-80f9-7a543e2c9e47")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Vendor" "Mouser"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3fcf263f-814f-4c32-935c-b9a69f1ec0f7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1d4a1f33-f347-4318-9977-9d61655cc899")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "CHECKED" "YES"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b0af6a9b-545b-4bd0-afbb-d290bb2d3ce1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser Part no." "652-3006P-1-202-LF"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a7ee69ca-19bf-46bf-8a4c-690505ae4702")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Potentiometer*")
 		(path "/bbd52b2a-2ec0-4630-92f7-79f99868dfdc/28ced96e-6076-468a-ba68-c21d7c290ae6")
 		(sheetname "/Raw oscillator/")
 		(sheetfile "sheets/raw-oscillator.kicad_sch")
-		(attr through_hole exclude_from_pos_files exclude_from_bom)
+		(attr through_hole exclude_from_pos_files)
 		(fp_line
 			(start -16.11 1.255)
 			(end 3.16 1.255)
@@ -1533,6 +1676,32 @@
 				)
 			)
 		)
+		(property "CHECKED" "YES"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "106fb711-8ac8-472f-a94d-acce9b5680ff")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Vendor" "JLCPCB"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "998c0f15-5766-40bc-b977-307b9355d0a5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/8bc1c38c-66cf-4d37-87f2-6eda8e5acaa7/124c863b-4d9e-4b99-b133-ea596038b84e")
 		(sheetname "/Power/")
@@ -1732,12 +1901,64 @@
 				)
 			)
 		)
-		(property "Mouser" "https://hu.mouser.com/ProductDetail/594-PTS120601B100RP"
+		(property "Part URL" "https://hu.mouser.com/ProductDetail/594-PTS120601B100RP"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "3ee9ceb6-29b6-4d16-a7f7-ae8a8014ea1f")
+			(uuid "10bfcfc3-8520-425a-8970-b429c195a619")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Vendor" "Mouser"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6681b0ec-dee7-4015-b32e-9614bbdc661d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "dd87a742-e221-4261-b268-2e2d748b018e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "CHECKED" "YES"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "292d929a-2174-4aaa-8667-7189e238ea8d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser Part no." "594-PTS120601B100RP"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0b949d17-38c1-45d6-bd9b-f6ba22267da0")
 			(effects
 				(font
 					(size 1 1)
@@ -1749,7 +1970,7 @@
 		(path "/bbd52b2a-2ec0-4630-92f7-79f99868dfdc/6d28294d-9479-4145-b8e0-b3860cbeed0b")
 		(sheetname "/Raw oscillator/")
 		(sheetfile "sheets/raw-oscillator.kicad_sch")
-		(attr smd exclude_from_pos_files exclude_from_bom)
+		(attr smd exclude_from_pos_files)
 		(fp_line
 			(start -0.727064 -0.91)
 			(end 0.727064 -0.91)
@@ -1957,19 +2178,6 @@
 				)
 			)
 		)
-		(property "Part No." ""
-			(at 0 0 270)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "2815a959-ca72-49ad-a075-9dead8192ad4")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Part URL" ""
 			(at 0 0 270)
 			(unlocked yes)
@@ -1996,12 +2204,12 @@
 				)
 			)
 		)
-		(property "Mouser" ""
+		(property "Field4" ""
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "5b866976-cee1-4392-a672-14c7f6880c3a")
+			(uuid "3dd7eaaf-cb83-4830-82e4-c7d3cea50722")
 			(effects
 				(font
 					(size 1 1)
@@ -2009,12 +2217,12 @@
 				)
 			)
 		)
-		(property "Field4" ""
+		(property "CHECKED" "YES"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "3dd7eaaf-cb83-4830-82e4-c7d3cea50722")
+			(uuid "3f4c54b1-3f96-4be0-9f39-2b48a2ba4e6d")
 			(effects
 				(font
 					(size 1 1)
@@ -2234,6 +2442,32 @@
 				)
 			)
 		)
+		(property "CHECKED" "YES"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a6c9e423-c78a-4841-9a1f-e3f8c93aea81")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Vendor" "JLCPCB"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d932687a-a860-4141-9b3b-988fa238e2a5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/bbd52b2a-2ec0-4630-92f7-79f99868dfdc/faf6697d-fae0-419b-96bc-2acf881f884b")
 		(sheetname "/Raw oscillator/")
@@ -2446,11 +2680,76 @@
 				)
 			)
 		)
+		(property "Part URL" "https://mou.sr/4ff5W1E"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8f5bbf46-0caa-408f-8057-8ff735bdb47d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Vendor" "Mouser"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "49f53e3f-e628-4594-9576-4fd6ac153d26")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "bd820d3e-d7ff-4f0d-9f0a-70a76384564b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "CHECKED" "YES"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ab7f7106-68ef-43e4-beff-15c0a0582727")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser Part no." "652-3006P-1-104-LF"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "947ba937-a488-4bd2-aec5-2970bdece9ac")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Potentiometer*")
 		(path "/bbd52b2a-2ec0-4630-92f7-79f99868dfdc/3ce8e15f-bdda-4955-90e9-73f9c4a41b2f")
 		(sheetname "/Raw oscillator/")
 		(sheetfile "sheets/raw-oscillator.kicad_sch")
-		(attr through_hole exclude_from_pos_files exclude_from_bom)
+		(attr through_hole exclude_from_pos_files)
 		(fp_line
 			(start -16.11 1.255)
 			(end 3.16 1.255)
@@ -2706,32 +3005,6 @@
 				)
 			)
 		)
-		(property "Mouser" ""
-			(at 0 0 270)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "5ef499e0-f9ea-4830-ac9c-9ce81b030b18")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Part No." ""
-			(at 0 0 270)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "004adcc2-56e9-4813-a819-1d423f79449b")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Part URL" ""
 			(at 0 0 270)
 			(unlocked yes)
@@ -2764,6 +3037,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "4bb6cc8c-3470-4cd4-bb48-7e2b4b6bcd21")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "CHECKED" "YES"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d94214dc-66ee-4bff-9936-59d4c466e1c4")
 			(effects
 				(font
 					(size 1 1)
@@ -3165,6 +3451,32 @@
 				)
 			)
 		)
+		(property "CHECKED" "YES"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c503f0b8-016e-45b4-8f88-65728f7440c4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Vendor" "JLCPCB"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2dc83ef4-422f-41b8-9f86-a329ed737ed5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/bbd52b2a-2ec0-4630-92f7-79f99868dfdc/9157adeb-e6fc-4e2e-ab3c-6c6fe40bbf10")
 		(sheetname "/Raw oscillator/")
@@ -3370,6 +3682,32 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "ccacfe20-9306-4cd4-b475-ac5cf122565c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "CHECKED" "YES"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "cd8c0f77-5f33-41fa-a0c1-8cc1fb0a642f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Vendor" "JLCPCB"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9b32f0f7-a767-44d8-8fe2-6c24ee808ff1")
 			(effects
 				(font
 					(size 1 1)
@@ -3589,32 +3927,6 @@
 				)
 			)
 		)
-		(property "Mouser" ""
-			(at 0 0 270)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "e2132c3c-9540-4dea-b567-31944ff65f29")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Part No." ""
-			(at 0 0 270)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "7c856bae-8d7a-4b39-a144-6cd3f5a946ca")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Part URL" ""
 			(at 0 0 270)
 			(unlocked yes)
@@ -3647,6 +3959,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "685386c9-f3ca-43db-9d48-12e35270eaae")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "CHECKED" "YES"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4d00965e-3d4b-462f-b162-c2dfea12ff3d")
 			(effects
 				(font
 					(size 1 1)
@@ -3866,32 +4191,6 @@
 				)
 			)
 		)
-		(property "Mouser" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "baa252a2-7a2e-4dad-80bc-bb978552717d")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Part No." ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "bce81e79-198b-42a5-9643-7e1bf403d496")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Part URL" ""
 			(at 0 0 0)
 			(unlocked yes)
@@ -3924,6 +4223,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "bbc68a38-66f7-4ab0-8d8f-0f10bbddca84")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "CHECKED" "YES"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6e73b46f-413d-469e-acf3-d9c0a1675370")
 			(effects
 				(font
 					(size 1 1)
@@ -4143,6 +4455,32 @@
 				)
 			)
 		)
+		(property "CHECKED" "YES"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e59276c5-4323-4043-9ce0-6a15f6fadc79")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Vendor" "JLCPCB"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8c42f707-cda5-40a3-bae4-e8e69c2a1b4a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/bbd52b2a-2ec0-4630-92f7-79f99868dfdc/e0e529cc-c109-4473-9787-33e525e277b4")
 		(sheetname "/Raw oscillator/")
@@ -4355,32 +4693,6 @@
 				)
 			)
 		)
-		(property "Mouser" ""
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "2b4e3693-c571-4564-be52-9b65926722a2")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Part No." ""
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "9c34d9d6-fdb9-4437-9e28-5f74d659fc13")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Part URL" ""
 			(at 0 0 90)
 			(unlocked yes)
@@ -4413,6 +4725,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "9f6c22f1-64f5-4cfb-a9a9-2548ca507832")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "CHECKED" "YES"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d5af40b0-be91-4c8d-a953-952eb1341b57")
 			(effects
 				(font
 					(size 1 1)
@@ -4632,6 +4957,32 @@
 				)
 			)
 		)
+		(property "CHECKED" "YES"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "51763e85-59f5-4bfd-a7f0-89bb9788e6c5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Vendor" "JLCPCB"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d4f3a8ec-e197-46b1-b8a4-0577ff7ad411")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/bbd52b2a-2ec0-4630-92f7-79f99868dfdc/bf20db6a-8b4f-4580-9334-b2240d10d6d8")
 		(sheetname "/Raw oscillator/")
@@ -4831,19 +5182,6 @@
 				)
 			)
 		)
-		(property "Part No." ""
-			(at 0 0 270)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "95814f79-509a-485b-a6ce-5f6b1d14ffce")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Part URL" ""
 			(at 0 0 270)
 			(unlocked yes)
@@ -4876,6 +5214,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "30858bd4-75a6-4a58-a913-d236cbf71b6b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "CHECKED" "YES"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "615defcb-4d72-4f2d-9e2b-0772cdcaf813")
 			(effects
 				(font
 					(size 1 1)
@@ -5265,20 +5616,7 @@
 				)
 			)
 		)
-		(property "Part No." ""
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "d9b086ad-7c25-430b-9d88-be88912d627a")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Part URL" ""
+		(property "Part URL" "https://mou.sr/40bhVZG"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5291,7 +5629,7 @@
 				)
 			)
 		)
-		(property "Vendor" ""
+		(property "Vendor" "Mouser"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5317,11 +5655,37 @@
 				)
 			)
 		)
+		(property "CHECKED" "YES"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6fa155be-9caa-4693-935b-37c9115baa1d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser Part no." "474-PRT-09280"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9efc31b5-0aff-4188-bd72-3e464ba1af36")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/6b8ac4e3-205b-4930-8232-43668fd70f11")
 		(sheetname "/")
 		(sheetfile "vco-core.kicad_sch")
-		(attr through_hole)
+		(attr through_hole exclude_from_pos_files)
 		(fp_line
 			(start -1.38 -1.38)
 			(end 0 -1.38)
@@ -5627,32 +5991,6 @@
 				)
 			)
 		)
-		(property "Mouser" ""
-			(at 0 0 270)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "0b92e7cd-c0b2-408b-88d1-8aa8509b47f0")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Part No." ""
-			(at 0 0 270)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "72d8d7c7-1b67-404b-abf3-bae99211933a")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Part URL" ""
 			(at 0 0 270)
 			(unlocked yes)
@@ -5679,12 +6017,12 @@
 				)
 			)
 		)
-		(property "Field4" ""
+		(property "CHECKED" "YES"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "c388c28a-d5bb-4793-9b8d-986812c539e0")
+			(uuid "95d5d3b1-8c5f-47c8-9860-b7fb9f400fbf")
 			(effects
 				(font
 					(size 1 1)
@@ -6086,19 +6424,6 @@
 				)
 			)
 		)
-		(property "Part No." ""
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "559b4cf9-7d3d-4bba-8499-fcdc74da948d")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Part URL" ""
 			(at 0 0 90)
 			(unlocked yes)
@@ -6112,12 +6437,25 @@
 				)
 			)
 		)
-		(property "Vendor" ""
+		(property "Vendor" "JLCPCB"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "510a3123-1631-4a4b-9f08-74bf13ef8221")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "CHECKED" "YES"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c6b5ed93-78c8-4ecc-8c3f-5bbd1a0573ab")
 			(effects
 				(font
 					(size 1 1)
@@ -6337,19 +6675,6 @@
 				)
 			)
 		)
-		(property "Part No." ""
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "acdab731-f6c2-4ff5-be77-edaed2a5a6f6")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Part URL" ""
 			(at 0 0 90)
 			(unlocked yes)
@@ -6363,12 +6688,25 @@
 				)
 			)
 		)
-		(property "Vendor" ""
+		(property "Vendor" "JLCPCB"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "09c13756-e03b-4733-8219-e13c73882f6b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "CHECKED" "YES"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "38040649-f043-4d66-909f-0b170b43b2e4")
 			(effects
 				(font
 					(size 1 1)
@@ -6588,32 +6926,6 @@
 				)
 			)
 		)
-		(property "Mouser" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "a4be8137-9ac8-452f-a4bd-fffb5c095087")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Part No." ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "0d840dec-650e-4f0f-b30b-2f7f390976ee")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Part URL" ""
 			(at 0 0 0)
 			(unlocked yes)
@@ -6646,6 +6958,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "42daad2b-0cbc-43e3-8603-a159b5b267df")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "CHECKED" "YES"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "01af0bdc-fae4-45ce-a9be-1f0c53422d97")
 			(effects
 				(font
 					(size 1 1)
@@ -6853,20 +7178,7 @@
 				)
 			)
 		)
-		(property "Part No." ""
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "6c2c4695-d44c-4b18-920c-5bfdfba0ca9c")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Part URL" ""
+		(property "Part URL" "https://mou.sr/4liCQlU"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -6879,7 +7191,7 @@
 				)
 			)
 		)
-		(property "Vendor" ""
+		(property "Vendor" "Mouser"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -6905,11 +7217,37 @@
 				)
 			)
 		)
+		(property "CHECKED" "YES"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f8540c54-fa2c-4058-990c-685f876de2de")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser Part no." "200-TSW10307TD"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "04212b35-a2f0-4211-a404-484adf378afc")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Connector*:*_2x??_*")
 		(path "/8bc1c38c-66cf-4d37-87f2-6eda8e5acaa7/49dc35a7-069a-4c6f-b14b-9a05a9fe767b")
 		(sheetname "/Power/")
 		(sheetfile "sheets/power.kicad_sch")
-		(attr through_hole exclude_from_bom)
+		(attr through_hole exclude_from_pos_files)
 		(fp_line
 			(start 3.92 -1.38)
 			(end 3.92 6.46)
@@ -7237,11 +7575,63 @@
 				)
 			)
 		)
+		(property "Part URL" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "aefe1414-08b0-4b33-9a26-9684316ddc00")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Vendor" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "cd1df573-387d-4177-8950-e19645518de7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b2bd5411-a9f9-406f-8a27-1ad217e62131")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "CHECKED" "YES"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "dceefca6-f420-4466-abc2-054fae10f009")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/bbd52b2a-2ec0-4630-92f7-79f99868dfdc/8cda122c-ed9e-4f75-a615-4a0620e0d997")
 		(sheetname "/Raw oscillator/")
 		(sheetfile "sheets/raw-oscillator.kicad_sch")
-		(attr through_hole exclude_from_pos_files exclude_from_bom)
+		(attr through_hole exclude_from_pos_files)
 		(fp_line
 			(start 0.54 -1.37)
 			(end 7.08 -1.37)
@@ -7511,32 +7901,6 @@
 				)
 			)
 		)
-		(property "Mouser" ""
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "7cf31fbe-6710-42f8-9907-dfd69e9a3592")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Part No." ""
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "005e2ae5-c7b3-47b4-a21c-1097dbe993d5")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Part URL" ""
 			(at 0 0 180)
 			(unlocked yes)
@@ -7569,6 +7933,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "fe70b680-eded-4b42-8938-19f3b20f94ee")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "CHECKED" "YES"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1a473157-c032-4887-849f-e76a97e008e7")
 			(effects
 				(font
 					(size 1 1)
@@ -7788,32 +8165,6 @@
 				)
 			)
 		)
-		(property "Mouser" ""
-			(at 0 0 270)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "73def401-7ed2-4979-b34b-49657e84625f")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Part No." ""
-			(at 0 0 270)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "22b1cc48-242c-4d59-b052-30b95e291e81")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Part URL" ""
 			(at 0 0 270)
 			(unlocked yes)
@@ -7846,6 +8197,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "e61ce22a-ee0a-4a47-87d5-7de451687901")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "CHECKED" "YES"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f7336237-5160-4132-b460-fa9340747828")
 			(effects
 				(font
 					(size 1 1)
@@ -8065,32 +8429,6 @@
 				)
 			)
 		)
-		(property "Mouser" ""
-			(at 0 0 270)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "def33fd1-f411-4674-ae6b-aa63b1d581fe")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Part No." ""
-			(at 0 0 270)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "30fa2b1c-305d-44f1-b6b8-f886edc0f79e")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Part URL" ""
 			(at 0 0 270)
 			(unlocked yes)
@@ -8123,6 +8461,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "408483ba-a40e-49f6-9742-2d010384a9ce")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "CHECKED" "YES"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "28336a2d-f335-486d-8bdf-5d3e8c51c1ac")
 			(effects
 				(font
 					(size 1 1)
@@ -8512,19 +8863,6 @@
 				)
 			)
 		)
-		(property "Part No." ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "c1fd930d-64b2-4d36-89f8-b1d6f3a91931")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Part URL" ""
 			(at 0 0 0)
 			(unlocked yes)
@@ -8557,6 +8895,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "0b58fe47-e5cb-476d-9188-0cd4540d644f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "CHECKED" "YES"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5bafcdde-4cec-4090-b38a-0bc52fb558a3")
 			(effects
 				(font
 					(size 1 1)
@@ -8678,32 +9029,6 @@
 				)
 			)
 		)
-		(property "Mouser" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "b4809318-683d-4054-82de-1bf578ab2c04")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Part No." ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "a5cc3513-bc0f-449a-b6a5-c2280fc0f3c8")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Part URL" ""
 			(at 0 0 0)
 			(unlocked yes)
@@ -8736,6 +9061,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "1e4b9d72-eae9-48ef-a899-a50f1ee575cf")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "CHECKED" "YES"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "40e1642c-a57a-4153-82c1-324c15ea84c7")
 			(effects
 				(font
 					(size 1 1)
@@ -8955,32 +9293,6 @@
 				)
 			)
 		)
-		(property "Mouser" ""
-			(at 0 0 270)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "acaf0f1d-4752-4433-bfaa-d6d287e6bca4")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Part No." ""
-			(at 0 0 270)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "807ad1a4-c193-4485-b360-18ce4b098707")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Part URL" ""
 			(at 0 0 270)
 			(unlocked yes)
@@ -9013,6 +9325,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "926fc213-ebc7-4270-9c3c-2e76712bece2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "CHECKED" "YES"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "41a210dd-eac6-42e2-b2df-ae71f5374917")
 			(effects
 				(font
 					(size 1 1)
@@ -9232,6 +9557,32 @@
 				)
 			)
 		)
+		(property "CHECKED" "YES"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9cdd3c08-70dd-46dc-a19c-6dbc37af39b4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Vendor" "JLCPCB"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e57fc202-2759-41ac-82ce-c76d687fa898")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/bbd52b2a-2ec0-4630-92f7-79f99868dfdc/16c11494-a339-490c-b02e-5cbf16dc650a")
 		(sheetname "/Raw oscillator/")
@@ -9444,6 +9795,32 @@
 				)
 			)
 		)
+		(property "CHECKED" "YES"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9494e4aa-8145-40c9-be99-a22c188b6920")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Vendor" "JLCPCB"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8a76fd6d-8a05-42b3-9ff3-cdafb5242f89")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/bbd52b2a-2ec0-4630-92f7-79f99868dfdc/3eb437ab-d832-4d64-8509-5c561b244b37")
 		(sheetname "/Raw oscillator/")
@@ -9643,19 +10020,6 @@
 				)
 			)
 		)
-		(property "Part No." ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "fa75913c-0b4a-40bf-bb71-2c8df412d416")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Part URL" ""
 			(at 0 0 0)
 			(unlocked yes)
@@ -9669,7 +10033,7 @@
 				)
 			)
 		)
-		(property "Vendor" ""
+		(property "Vendor" "JLCPCB"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -9688,6 +10052,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "debaf153-f41e-43d6-aaad-ebd4d5e0216b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "CHECKED" "YES"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "739ddf63-ff1b-4380-8835-c3caa12b230e")
 			(effects
 				(font
 					(size 1 1)
@@ -10041,32 +10418,6 @@
 				)
 			)
 		)
-		(property "Mouser" ""
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "892a3450-0f61-477e-9169-502c49bf3429")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Part No." ""
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "71130f20-939a-4f49-9b21-81e9dd2a4705")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Part URL" ""
 			(at 0 0 90)
 			(unlocked yes)
@@ -10099,6 +10450,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "b9436726-31fd-446c-8bda-e382ae23e7ad")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "CHECKED" "YES"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3aa53996-a376-43cf-b069-200de2e0556a")
 			(effects
 				(font
 					(size 1 1)
@@ -10305,32 +10669,6 @@
 				)
 			)
 		)
-		(property "Mouser" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "2dabdaf2-1120-4bdb-b714-0d919c475cdc")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Part No." ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "9a8fc195-0120-4dfd-b75f-95dc33f31e84")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Part URL" ""
 			(at 0 0 0)
 			(unlocked yes)
@@ -10376,6 +10714,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "071b19c6-690f-4e3d-b3dd-f8451e2af9d4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "CHECKED" "YES"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b491c76d-0421-4a70-a112-c5a71b09333c")
 			(effects
 				(font
 					(size 1 1)
@@ -10568,6 +10919,32 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "5c400095-9e23-4989-b72c-674f24c93091")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "CHECKED" "YES"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "da0ddd64-68af-4faf-ad30-5c7f05d3ce5c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Vendor" "JLCPCB"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9cabac6d-5758-4699-8dee-3f6f08ed9f8c")
 			(effects
 				(font
 					(size 1 1)
@@ -10969,32 +11346,6 @@
 				)
 			)
 		)
-		(property "Mouser" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "22de1678-5791-40ef-a59a-3e8203f83b06")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Part No." ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "da5c3272-3788-4053-a946-bad0ff521721")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Part URL" ""
 			(at 0 0 0)
 			(unlocked yes)
@@ -11027,6 +11378,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "ed774c3a-1454-40bc-a236-298cde7853e8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "CHECKED" "YES"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0bad368f-7d60-4811-9417-3d03b2adf617")
 			(effects
 				(font
 					(size 1 1)
@@ -11499,19 +11863,6 @@
 				)
 			)
 		)
-		(property "Part No." ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "1a3e16e9-ae80-4365-b9bf-31e9b77b4e34")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Part URL" ""
 			(at 0 0 0)
 			(unlocked yes)
@@ -11525,7 +11876,7 @@
 				)
 			)
 		)
-		(property "Vendor" ""
+		(property "Vendor" "JLCPCB"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -11544,6 +11895,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "3d041cd0-5a71-490e-ac0e-711c9d9b08ba")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "CHECKED" "YES"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3fbcd115-3533-45f7-937e-7af6f148897a")
 			(effects
 				(font
 					(size 1 1)
@@ -11835,32 +12199,6 @@
 				)
 			)
 		)
-		(property "Mouser" ""
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "89a6ebe3-3509-49ec-9be1-22d03d969af3")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Part No." ""
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "89afcc44-2a35-425a-a81b-d2f0ba8ab89c")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Part URL" ""
 			(at 0 0 90)
 			(unlocked yes)
@@ -11893,6 +12231,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "e1af31a8-1cdc-4ce8-b958-9595982c86cb")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "CHECKED" "YES"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "85d50177-bce8-49ee-89e6-5ab1e3fbe31d")
 			(effects
 				(font
 					(size 1 1)
@@ -12112,32 +12463,6 @@
 				)
 			)
 		)
-		(property "Mouser" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "0f9a3e0c-290f-4eb2-9733-7256479e31c9")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Part No." ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "ee2fe478-c849-4cfd-8161-0143ad2b831b")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Part URL" ""
 			(at 0 0 0)
 			(unlocked yes)
@@ -12170,6 +12495,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "439a8d23-b891-4cc6-9348-cee557cee9dc")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "CHECKED" "YES"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6ff4c0f5-ef8a-4946-98b6-dd3484d8d4c5")
 			(effects
 				(font
 					(size 1 1)
@@ -12382,6 +12720,32 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "b9f655f0-2c0b-4fc3-b4e3-41c1ad29f4a1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "CHECKED" "YES"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a8ef5b6c-8713-4551-9a36-ee4dc69bb36b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Vendor" "JLCPCB"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7014b637-51d6-4535-bbf8-5df26d2f71a3")
 			(effects
 				(font
 					(size 1 1)
@@ -12629,32 +12993,6 @@
 				)
 			)
 		)
-		(property "Mouser" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "3b97b5a0-848b-47ec-b213-d2c2d9e7e0b4")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Part No." ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "141a5d31-c85e-4802-b709-b412f89915f8")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Part URL" ""
 			(at 0 0 0)
 			(unlocked yes)
@@ -12687,6 +13025,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "1debe3b6-23c8-4687-a8a9-a51a0e4ef0c5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "CHECKED" "YES"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a4dc6e1c-5462-43a8-bfba-c145768be8c9")
 			(effects
 				(font
 					(size 1 1)
@@ -12988,32 +13339,6 @@
 				)
 			)
 		)
-		(property "Mouser" ""
-			(at 0 0 270)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "9c25f048-7a82-4a0c-91fa-b65c71908b16")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Part No." ""
-			(at 0 0 270)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "a5cc2732-104d-44d0-96b1-329b7c69a042")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Part URL" ""
 			(at 0 0 270)
 			(unlocked yes)
@@ -13046,6 +13371,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "7c4928b4-a076-45a6-9371-1273241e23dd")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "CHECKED" "YES"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b0dc0b26-c58d-41df-9cd1-c5dc9fe7a7c5")
 			(effects
 				(font
 					(size 1 1)
@@ -13253,19 +13591,6 @@
 				)
 			)
 		)
-		(property "Part No." ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "55f07abe-6ec1-4f1d-b46d-d51521f59e23")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Part URL" ""
 			(at 0 0 0)
 			(unlocked yes)
@@ -13298,6 +13623,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "2a2e4af0-4328-46d6-bc5e-7c94b63cd7e0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "CHECKED" "YES"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "249b8203-c41d-42cd-bae1-f9993a15da0a")
 			(effects
 				(font
 					(size 1 1)
@@ -13419,32 +13757,6 @@
 				)
 			)
 		)
-		(property "Mouser" ""
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "a378a0a6-5e21-4aa4-aa63-5752f25b55d0")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Part No." ""
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "49a8a32e-8ee4-4010-8d71-fbb79459c04f")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Part URL" ""
 			(at 0 0 180)
 			(unlocked yes)
@@ -13477,6 +13789,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "c35d72df-ebf4-4c8e-8eb0-7cda767277ba")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "CHECKED" "YES"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "83c2b78a-e6f4-469c-9aa7-11f48b9ecbc8")
 			(effects
 				(font
 					(size 1 1)
@@ -13698,12 +14023,64 @@
 				)
 			)
 		)
-		(property "Mouser" "https://hu.mouser.com/ProductDetail/YAGEO/MFR50SFTE52-4R22?qs=UFD7vfw3J8rJKelB1vtMtA%3D%3D"
+		(property "Part URL" "https://hu.mouser.com/ProductDetail/YAGEO/MFR50SFTE52-4R22?qs=UFD7vfw3J8rJKelB1vtMtA%3D%3D"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "5418aaac-157c-494e-b0d5-4caf8e98e18d")
+			(uuid "fe22c05b-40a9-4c3f-8d7d-04fdd5410b7d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Vendor" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d736aee3-5730-48d0-81a9-33de48ebb1a6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4cabe830-31f5-4895-8263-a32e9afcbdc4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "CHECKED" "YES"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "cba56294-0a1e-4316-acbd-bdd498e397dd")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser Part no." ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f6dfae96-fa68-4173-b8c1-6bc2dc3aa962")
 			(effects
 				(font
 					(size 1 1)
@@ -13715,7 +14092,7 @@
 		(path "/bbd52b2a-2ec0-4630-92f7-79f99868dfdc/3e831f38-d237-42e7-9a3c-dd967ab8b78a")
 		(sheetname "/Raw oscillator/")
 		(sheetfile "sheets/raw-oscillator.kicad_sch")
-		(attr through_hole exclude_from_pos_files exclude_from_bom)
+		(attr through_hole exclude_from_pos_files)
 		(fp_line
 			(start 0.54 -1.37)
 			(end 7.08 -1.37)
@@ -13985,6 +14362,32 @@
 				)
 			)
 		)
+		(property "CHECKED" "YES"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6ea05064-d159-440c-99bf-28ffbb55f25f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Vendor" "JLCPCB"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2c84f04b-84f4-413b-acba-6e17bc52c12a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/bbd52b2a-2ec0-4630-92f7-79f99868dfdc/b48997d5-5be2-40f8-b36c-4263ae368d72")
 		(sheetname "/Raw oscillator/")
@@ -14197,32 +14600,6 @@
 				)
 			)
 		)
-		(property "Mouser" ""
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "858fa868-7bd6-4ccf-88af-8c613e90830c")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Part No." ""
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "54094724-cc95-482b-9741-4f5adf6c8219")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Part URL" ""
 			(at 0 0 180)
 			(unlocked yes)
@@ -14255,6 +14632,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "cc827944-9924-4fb5-96c7-e4fdbc164b3f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "CHECKED" "YES"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f94992ab-e477-4c91-8c55-ec01346f86ea")
 			(effects
 				(font
 					(size 1 1)
@@ -14463,19 +14853,6 @@
 				)
 			)
 		)
-		(property "Part No." ""
-			(at 0 0 270)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "93de0072-d3ac-4310-a841-78291ae1836e")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Part URL" ""
 			(at 0 0 270)
 			(unlocked yes)
@@ -14508,6 +14885,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "0a677641-1eea-4fd2-a3b4-eb6883309bda")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "CHECKED" "YES"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "61d8cf39-49d3-4aad-a7ef-de53cd693d3c")
 			(effects
 				(font
 					(size 1 1)
@@ -14779,20 +15169,7 @@
 				)
 			)
 		)
-		(property "Part No." ""
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "372169d5-2ddb-41d3-8b52-ce2458535d5b")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Part URL" ""
+		(property "Part URL" "https://mou.sr/40QhDaC"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -14805,7 +15182,7 @@
 				)
 			)
 		)
-		(property "Vendor" ""
+		(property "Vendor" "Mouser"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -14831,11 +15208,37 @@
 				)
 			)
 		)
+		(property "CHECKED" "YES"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "67fa2717-677c-44a8-9ccd-4ae39bcde458")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser Part no." "200-TSW10507TD"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "42546a6c-5113-4c60-b7f4-7702812017ed")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Connector*:*_2x??_*")
 		(path "/81b20ede-32d6-4ae5-ac54-dfeb239fad81")
 		(sheetname "/")
 		(sheetfile "vco-core.kicad_sch")
-		(attr through_hole exclude_from_bom)
+		(attr through_hole exclude_from_pos_files)
 		(fp_line
 			(start 3.92 -1.38)
 			(end 3.92 11.54)
@@ -15205,19 +15608,6 @@
 				)
 			)
 		)
-		(property "Part No." ""
-			(at 0 0 270)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "0c20a3b3-caab-434d-93f7-274459b68a3c")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Part URL" ""
 			(at 0 0 270)
 			(unlocked yes)
@@ -15231,12 +15621,25 @@
 				)
 			)
 		)
-		(property "Vendor" ""
+		(property "Vendor" "JLCPCB"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "36b7037d-f141-4e5f-afd7-c6b3079bd162")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "CHECKED" "YES"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c6331170-a558-4f6a-bce9-36545d3df8e9")
 			(effects
 				(font
 					(size 1 1)
@@ -15443,20 +15846,7 @@
 				)
 			)
 		)
-		(property "Part No." ""
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "d5ebdb0b-d626-4275-9754-99996b6ffdfd")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Part URL" ""
+		(property "Part URL" "https://mou.sr/4lPhH2D"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -15469,7 +15859,7 @@
 				)
 			)
 		)
-		(property "Vendor" ""
+		(property "Vendor" "Mouser"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -15495,11 +15885,37 @@
 				)
 			)
 		)
+		(property "CHECKED" "YES"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e142ea72-78d7-4b1d-8ab2-7ebfbe59b39d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser Part no." "80-R82DC3470DQ60K"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3a499d7b-e88b-4067-8edc-e5717ccc4a61")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/f54549d2-734a-4b50-9120-24307f2423a7/63c52cdf-31d9-4c49-9544-160dc7328807")
 		(sheetname "/Sub + Noise/")
 		(sheetfile "sheets/sub+noise.kicad_sch")
-		(attr through_hole exclude_from_bom)
+		(attr through_hole exclude_from_pos_files)
 		(fp_line
 			(start 6.22 -1.87)
 			(end 6.22 1.87)
@@ -15664,6 +16080,32 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "4e348697-4ef9-4dd1-8aa8-21a73a3f8862")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "CHECKED" "YES"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9951dca5-47d9-4ba1-bfca-43d4df264a33")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Vendor" "JLCPCB"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d5d72206-a65a-4514-b519-40535e4b6b47")
 			(effects
 				(font
 					(size 1 1)
@@ -15883,32 +16325,6 @@
 				)
 			)
 		)
-		(property "Mouser" ""
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "ba04fe52-87de-42a7-abd6-11c3972117a2")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Part No." ""
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "adea2b75-1304-43e1-8576-30763881c6a8")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Part URL" ""
 			(at 0 0 90)
 			(unlocked yes)
@@ -15941,6 +16357,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "0648e29c-42b2-42a4-a681-27ae648d47f8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "CHECKED" "YES"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a4cd6858-4b9e-4db0-9bf0-8c7e9f0b5c31")
 			(effects
 				(font
 					(size 1 1)
@@ -16147,19 +16576,6 @@
 				)
 			)
 		)
-		(property "Part No." ""
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "d46f3db7-0b3b-485c-967b-225c3d66c0c2")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Part URL" ""
 			(at 0 0 180)
 			(unlocked yes)
@@ -16173,7 +16589,7 @@
 				)
 			)
 		)
-		(property "Vendor" ""
+		(property "Vendor" "JLCPCB"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -16192,6 +16608,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "83df45b2-2e7f-4546-ad5e-aa961b3c16c3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "CHECKED" "YES"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4dc37ef1-3010-4e78-80d7-f3551ebf1080")
 			(effects
 				(font
 					(size 1 1)
@@ -16411,6 +16840,32 @@
 				)
 			)
 		)
+		(property "CHECKED" "YES"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "73effd3b-53ea-4875-9517-b508c77253b9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Vendor" "JLCPCB"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e2a0f50b-454f-49da-965e-1334800ff98c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/bbd52b2a-2ec0-4630-92f7-79f99868dfdc/a22bdbae-38ea-4d0e-9301-553cd9eb88af")
 		(sheetname "/Raw oscillator/")
@@ -16616,6 +17071,32 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "7aaafb13-9b74-47c0-b9f5-542a17f168ca")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "CHECKED" "YES"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a319270f-0a8d-4529-85cc-aa8cba451d33")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Vendor" "JLCPCB"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a2803541-8e73-49d1-b5c7-81e4012d6b9e")
 			(effects
 				(font
 					(size 1 1)
@@ -16951,19 +17432,6 @@
 				)
 			)
 		)
-		(property "Part No." ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "5c289c86-e398-44cf-b103-5f96683d5010")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Part URL" ""
 			(at 0 0 0)
 			(unlocked yes)
@@ -16996,6 +17464,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "043e4948-6aff-434e-8f4d-ace837240ba3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "CHECKED" "YES"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "17550a4f-2429-4594-ad85-6a3401efb7d8")
 			(effects
 				(font
 					(size 1 1)
@@ -17272,6 +17753,32 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "99095ec6-1107-48ab-98fc-1c52c04c9cfc")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "CHECKED" "YES"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d1f03ea9-b4e8-419d-a605-dce47fc074ab")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Vendor" "JLCPCB"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3a89d556-d963-4dbb-9328-1104775a9075")
 			(effects
 				(font
 					(size 1 1)
@@ -17662,6 +18169,19 @@
 				)
 			)
 		)
+		(property "CHECKED" "YES"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d849afa9-859c-4321-9815-7a97b3375d6f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Pin* Test*")
 		(path "/bbd52b2a-2ec0-4630-92f7-79f99868dfdc/f9802971-a256-4859-8aee-ef09e4305f6d")
 		(sheetname "/Raw oscillator/")
@@ -17821,6 +18341,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "CHECKED" "YES"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "38fa1208-4c5a-4066-b998-d836a40e7fac")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -17999,19 +18532,6 @@
 				)
 			)
 		)
-		(property "Part No." ""
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "09120af4-c439-413a-a041-21dc9c9079ff")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Part URL" ""
 			(at 0 0 90)
 			(unlocked yes)
@@ -18025,12 +18545,25 @@
 				)
 			)
 		)
-		(property "Vendor" ""
+		(property "Vendor" "JLCPCB"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "f1fb5248-18b9-4afa-8f20-ef0ae8fc3210")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "CHECKED" "YES"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0e68ed4b-c377-4d31-948f-0efd8c0f8bb7")
 			(effects
 				(font
 					(size 1 1)
@@ -18250,32 +18783,6 @@
 				)
 			)
 		)
-		(property "Mouser" ""
-			(at 0 0 270)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "a9acd6fa-5ded-4fc6-b915-7e99b6fc3167")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Part No." ""
-			(at 0 0 270)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "c338bb16-9384-40e0-9871-8d5daa863d4f")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Part URL" ""
 			(at 0 0 270)
 			(unlocked yes)
@@ -18308,6 +18815,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "aec0fe92-891c-4d21-a06e-6459ce8b6900")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "CHECKED" "YES"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "53e945cd-27a5-410c-b333-cd62805690b5")
 			(effects
 				(font
 					(size 1 1)
@@ -18479,7 +18999,7 @@
 				)
 			)
 		)
-		(property "Value" "100k"
+		(property "Value" "100k (prec)"
 			(at -7.235 2.395 90)
 			(layer "F.Fab")
 			(uuid "36ff5678-7d5f-42ab-b5e1-ccdecf7a8821")
@@ -18520,32 +19040,6 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "c75bafcf-72fb-4a2f-91b7-44d9d8e93e5f")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Mouser" ""
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "bbf621a6-c4ca-4767-a304-97b9eedbe508")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Part No." "652-3006P-1-104-LF "
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "ec3c0069-eaea-419e-87e7-a5cd93a08d8d")
 			(effects
 				(font
 					(size 1 1)
@@ -18605,11 +19099,37 @@
 				)
 			)
 		)
+		(property "CHECKED" "YES"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0c228d98-9f59-463e-9489-0e20175fc067")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser Part no." "652-3006P-1-104-LF"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "71dc795c-459e-41e6-838b-ad07e8aef004")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Potentiometer*")
 		(path "/b870749e-1596-4095-8b2c-fa982bdaa060/67d2c535-173c-4d4d-9d6a-9e0900ce323d")
 		(sheetname "/Waveshapers/")
 		(sheetfile "sheets/waveshapers.kicad_sch")
-		(attr through_hole exclude_from_pos_files exclude_from_bom)
+		(attr through_hole exclude_from_pos_files)
 		(fp_line
 			(start 3.16 -3.795)
 			(end 3.16 1.255)
@@ -18865,32 +19385,6 @@
 				)
 			)
 		)
-		(property "Mouser" ""
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "05868c12-bd28-48d9-8dde-5c561261f3a0")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Part No." ""
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "b2b1fea6-3c3f-40a4-8f2f-425c92ea1eb2")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Part URL" ""
 			(at 0 0 90)
 			(unlocked yes)
@@ -18923,6 +19417,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "5e6a2754-de15-4618-ad9b-52d1b1a7c6bb")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "CHECKED" "YES"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a0639503-40f0-4308-ab25-b0778a6172e7")
 			(effects
 				(font
 					(size 1 1)
@@ -19142,6 +19649,32 @@
 				)
 			)
 		)
+		(property "CHECKED" "YES"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "07407130-a84a-4dd5-be52-eaa499cd0437")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Vendor" "JLCPCB"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5d109b1c-b64a-49ef-95d7-74d1c9b3358c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/bbd52b2a-2ec0-4630-92f7-79f99868dfdc/2c15a8ac-a40a-4848-be35-157ff934eb6c")
 		(sheetname "/Raw oscillator/")
@@ -19343,6 +19876,19 @@
 				)
 			)
 		)
+		(property "CHECKED" "YES"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5c35e894-cdcb-43ad-a4f9-6cd929e33615")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Pin* Test*")
 		(path "/bbd52b2a-2ec0-4630-92f7-79f99868dfdc/6712d046-7d81-4085-9db7-936a0177452f")
 		(sheetname "/Raw oscillator/")
@@ -19504,32 +20050,6 @@
 				)
 			)
 		)
-		(property "Mouser" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "df22bf03-1008-4b9a-8ffa-41ceafa8b123")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Part No." ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "1f65b82a-36ef-4512-afe4-9e98ae280dee")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Part URL" ""
 			(at 0 0 0)
 			(unlocked yes)
@@ -19575,6 +20095,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "5430a6a1-ad42-4925-a498-2f013a000141")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "CHECKED" "YES"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b1996984-e729-4734-b379-417b5dfa73e2")
 			(effects
 				(font
 					(size 1 1)
@@ -19774,32 +20307,6 @@
 				)
 			)
 		)
-		(property "Mouser" ""
-			(at 0 0 270)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "134e8812-a675-48b5-96ed-0d09ec63c604")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Part No." ""
-			(at 0 0 270)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "7c7f876f-e794-4bb3-98ba-2bb8fd9764da")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Part URL" ""
 			(at 0 0 270)
 			(unlocked yes)
@@ -19832,6 +20339,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "b4e788da-73ff-461d-9edb-9cda5440e6e2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "CHECKED" "YES"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "76736576-f30c-4def-9b6d-5c228f495fa2")
 			(effects
 				(font
 					(size 1 1)
@@ -20051,32 +20571,6 @@
 				)
 			)
 		)
-		(property "Mouser" ""
-			(at 0 0 270)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "8b417f1a-8a90-4f9f-9085-a46bbe117384")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Part No." ""
-			(at 0 0 270)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "d282e5a3-3936-4d69-97e4-f9b9683d7007")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Part URL" ""
 			(at 0 0 270)
 			(unlocked yes)
@@ -20109,6 +20603,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "956a0b4e-3a43-427c-822f-0b40bade5425")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "CHECKED" "YES"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "60903027-4d58-40b1-ad98-7b65605bcc9b")
 			(effects
 				(font
 					(size 1 1)
@@ -20328,32 +20835,6 @@
 				)
 			)
 		)
-		(property "Mouser" ""
-			(at 0 0 270)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "d3006034-ae21-4b19-80db-0979e1e194c3")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Part No." ""
-			(at 0 0 270)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "625b902a-78b9-4b71-a929-278687ec4952")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Part URL" ""
 			(at 0 0 270)
 			(unlocked yes)
@@ -20386,6 +20867,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "e7b5dc02-b146-4f2f-aabb-41cb0ce86dfa")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "CHECKED" "YES"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "65dc0e0d-554a-4d03-af84-a70f56ca71da")
 			(effects
 				(font
 					(size 1 1)
@@ -20594,12 +21088,12 @@
 				)
 			)
 		)
-		(property "Mouser" ""
+		(property "Field4" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "278c9f3f-d88a-402e-9c61-5bbc52e36aee")
+			(uuid "a379771e-21f5-4279-aa5e-af975cc2d0e4")
 			(effects
 				(font
 					(size 1 1)
@@ -20607,12 +21101,12 @@
 				)
 			)
 		)
-		(property "Field4" ""
+		(property "CHECKED" "YES"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "a379771e-21f5-4279-aa5e-af975cc2d0e4")
+			(uuid "0b74c4e6-0b8e-46d9-ad8b-9a7dac987ade")
 			(effects
 				(font
 					(size 1 1)
@@ -20794,6 +21288,32 @@
 				)
 			)
 		)
+		(property "CHECKED" "YES"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2a0ca4f5-e8c7-4b2d-895f-841da751049f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Vendor" "JLCPCB"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "01003755-21ae-4be2-9053-88671cec2d54")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/bbd52b2a-2ec0-4630-92f7-79f99868dfdc/ed3c2f4f-996c-4c73-b061-111b4956c853")
 		(sheetname "/Raw oscillator/")
@@ -20942,6 +21462,7 @@
 		)
 	)
 	(footprint "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "82023e10-37d3-4569-835c-fbb82a69c764")
 		(at 129.032 61.087)
@@ -20993,20 +21514,7 @@
 				)
 			)
 		)
-		(property "Part No." ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "4b8c221e-8618-4758-b303-564b00371d18")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Part URL" ""
+		(property "Part URL" "https://mou.sr/3IruU3e"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -21019,7 +21527,7 @@
 				)
 			)
 		)
-		(property "Vendor" ""
+		(property "Vendor" "Mouser"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -21045,11 +21553,37 @@
 				)
 			)
 		)
+		(property "CHECKED" "YES"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5fdaa0fb-9977-4bdb-aec1-7cb08edc6919")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser Part no." "200-HTSW10207TS"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d0feeaa0-e48e-4ee2-ab83-1dd53ac787bf")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/8bc1c38c-66cf-4d37-87f2-6eda8e5acaa7/b58159f9-6099-4790-9dea-dc3fe143c5fa")
 		(sheetname "/Power/")
 		(sheetfile "sheets/power.kicad_sch")
-		(attr through_hole)
+		(attr through_hole exclude_from_pos_files)
 		(fp_line
 			(start -1.38 -1.38)
 			(end 0 -1.38)
@@ -21311,11 +21845,76 @@
 				)
 			)
 		)
+		(property "Part URL" "https://mou.sr/4eLPHe3"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e9511069-46a4-40b9-a765-239772aafa7e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Vendor" "Mouser"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5173b64c-a9cc-4835-a7f2-2c51ae7ae17e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1812e924-2385-40b0-bdae-18be5e91628d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "CHECKED" "YES"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "534268cb-f28f-4cf1-a659-12711ddbdacf")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser Part no." "80-R82MC1220AA50J "
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "50bf49a7-e864-4580-b0f4-df4bfb952aa3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/bbd52b2a-2ec0-4630-92f7-79f99868dfdc/6435da61-5ab4-4a64-bdbc-cde37b52a88e")
 		(sheetname "/Raw oscillator/")
 		(sheetfile "sheets/raw-oscillator.kicad_sch")
-		(attr through_hole exclude_from_pos_files exclude_from_bom)
+		(attr through_hole exclude_from_pos_files)
 		(fp_line
 			(start -1.22 1.37)
 			(end 6.22 1.37)
@@ -21475,20 +22074,7 @@
 				)
 			)
 		)
-		(property "Part No." ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "a308f3b1-b038-4a95-93d9-39dc5a6735bf")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Part URL" ""
+		(property "Part URL" "https://mou.sr/3TDBcz9"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -21501,7 +22087,7 @@
 				)
 			)
 		)
-		(property "Vendor" ""
+		(property "Vendor" "Mouser"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -21527,11 +22113,37 @@
 				)
 			)
 		)
+		(property "CHECKED" "YES"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "164b01d6-af2e-4da0-a3fe-5d8fe75e5233")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser Part no." "200-HTSW10207TD"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9bd6f434-c873-4057-a2ee-02213c90a3eb")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Connector*:*_2x??_*")
 		(path "/438ce122-d8bf-4878-9d0d-963bd2ddbd91")
 		(sheetname "/")
 		(sheetfile "vco-core.kicad_sch")
-		(attr through_hole exclude_from_bom)
+		(attr through_hole exclude_from_pos_files)
 		(fp_line
 			(start -1.38 -1.38)
 			(end 0 -1.38)
@@ -21835,6 +22447,32 @@
 				)
 			)
 		)
+		(property "CHECKED" "YES"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "62082493-e03d-4bb1-8982-74f21281f92c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Vendor" "JLCPCB"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "95bffc9a-c388-4922-895d-1bfd0c0c985b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/bbd52b2a-2ec0-4630-92f7-79f99868dfdc/f357dd0b-0093-42ff-bfc8-bf5e49cb7df4")
 		(sheetname "/Raw oscillator/")
@@ -22075,32 +22713,6 @@
 				)
 			)
 		)
-		(property "Mouser" ""
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "a35b537c-b61b-4680-8ab4-4beea7b81254")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Part No." ""
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "e021f1c9-f1a2-4930-9f00-6498761f53aa")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Part URL" ""
 			(at 0 0 180)
 			(unlocked yes)
@@ -22133,6 +22745,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "d28099c5-dccd-4d4d-8d21-51537f2c732b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "CHECKED" "YES"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e13f4e13-f052-4e2e-93fc-b15e07099c8e")
 			(effects
 				(font
 					(size 1 1)
@@ -22553,32 +23178,6 @@
 				)
 			)
 		)
-		(property "Mouser" ""
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "9b384d45-d269-4885-a763-9b51cf3730ba")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Part No." ""
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "a9ee56b9-ee07-4134-a81b-bd70a9bd924b")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Part URL" ""
 			(at 0 0 90)
 			(unlocked yes)
@@ -22624,6 +23223,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "22cbe1b4-d987-4dfc-9889-b68c2a11d8c2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "CHECKED" "YES"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "feabac0c-8616-4273-8c7c-0db6671f7b2f")
 			(effects
 				(font
 					(size 1 1)
@@ -22827,32 +23439,6 @@
 				)
 			)
 		)
-		(property "Mouser" ""
-			(at 0 0 270)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "4998b56f-cb0f-42f0-b193-1d7f5ef77a81")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Part No." ""
-			(at 0 0 270)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "86ae1d6e-a39e-4c35-b568-70e1c1202d81")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Part URL" ""
 			(at 0 0 270)
 			(unlocked yes)
@@ -22885,6 +23471,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "5626c25e-8604-46e8-bc70-89bd2b72f535")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "CHECKED" "YES"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "72f17424-0b14-41b1-88e6-40ca3cab305a")
 			(effects
 				(font
 					(size 1 1)
@@ -23273,11 +23872,63 @@
 				)
 			)
 		)
+		(property "Part URL" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6143850a-e80b-42fa-95ff-715bf6b0892c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Vendor" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "dd2f6d2c-12ab-436b-8e2a-07552c9c0d04")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6c682159-2fc9-4eb9-b851-deeacae7f118")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "CHECKED" "YES"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "995e3b12-d061-49fb-abad-b54468c748bb")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/bbd52b2a-2ec0-4630-92f7-79f99868dfdc/d9e6b294-dc01-45ad-9e81-a2f854894d5c")
 		(sheetname "/Raw oscillator/")
 		(sheetfile "sheets/raw-oscillator.kicad_sch")
-		(attr through_hole exclude_from_pos_files exclude_from_bom)
+		(attr through_hole exclude_from_pos_files exclude_from_bom dnp)
 		(fp_line
 			(start 0.485 0.92)
 			(end 2.015 0.92)
@@ -23422,6 +24073,32 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "75cebdb7-096f-4346-a83d-2f51188ad36d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "CHECKED" "YES"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a13379a2-2329-49f2-8c06-7c45d875e697")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Vendor" "JLCPCB"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3419d6c9-92eb-48ca-8d0a-4309eca89c62")
 			(effects
 				(font
 					(size 1 1)
@@ -23641,32 +24318,6 @@
 				)
 			)
 		)
-		(property "Mouser" ""
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "f22546a2-0cf4-4780-aea2-324a8f58d347")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Part No." ""
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "675d4396-4215-45da-b54d-a81fcb4265df")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Part URL" ""
 			(at 0 0 90)
 			(unlocked yes)
@@ -23699,6 +24350,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "1e9cdffe-b930-430f-a1e4-90c8bd4b913f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "CHECKED" "YES"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e213769c-6b8a-494d-986b-9f6c9555d345")
 			(effects
 				(font
 					(size 1 1)
@@ -23918,32 +24582,6 @@
 				)
 			)
 		)
-		(property "Mouser" ""
-			(at 0 0 270)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "eab91ff2-d2e3-4cd4-994e-3645db6934fa")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Part No." ""
-			(at 0 0 270)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "7f4cc898-dfc7-45e1-b9bb-b8f3194bd094")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Part URL" ""
 			(at 0 0 270)
 			(unlocked yes)
@@ -23976,6 +24614,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "18feb487-b796-4922-b6f6-c8dd07d1bc0e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "CHECKED" "YES"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6ee2976e-4749-4448-854d-7d0815cd638a")
 			(effects
 				(font
 					(size 1 1)
@@ -24195,32 +24846,6 @@
 				)
 			)
 		)
-		(property "Mouser" ""
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "99a838a0-bec7-4176-b73d-1e6f46e5adea")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Part No." ""
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "0c5e1547-32f2-4d9c-91ce-3bb660d2734e")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Part URL" ""
 			(at 0 0 90)
 			(unlocked yes)
@@ -24253,6 +24878,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "6fb0e063-2bbf-46da-8af4-bceaaa17818b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "CHECKED" "YES"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "13f42ea1-75df-4a51-b88b-4d4bcfd6e0d1")
 			(effects
 				(font
 					(size 1 1)
@@ -24461,12 +25099,12 @@
 				)
 			)
 		)
-		(property "Mouser" ""
+		(property "Field4" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "0580b0a1-8a23-49bc-b467-0988af843b48")
+			(uuid "f2591379-c4ed-4db8-846e-52f4cbcb284a")
 			(effects
 				(font
 					(size 1 1)
@@ -24474,12 +25112,12 @@
 				)
 			)
 		)
-		(property "Field4" ""
+		(property "CHECKED" "YES"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "f2591379-c4ed-4db8-846e-52f4cbcb284a")
+			(uuid "053581a6-35aa-449b-8b4b-f992f8a72f18")
 			(effects
 				(font
 					(size 1 1)
@@ -24654,6 +25292,32 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "b2044228-84de-4254-ab27-d36c5eaa732c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "CHECKED" "YES"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5de51cd1-9be6-48a2-96e6-68bdf326fdca")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Vendor" "JLCPCB"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "315daa43-32f9-4524-8b4f-84859546ae6e")
 			(effects
 				(font
 					(size 1 1)
@@ -24873,32 +25537,6 @@
 				)
 			)
 		)
-		(property "Mouser" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "16adc10c-432b-4fd1-891a-6434eb5e10ef")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Part No." ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "efdd7501-9ac6-425a-a2c9-44d3ea463726")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Part URL" ""
 			(at 0 0 0)
 			(unlocked yes)
@@ -24931,6 +25569,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "a810f790-60d0-4dcb-88f1-fe48eaa008ef")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "CHECKED" "YES"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6aae3c02-26d4-4016-a9e3-31cbde59d8a3")
 			(effects
 				(font
 					(size 1 1)
@@ -25271,32 +25922,6 @@
 				)
 			)
 		)
-		(property "Mouser" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "6b20f296-b14f-48cc-8925-9cc04b2c0432")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Part No." ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "e4723c9d-39cc-48f9-9abd-7504a1d73470")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Part URL" ""
 			(at 0 0 0)
 			(unlocked yes)
@@ -25342,6 +25967,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "3e3f0f16-0f37-42ed-ac2d-c12d7cbc25bd")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "CHECKED" "YES"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7bdf6a8c-51a6-4da7-b241-b649068967c8")
 			(effects
 				(font
 					(size 1 1)
@@ -25514,12 +26152,12 @@
 				)
 			)
 		)
-		(property "Mouser" ""
+		(property "Field4" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "d554e5fb-d07f-4ec0-aae6-ced86d0e14b0")
+			(uuid "3b33a931-bbf7-421c-8547-1c45a83c2fd5")
 			(effects
 				(font
 					(size 1 1)
@@ -25527,12 +26165,12 @@
 				)
 			)
 		)
-		(property "Field4" ""
+		(property "CHECKED" "YES"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "3b33a931-bbf7-421c-8547-1c45a83c2fd5")
+			(uuid "16aed1aa-7074-4e54-83e2-27e009f83031")
 			(effects
 				(font
 					(size 1 1)
@@ -25707,6 +26345,32 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "52be6f27-ca3e-48c6-bea4-312fcf434b27")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "CHECKED" "YES"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c3f4cadc-7622-432d-93f7-bc158fd65073")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Vendor" "JLCPCB"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "620b799f-9b3c-478c-a090-bf522c946928")
 			(effects
 				(font
 					(size 1 1)
@@ -25926,6 +26590,32 @@
 				)
 			)
 		)
+		(property "CHECKED" "YES"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7c64b52e-c2b1-4bf2-bfe6-ade46b71d6de")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Vendor" "JLCPCB"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d0620d56-dc6e-421d-935f-4145d022d288")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/bbd52b2a-2ec0-4630-92f7-79f99868dfdc/0adae5a5-3411-45ef-af48-3eae078acaeb")
 		(sheetname "/Raw oscillator/")
@@ -26138,32 +26828,6 @@
 				)
 			)
 		)
-		(property "Mouser" ""
-			(at 0 0 270)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "0ce66345-fd7c-42fa-b8ce-7b4f0065159b")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Part No." ""
-			(at 0 0 270)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "0e08c8a6-f4de-4a8d-984b-8d98714a6e90")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Part URL" ""
 			(at 0 0 270)
 			(unlocked yes)
@@ -26196,6 +26860,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "524cf706-f1e1-4ad9-9313-436ddec5f9c6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "CHECKED" "YES"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b52d2713-cf2e-42fd-a321-33c97dbcf7c2")
 			(effects
 				(font
 					(size 1 1)
@@ -26408,6 +27085,32 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "b00aa188-eaf9-4900-81f8-252f198f3bd0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "CHECKED" "YES"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8fb9f101-93f8-4681-9496-ac4206cd9497")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Vendor" "JLCPCB"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5fd92018-767e-4344-a220-dea55fffc411")
 			(effects
 				(font
 					(size 1 1)
@@ -26648,6 +27351,32 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "0179d187-a68d-4be4-8827-80c2db9daba9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "CHECKED" "YES"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b4a7253e-49d2-4e46-a70f-b27a4e5a6e2f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Vendor" "JLCPCB"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "fe8fc573-7b81-456b-b27d-4c06ccd415a4")
 			(effects
 				(font
 					(size 1 1)
@@ -26942,6 +27671,32 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "9ce70341-a0a0-4eb0-80f1-8ffeebe67223")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "CHECKED" "YES"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "074a8f83-eed1-4a36-8a25-4daff783aa4d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Vendor" "JLCPCB"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9dcc95a1-4ea6-4421-a314-a843774287c6")
 			(effects
 				(font
 					(size 1 1)
@@ -27344,19 +28099,6 @@
 				)
 			)
 		)
-		(property "Part No." ""
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "9c602b7a-5007-4c3a-a7c6-ac0ddd41fa5a")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Part URL" ""
 			(at 0 0 180)
 			(unlocked yes)
@@ -27370,12 +28112,25 @@
 				)
 			)
 		)
-		(property "Vendor" ""
+		(property "Vendor" "JLCPCB"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "84fac5f7-f384-4ee1-9bc6-3322132e2b5e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "CHECKED" "YES"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e19ab47f-d8c2-4bd5-9e0b-63cbc9d7d913")
 			(effects
 				(font
 					(size 1 1)
@@ -27681,7 +28436,7 @@
 				)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "10k (prec)"
 			(at -7.235 2.395 90)
 			(layer "F.Fab")
 			(uuid "142e43f2-44e2-443b-823a-2cd158a7c2b2")
@@ -27722,32 +28477,6 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "67aea14c-488d-40e6-8bf5-4237240895d2")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Mouser" ""
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "57bd25a4-6f1f-4755-89d8-4dba35ca3621")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Part No." "652-3006P-1-103-LF "
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "a9916392-4f82-4e4a-932b-cc7f50504d8a")
 			(effects
 				(font
 					(size 1 1)
@@ -27807,11 +28536,37 @@
 				)
 			)
 		)
+		(property "CHECKED" "YES"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "721b9a46-3570-4f92-84b5-58f3976034af")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser Part no." "652-3006P-1-103-LF "
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "08c25888-fc47-4a7e-b2e1-d90ba89ba92d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Potentiometer*")
 		(path "/b870749e-1596-4095-8b2c-fa982bdaa060/dbc26da2-6aad-4921-8494-a33dd0386e47")
 		(sheetname "/Waveshapers/")
 		(sheetfile "sheets/waveshapers.kicad_sch")
-		(attr through_hole exclude_from_pos_files exclude_from_bom)
+		(attr through_hole exclude_from_pos_files)
 		(fp_line
 			(start 3.16 -3.795)
 			(end 3.16 1.255)
@@ -28055,19 +28810,6 @@
 				)
 			)
 		)
-		(property "Part No." ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "9201e170-af16-46d1-bde4-bf54d782634d")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Part URL" ""
 			(at 0 0 0)
 			(unlocked yes)
@@ -28100,6 +28842,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "5e141de6-4094-46fa-8cc6-58dd1bf7d4cc")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "CHECKED" "YES"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "737e4ea2-0a5e-410c-b5d9-afa22fe97af5")
 			(effects
 				(font
 					(size 1 1)
@@ -28210,12 +28965,12 @@
 				)
 			)
 		)
-		(property "Mouser" ""
+		(property "Field4" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "53a944e0-9b2c-4771-b4ab-7956a83b7c72")
+			(uuid "d1721de2-abc4-47eb-b74b-cbb49888ee40")
 			(effects
 				(font
 					(size 1 1)
@@ -28223,12 +28978,12 @@
 				)
 			)
 		)
-		(property "Field4" ""
+		(property "CHECKED" "YES"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "d1721de2-abc4-47eb-b74b-cbb49888ee40")
+			(uuid "0527cf8b-2512-44af-91a1-6e5602a0e680")
 			(effects
 				(font
 					(size 1 1)
@@ -28410,32 +29165,6 @@
 				)
 			)
 		)
-		(property "Mouser" ""
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "16358941-1b55-43d9-a8f3-113429a9ba62")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Part No." ""
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "f4b5ab28-eeec-4a47-93a7-75840dfb2a27")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Part URL" ""
 			(at 0 0 90)
 			(unlocked yes)
@@ -28468,6 +29197,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "b428ea43-c0c2-4cdf-9d23-ab4f4f104090")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "CHECKED" "YES"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "51d2abb1-1482-443c-85b6-bdad6fe4bf2a")
 			(effects
 				(font
 					(size 1 1)
@@ -28676,12 +29418,12 @@
 				)
 			)
 		)
-		(property "Mouser" ""
+		(property "Field4" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "6b1c73ba-00f9-4b0b-8797-aacd7358c637")
+			(uuid "a7a84dda-aed2-4004-be29-6da56651c22f")
 			(effects
 				(font
 					(size 1 1)
@@ -28689,12 +29431,12 @@
 				)
 			)
 		)
-		(property "Field4" ""
+		(property "CHECKED" "YES"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "a7a84dda-aed2-4004-be29-6da56651c22f")
+			(uuid "8d237153-2324-4c0e-8fe0-d1734113284f")
 			(effects
 				(font
 					(size 1 1)
@@ -28992,6 +29734,19 @@
 				)
 			)
 		)
+		(property "CHECKED" "YES"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "774fb22f-cb98-4146-90c3-8672a4285411")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Pin* Test*")
 		(path "/bbd52b2a-2ec0-4630-92f7-79f99868dfdc/0b6c3801-0bda-4392-8bc9-83c00173da40")
 		(sheetname "/Raw oscillator/")
@@ -29159,6 +29914,32 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "582ff97e-d139-49fe-89ad-1bf770cf7eb2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "CHECKED" "YES"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8fae516d-fc03-4496-93b8-92f6339bf124")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Vendor" "JLCPCB"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7519ff03-6110-4e7c-91f7-40678b2585f3")
 			(effects
 				(font
 					(size 1 1)
@@ -29380,11 +30161,63 @@
 				)
 			)
 		)
+		(property "Part URL" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5eb0839b-4af0-447c-948f-726d28deb40a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Vendor" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7da07175-dd58-4032-8dce-4b27929ee7c4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "18228dfb-77b7-4c1d-83bf-49c42f613354")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "CHECKED" "YES"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a67af7e7-5812-4e8f-b7e5-3f073f57aaba")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/bbd52b2a-2ec0-4630-92f7-79f99868dfdc/49e9f63b-3de3-41c2-bc07-d715a2b99f99")
 		(sheetname "/Raw oscillator/")
 		(sheetfile "sheets/raw-oscillator.kicad_sch")
-		(attr through_hole exclude_from_pos_files exclude_from_bom)
+		(attr through_hole exclude_from_pos_files)
 		(fp_line
 			(start 0.54 -1.37)
 			(end 7.08 -1.37)
@@ -29643,20 +30476,7 @@
 				)
 			)
 		)
-		(property "Part No." ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "56e49777-a030-423f-8410-d684dd9871dd")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Part URL" ""
+		(property "Part URL" "https://mou.sr/3GwYxj9"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -29669,7 +30489,7 @@
 				)
 			)
 		)
-		(property "Vendor" ""
+		(property "Vendor" "Mouser"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -29695,11 +30515,37 @@
 				)
 			)
 		)
+		(property "CHECKED" "YES"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c1be9b09-f0eb-465f-95a9-2d1078757a82")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser Part no." "571-5103310-1"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9d1504b7-7410-4875-a79b-4cd5cb2cf8c8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Connector*:*_2x??_*")
 		(path "/8bc1c38c-66cf-4d37-87f2-6eda8e5acaa7/7e3222f2-9d20-4179-af2e-4d77216b5777")
 		(sheetname "/Power/")
 		(sheetfile "sheets/power.kicad_sch")
-		(attr through_hole exclude_from_pos_files exclude_from_bom)
+		(attr through_hole exclude_from_pos_files)
 		(fp_line
 			(start -2.35 -0.5)
 			(end -2.35 0.5)
@@ -30250,6 +31096,32 @@
 				)
 			)
 		)
+		(property "CHECKED" "YES"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "bb8bbd66-edc8-4d31-bc2d-d1386417950e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Vendor" "JLCPCB"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "dfccb0c8-9462-400a-887b-a5f824e325e3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/bbd52b2a-2ec0-4630-92f7-79f99868dfdc/1d1aa3c4-8d48-4a7d-843e-d3b33e59d75e")
 		(sheetname "/Raw oscillator/")
@@ -30589,32 +31461,6 @@
 				)
 			)
 		)
-		(property "Mouser" ""
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "4b2c155d-586b-4b73-b4ae-1e93b2294202")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Part No." ""
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "8853220b-0d5a-4f99-afe0-ba1309171162")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Part URL" ""
 			(at 0 0 180)
 			(unlocked yes)
@@ -30647,6 +31493,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "370a77f0-d05c-4e99-a873-e3f34a11627d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "CHECKED" "YES"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8b057c2c-bedb-4ef3-ab78-62163d40c562")
 			(effects
 				(font
 					(size 1 1)
@@ -30866,32 +31725,6 @@
 				)
 			)
 		)
-		(property "Mouser" ""
-			(at 0 0 270)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "c42ac87d-9542-46a3-93af-b0d2982d3bfb")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Part No." ""
-			(at 0 0 270)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "568241a3-e275-4d50-9666-7cdfd9a30057")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Part URL" ""
 			(at 0 0 270)
 			(unlocked yes)
@@ -30924,6 +31757,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "07b11326-2105-4095-8aee-4e97358d0e2f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "CHECKED" "YES"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1f8bd4f5-40f4-48d0-9e11-eb8448bfdcd1")
 			(effects
 				(font
 					(size 1 1)
@@ -31132,6 +31978,19 @@
 				)
 			)
 		)
+		(property "CHECKED" "YES"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c792a071-fa65-444b-a0fa-f6e0e3a607dc")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Pin* Test*")
 		(path "/bbd52b2a-2ec0-4630-92f7-79f99868dfdc/512f0c07-e78f-4612-96eb-ce971491ee27")
 		(sheetname "/Raw oscillator/")
@@ -31295,12 +32154,12 @@
 				)
 			)
 		)
-		(property "Mouser" ""
+		(property "Field4" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "06192838-8d42-46d9-a111-d8e91bac6239")
+			(uuid "3a80d1bb-f77b-4b61-bdd2-ba70bf7b41ad")
 			(effects
 				(font
 					(size 1 1)
@@ -31308,12 +32167,12 @@
 				)
 			)
 		)
-		(property "Field4" ""
+		(property "CHECKED" "YES"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "3a80d1bb-f77b-4b61-bdd2-ba70bf7b41ad")
+			(uuid "9a579038-c0ba-4fc3-a4c9-32e8f6129912")
 			(effects
 				(font
 					(size 1 1)
@@ -31488,6 +32347,32 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "5cbaf5c2-1810-4c63-a565-9c1a914b4b1b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "CHECKED" "YES"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7b93ca01-b2f4-417c-be83-aa19250b3ef1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Vendor" "JLCPCB"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "93397d1b-71aa-4647-988b-c92106f07ea2")
 			(effects
 				(font
 					(size 1 1)
@@ -31707,32 +32592,6 @@
 				)
 			)
 		)
-		(property "Mouser" ""
-			(at 0 0 270)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "b14b5337-9168-48e5-9db8-c050462ee278")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Part No." ""
-			(at 0 0 270)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "88b8a54d-3059-46a1-9fe1-ab51d7fbe40e")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Part URL" ""
 			(at 0 0 270)
 			(unlocked yes)
@@ -31765,6 +32624,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "25558d0c-1b0c-4e27-9c63-eba241df73b1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "CHECKED" "YES"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b7817575-24d8-4232-a439-65e0a757f394")
 			(effects
 				(font
 					(size 1 1)
@@ -31984,19 +32856,6 @@
 				)
 			)
 		)
-		(property "Part No." ""
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "c9d2fd2c-da70-4171-a5cb-253532b5f0b7")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Part URL" ""
 			(at 0 0 180)
 			(unlocked yes)
@@ -32023,19 +32882,6 @@
 				)
 			)
 		)
-		(property "Mouser" ""
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "17c7eb6a-d7ef-440b-ae80-ad9f25e4df31")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "FT Rotation Offset" "180"
 			(at 0 0 180)
 			(unlocked yes)
@@ -32055,6 +32901,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "5fc9b6df-6440-4c6c-beef-38f16d815d01")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "CHECKED" "YES"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "029f73fe-c77f-4ec4-9741-7dad4ea689db")
 			(effects
 				(font
 					(size 1 1)
@@ -32505,6 +33364,32 @@
 				)
 			)
 		)
+		(property "CHECKED" "YES"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "27bafbc2-8b14-457f-87de-0c6a9aac20d1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Vendor" "JLCPCB"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3fe13f6e-f5bb-4d43-b25b-901a85e6317f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/bbd52b2a-2ec0-4630-92f7-79f99868dfdc/26fd90a7-1881-4929-839c-daa5923c14f9")
 		(sheetname "/Raw oscillator/")
@@ -32717,19 +33602,6 @@
 				)
 			)
 		)
-		(property "Part No." ""
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "0fd31a14-86aa-4c17-add1-6fe94397d78e")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Part URL" ""
 			(at 0 0 180)
 			(unlocked yes)
@@ -32743,12 +33615,25 @@
 				)
 			)
 		)
-		(property "Vendor" ""
+		(property "Vendor" "JLCPCB"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "f7b8cd40-262a-402b-86e8-c6cbc5ac12f8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "CHECKED" "YES"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3c89fa3e-60b9-443c-aead-ad7185b3fb6f")
 			(effects
 				(font
 					(size 1 1)
@@ -33102,19 +33987,6 @@
 				)
 			)
 		)
-		(property "Part No." ""
-			(at 0 0 270)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "80d63a00-a7b5-4b3c-baab-1701ba647be4")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Part URL" ""
 			(at 0 0 270)
 			(unlocked yes)
@@ -33141,19 +34013,6 @@
 				)
 			)
 		)
-		(property "Mouser" ""
-			(at 0 0 270)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "b8d9b766-1e7b-49b5-af37-01d8b8f75cab")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "FT Rotation Offset" "180"
 			(at 0 0 270)
 			(unlocked yes)
@@ -33173,6 +34032,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "360436ac-e910-461e-a403-639d8695f077")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "CHECKED" "YES"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4fb49c40-b92b-4f91-a90f-2032c906c5b7")
 			(effects
 				(font
 					(size 1 1)
@@ -33612,12 +34484,12 @@
 				)
 			)
 		)
-		(property "Mouser" ""
+		(property "Field4" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "d0b767ef-6ecd-47a3-98ef-8fdb15a80679")
+			(uuid "154b288b-99fd-458d-bdd6-e3c2a6f65e05")
 			(effects
 				(font
 					(size 1 1)
@@ -33625,12 +34497,12 @@
 				)
 			)
 		)
-		(property "Field4" ""
+		(property "CHECKED" "YES"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "154b288b-99fd-458d-bdd6-e3c2a6f65e05")
+			(uuid "12988160-301d-4aca-96e4-f07d711f8b39")
 			(effects
 				(font
 					(size 1 1)
@@ -33800,19 +34672,6 @@
 				)
 			)
 		)
-		(property "Part No." ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "a18ea65e-395d-419b-9240-02e44f3abf8f")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Part URL" ""
 			(at 0 0 0)
 			(unlocked yes)
@@ -33845,6 +34704,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "9c22c419-2df5-4021-959a-a4707850dfee")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "CHECKED" "YES"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4b68ee56-0fa1-47eb-be69-12eb1b870715")
 			(effects
 				(font
 					(size 1 1)
@@ -33968,11 +34840,63 @@
 				)
 			)
 		)
+		(property "Part URL" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "38e879c9-ff5c-4828-8bf5-4c8e82160350")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Vendor" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "cb51f359-9b29-4009-bd4e-283462af4cef")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2d878392-4f41-48e9-98c5-5539cea3f222")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "CHECKED" "YES"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "93580555-57e3-4d96-b14d-433937a9e62a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/bbd52b2a-2ec0-4630-92f7-79f99868dfdc/09d2655d-74c1-447e-8698-06c7f75d7b38")
 		(sheetname "/Raw oscillator/")
 		(sheetfile "sheets/raw-oscillator.kicad_sch")
-		(attr through_hole exclude_from_pos_files exclude_from_bom)
+		(attr through_hole exclude_from_pos_files)
 		(fp_line
 			(start 7.08 1.37)
 			(end 7.08 1.04)
@@ -34242,6 +35166,32 @@
 				)
 			)
 		)
+		(property "CHECKED" "YES"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "81f6d639-81b7-4be5-9fa5-d0edfabef1ac")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Vendor" "JLCPCB"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b9737c3b-b43c-44a0-8b47-864092bce321")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/bbd52b2a-2ec0-4630-92f7-79f99868dfdc/0144d013-9a77-4975-88ec-6d0a7e6950b1")
 		(sheetname "/Raw oscillator/")
@@ -34454,32 +35404,6 @@
 				)
 			)
 		)
-		(property "Mouser" ""
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "da90f91d-84b0-4ccd-a49a-94fa40690b1a")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Part No." ""
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "07620769-7dfc-40d1-912d-9a7ed46d629d")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Part URL" ""
 			(at 0 0 90)
 			(unlocked yes)
@@ -34512,6 +35436,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "14c9a34b-502f-4649-b298-95bcb4c0c942")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "CHECKED" "YES"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c27b98d4-cce9-4d5f-a046-231abd83d6ca")
 			(effects
 				(font
 					(size 1 1)
@@ -34719,20 +35656,7 @@
 				)
 			)
 		)
-		(property "Part No." ""
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "86c213b4-bca3-40ef-a485-0f9b0a2bb003")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Part URL" ""
+		(property "Part URL" "https://mou.sr/3UfnMcJ"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -34745,7 +35669,7 @@
 				)
 			)
 		)
-		(property "Vendor" ""
+		(property "Vendor" "Mouser"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -34771,11 +35695,37 @@
 				)
 			)
 		)
+		(property "CHECKED" "YES"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7614d8ae-b0b7-46f4-93be-f192c1d35937")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser Part no." "200-HTSW10407TS"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4b738184-8b9d-415b-9a4f-2e0670af76de")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/5bcbafd4-ff94-4205-82af-8a4e0a8ddef3")
 		(sheetname "/")
 		(sheetfile "vco-core.kicad_sch")
-		(attr through_hole exclude_from_bom)
+		(attr through_hole exclude_from_pos_files)
 		(fp_line
 			(start -1.38 -1.38)
 			(end 0 -1.38)
@@ -35059,32 +36009,6 @@
 				)
 			)
 		)
-		(property "Mouser" ""
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "48961506-c215-4683-9947-76cb4bfb8700")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Part No." ""
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "00527b29-cc67-4896-a3f8-8c295d65d0b1")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Part URL" ""
 			(at 0 0 90)
 			(unlocked yes)
@@ -35117,6 +36041,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "3d0cfedd-7a42-406c-9f10-70786877d3a4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "CHECKED" "YES"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "bcdc86d2-5197-4486-ada1-0414459199d9")
 			(effects
 				(font
 					(size 1 1)
@@ -35336,6 +36273,32 @@
 				)
 			)
 		)
+		(property "CHECKED" "YES"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "25bb2d77-35dd-4095-a3fe-da511dd8b5af")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Vendor" "JLCPCB"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2666bb20-1bdc-4aa0-916c-faa126d4a469")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/bbd52b2a-2ec0-4630-92f7-79f99868dfdc/a11919df-91a8-4156-bbfa-477f5952b180")
 		(sheetname "/Raw oscillator/")
@@ -35537,19 +36500,6 @@
 				)
 			)
 		)
-		(property "Part No." ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "85aee465-f512-4f21-be87-117ce2260e42")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Part URL" ""
 			(at 0 0 0)
 			(unlocked yes)
@@ -35563,7 +36513,7 @@
 				)
 			)
 		)
-		(property "Vendor" ""
+		(property "Vendor" "JLCPCB"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -35582,6 +36532,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "245accf2-381b-46e3-b821-69c7c0f407f2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "CHECKED" "YES"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "beae1e4f-a072-456f-a5c3-7021765a3e72")
 			(effects
 				(font
 					(size 1 1)
@@ -35862,11 +36825,76 @@
 				)
 			)
 		)
+		(property "Part URL" "https://mou.sr/4nM5nSy"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "020ef457-3b95-4681-8609-6e89369b56e4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Vendor" "Mouser"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0e517e5e-e823-4d03-bb3d-bca16ba5ad80")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8d5bbf43-03e1-4e50-97a3-0efdd107772f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "CHECKED" "YES"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "04e4dc73-733a-4f8f-b0d3-8401a87a7290")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser Part no." "594-2381-640-55103"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1bf7e9e9-e4e2-4cad-b3da-10012b1375db")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "*NTC* *Thermistor* PIN?ARRAY* bornier* *Terminal?Block* R_*")
 		(path "/bbd52b2a-2ec0-4630-92f7-79f99868dfdc/bb1a4e03-6def-43e3-8f20-b5fa56a5afac")
 		(sheetname "/Raw oscillator/")
 		(sheetfile "sheets/raw-oscillator.kicad_sch")
-		(attr through_hole exclude_from_pos_files exclude_from_bom)
+		(attr through_hole exclude_from_pos_files)
 		(fp_line
 			(start -0.53 1.85)
 			(end 3.07 1.85)
@@ -36080,32 +37108,6 @@
 				)
 			)
 		)
-		(property "Mouser" ""
-			(at 0 0 270)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "7ab7d0d1-49d4-4be7-a8cf-aad9f5f7c5d3")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Part No." ""
-			(at 0 0 270)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "ba87d01a-0647-4ee7-8e6b-4a70cef0fa9d")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Part URL" ""
 			(at 0 0 270)
 			(unlocked yes)
@@ -36138,6 +37140,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "e0d8451a-a908-4c24-907c-0ad360261912")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "CHECKED" "YES"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "41687572-374a-45d2-8f72-fddc45415f4b")
 			(effects
 				(font
 					(size 1 1)
@@ -36357,32 +37372,6 @@
 				)
 			)
 		)
-		(property "Mouser" ""
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "b34b86ec-aec4-48bd-a706-e2a780bee0e5")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Part No." ""
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "784629d1-cb94-4939-8c81-4fa1e604dad8")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Part URL" ""
 			(at 0 0 90)
 			(unlocked yes)
@@ -36415,6 +37404,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "61180cca-5a4f-4766-bff5-c265ffb1db80")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "CHECKED" "YES"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "df968c75-71e0-448f-9be6-4cad57bd2aa9")
 			(effects
 				(font
 					(size 1 1)
@@ -36634,32 +37636,6 @@
 				)
 			)
 		)
-		(property "Mouser" ""
-			(at 0 0 270)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "5cc7ddb4-2731-493b-9886-43f780681ef0")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Part No." ""
-			(at 0 0 270)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "bccf8fe7-e32e-4bfd-8291-66d966b08dc5")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Part URL" ""
 			(at 0 0 270)
 			(unlocked yes)
@@ -36692,6 +37668,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "090cae40-bd84-4bd6-a0cb-3952b9e4f2f1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "CHECKED" "YES"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "bbb0f4ec-7fbb-4027-97f9-b46516a85f1f")
 			(effects
 				(font
 					(size 1 1)
@@ -36911,32 +37900,6 @@
 				)
 			)
 		)
-		(property "Mouser" ""
-			(at 0 0 270)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "2d5a7a6d-34af-43c9-b5c5-3caa2956313b")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Part No." ""
-			(at 0 0 270)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "d4099d70-fee9-49d5-8290-324f51a0bbd6")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Part URL" ""
 			(at 0 0 270)
 			(unlocked yes)
@@ -36969,6 +37932,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "e31af003-f3eb-4946-9abf-26224a7ab9ef")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "CHECKED" "YES"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1ad4a6a1-5ed6-413e-a7bd-9691eac04a90")
 			(effects
 				(font
 					(size 1 1)
@@ -37188,32 +38164,6 @@
 				)
 			)
 		)
-		(property "Mouser" ""
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "e462c012-0de4-4bd7-80c1-cc10a9f34057")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Part No." ""
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "575e8522-adc1-45f6-8f9a-bee1d1526f91")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Part URL" ""
 			(at 0 0 90)
 			(unlocked yes)
@@ -37246,6 +38196,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "43b26abf-d252-47ce-958f-a2d22c07969d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "CHECKED" "YES"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "464abbdf-3350-4086-ba3e-fecb1ece1d83")
 			(effects
 				(font
 					(size 1 1)
@@ -37454,12 +38417,64 @@
 				)
 			)
 		)
-		(property "Mouser" "512-J111"
+		(property "Part URL" "https://mou.sr/4f5W0HS"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "f6ed7f5b-e71e-495f-a2a9-9fbb0c9623bc")
+			(uuid "3f4bda0b-e82a-4475-be12-a3166a8f42ef")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Vendor" "Mouser"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4d4b6a06-7980-488b-8ba2-0f981a18ff96")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e30f5e37-4b9e-47b6-a4f9-69f81dc58180")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "CHECKED" "YES"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7305faee-2a39-4444-b05a-c38293e29d86")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser Part no." "512-J111"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "67283fc4-3787-4c2c-bf2c-0211c2d44ea8")
 			(effects
 				(font
 					(size 1 1)
@@ -37471,7 +38486,7 @@
 		(path "/bbd52b2a-2ec0-4630-92f7-79f99868dfdc/8ade5873-c4ea-4875-82db-b9beeb715dd1")
 		(sheetname "/Raw oscillator/")
 		(sheetfile "sheets/raw-oscillator.kicad_sch")
-		(attr through_hole exclude_from_pos_files exclude_from_bom)
+		(attr through_hole exclude_from_pos_files)
 		(fp_line
 			(start 0.74 1.85)
 			(end 4.34 1.85)
@@ -37720,11 +38735,76 @@
 				)
 			)
 		)
+		(property "Part URL" "https://mou.sr/3GyUiUc"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f521239c-7c49-41a1-b5b4-311cd126f37e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Vendor" "Mouser"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "415932c3-0255-45b4-9c29-749be1e81b7f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "02a2e8ce-ea40-47ab-bcfd-d22c02ed1ca2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "CHECKED" "YES"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4b63d6cb-c478-47d4-9605-8bd7dedd203e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser Part no." "652-3006P-1-501-LF"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d99ad551-9ddf-4529-8c46-ed0f67cf822d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Potentiometer*")
 		(path "/bbd52b2a-2ec0-4630-92f7-79f99868dfdc/86cbd39c-3591-4cd8-9731-1198908bdd30")
 		(sheetname "/Raw oscillator/")
 		(sheetfile "sheets/raw-oscillator.kicad_sch")
-		(attr through_hole exclude_from_pos_files exclude_from_bom)
+		(attr through_hole exclude_from_pos_files)
 		(fp_line
 			(start -16.11 1.255)
 			(end 3.16 1.255)
@@ -37969,12 +39049,12 @@
 				)
 			)
 		)
-		(property "Mouser" ""
+		(property "Field4" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "631adf4b-9868-4320-ab37-6011d3536a71")
+			(uuid "68327629-f95e-42d7-9f71-99fe85e4c106")
 			(effects
 				(font
 					(size 1 1)
@@ -37982,12 +39062,12 @@
 				)
 			)
 		)
-		(property "Field4" ""
+		(property "CHECKED" "YES"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "68327629-f95e-42d7-9f71-99fe85e4c106")
+			(uuid "7df87315-c83e-4508-98b7-28526b772c73")
 			(effects
 				(font
 					(size 1 1)
@@ -38162,6 +39242,32 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "390ea0c0-5ed4-44c2-9d73-e9c3e8d6a9c9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "CHECKED" "YES"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f9d4f5b3-76b0-4bc5-a043-cf148dae6055")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Vendor" "JLCPCB"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "dc0487a5-cbad-4013-9cc6-02be0d2df7a3")
 			(effects
 				(font
 					(size 1 1)

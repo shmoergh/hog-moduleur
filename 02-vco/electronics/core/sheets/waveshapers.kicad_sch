@@ -3656,24 +3656,6 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" ""
-			(at 64.77 210.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part No." ""
-			(at 64.77 210.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Part URL" ""
 			(at 64.77 210.82 0)
 			(effects
@@ -3693,6 +3675,15 @@
 			)
 		)
 		(property "Field4" ""
+			(at 64.77 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CHECKED" "YES"
 			(at 64.77 210.82 0)
 			(effects
 				(font
@@ -3768,7 +3759,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" ""
+		(property "Field4" ""
 			(at 224.79 101.6 0)
 			(effects
 				(font
@@ -3777,7 +3768,7 @@
 				(hide yes)
 			)
 		)
-		(property "Field4" ""
+		(property "CHECKED" "YES"
 			(at 224.79 101.6 0)
 			(effects
 				(font
@@ -3862,24 +3853,6 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" ""
-			(at 53.34 210.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part No." ""
-			(at 53.34 210.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Part URL" ""
 			(at 53.34 210.82 0)
 			(effects
@@ -3899,6 +3872,15 @@
 			)
 		)
 		(property "Field4" ""
+			(at 53.34 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CHECKED" "YES"
 			(at 53.34 210.82 0)
 			(effects
 				(font
@@ -3984,15 +3966,6 @@
 				(hide yes)
 			)
 		)
-		(property "Part No." ""
-			(at 125.73 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Part URL" ""
 			(at 125.73 53.34 0)
 			(effects
@@ -4002,8 +3975,17 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor" ""
+		(property "Vendor" "JLCPCB"
 			(at 125.73 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CHECKED" "YES"
+			(at 125.73 53.34 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4088,24 +4070,6 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" ""
-			(at 107.95 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part No." ""
-			(at 107.95 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Part URL" ""
 			(at 107.95 53.34 0)
 			(effects
@@ -4125,6 +4089,15 @@
 			)
 		)
 		(property "Field4" ""
+			(at 107.95 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CHECKED" "YES"
 			(at 107.95 53.34 0)
 			(effects
 				(font
@@ -4230,24 +4203,6 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" ""
-			(at 64.77 203.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part No." ""
-			(at 64.77 203.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Part URL" ""
 			(at 64.77 203.2 0)
 			(effects
@@ -4267,6 +4222,15 @@
 			)
 		)
 		(property "Field4" ""
+			(at 64.77 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CHECKED" "YES"
 			(at 64.77 203.2 0)
 			(effects
 				(font
@@ -4342,24 +4306,6 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" ""
-			(at 107.95 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part No." ""
-			(at 107.95 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Part URL" ""
 			(at 107.95 116.84 0)
 			(effects
@@ -4389,6 +4335,15 @@
 		)
 		(property "Field4" ""
 			(at 107.95 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CHECKED" "YES"
+			(at 107.95 116.84 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4670,24 +4625,6 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" ""
-			(at 234.95 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part No." ""
-			(at 234.95 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Part URL" ""
 			(at 234.95 55.88 0)
 			(effects
@@ -4708,6 +4645,15 @@
 		)
 		(property "Field4" ""
 			(at 234.95 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CHECKED" "YES"
+			(at 234.95 55.88 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4782,24 +4728,6 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" ""
-			(at 48.26 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part No." ""
-			(at 48.26 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Part URL" ""
 			(at 48.26 149.86 0)
 			(effects
@@ -4829,6 +4757,15 @@
 		)
 		(property "Field4" ""
 			(at 48.26 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CHECKED" "YES"
+			(at 48.26 149.86 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4912,24 +4849,6 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" ""
-			(at 176.53 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part No." ""
-			(at 176.53 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Part URL" ""
 			(at 176.53 58.42 0)
 			(effects
@@ -4950,6 +4869,15 @@
 		)
 		(property "Field4" ""
 			(at 176.53 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CHECKED" "YES"
+			(at 176.53 58.42 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5033,24 +4961,6 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" ""
-			(at 236.22 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part No." ""
-			(at 236.22 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Part URL" ""
 			(at 236.22 90.17 0)
 			(effects
@@ -5071,6 +4981,15 @@
 		)
 		(property "Field4" ""
 			(at 236.22 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CHECKED" "YES"
+			(at 236.22 90.17 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5228,15 +5147,6 @@
 				(hide yes)
 			)
 		)
-		(property "Part No." ""
-			(at 274.32 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Part URL" ""
 			(at 274.32 58.42 0)
 			(effects
@@ -5246,8 +5156,17 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor" ""
+		(property "Vendor" "JLCPCB"
 			(at 274.32 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CHECKED" "YES"
+			(at 274.32 58.42 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5331,24 +5250,6 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" ""
-			(at 107.95 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part No." ""
-			(at 107.95 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Part URL" ""
 			(at 107.95 128.27 0)
 			(effects
@@ -5369,6 +5270,15 @@
 		)
 		(property "Field4" ""
 			(at 107.95 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CHECKED" "YES"
+			(at 107.95 128.27 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5454,24 +5364,6 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" ""
-			(at 105.41 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part No." ""
-			(at 105.41 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Part URL" ""
 			(at 105.41 142.24 0)
 			(effects
@@ -5491,6 +5383,15 @@
 			)
 		)
 		(property "Field4" ""
+			(at 105.41 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CHECKED" "YES"
 			(at 105.41 142.24 0)
 			(effects
 				(font
@@ -5727,24 +5628,6 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" ""
-			(at 196.85 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part No." ""
-			(at 196.85 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Part URL" ""
 			(at 196.85 53.34 0)
 			(effects
@@ -5765,6 +5648,15 @@
 		)
 		(property "Field4" ""
 			(at 196.85 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CHECKED" "YES"
+			(at 196.85 53.34 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5849,15 +5741,6 @@
 				(hide yes)
 			)
 		)
-		(property "Part No." ""
-			(at 125.73 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Part URL" ""
 			(at 125.73 142.24 0)
 			(effects
@@ -5867,8 +5750,17 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor" ""
+		(property "Vendor" "JLCPCB"
 			(at 125.73 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CHECKED" "YES"
+			(at 125.73 142.24 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6018,24 +5910,6 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" ""
-			(at 86.36 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part No." ""
-			(at 86.36 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Part URL" ""
 			(at 86.36 147.32 0)
 			(effects
@@ -6055,6 +5929,15 @@
 			)
 		)
 		(property "Field4" ""
+			(at 86.36 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CHECKED" "YES"
 			(at 86.36 147.32 0)
 			(effects
 				(font
@@ -6205,24 +6088,6 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" ""
-			(at 78.74 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part No." ""
-			(at 78.74 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Part URL" ""
 			(at 78.74 139.7 0)
 			(effects
@@ -6243,6 +6108,15 @@
 		)
 		(property "Field4" ""
 			(at 78.74 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CHECKED" "YES"
+			(at 78.74 139.7 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6329,24 +6203,6 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" ""
-			(at 33.02 207.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part No." ""
-			(at 33.02 207.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Part URL" ""
 			(at 33.02 207.01 0)
 			(effects
@@ -6366,6 +6222,15 @@
 			)
 		)
 		(property "Field4" ""
+			(at 33.02 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CHECKED" "YES"
 			(at 33.02 207.01 0)
 			(effects
 				(font
@@ -6470,24 +6335,6 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" ""
-			(at 255.27 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part No." ""
-			(at 255.27 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Part URL" ""
 			(at 255.27 31.75 0)
 			(effects
@@ -6508,6 +6355,15 @@
 		)
 		(property "Field4" ""
 			(at 255.27 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CHECKED" "YES"
+			(at 255.27 31.75 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6657,24 +6513,6 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" ""
-			(at 234.95 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part No." ""
-			(at 234.95 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Part URL" ""
 			(at 234.95 101.6 0)
 			(effects
@@ -6694,6 +6532,15 @@
 			)
 		)
 		(property "Field4" ""
+			(at 234.95 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CHECKED" "YES"
 			(at 234.95 101.6 0)
 			(effects
 				(font
@@ -6740,7 +6587,7 @@
 		(at 86.36 157.48 90)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "67d2c535-173c-4d4d-9d6a-9e0900ce323d")
@@ -6753,7 +6600,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "100k"
+		(property "Value" "100k (prec)"
 			(at 87.503 159.2326 0)
 			(effects
 				(font
@@ -6798,24 +6645,6 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" ""
-			(at 86.36 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part No." "652-3006P-1-104-LF "
-			(at 86.36 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Part URL" "https://mou.sr/4ff5W1E"
 			(at 86.36 157.48 0)
 			(effects
@@ -6844,6 +6673,24 @@
 			)
 		)
 		(property "Field4" ""
+			(at 86.36 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CHECKED" "YES"
+			(at 86.36 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part no." "652-3006P-1-104-LF"
 			(at 86.36 157.48 0)
 			(effects
 				(font
@@ -7065,24 +6912,6 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" ""
-			(at 21.59 207.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part No." ""
-			(at 21.59 207.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Part URL" ""
 			(at 21.59 207.01 0)
 			(effects
@@ -7102,6 +6931,15 @@
 			)
 		)
 		(property "Field4" ""
+			(at 21.59 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CHECKED" "YES"
 			(at 21.59 207.01 0)
 			(effects
 				(font
@@ -7195,7 +7033,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" ""
+		(property "Field4" ""
 			(at 130.81 142.24 0)
 			(effects
 				(font
@@ -7204,7 +7042,7 @@
 				(hide yes)
 			)
 		)
-		(property "Field4" ""
+		(property "CHECKED" "YES"
 			(at 130.81 142.24 0)
 			(effects
 				(font
@@ -7374,7 +7212,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Dual Low-Noise JFET-Input Operational Amplifiers, DIP-8/SOIC-8"
 			(at 39.37 207.01 0)
 			(effects
 				(font
@@ -7384,24 +7222,6 @@
 			)
 		)
 		(property "LCSC" "C6961"
-			(at 39.37 207.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser" ""
-			(at 39.37 207.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part No." ""
 			(at 39.37 207.01 0)
 			(effects
 				(font
@@ -7428,7 +7248,7 @@
 				(hide yes)
 			)
 		)
-		(property "Field4" ""
+		(property "CHECKED" "YES"
 			(at 39.37 207.01 0)
 			(effects
 				(font
@@ -7590,24 +7410,6 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" ""
-			(at 185.42 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part No." ""
-			(at 185.42 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Part URL" ""
 			(at 185.42 71.12 0)
 			(effects
@@ -7637,6 +7439,15 @@
 		)
 		(property "Field4" ""
 			(at 185.42 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CHECKED" "YES"
+			(at 185.42 71.12 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7741,24 +7552,6 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" ""
-			(at 48.26 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part No." ""
-			(at 48.26 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Part URL" ""
 			(at 48.26 129.54 0)
 			(effects
@@ -7778,6 +7571,15 @@
 			)
 		)
 		(property "Field4" ""
+			(at 48.26 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CHECKED" "YES"
 			(at 48.26 129.54 0)
 			(effects
 				(font
@@ -7862,24 +7664,6 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" ""
-			(at 72.39 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part No." ""
-			(at 72.39 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Part URL" ""
 			(at 72.39 36.83 0)
 			(effects
@@ -7900,6 +7684,15 @@
 		)
 		(property "Field4" ""
 			(at 72.39 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CHECKED" "YES"
+			(at 72.39 36.83 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7976,24 +7769,6 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" ""
-			(at 185.42 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part No." ""
-			(at 185.42 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Part URL" ""
 			(at 185.42 63.5 0)
 			(effects
@@ -8023,6 +7798,15 @@
 		)
 		(property "Field4" ""
 			(at 185.42 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CHECKED" "YES"
+			(at 185.42 63.5 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8109,24 +7893,6 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" ""
-			(at 76.2 210.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part No." ""
-			(at 76.2 210.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Part URL" ""
 			(at 76.2 210.82 0)
 			(effects
@@ -8146,6 +7912,15 @@
 			)
 		)
 		(property "Field4" ""
+			(at 76.2 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CHECKED" "YES"
 			(at 76.2 210.82 0)
 			(effects
 				(font
@@ -8230,24 +8005,6 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" ""
-			(at 54.61 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part No." ""
-			(at 54.61 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Part URL" ""
 			(at 54.61 48.26 0)
 			(effects
@@ -8268,6 +8025,15 @@
 		)
 		(property "Field4" ""
 			(at 54.61 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CHECKED" "YES"
+			(at 54.61 48.26 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8351,24 +8117,6 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" ""
-			(at 215.9 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part No." ""
-			(at 215.9 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Part URL" ""
 			(at 215.9 40.64 0)
 			(effects
@@ -8389,6 +8137,15 @@
 		)
 		(property "Field4" ""
 			(at 215.9 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CHECKED" "YES"
+			(at 215.9 40.64 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8529,7 +8286,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" ""
+		(property "Field4" ""
 			(at 130.81 53.34 0)
 			(effects
 				(font
@@ -8538,7 +8295,7 @@
 				(hide yes)
 			)
 		)
-		(property "Field4" ""
+		(property "CHECKED" "YES"
 			(at 130.81 53.34 0)
 			(effects
 				(font
@@ -8611,7 +8368,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" ""
+		(property "Field4" ""
 			(at 83.82 36.83 0)
 			(effects
 				(font
@@ -8620,7 +8377,7 @@
 				(hide yes)
 			)
 		)
-		(property "Field4" ""
+		(property "CHECKED" "YES"
 			(at 83.82 36.83 0)
 			(effects
 				(font
@@ -8685,7 +8442,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Dual Low-Noise JFET-Input Operational Amplifiers, DIP-8/SOIC-8"
 			(at 212.09 55.88 0)
 			(effects
 				(font
@@ -8695,24 +8452,6 @@
 			)
 		)
 		(property "LCSC" "C6961"
-			(at 212.09 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser" ""
-			(at 212.09 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part No." ""
 			(at 212.09 55.88 0)
 			(effects
 				(font
@@ -8739,7 +8478,7 @@
 				(hide yes)
 			)
 		)
-		(property "Field4" ""
+		(property "CHECKED" "YES"
 			(at 212.09 55.88 0)
 			(effects
 				(font
@@ -8901,16 +8640,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
-			(at 252.73 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part No." ""
+		(property "LCSC" "C6961"
 			(at 252.73 58.42 0)
 			(effects
 				(font
@@ -8928,7 +8658,16 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor" ""
+		(property "Vendor" "JLCPCB"
+			(at 252.73 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CHECKED" "YES"
 			(at 252.73 58.42 0)
 			(effects
 				(font
@@ -9031,24 +8770,6 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" ""
-			(at 54.61 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part No." ""
-			(at 54.61 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Part URL" ""
 			(at 54.61 69.85 0)
 			(effects
@@ -9069,6 +8790,15 @@
 		)
 		(property "Field4" ""
 			(at 54.61 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CHECKED" "YES"
+			(at 54.61 69.85 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9239,24 +8969,6 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" ""
-			(at 48.26 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part No." ""
-			(at 48.26 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Part URL" ""
 			(at 48.26 139.7 0)
 			(effects
@@ -9276,6 +8988,15 @@
 			)
 		)
 		(property "Field4" ""
+			(at 48.26 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CHECKED" "YES"
 			(at 48.26 139.7 0)
 			(effects
 				(font
@@ -9363,24 +9084,6 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" ""
-			(at 53.34 203.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part No." ""
-			(at 53.34 203.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Part URL" ""
 			(at 53.34 203.2 0)
 			(effects
@@ -9400,6 +9103,15 @@
 			)
 		)
 		(property "Field4" ""
+			(at 53.34 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CHECKED" "YES"
 			(at 53.34 203.2 0)
 			(effects
 				(font
@@ -9484,24 +9196,6 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" ""
-			(at 196.85 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part No." ""
-			(at 196.85 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Part URL" ""
 			(at 196.85 64.77 0)
 			(effects
@@ -9521,6 +9215,15 @@
 			)
 		)
 		(property "Field4" ""
+			(at 196.85 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CHECKED" "YES"
 			(at 196.85 64.77 0)
 			(effects
 				(font
@@ -9698,7 +9401,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" ""
+		(property "Field4" ""
 			(at 280.67 58.42 0)
 			(effects
 				(font
@@ -9707,7 +9410,7 @@
 				(hide yes)
 			)
 		)
-		(property "Field4" ""
+		(property "CHECKED" "YES"
 			(at 280.67 58.42 0)
 			(effects
 				(font
@@ -9790,24 +9493,6 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" ""
-			(at 71.12 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part No." ""
-			(at 71.12 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Part URL" ""
 			(at 71.12 50.8 0)
 			(effects
@@ -9827,6 +9512,15 @@
 			)
 		)
 		(property "Field4" ""
+			(at 71.12 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CHECKED" "YES"
 			(at 71.12 50.8 0)
 			(effects
 				(font
@@ -9929,24 +9623,6 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" ""
-			(at 107.95 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part No." ""
-			(at 107.95 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Part URL" ""
 			(at 107.95 39.37 0)
 			(effects
@@ -9967,6 +9643,15 @@
 		)
 		(property "Field4" ""
 			(at 107.95 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CHECKED" "YES"
+			(at 107.95 39.37 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10050,24 +9735,6 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" ""
-			(at 68.58 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part No." ""
-			(at 68.58 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Part URL" ""
 			(at 68.58 147.32 0)
 			(effects
@@ -10087,6 +9754,15 @@
 			)
 		)
 		(property "Field4" ""
+			(at 68.58 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CHECKED" "YES"
 			(at 68.58 147.32 0)
 			(effects
 				(font
@@ -10115,7 +9791,7 @@
 		(at 44.45 69.85 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "dbc26da2-6aad-4921-8494-a33dd0386e47")
@@ -10128,7 +9804,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "10k (prec)"
 			(at 42.672 70.993 0)
 			(effects
 				(font
@@ -10173,24 +9849,6 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" ""
-			(at 44.45 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part No." "652-3006P-1-103-LF "
-			(at 44.45 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Part URL" "https://mou.sr/41xh2vW"
 			(at 44.45 69.85 0)
 			(effects
@@ -10219,6 +9877,24 @@
 			)
 		)
 		(property "Field4" ""
+			(at 44.45 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CHECKED" "YES"
+			(at 44.45 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part no." "652-3006P-1-103-LF "
 			(at 44.45 69.85 0)
 			(effects
 				(font
@@ -10372,24 +10048,6 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" ""
-			(at 255.27 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part No." ""
-			(at 255.27 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Part URL" ""
 			(at 255.27 43.18 0)
 			(effects
@@ -10410,6 +10068,15 @@
 		)
 		(property "Field4" ""
 			(at 255.27 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CHECKED" "YES"
+			(at 255.27 43.18 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10595,24 +10262,6 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" ""
-			(at 91.44 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part No." ""
-			(at 91.44 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Part URL" ""
 			(at 91.44 50.8 0)
 			(effects
@@ -10633,6 +10282,15 @@
 		)
 		(property "Field4" ""
 			(at 91.44 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CHECKED" "YES"
+			(at 91.44 50.8 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10719,24 +10377,6 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" ""
-			(at 76.2 203.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part No." ""
-			(at 76.2 203.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Part URL" ""
 			(at 76.2 203.2 0)
 			(effects
@@ -10756,6 +10396,15 @@
 			)
 		)
 		(property "Field4" ""
+			(at 76.2 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CHECKED" "YES"
 			(at 76.2 203.2 0)
 			(effects
 				(font
