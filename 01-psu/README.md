@@ -5,10 +5,10 @@ This is the power supply unit for the Hog Moduleur, but it can be used in any Eu
 ## 🐷 Features
 
 - ±12V power. Works with any of the following Mean Well regulators:
-    - NSD10-12D12
-    - DKM10A-12
-    - DKMW20F-12
-    - DKMW30F-12
+    - [NSD10-12D12](https://mou.sr/3ZpECrS)
+    - [DKM10A-12](https://mou.sr/450kLTV)
+    - [DKMW20F-12](https://mou.sr/44G5aaH)
+    - [DKMW30F-12](https://mou.sr/450gwaT)
 - Requires **center positive** 12V DC input
 - Breakable board: PSU and connector section can be separated (cut) for flexible mounting
 - Built in DC barrel jack input and power switch
