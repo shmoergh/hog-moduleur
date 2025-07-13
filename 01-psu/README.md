@@ -19,7 +19,7 @@ This is the power supply unit for the Hog Moduleur, but it can be used in any Eu
 ## 🛠️ How to Build
 
 - Gerber files for JLCPCB ordering are in the [`electronics/production`](./electronics/production) folder
-- BOM is also in the [`electronics/production`](.electronics/production) folder. All components are available at Mouser
+- BOM is also in the [`electronics/production`](./electronics/production) folder. All components are available at Mouser
 - Use the KiCad schematic and PCB layout for soldering reference
 - **Before connecting any modules**, always measure the output voltages to confirm ±12V is stable
 
