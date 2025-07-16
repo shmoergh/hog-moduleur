@@ -2009,6 +2009,18 @@
 		)
 		(uuid "027f3937-bd2d-4b7e-9d43-daaa33544de8")
 	)
+	(text "Pots to be moved over \nto the UI board.\nThe main volume control can\nhappen on the UI board?"
+		(exclude_from_sim no)
+		(at 287.02 63.5 0)
+		(effects
+			(font
+				(size 2 2)
+				(color 255 0 255 1)
+			)
+			(justify left)
+		)
+		(uuid "2cf92793-546b-4fa5-9d77-f01485b94482")
+	)
 	(text "Inverter"
 		(exclude_from_sim no)
 		(at 189.23 149.86 0)
@@ -2058,6 +2070,18 @@
 			(justify left)
 		)
 		(uuid "4509ce1f-14bc-4984-a1b6-246e51f60d2e")
+	)
+	(text "Pots to be moved over \nto the UI board"
+		(exclude_from_sim no)
+		(at 143.51 113.03 0)
+		(effects
+			(font
+				(size 2 2)
+				(color 255 0 255 1)
+			)
+			(justify left)
+		)
+		(uuid "464e488a-9621-404b-8818-e827810805b0")
 	)
 	(text "Channel 4 input inverted"
 		(exclude_from_sim no)
@@ -2117,6 +2141,18 @@
 		)
 		(uuid "7abb10fb-1b60-4940-bc2f-5379305e8c53")
 	)
+	(text "Pots to be moved over \nto the UI board.\nFor channel 4 there\ncan be two inputs from\nthe UI board: one straigth\nfrom the jack (goes to peak\ndetector), and one which is\nafter a log volume pot control.\n"
+		(exclude_from_sim no)
+		(at 40.64 186.69 0)
+		(effects
+			(font
+				(size 2 2)
+				(color 255 0 255 1)
+			)
+			(justify left)
+		)
+		(uuid "7f0512cf-e4e5-4d21-a382-e69f66a45da4")
+	)
 	(text "DC coupled input allows the mixer\nto be used for audio as well as CV"
 		(exclude_from_sim no)
 		(at 27.94 34.29 0)
@@ -2155,6 +2191,18 @@
 			(justify left)
 		)
 		(uuid "c0e487e9-de36-44a0-9e12-67864d13debd")
+	)
+	(text "Pots to be moved over \nto the UI board"
+		(exclude_from_sim no)
+		(at -7.62 55.88 0)
+		(effects
+			(font
+				(size 2 2)
+				(color 255 0 255 1)
+			)
+			(justify left)
+		)
+		(uuid "f562223d-5319-41f9-85bb-e9f69aafd4fa")
 	)
 	(text "Inverted submix"
 		(exclude_from_sim no)
