@@ -122,18 +122,6 @@
         [
           "extra_footprint|175133000|60706000|8ac9be66-a987-4523-9df1-82395ec334e9|00000000-0000-0000-0000-000000000000",
           ""
-        ],
-        [
-          "lib_footprint_mismatch|127127000|96647000|666aa610-bd5a-47d0-93df-5487cfd5554f|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "lib_footprint_mismatch|158343600|136499600|bfd3e4d7-1477-438a-af55-cec438168ac3|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "lib_footprint_mismatch|170180000|45466000|b7d5d369-d3f7-441c-bff8-586a933020fc|00000000-0000-0000-0000-000000000000",
-          ""
         ]
       ],
       "meta": {
@@ -593,7 +581,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "plot/pdf/",
+      "plot": "plot/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",
@@ -796,7 +784,7 @@
       "workbook_filename": ""
     },
     "page_layout_descr_file": "",
-    "plot_directory": "plot/pdf/schematics/",
+    "plot_directory": "schematics/",
     "space_save_all_events": true,
     "spice_current_sheet_as_root": false,
     "spice_external_command": "spice \"%I\"",
