@@ -2030,17 +2030,6 @@
 		)
 		(uuid "090c128c-d9bd-4a77-a42d-9c38fb91340d")
 	)
-	(text "This input is prone to picking up radio. \nResistors should be as close to the \nchip as possible. 10n cap in feedback loop\nis added to suppress AM frequencies."
-		(exclude_from_sim no)
-		(at 67.31 137.16 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "276caacc-916b-442e-8b4a-03fde4ed5a2d")
-	)
 	(text "CV Input"
 		(exclude_from_sim no)
 		(at 29.21 82.55 0)
@@ -2105,15 +2094,14 @@
 		)
 		(uuid "7da47ff3-aba5-4e4e-a34d-d302b136142e")
 	)
-	(text "Maybe this should be on the UI board"
+	(text "This is on \nthe UI board"
 		(exclude_from_sim no)
-		(at -17.78 129.54 0)
+		(at 17.78 129.54 0)
 		(effects
 			(font
 				(size 2 2)
 				(thickness 0.254)
 				(bold yes)
-				(color 255 0 255 1)
 			)
 			(justify left bottom)
 		)
@@ -2143,20 +2131,6 @@
 			(justify left bottom)
 		)
 		(uuid "b6412a07-edb3-4181-a11c-a2e4cb30ba49")
-	)
-	(text "TEST:\nR2 and R3 values\nOnce tested, replace with SMD"
-		(exclude_from_sim no)
-		(at 36.83 156.21 0)
-		(effects
-			(font
-				(size 2 2)
-				(thickness 0.254)
-				(bold yes)
-				(color 255 0 255 1)
-			)
-			(justify left bottom)
-		)
-		(uuid "bc74dd23-ba24-4fcb-9a63-0cbb94576bf8")
 	)
 	(text "H"
 		(exclude_from_sim no)
@@ -2798,6 +2772,16 @@
 		)
 		(uuid "159e11cb-e167-41e3-8e3d-ab2dbe589d9c")
 	)
+	(polyline
+		(pts
+			(xy 76.2 147.32) (xy 20.32 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "15a5092a-934f-494d-9f58-2d2b8e801703")
+	)
 	(wire
 		(pts
 			(xy 96.52 27.94) (xy 102.87 27.94)
@@ -3187,6 +3171,16 @@
 			(type default)
 		)
 		(uuid "4ab00522-c4a6-4bdc-8acc-80fddf362af0")
+	)
+	(polyline
+		(pts
+			(xy 20.32 121.92) (xy 20.32 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4e14345c-5010-4167-aba0-40565fdffc86")
 	)
 	(wire
 		(pts
@@ -4228,6 +4222,16 @@
 		)
 		(uuid "d5fd6210-2459-44c5-a2ae-d8f7e42d16f9")
 	)
+	(polyline
+		(pts
+			(xy 20.32 130.81) (xy 20.32 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d703a6ef-360e-44fd-9fd2-3d4bf568eaa6")
+	)
 	(wire
 		(pts
 			(xy 82.55 27.94) (xy 82.55 39.37)
@@ -4448,6 +4452,16 @@
 		)
 		(uuid "ed99fe1c-cd00-4f6c-bb21-0106d38d5fff")
 	)
+	(polyline
+		(pts
+			(xy 76.2 111.76) (xy 76.2 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee6be069-bde9-400b-880f-6a06f6d4ed06")
+	)
 	(wire
 		(pts
 			(xy 147.32 85.09) (xy 171.45 85.09)
@@ -4507,6 +4521,16 @@
 			(type default)
 		)
 		(uuid "f64371ed-6fea-41ca-a338-4f06c5fa8ef5")
+	)
+	(polyline
+		(pts
+			(xy 20.32 111.76) (xy 76.2 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f6c60a95-0f35-4435-bb5a-0dc4b274b551")
 	)
 	(wire
 		(pts
@@ -12826,7 +12850,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "33k"
+		(property "Value" "33k?"
 			(at 144.78 82.7786 90)
 			(effects
 				(font

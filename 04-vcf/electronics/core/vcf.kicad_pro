@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.8,
-          "height": 1.27,
-          "width": 2.54
+          "drill": 3.2,
+          "height": 5.6,
+          "width": 5.6
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -58,7 +58,52 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "courtyards_overlap|157423000|127383000|d0d8ce34-0511-4944-8875-33b4778b0b93|fcaa28c8-d4b7-47c3-ae44-94dcc6490c66",
+          "Fine, diode will fit"
+        ],
+        [
+          "courtyards_overlap|157457000|110873000|d0d8ce34-0511-4944-8875-33b4778b0b93|dbc3266b-7d78-45a2-8bb7-90cb78a238b1",
+          "This is fine, the diode will fit"
+        ],
+        [
+          "duplicate_footprints|128318000|109024000|4e8faa91-a83e-4073-a3ec-5be79869442d|3c33adbb-c34a-4882-9cf7-62a8423b52ec",
+          ""
+        ],
+        [
+          "duplicate_footprints|136954000|108262000|7131ef50-d910-4d50-b5ad-efccf7603f3e|3c33adbb-c34a-4882-9cf7-62a8423b52ec",
+          ""
+        ],
+        [
+          "duplicate_footprints|152448000|98610000|9be7a3d6-e71c-41ad-9cc9-9785ade4006a|3c33adbb-c34a-4882-9cf7-62a8423b52ec",
+          ""
+        ],
+        [
+          "duplicate_footprints|174165000|136456000|cb62be64-5c5e-472f-9628-7114614c1979|3c33adbb-c34a-4882-9cf7-62a8423b52ec",
+          ""
+        ],
+        [
+          "extra_footprint|127556000|125026000|3c33adbb-c34a-4882-9cf7-62a8423b52ec|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "extra_footprint|128318000|109024000|4e8faa91-a83e-4073-a3ec-5be79869442d|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "extra_footprint|136954000|108262000|7131ef50-d910-4d50-b5ad-efccf7603f3e|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "extra_footprint|152448000|98610000|9be7a3d6-e71c-41ad-9cc9-9785ade4006a|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "extra_footprint|174165000|136456000|cb62be64-5c5e-472f-9628-7114614c1979|00000000-0000-0000-0000-000000000000",
+          ""
+        ]
+      ],
       "meta": {
         "version": 2
       },
