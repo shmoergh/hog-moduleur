@@ -317,7 +317,12 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [],
+    "erc_exclusions": [
+      [
+        "multiple_net_names|660400|431800|1810557a-9d5d-46dc-948b-653b47e486c7|4aee9b5f-dd2f-4f31-97d9-02d8d703ae82|/ab333f71-eefa-415f-b212-ebe7a942b1c8|/ab333f71-eefa-415f-b212-ebe7a942b1c8|/ab333f71-eefa-415f-b212-ebe7a942b1c8",
+        ""
+      ]
+    ],
     "meta": {
       "version": 0
     },
@@ -541,7 +546,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "vco-ui.kicad_pro",
+    "filename": "vcf-ui.kicad_pro",
     "version": 3
   },
   "net_settings": {
