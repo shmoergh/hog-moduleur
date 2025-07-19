@@ -4386,7 +4386,7 @@
 		)
 		(uuid "e27b6ef5-52e4-480a-97ed-6f7366325980")
 	)
-	(global_label "RESO_OUT"
+	(global_label "RESO_VALUE"
 		(shape output)
 		(at 184.15 43.18 0)
 		(fields_autoplaced yes)
@@ -4398,7 +4398,7 @@
 		)
 		(uuid "04eecd8c-e05a-4680-b717-85c905306cb6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 196.6904 43.18 0)
+			(at 198.7466 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4606,7 +4606,7 @@
 			)
 		)
 	)
-	(global_label "RESO_IN"
+	(global_label "RESO_MAX"
 		(shape output)
 		(at 184.15 35.56 0)
 		(fields_autoplaced yes)
@@ -4618,7 +4618,7 @@
 		)
 		(uuid "4d480607-9640-4533-b0a6-2fee1384a19c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 194.9971 35.56 0)
+			(at 196.8113 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4672,7 +4672,7 @@
 			)
 		)
 	)
-	(global_label "RESO_OUT"
+	(global_label "RESO_MAX"
 		(shape output)
 		(at 261.62 83.82 0)
 		(fields_autoplaced yes)
@@ -4684,7 +4684,7 @@
 		)
 		(uuid "660ca990-2eae-49a4-b0d9-aa9dbe80bab9")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 274.1604 83.82 0)
+			(at 274.2813 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4738,7 +4738,7 @@
 			)
 		)
 	)
-	(global_label "RESO_IN"
+	(global_label "RESO_VALUE"
 		(shape output)
 		(at 261.62 86.36 0)
 		(fields_autoplaced yes)
@@ -4750,7 +4750,7 @@
 		)
 		(uuid "791066e3-6352-4b26-9c6b-2c2e186e0dd3")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 272.4671 86.36 0)
+			(at 276.2166 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5898,7 +5898,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "27bd3ff8-fff8-4d5e-8899-aaec8ef80f16")
-		(property "Reference" "J_CV1"
+		(property "Reference" "J_LP1"
 			(at 109.855 149.86 0)
 			(effects
 				(font
@@ -5989,7 +5989,7 @@
 		(instances
 			(project "vco-ui"
 				(path "/ab333f71-eefa-415f-b212-ebe7a942b1c8"
-					(reference "J_CV1")
+					(reference "J_LP1")
 					(unit 1)
 				)
 			)
@@ -6780,7 +6780,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4d799e58-c9b5-4b03-8d6c-ae248ab90695")
-		(property "Reference" "J_SYNC1"
+		(property "Reference" "J_HP1"
 			(at 79.375 149.86 0)
 			(effects
 				(font
@@ -6871,7 +6871,7 @@
 		(instances
 			(project ""
 				(path "/ab333f71-eefa-415f-b212-ebe7a942b1c8"
-					(reference "J_SYNC1")
+					(reference "J_HP1")
 					(unit 1)
 				)
 			)
@@ -7730,7 +7730,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Shmoergh_Custom_Footprints:Potentiometer_Bourns_Single-PTV09A"
+		(property "Footprint" "Potentiometer_THT:Potentiometer_ACP_CA6-H2,5_Horizontal"
 			(at 45.72 43.18 0)
 			(effects
 				(font
@@ -7749,6 +7749,42 @@
 			)
 		)
 		(property "Description" "Trim-potentiometer"
+			(at 45.72 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part No." ""
+			(at 45.72 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part URL" ""
+			(at 45.72 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor" ""
+			(at 45.72 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
 			(at 45.72 43.18 0)
 			(effects
 				(font
@@ -8459,7 +8495,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ab8d558a-5172-4fef-80ee-6fdb35365617")
-		(property "Reference" "RV_CUTOFF3"
+		(property "Reference" "RV_CUTOFF2"
 			(at 158.75 109.2201 0)
 			(effects
 				(font
@@ -8552,7 +8588,7 @@
 		(instances
 			(project "vcf-ui"
 				(path "/ab333f71-eefa-415f-b212-ebe7a942b1c8"
-					(reference "RV_CUTOFF3")
+					(reference "RV_CUTOFF2")
 					(unit 1)
 				)
 			)
@@ -9742,7 +9778,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d6e67475-0d8e-48ac-a196-5e86f28f555f")
-		(property "Reference" "RV_CUTOFF2"
+		(property "Reference" "RV_MAIN_CUTOFF1"
 			(at 90.17 43.1801 0)
 			(effects
 				(font
@@ -9835,7 +9871,7 @@
 		(instances
 			(project "vco-ui"
 				(path "/ab333f71-eefa-415f-b212-ebe7a942b1c8"
-					(reference "RV_CUTOFF2")
+					(reference "RV_MAIN_CUTOFF1")
 					(unit 1)
 				)
 			)

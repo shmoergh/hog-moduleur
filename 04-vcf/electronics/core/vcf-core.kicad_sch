@@ -1434,7 +1434,7 @@
 			)
 		)
 	)
-	(global_label "RESO_IN"
+	(global_label "RESO_VALUE"
 		(shape input)
 		(at 60.96 86.36 180)
 		(fields_autoplaced yes)
@@ -1446,7 +1446,7 @@
 		)
 		(uuid "1eefb18f-2a78-453c-9539-46e9492c2705")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 50.1129 86.36 0)
+			(at 46.3634 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1522,7 +1522,7 @@
 			)
 		)
 	)
-	(global_label "RESO_IN"
+	(global_label "RESO_VALUE"
 		(shape input)
 		(at 262.89 104.14 0)
 		(fields_autoplaced yes)
@@ -1534,7 +1534,7 @@
 		)
 		(uuid "8b4431d0-7acc-475f-9f13-1137c15a49f5")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 273.7371 104.14 0)
+			(at 277.4866 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1544,7 +1544,7 @@
 			)
 		)
 	)
-	(global_label "RESO_OUT"
+	(global_label "RESO_MAX"
 		(shape output)
 		(at 262.89 101.6 0)
 		(fields_autoplaced yes)
@@ -1556,7 +1556,7 @@
 		)
 		(uuid "ce3b5143-eb8b-4df8-a025-69d9cfb8e60c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 275.4304 101.6 0)
+			(at 275.5513 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1632,7 +1632,7 @@
 			)
 		)
 	)
-	(global_label "RESO_OUT"
+	(global_label "RESO_MAX"
 		(shape output)
 		(at 101.6 86.36 0)
 		(fields_autoplaced yes)
@@ -1644,7 +1644,7 @@
 		)
 		(uuid "f968a8df-e5c5-4192-b32a-cd2d16ef57be")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 114.1404 86.36 0)
+			(at 114.2613 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2696,19 +2696,9 @@
 				(justify left)
 			)
 		)
-		(pin "RESO_IN" input
-			(at 63.5 86.36 180)
-			(uuid "243e7ab5-77e3-4ba6-a418-4949af343325")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "RESO_OUT" output
+		(pin "RESO_MAX" output
 			(at 99.06 86.36 0)
-			(uuid "02b06539-6804-4267-81ae-242220ded806")
+			(uuid "cdbbc0b0-970d-416c-a8d2-71caa20b7dfe")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2716,8 +2706,18 @@
 				(justify right)
 			)
 		)
+		(pin "RESO_VALUE" input
+			(at 63.5 86.36 180)
+			(uuid "67486497-9bee-46eb-989e-d3636f62d817")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(instances
-			(project "vcf"
+			(project "vcf-core"
 				(path "/8e2e31f3-eed5-4de1-966c-f4162758c735"
 					(page "3")
 				)
@@ -2759,7 +2759,7 @@
 			)
 		)
 		(instances
-			(project "vcf"
+			(project "vcf-core"
 				(path "/8e2e31f3-eed5-4de1-966c-f4162758c735"
 					(page "4")
 				)

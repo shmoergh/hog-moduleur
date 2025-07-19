@@ -4612,7 +4612,7 @@
 		)
 		(uuid "ff06ffd0-4669-4678-806f-e7b245ca1e89")
 	)
-	(hierarchical_label "RESO_OUT"
+	(hierarchical_label "RESO_MAX"
 		(shape output)
 		(at 297.18 96.52 0)
 		(effects
@@ -4656,7 +4656,7 @@
 		)
 		(uuid "45914de8-62f6-416e-a968-2e599c719b14")
 	)
-	(hierarchical_label "RESO_IN"
+	(hierarchical_label "RESO_VALUE"
 		(shape input)
 		(at 297.18 124.46 0)
 		(effects
