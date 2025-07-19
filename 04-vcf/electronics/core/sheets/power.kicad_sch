@@ -2492,6 +2492,24 @@
 				(hide yes)
 			)
 		)
+		(property "Arwill" ""
+			(at 219.71 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Hestore" ""
+			(at 219.71 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "163415d5-e0ea-4e22-b247-44f9766bf646")
 		)
@@ -2654,6 +2672,24 @@
 			)
 		)
 		(property "CHECKED" "YES"
+			(at 163.83 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arwill" ""
+			(at 163.83 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Hestore" ""
 			(at 163.83 101.6 0)
 			(effects
 				(font
@@ -2966,7 +3002,25 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part no." "200-TSW10307TD"
+		(property "Arwill" ""
+			(at 77.47 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Hestore" ""
+			(at 77.47 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part no." "200-TSW10307TD"
 			(at 77.47 87.63 0)
 			(effects
 				(font
@@ -3279,6 +3333,24 @@
 				(hide yes)
 			)
 		)
+		(property "Arwill" ""
+			(at 219.71 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Hestore" ""
+			(at 219.71 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "4734d764-1c18-40cf-a5fa-cec8971472e0")
 		)
@@ -3553,7 +3625,25 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part no." "571-5103310-1"
+		(property "Arwill" ""
+			(at 144.78 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Hestore" ""
+			(at 144.78 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part no." "571-5103310-1"
 			(at 144.78 92.71 0)
 			(effects
 				(font
@@ -3791,6 +3881,24 @@
 				(hide yes)
 			)
 		)
+		(property "Arwill" ""
+			(at 162.56 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Hestore" ""
+			(at 162.56 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "29cec73a-9d5a-4ed0-9d2c-2cab845e53d0")
 		)
@@ -3942,6 +4050,33 @@
 				(hide yes)
 			)
 		)
+		(property "Arwill" ""
+			(at 176.53 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Hestore" ""
+			(at 176.53 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor" "X"
+			(at 176.53 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e644b456-52d0-476f-ab11-45a519aacbb7")
 		)
@@ -4045,7 +4180,25 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part no." "200-HTSW10207TS"
+		(property "Arwill" ""
+			(at 81.28 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Hestore" ""
+			(at 81.28 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part no." "200-HTSW10207TS"
 			(at 81.28 104.14 0)
 			(effects
 				(font
@@ -4403,6 +4556,33 @@
 			)
 		)
 		(property "CHECKED" "YES"
+			(at 176.53 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arwill" ""
+			(at 176.53 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Hestore" ""
+			(at 176.53 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor" "X"
 			(at 176.53 78.74 0)
 			(effects
 				(font

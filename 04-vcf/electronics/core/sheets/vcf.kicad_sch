@@ -4740,15 +4740,6 @@
 				(hide yes)
 			)
 		)
-		(property "Part No." ""
-			(at 90.17 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Part URL" ""
 			(at 90.17 113.03 0)
 			(effects
@@ -4759,6 +4750,33 @@
 			)
 		)
 		(property "Vendor" "JLCPCB"
+			(at 90.17 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arwill" ""
+			(at 90.17 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Hestore" ""
+			(at 90.17 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CHECKED" "YES"
 			(at 90.17 113.03 0)
 			(effects
 				(font
@@ -4862,15 +4880,6 @@
 				(hide yes)
 			)
 		)
-		(property "Part No." ""
-			(at 208.28 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Part URL" ""
 			(at 208.28 177.8 0)
 			(effects
@@ -4881,6 +4890,33 @@
 			)
 		)
 		(property "Vendor" "JLCPCB"
+			(at 208.28 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arwill" ""
+			(at 208.28 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Hestore" ""
+			(at 208.28 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CHECKED" "YES"
 			(at 208.28 177.8 0)
 			(effects
 				(font
@@ -4985,15 +5021,6 @@
 				(hide yes)
 			)
 		)
-		(property "Part No." ""
-			(at 25.4 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Part URL" ""
 			(at 25.4 175.26 0)
 			(effects
@@ -5004,6 +5031,33 @@
 			)
 		)
 		(property "Vendor" "JLCPCB"
+			(at 25.4 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arwill" ""
+			(at 25.4 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Hestore" ""
+			(at 25.4 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CHECKED" "YES"
 			(at 25.4 175.26 0)
 			(effects
 				(font
@@ -5202,7 +5256,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 33.9852 175.26 0)
 			(effects
 				(font
@@ -5238,15 +5292,6 @@
 				(hide yes)
 			)
 		)
-		(property "Part No." ""
-			(at 33.02 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Part URL" ""
 			(at 33.02 171.45 0)
 			(effects
@@ -5257,6 +5302,33 @@
 			)
 		)
 		(property "Vendor" "JLCPCB"
+			(at 33.02 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arwill" ""
+			(at 33.02 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Hestore" ""
+			(at 33.02 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CHECKED" "YES"
 			(at 33.02 171.45 0)
 			(effects
 				(font
@@ -5982,15 +6054,6 @@
 				(hide yes)
 			)
 		)
-		(property "Part No." ""
-			(at 90.17 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Part URL" ""
 			(at 90.17 93.98 0)
 			(effects
@@ -6002,6 +6065,33 @@
 		)
 		(property "Vendor" "JLCPCB"
 			(at 90.17 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arwill" ""
+			(at 90.17 93.98 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Hestore" ""
+			(at 90.17 93.98 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CHECKED" "YES"
+			(at 90.17 93.98 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6085,15 +6175,6 @@
 				(hide yes)
 			)
 		)
-		(property "Part No." ""
-			(at 113.03 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Part URL" ""
 			(at 113.03 113.03 0)
 			(effects
@@ -6105,6 +6186,33 @@
 		)
 		(property "Vendor" "JLCPCB"
 			(at 113.03 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arwill" ""
+			(at 113.03 113.03 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Hestore" ""
+			(at 113.03 113.03 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CHECKED" "YES"
+			(at 113.03 113.03 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6188,15 +6296,6 @@
 				(hide yes)
 			)
 		)
-		(property "Part No." ""
-			(at 130.81 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Part URL" ""
 			(at 130.81 100.33 0)
 			(effects
@@ -6208,6 +6307,33 @@
 		)
 		(property "Vendor" "JLCPCB"
 			(at 130.81 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arwill" ""
+			(at 130.81 100.33 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Hestore" ""
+			(at 130.81 100.33 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CHECKED" "YES"
+			(at 130.81 100.33 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6293,15 +6419,6 @@
 				(hide yes)
 			)
 		)
-		(property "Part No." ""
-			(at 142.24 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Part URL" ""
 			(at 142.24 125.73 0)
 			(effects
@@ -6312,6 +6429,33 @@
 			)
 		)
 		(property "Vendor" "JLCPCB"
+			(at 142.24 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arwill" ""
+			(at 142.24 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Hestore" ""
+			(at 142.24 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CHECKED" "YES"
 			(at 142.24 125.73 0)
 			(effects
 				(font
@@ -6528,15 +6672,6 @@
 				(hide yes)
 			)
 		)
-		(property "Part No." ""
-			(at 171.45 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Part URL" ""
 			(at 171.45 130.81 0)
 			(effects
@@ -6547,6 +6682,33 @@
 			)
 		)
 		(property "Vendor" "JLCPCB"
+			(at 171.45 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arwill" ""
+			(at 171.45 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Hestore" ""
+			(at 171.45 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CHECKED" "YES"
 			(at 171.45 130.81 0)
 			(effects
 				(font
@@ -6633,15 +6795,6 @@
 				(hide yes)
 			)
 		)
-		(property "Part No." ""
-			(at 166.37 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Part URL" ""
 			(at 166.37 142.24 0)
 			(effects
@@ -6652,6 +6805,33 @@
 			)
 		)
 		(property "Vendor" "JLCPCB"
+			(at 166.37 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arwill" ""
+			(at 166.37 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Hestore" ""
+			(at 166.37 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CHECKED" "YES"
 			(at 166.37 142.24 0)
 			(effects
 				(font
@@ -6738,15 +6918,6 @@
 				(hide yes)
 			)
 		)
-		(property "Part No." ""
-			(at 176.53 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Part URL" ""
 			(at 176.53 142.24 0)
 			(effects
@@ -6757,6 +6928,33 @@
 			)
 		)
 		(property "Vendor" "JLCPCB"
+			(at 176.53 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arwill" ""
+			(at 176.53 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Hestore" ""
+			(at 176.53 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CHECKED" "YES"
 			(at 176.53 142.24 0)
 			(effects
 				(font
@@ -6899,15 +7097,6 @@
 				(hide yes)
 			)
 		)
-		(property "Part No." "80-R82EC1100SH50J "
-			(at 156.21 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Part URL" "https://mou.sr/3ZRLX4F"
 			(at 156.21 74.93 0)
 			(effects
@@ -6927,6 +7116,42 @@
 			)
 		)
 		(property "LCSC" ""
+			(at 156.21 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arwill" ""
+			(at 156.21 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Hestore" ""
+			(at 156.21 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part no." "80-R82EC1100SH50J "
+			(at 156.21 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CHECKED" "YES"
 			(at 156.21 74.93 0)
 			(effects
 				(font
@@ -7004,15 +7229,6 @@
 				(hide yes)
 			)
 		)
-		(property "Part No." "80-R82EC1100SH50J "
-			(at 171.45 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Part URL" "https://mou.sr/3ZRLX4F"
 			(at 171.45 74.93 0)
 			(effects
@@ -7032,6 +7248,42 @@
 			)
 		)
 		(property "LCSC" ""
+			(at 171.45 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arwill" ""
+			(at 171.45 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Hestore" ""
+			(at 171.45 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part no." "80-R82EC1100SH50J "
+			(at 171.45 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CHECKED" "YES"
 			(at 171.45 74.93 0)
 			(effects
 				(font
@@ -7109,15 +7361,6 @@
 				(hide yes)
 			)
 		)
-		(property "Part No." "80-R82EC1100SH50J "
-			(at 186.69 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Part URL" "https://mou.sr/3ZRLX4F"
 			(at 186.69 74.93 0)
 			(effects
@@ -7137,6 +7380,42 @@
 			)
 		)
 		(property "LCSC" ""
+			(at 186.69 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arwill" ""
+			(at 186.69 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Hestore" ""
+			(at 186.69 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part no." "80-R82EC1100SH50J "
+			(at 186.69 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CHECKED" "YES"
 			(at 186.69 74.93 0)
 			(effects
 				(font
@@ -7223,15 +7502,6 @@
 				(hide yes)
 			)
 		)
-		(property "Part No." ""
-			(at 171.45 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Part URL" ""
 			(at 171.45 92.71 0)
 			(effects
@@ -7242,6 +7512,33 @@
 			)
 		)
 		(property "Vendor" "JLCPCB"
+			(at 171.45 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arwill" ""
+			(at 171.45 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Hestore" ""
+			(at 171.45 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CHECKED" "YES"
 			(at 171.45 92.71 0)
 			(effects
 				(font
@@ -7409,15 +7706,6 @@
 				(hide yes)
 			)
 		)
-		(property "Part No." ""
-			(at 137.16 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Part URL" ""
 			(at 137.16 67.31 0)
 			(effects
@@ -7428,6 +7716,33 @@
 			)
 		)
 		(property "Vendor" "JLCPCB"
+			(at 137.16 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arwill" ""
+			(at 137.16 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Hestore" ""
+			(at 137.16 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CHECKED" "YES"
 			(at 137.16 67.31 0)
 			(effects
 				(font
@@ -7514,7 +7829,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part No." ""
+		(property "Part URL" "https://mou.sr/45bEPTm"
 			(at 133.35 53.34 0)
 			(effects
 				(font
@@ -7523,7 +7838,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part URL" ""
+		(property "Vendor" "Mouser"
 			(at 133.35 53.34 0)
 			(effects
 				(font
@@ -7532,7 +7847,34 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor" ""
+		(property "Arwill" ""
+			(at 133.35 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Hestore" ""
+			(at 133.35 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CHECKED" "YES"
+			(at 133.35 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part no." "594-MBB02070C2001FCT "
 			(at 133.35 53.34 0)
 			(effects
 				(font
@@ -7619,7 +7961,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part No." ""
+		(property "Part URL" "https://mou.sr/45bEPTm"
 			(at 209.55 53.34 0)
 			(effects
 				(font
@@ -7628,7 +7970,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part URL" ""
+		(property "Vendor" "Mouser"
 			(at 209.55 53.34 0)
 			(effects
 				(font
@@ -7637,7 +7979,34 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor" ""
+		(property "Arwill" ""
+			(at 209.55 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Hestore" ""
+			(at 209.55 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CHECKED" "YES"
+			(at 209.55 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part no." "594-MBB02070C2001FCT "
 			(at 209.55 53.34 0)
 			(effects
 				(font
@@ -7854,15 +8223,6 @@
 				(hide yes)
 			)
 		)
-		(property "Part No." ""
-			(at 171.45 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Part URL" ""
 			(at 171.45 36.83 0)
 			(effects
@@ -7873,6 +8233,33 @@
 			)
 		)
 		(property "Vendor" "JLCPCB"
+			(at 171.45 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arwill" ""
+			(at 171.45 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Hestore" ""
+			(at 171.45 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CHECKED" "YES"
 			(at 171.45 36.83 0)
 			(effects
 				(font
@@ -7959,15 +8346,6 @@
 				(hide yes)
 			)
 		)
-		(property "Part No." ""
-			(at 171.45 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Part URL" ""
 			(at 171.45 26.67 0)
 			(effects
@@ -7978,6 +8356,33 @@
 			)
 		)
 		(property "Vendor" "JLCPCB"
+			(at 171.45 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arwill" ""
+			(at 171.45 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Hestore" ""
+			(at 171.45 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CHECKED" "YES"
 			(at 171.45 26.67 0)
 			(effects
 				(font
@@ -8194,15 +8599,6 @@
 				(hide yes)
 			)
 		)
-		(property "Part No." ""
-			(at 119.38 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Part URL" ""
 			(at 119.38 49.53 0)
 			(effects
@@ -8213,6 +8609,33 @@
 			)
 		)
 		(property "Vendor" "JLCPCB"
+			(at 119.38 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arwill" ""
+			(at 119.38 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Hestore" ""
+			(at 119.38 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CHECKED" "YES"
 			(at 119.38 49.53 0)
 			(effects
 				(font
@@ -8362,15 +8785,6 @@
 				(hide yes)
 			)
 		)
-		(property "Part No." ""
-			(at 110.49 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Part URL" ""
 			(at 110.49 41.91 0)
 			(effects
@@ -8382,6 +8796,33 @@
 		)
 		(property "Vendor" "JLCPCB"
 			(at 110.49 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arwill" ""
+			(at 110.49 41.91 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Hestore" ""
+			(at 110.49 41.91 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CHECKED" "YES"
+			(at 110.49 41.91 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8530,15 +8971,6 @@
 				(hide yes)
 			)
 		)
-		(property "Part No." ""
-			(at 92.71 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Part URL" ""
 			(at 92.71 27.94 0)
 			(effects
@@ -8550,6 +8982,33 @@
 		)
 		(property "Vendor" "JLCPCB"
 			(at 92.71 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arwill" ""
+			(at 92.71 27.94 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Hestore" ""
+			(at 92.71 27.94 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CHECKED" "YES"
+			(at 92.71 27.94 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8633,15 +9092,6 @@
 				(hide yes)
 			)
 		)
-		(property "Part No." ""
-			(at 74.93 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Part URL" ""
 			(at 74.93 39.37 0)
 			(effects
@@ -8653,6 +9103,33 @@
 		)
 		(property "Vendor" "JLCPCB"
 			(at 74.93 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arwill" ""
+			(at 74.93 39.37 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Hestore" ""
+			(at 74.93 39.37 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CHECKED" "YES"
+			(at 74.93 39.37 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8727,15 +9204,6 @@
 				(hide yes)
 			)
 		)
-		(property "Part No." "80-R82EC1470DQ50K "
-			(at 224.79 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Part URL" "https://mou.sr/4g5F5Xb"
 			(at 224.79 59.69 0)
 			(effects
@@ -8756,6 +9224,42 @@
 		)
 		(property "LCSC" ""
 			(at 224.79 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arwill" ""
+			(at 224.79 59.69 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Hestore" ""
+			(at 224.79 59.69 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part no." "80-R82EC1470DQ50K "
+			(at 224.79 59.69 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CHECKED" "YES"
+			(at 224.79 59.69 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8841,15 +9345,6 @@
 				(hide yes)
 			)
 		)
-		(property "Part No." ""
-			(at 232.41 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Part URL" ""
 			(at 232.41 66.04 0)
 			(effects
@@ -8860,6 +9355,33 @@
 			)
 		)
 		(property "Vendor" "JLCPCB"
+			(at 232.41 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arwill" ""
+			(at 232.41 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Hestore" ""
+			(at 232.41 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CHECKED" "YES"
 			(at 232.41 66.04 0)
 			(effects
 				(font
@@ -9011,15 +9533,6 @@
 				(hide yes)
 			)
 		)
-		(property "Part No." ""
-			(at 240.03 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Part URL" ""
 			(at 240.03 66.04 0)
 			(effects
@@ -9030,6 +9543,33 @@
 			)
 		)
 		(property "Vendor" "JLCPCB"
+			(at 240.03 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arwill" ""
+			(at 240.03 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Hestore" ""
+			(at 240.03 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CHECKED" "YES"
 			(at 240.03 66.04 0)
 			(effects
 				(font
@@ -9179,15 +9719,6 @@
 				(hide yes)
 			)
 		)
-		(property "Part No." ""
-			(at 252.73 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Part URL" ""
 			(at 252.73 43.18 0)
 			(effects
@@ -9199,6 +9730,33 @@
 		)
 		(property "Vendor" "JLCPCB"
 			(at 252.73 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arwill" ""
+			(at 252.73 43.18 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Hestore" ""
+			(at 252.73 43.18 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CHECKED" "YES"
+			(at 252.73 43.18 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9282,15 +9840,6 @@
 				(hide yes)
 			)
 		)
-		(property "Part No." ""
-			(at 281.94 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Part URL" ""
 			(at 281.94 57.15 0)
 			(effects
@@ -9302,6 +9851,33 @@
 		)
 		(property "Vendor" "JLCPCB"
 			(at 281.94 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arwill" ""
+			(at 281.94 57.15 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Hestore" ""
+			(at 281.94 57.15 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CHECKED" "YES"
+			(at 281.94 57.15 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9450,15 +10026,6 @@
 				(hide yes)
 			)
 		)
-		(property "Part No." ""
-			(at 297.18 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Part URL" ""
 			(at 297.18 45.72 0)
 			(effects
@@ -9470,6 +10037,33 @@
 		)
 		(property "Vendor" "JLCPCB"
 			(at 297.18 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arwill" ""
+			(at 297.18 45.72 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Hestore" ""
+			(at 297.18 45.72 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CHECKED" "YES"
+			(at 297.18 45.72 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9553,15 +10147,6 @@
 				(hide yes)
 			)
 		)
-		(property "Part No." ""
-			(at 313.69 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Part URL" ""
 			(at 313.69 59.69 0)
 			(effects
@@ -9573,6 +10158,33 @@
 		)
 		(property "Vendor" "JLCPCB"
 			(at 313.69 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arwill" ""
+			(at 313.69 59.69 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Hestore" ""
+			(at 313.69 59.69 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CHECKED" "YES"
+			(at 313.69 59.69 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9658,15 +10270,6 @@
 				(hide yes)
 			)
 		)
-		(property "Part No." ""
-			(at 284.48 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Part URL" ""
 			(at 284.48 102.87 0)
 			(effects
@@ -9677,6 +10280,33 @@
 			)
 		)
 		(property "Vendor" "JLCPCB"
+			(at 284.48 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arwill" ""
+			(at 284.48 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Hestore" ""
+			(at 284.48 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CHECKED" "YES"
 			(at 284.48 102.87 0)
 			(effects
 				(font
@@ -9826,15 +10456,6 @@
 				(hide yes)
 			)
 		)
-		(property "Part No." ""
-			(at 265.43 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Part URL" ""
 			(at 265.43 109.22 0)
 			(effects
@@ -9846,6 +10467,33 @@
 		)
 		(property "Vendor" "JLCPCB"
 			(at 265.43 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arwill" ""
+			(at 265.43 109.22 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Hestore" ""
+			(at 265.43 109.22 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CHECKED" "YES"
+			(at 265.43 109.22 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9931,15 +10579,6 @@
 				(hide yes)
 			)
 		)
-		(property "Part No." ""
-			(at 260.35 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Part URL" ""
 			(at 260.35 115.57 0)
 			(effects
@@ -9950,6 +10589,33 @@
 			)
 		)
 		(property "Vendor" "JLCPCB"
+			(at 260.35 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arwill" ""
+			(at 260.35 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Hestore" ""
+			(at 260.35 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CHECKED" "YES"
 			(at 260.35 115.57 0)
 			(effects
 				(font
@@ -10099,15 +10765,6 @@
 				(hide yes)
 			)
 		)
-		(property "Part No." ""
-			(at 229.87 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Part URL" ""
 			(at 229.87 106.68 0)
 			(effects
@@ -10119,6 +10776,33 @@
 		)
 		(property "Vendor" "JLCPCB"
 			(at 229.87 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arwill" ""
+			(at 229.87 106.68 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Hestore" ""
+			(at 229.87 106.68 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CHECKED" "YES"
+			(at 229.87 106.68 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10399,7 +11083,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 86.36 78.4352 0)
 			(effects
 				(font
@@ -10435,15 +11119,6 @@
 				(hide yes)
 			)
 		)
-		(property "Part No." ""
-			(at 90.17 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Part URL" ""
 			(at 90.17 77.47 0)
 			(effects
@@ -10455,6 +11130,33 @@
 		)
 		(property "Vendor" "JLCPCB"
 			(at 90.17 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arwill" ""
+			(at 90.17 77.47 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Hestore" ""
+			(at 90.17 77.47 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CHECKED" "YES"
+			(at 90.17 77.47 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10529,15 +11231,6 @@
 				(hide yes)
 			)
 		)
-		(property "Part No." "80-R82EC4100Z370K "
-			(at 271.78 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Part URL" "https://mou.sr/3ZROEn2"
 			(at 271.78 57.15 0)
 			(effects
@@ -10558,6 +11251,42 @@
 		)
 		(property "LCSC" ""
 			(at 271.78 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arwill" ""
+			(at 271.78 57.15 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Hestore" ""
+			(at 271.78 57.15 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part no." "80-R82EC4100Z370K "
+			(at 271.78 57.15 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CHECKED" "YES"
+			(at 271.78 57.15 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10633,15 +11362,6 @@
 				(hide yes)
 			)
 		)
-		(property "Part No." "531-PT6KH-1K "
-			(at 171.45 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Part URL" "https://mou.sr/3DgNY1x"
 			(at 171.45 46.99 0)
 			(effects
@@ -10662,6 +11382,42 @@
 		)
 		(property "LCSC" ""
 			(at 171.45 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arwill" ""
+			(at 171.45 46.99 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Hestore" ""
+			(at 171.45 46.99 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part no." "531-PT6KH-1K "
+			(at 171.45 46.99 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CHECKED" "YES"
+			(at 171.45 46.99 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10750,15 +11506,6 @@
 				(hide yes)
 			)
 		)
-		(property "Part No." ""
-			(at 68.58 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Part URL" ""
 			(at 68.58 175.26 0)
 			(effects
@@ -10769,6 +11516,33 @@
 			)
 		)
 		(property "Vendor" "JLCPCB"
+			(at 68.58 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arwill" ""
+			(at 68.58 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Hestore" ""
+			(at 68.58 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CHECKED" "YES"
 			(at 68.58 175.26 0)
 			(effects
 				(font
@@ -10981,15 +11755,6 @@
 				(hide yes)
 			)
 		)
-		(property "Part No." ""
-			(at 55.88 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Part URL" ""
 			(at 55.88 60.96 0)
 			(effects
@@ -11000,6 +11765,33 @@
 			)
 		)
 		(property "Vendor" "JLCPCB"
+			(at 55.88 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arwill" ""
+			(at 55.88 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Hestore" ""
+			(at 55.88 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CHECKED" "YES"
 			(at 55.88 60.96 0)
 			(effects
 				(font
@@ -11123,6 +11915,24 @@
 				(hide yes)
 			)
 		)
+		(property "Arwill" ""
+			(at 97.79 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Hestore" ""
+			(at 97.79 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b8c6e2a2-e2fd-43ea-acb0-c09ba4a97e83")
 		)
@@ -11165,7 +11975,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 55.5752 175.26 0)
 			(effects
 				(font
@@ -11201,15 +12011,6 @@
 				(hide yes)
 			)
 		)
-		(property "Part No." ""
-			(at 54.61 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Part URL" ""
 			(at 54.61 171.45 0)
 			(effects
@@ -11220,6 +12021,33 @@
 			)
 		)
 		(property "Vendor" "JLCPCB"
+			(at 54.61 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arwill" ""
+			(at 54.61 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Hestore" ""
+			(at 54.61 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CHECKED" "YES"
 			(at 54.61 171.45 0)
 			(effects
 				(font
@@ -11270,7 +12098,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 55.5752 182.88 0)
 			(effects
 				(font
@@ -11306,15 +12134,6 @@
 				(hide yes)
 			)
 		)
-		(property "Part No." ""
-			(at 54.61 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Part URL" ""
 			(at 54.61 179.07 0)
 			(effects
@@ -11325,6 +12144,33 @@
 			)
 		)
 		(property "Vendor" "JLCPCB"
+			(at 54.61 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arwill" ""
+			(at 54.61 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Hestore" ""
+			(at 54.61 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CHECKED" "YES"
 			(at 54.61 179.07 0)
 			(effects
 				(font
@@ -11403,15 +12249,6 @@
 				(hide yes)
 			)
 		)
-		(property "Part No." "531-PT6KH104A1010PM "
-			(at 264.16 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Part URL" "https://mou.sr/3OVlmh2"
 			(at 264.16 71.12 0)
 			(effects
@@ -11431,6 +12268,42 @@
 			)
 		)
 		(property "LCSC" ""
+			(at 264.16 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arwill" ""
+			(at 264.16 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Hestore" ""
+			(at 264.16 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part no." "531-PT6KH104A1010PM "
+			(at 264.16 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CHECKED" "YES"
 			(at 264.16 71.12 0)
 			(effects
 				(font
@@ -11736,7 +12609,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part No." ""
+		(property "Part URL" "https://mou.sr/44w0zrg"
 			(at 252.73 146.05 0)
 			(effects
 				(font
@@ -11745,16 +12618,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part URL" ""
-			(at 252.73 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Vendor" ""
+		(property "Vendor" "Mouser"
 			(at 252.73 146.05 0)
 			(effects
 				(font
@@ -11764,6 +12628,42 @@
 			)
 		)
 		(property "LCSC" ""
+			(at 252.73 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arwill" ""
+			(at 252.73 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Hestore" ""
+			(at 252.73 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CHECKED" "YES"
+			(at 252.73 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part no." "855-S1711-46R "
 			(at 252.73 146.05 0)
 			(effects
 				(font
@@ -11865,6 +12765,24 @@
 			)
 		)
 		(property "CHECKED" "YES"
+			(at 130.81 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arwill" ""
+			(at 130.81 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Hestore" ""
 			(at 130.81 115.57 0)
 			(effects
 				(font
@@ -11985,15 +12903,6 @@
 				(hide yes)
 			)
 		)
-		(property "Part No." ""
-			(at 152.4 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Part URL" ""
 			(at 152.4 67.31 0)
 			(effects
@@ -12004,6 +12913,33 @@
 			)
 		)
 		(property "Vendor" "JLCPCB"
+			(at 152.4 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arwill" ""
+			(at 152.4 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Hestore" ""
+			(at 152.4 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CHECKED" "YES"
 			(at 152.4 67.31 0)
 			(effects
 				(font
@@ -12088,15 +13024,6 @@
 				(hide yes)
 			)
 		)
-		(property "Part No." ""
-			(at 57.15 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Part URL" ""
 			(at 57.15 50.8 0)
 			(effects
@@ -12108,6 +13035,33 @@
 		)
 		(property "Vendor" "JLCPCB"
 			(at 57.15 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arwill" ""
+			(at 57.15 50.8 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Hestore" ""
+			(at 57.15 50.8 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CHECKED" "YES"
+			(at 57.15 50.8 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12321,6 +13275,24 @@
 				(hide yes)
 			)
 		)
+		(property "Arwill" ""
+			(at 97.79 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Hestore" ""
+			(at 97.79 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "04c0b8e1-417e-49f0-b81c-3375e01275eb")
 		)
@@ -12470,15 +13442,6 @@
 				(hide yes)
 			)
 		)
-		(property "Part No." ""
-			(at 92.71 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Part URL" ""
 			(at 92.71 41.91 0)
 			(effects
@@ -12489,6 +13452,33 @@
 			)
 		)
 		(property "Vendor" "JLCPCB"
+			(at 92.71 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arwill" ""
+			(at 92.71 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Hestore" ""
+			(at 92.71 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CHECKED" "YES"
 			(at 92.71 41.91 0)
 			(effects
 				(font
@@ -12593,15 +13583,6 @@
 				(hide yes)
 			)
 		)
-		(property "Part No." ""
-			(at 46.99 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Part URL" ""
 			(at 46.99 175.26 0)
 			(effects
@@ -12612,6 +13593,33 @@
 			)
 		)
 		(property "Vendor" "JLCPCB"
+			(at 46.99 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arwill" ""
+			(at 46.99 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Hestore" ""
+			(at 46.99 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CHECKED" "YES"
 			(at 46.99 175.26 0)
 			(effects
 				(font
@@ -12706,15 +13714,6 @@
 				(hide yes)
 			)
 		)
-		(property "Part No." ""
-			(at 158.75 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Part URL" ""
 			(at 158.75 41.91 0)
 			(effects
@@ -12733,7 +13732,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C43242"
+		(property "LCSC" "C2982485"
 			(at 158.75 41.91 0)
 			(effects
 				(font
@@ -12743,6 +13742,33 @@
 			)
 		)
 		(property "FT Rotation Offset" "180"
+			(at 158.75 41.91 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arwill" ""
+			(at 158.75 41.91 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Hestore" ""
+			(at 158.75 41.91 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CHECKED" "YES"
 			(at 158.75 41.91 90)
 			(effects
 				(font
@@ -12895,7 +13921,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part No." ""
+		(property "Part URL" "https://mou.sr/4nYn0OW"
 			(at 143.51 85.09 0)
 			(effects
 				(font
@@ -12904,7 +13930,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part URL" ""
+		(property "Vendor" "Mouser"
 			(at 143.51 85.09 0)
 			(effects
 				(font
@@ -12913,8 +13939,35 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor" ""
-			(at 143.51 85.09 0)
+		(property "Arwill" ""
+			(at 143.51 85.09 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Hestore" ""
+			(at 143.51 85.09 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CHECKED" "YES"
+			(at 143.51 85.09 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part no." "603-MF0207FTE52-33K "
+			(at 143.51 85.09 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13016,15 +14069,6 @@
 				(hide yes)
 			)
 		)
-		(property "Part No." ""
-			(at 160.02 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Part URL" ""
 			(at 160.02 67.31 0)
 			(effects
@@ -13035,6 +14079,33 @@
 			)
 		)
 		(property "Vendor" "JLCPCB"
+			(at 160.02 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arwill" ""
+			(at 160.02 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Hestore" ""
+			(at 160.02 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CHECKED" "YES"
 			(at 160.02 67.31 0)
 			(effects
 				(font
@@ -13119,15 +14190,6 @@
 				(hide yes)
 			)
 		)
-		(property "Part No." ""
-			(at 38.1 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Part URL" ""
 			(at 38.1 58.42 0)
 			(effects
@@ -13139,6 +14201,33 @@
 		)
 		(property "Vendor" "JLCPCB"
 			(at 38.1 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arwill" ""
+			(at 38.1 58.42 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Hestore" ""
+			(at 38.1 58.42 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CHECKED" "YES"
+			(at 38.1 58.42 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13338,7 +14427,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part No." ""
+		(property "Part URL" "https://mou.sr/44w0zrg"
 			(at 252.73 139.7 0)
 			(effects
 				(font
@@ -13347,16 +14436,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part URL" ""
-			(at 252.73 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Vendor" ""
+		(property "Vendor" "Mouser"
 			(at 252.73 139.7 0)
 			(effects
 				(font
@@ -13366,6 +14446,42 @@
 			)
 		)
 		(property "LCSC" ""
+			(at 252.73 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arwill" ""
+			(at 252.73 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Hestore" ""
+			(at 252.73 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CHECKED" "YES"
+			(at 252.73 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part no." "855-S1711-46R "
 			(at 252.73 139.7 0)
 			(effects
 				(font
@@ -13448,15 +14564,6 @@
 				(hide yes)
 			)
 		)
-		(property "Part No." ""
-			(at 251.46 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Part URL" ""
 			(at 251.46 57.15 0)
 			(effects
@@ -13467,6 +14574,33 @@
 			)
 		)
 		(property "Vendor" "JLCPCB"
+			(at 251.46 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arwill" ""
+			(at 251.46 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Hestore" ""
+			(at 251.46 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CHECKED" "YES"
 			(at 251.46 57.15 0)
 			(effects
 				(font
@@ -13535,7 +14669,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 194.0052 39.37 0)
 			(effects
 				(font
@@ -13571,15 +14705,6 @@
 				(hide yes)
 			)
 		)
-		(property "Part No." ""
-			(at 193.04 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Part URL" ""
 			(at 193.04 35.56 0)
 			(effects
@@ -13590,6 +14715,33 @@
 			)
 		)
 		(property "Vendor" "JLCPCB"
+			(at 193.04 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arwill" ""
+			(at 193.04 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Hestore" ""
+			(at 193.04 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CHECKED" "YES"
 			(at 193.04 35.56 0)
 			(effects
 				(font
@@ -13692,15 +14844,6 @@
 				(hide yes)
 			)
 		)
-		(property "Part No." ""
-			(at 205.74 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Part URL" ""
 			(at 205.74 67.31 0)
 			(effects
@@ -13711,6 +14854,33 @@
 			)
 		)
 		(property "Vendor" "JLCPCB"
+			(at 205.74 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arwill" ""
+			(at 205.74 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Hestore" ""
+			(at 205.74 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CHECKED" "YES"
 			(at 205.74 67.31 0)
 			(effects
 				(font
@@ -13891,15 +15061,6 @@
 				(hide yes)
 			)
 		)
-		(property "Part No." ""
-			(at 181.61 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Part URL" ""
 			(at 181.61 35.56 0)
 			(effects
@@ -13928,6 +15089,33 @@
 			)
 		)
 		(property "FT Rotation Offset" "180"
+			(at 181.61 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arwill" ""
+			(at 181.61 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Hestore" ""
+			(at 181.61 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CHECKED" "YES"
 			(at 181.61 35.56 0)
 			(effects
 				(font
@@ -14034,6 +15222,24 @@
 			)
 		)
 		(property "CHECKED" "YES"
+			(at 90.17 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arwill" ""
+			(at 90.17 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Hestore" ""
 			(at 90.17 175.26 0)
 			(effects
 				(font
@@ -14166,6 +15372,24 @@
 				(hide yes)
 			)
 		)
+		(property "Arwill" ""
+			(at 160.02 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Hestore" ""
+			(at 160.02 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "95e71c29-e1d1-4d2e-a7f3-e01e1c714a03")
 		)
@@ -14220,7 +15444,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 33.9852 182.88 0)
 			(effects
 				(font
@@ -14256,15 +15480,6 @@
 				(hide yes)
 			)
 		)
-		(property "Part No." ""
-			(at 33.02 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Part URL" ""
 			(at 33.02 179.07 0)
 			(effects
@@ -14275,6 +15490,33 @@
 			)
 		)
 		(property "Vendor" "JLCPCB"
+			(at 33.02 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arwill" ""
+			(at 33.02 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Hestore" ""
+			(at 33.02 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CHECKED" "YES"
 			(at 33.02 179.07 0)
 			(effects
 				(font
@@ -14325,7 +15567,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 188.9252 146.05 0)
 			(effects
 				(font
@@ -14361,15 +15603,6 @@
 				(hide yes)
 			)
 		)
-		(property "Part No." ""
-			(at 187.96 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Part URL" ""
 			(at 187.96 142.24 0)
 			(effects
@@ -14380,6 +15613,33 @@
 			)
 		)
 		(property "Vendor" "JLCPCB"
+			(at 187.96 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arwill" ""
+			(at 187.96 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Hestore" ""
+			(at 187.96 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CHECKED" "YES"
 			(at 187.96 142.24 0)
 			(effects
 				(font
@@ -14482,15 +15742,6 @@
 				(hide yes)
 			)
 		)
-		(property "Part No." ""
-			(at 190.5 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Part URL" ""
 			(at 190.5 67.31 0)
 			(effects
@@ -14501,6 +15752,33 @@
 			)
 		)
 		(property "Vendor" "JLCPCB"
+			(at 190.5 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arwill" ""
+			(at 190.5 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Hestore" ""
+			(at 190.5 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CHECKED" "YES"
 			(at 190.5 67.31 0)
 			(effects
 				(font
@@ -14551,7 +15829,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 77.1652 175.26 0)
 			(effects
 				(font
@@ -14587,15 +15865,6 @@
 				(hide yes)
 			)
 		)
-		(property "Part No." ""
-			(at 76.2 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Part URL" ""
 			(at 76.2 171.45 0)
 			(effects
@@ -14606,6 +15875,33 @@
 			)
 		)
 		(property "Vendor" "JLCPCB"
+			(at 76.2 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arwill" ""
+			(at 76.2 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Hestore" ""
+			(at 76.2 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CHECKED" "YES"
 			(at 76.2 171.45 0)
 			(effects
 				(font
@@ -14708,15 +16004,6 @@
 				(hide yes)
 			)
 		)
-		(property "Part No." ""
-			(at 175.26 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Part URL" ""
 			(at 175.26 67.31 0)
 			(effects
@@ -14727,6 +16014,33 @@
 			)
 		)
 		(property "Vendor" "JLCPCB"
+			(at 175.26 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arwill" ""
+			(at 175.26 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Hestore" ""
+			(at 175.26 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CHECKED" "YES"
 			(at 175.26 67.31 0)
 			(effects
 				(font
@@ -14829,15 +16143,6 @@
 				(hide yes)
 			)
 		)
-		(property "Part No." ""
-			(at 182.88 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Part URL" ""
 			(at 182.88 67.31 0)
 			(effects
@@ -14848,6 +16153,33 @@
 			)
 		)
 		(property "Vendor" "JLCPCB"
+			(at 182.88 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arwill" ""
+			(at 182.88 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Hestore" ""
+			(at 182.88 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CHECKED" "YES"
 			(at 182.88 67.31 0)
 			(effects
 				(font
@@ -14926,15 +16258,6 @@
 				(hide yes)
 			)
 		)
-		(property "Part No." ""
-			(at 198.12 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Part URL" ""
 			(at 198.12 142.24 0)
 			(effects
@@ -14963,6 +16286,33 @@
 			)
 		)
 		(property "FT Rotation Offset" "180"
+			(at 198.12 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arwill" ""
+			(at 198.12 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Hestore" ""
+			(at 198.12 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CHECKED" "YES"
 			(at 198.12 142.24 0)
 			(effects
 				(font
@@ -15065,15 +16415,6 @@
 				(hide yes)
 			)
 		)
-		(property "Part No." ""
-			(at 144.78 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Part URL" ""
 			(at 144.78 67.31 0)
 			(effects
@@ -15084,6 +16425,33 @@
 			)
 		)
 		(property "Vendor" "JLCPCB"
+			(at 144.78 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arwill" ""
+			(at 144.78 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Hestore" ""
+			(at 144.78 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CHECKED" "YES"
 			(at 144.78 67.31 0)
 			(effects
 				(font
@@ -15198,6 +16566,24 @@
 				(hide yes)
 			)
 		)
+		(property "Arwill" ""
+			(at 182.88 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Hestore" ""
+			(at 182.88 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "e0a3ad70-93ca-4f39-9911-5e42e5856251")
 		)
@@ -15278,15 +16664,6 @@
 				(hide yes)
 			)
 		)
-		(property "Part No." ""
-			(at 276.86 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Part URL" ""
 			(at 276.86 109.22 0)
 			(effects
@@ -15315,6 +16692,33 @@
 			)
 		)
 		(property "FT Rotation Offset" "180"
+			(at 276.86 109.22 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arwill" ""
+			(at 276.86 109.22 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Hestore" ""
+			(at 276.86 109.22 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CHECKED" "YES"
 			(at 276.86 109.22 90)
 			(effects
 				(font
@@ -15417,15 +16821,6 @@
 				(hide yes)
 			)
 		)
-		(property "Part No." ""
-			(at 198.12 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Part URL" ""
 			(at 198.12 67.31 0)
 			(effects
@@ -15436,6 +16831,33 @@
 			)
 		)
 		(property "Vendor" "JLCPCB"
+			(at 198.12 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arwill" ""
+			(at 198.12 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Hestore" ""
+			(at 198.12 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CHECKED" "YES"
 			(at 198.12 67.31 0)
 			(effects
 				(font
@@ -15486,7 +16908,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 77.1652 182.88 0)
 			(effects
 				(font
@@ -15522,15 +16944,6 @@
 				(hide yes)
 			)
 		)
-		(property "Part No." ""
-			(at 76.2 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Part URL" ""
 			(at 76.2 179.07 0)
 			(effects
@@ -15541,6 +16954,33 @@
 			)
 		)
 		(property "Vendor" "JLCPCB"
+			(at 76.2 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arwill" ""
+			(at 76.2 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Hestore" ""
+			(at 76.2 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CHECKED" "YES"
 			(at 76.2 179.07 0)
 			(effects
 				(font
@@ -15644,6 +17084,24 @@
 			)
 		)
 		(property "CHECKED" "YES"
+			(at 250.19 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arwill" ""
+			(at 250.19 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Hestore" ""
 			(at 250.19 106.68 0)
 			(effects
 				(font
@@ -15764,15 +17222,6 @@
 				(hide yes)
 			)
 		)
-		(property "Part No." ""
-			(at 167.64 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Part URL" ""
 			(at 167.64 67.31 0)
 			(effects
@@ -15783,6 +17232,33 @@
 			)
 		)
 		(property "Vendor" "JLCPCB"
+			(at 167.64 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arwill" ""
+			(at 167.64 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Hestore" ""
+			(at 167.64 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CHECKED" "YES"
 			(at 167.64 67.31 0)
 			(effects
 				(font
@@ -15868,15 +17344,6 @@
 				(hide yes)
 			)
 		)
-		(property "Part No." ""
-			(at 297.18 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Part URL" ""
 			(at 297.18 59.69 0)
 			(effects
@@ -15887,6 +17354,33 @@
 			)
 		)
 		(property "Vendor" "JLCPCB"
+			(at 297.18 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arwill" ""
+			(at 297.18 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Hestore" ""
+			(at 297.18 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CHECKED" "YES"
 			(at 297.18 59.69 0)
 			(effects
 				(font

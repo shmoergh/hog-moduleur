@@ -1707,7 +1707,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part No." ""
+		(property "Part URL" "https://mou.sr/4nYsZDt"
 			(at 214.63 102.87 0)
 			(effects
 				(font
@@ -1716,16 +1716,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part URL" ""
-			(at 214.63 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Vendor" ""
+		(property "Vendor" "Mouser"
 			(at 214.63 102.87 0)
 			(effects
 				(font
@@ -1735,6 +1726,42 @@
 			)
 		)
 		(property "LCSC" ""
+			(at 214.63 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arwill" ""
+			(at 214.63 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Hestore" ""
+			(at 214.63 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CHECKED" "YES"
+			(at 214.63 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part no." "200-HTSW10407TD "
 			(at 214.63 102.87 0)
 			(effects
 				(font
@@ -1866,7 +1893,25 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part no." "200-HTSW10207TD"
+		(property "Arwill" ""
+			(at 255.27 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Hestore" ""
+			(at 255.27 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part no." "200-HTSW10207TD"
 			(at 255.27 101.6 0)
 			(effects
 				(font
@@ -2026,7 +2071,7 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor" ""
+		(property "Vendor" "X"
 			(at 200.66 160.02 0)
 			(effects
 				(font
@@ -2045,6 +2090,24 @@
 			)
 		)
 		(property "CHECKED" "YES"
+			(at 200.66 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arwill" ""
+			(at 200.66 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Hestore" ""
 			(at 200.66 160.02 0)
 			(effects
 				(font
@@ -2126,7 +2189,7 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor" ""
+		(property "Vendor" "X"
 			(at 179.07 160.02 0)
 			(effects
 				(font
@@ -2145,6 +2208,24 @@
 			)
 		)
 		(property "CHECKED" "YES"
+			(at 179.07 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arwill" ""
+			(at 179.07 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Hestore" ""
 			(at 179.07 160.02 0)
 			(effects
 				(font
@@ -2253,7 +2334,25 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part no." "474-PRT-09280"
+		(property "Arwill" ""
+			(at 215.9 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Hestore" ""
+			(at 215.9 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part no." "474-PRT-09280"
 			(at 215.9 71.12 0)
 			(effects
 				(font
@@ -2420,7 +2519,7 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor" ""
+		(property "Vendor" "X"
 			(at 220.98 160.02 0)
 			(effects
 				(font
@@ -2439,6 +2538,24 @@
 			)
 		)
 		(property "CHECKED" "YES"
+			(at 220.98 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arwill" ""
+			(at 220.98 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Hestore" ""
 			(at 220.98 160.02 0)
 			(effects
 				(font
@@ -2520,7 +2637,7 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor" ""
+		(property "Vendor" "X"
 			(at 241.3 160.02 0)
 			(effects
 				(font
@@ -2539,6 +2656,24 @@
 			)
 		)
 		(property "CHECKED" "YES"
+			(at 241.3 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arwill" ""
+			(at 241.3 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Hestore" ""
 			(at 241.3 160.02 0)
 			(effects
 				(font

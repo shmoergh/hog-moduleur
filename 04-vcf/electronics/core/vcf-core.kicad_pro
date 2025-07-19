@@ -521,7 +521,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "vcf.kicad_pro",
+    "filename": "vcf-core.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -661,8 +661,8 @@
         },
         {
           "group_by": false,
-          "label": "Mouser Part no.",
-          "name": "Mouser Part no.",
+          "label": "Part no.",
+          "name": "Part no.",
           "show": true
         },
         {
@@ -715,8 +715,74 @@
         },
         {
           "group_by": false,
-          "label": "Part No.",
-          "name": "Part No.",
+          "label": "Price",
+          "name": "Price",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Purchase-URL",
+          "name": "Purchase-URL",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "STANDARD",
+          "name": "STANDARD",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MAXIMUM_PACKAGE_HEIGHT",
+          "name": "MAXIMUM_PACKAGE_HEIGHT",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MF",
+          "name": "MF",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "SnapEDA_Link",
+          "name": "SnapEDA_Link",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MP",
+          "name": "MP",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Availability",
+          "name": "Availability",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "PARTREV",
+          "name": "PARTREV",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Package",
+          "name": "Package",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MANUFACTURER",
+          "name": "MANUFACTURER",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Check_prices",
+          "name": "Check_prices",
           "show": false
         }
       ],
@@ -725,7 +791,7 @@
       "include_excluded_from_bom": true,
       "name": "",
       "sort_asc": true,
-      "sort_field": "${EXCLUDE_FROM_BOM}"
+      "sort_field": "Reference"
     },
     "connection_grid_size": 50.0,
     "drawing": {
