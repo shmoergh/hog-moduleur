@@ -119,7 +119,7 @@
 			(mirror no)
 			(drillshape 2)
 			(scaleselection 1)
-			(outputdirectory "plot/pdf/")
+			(outputdirectory "plot/")
 		)
 	)
 	(net 0 "")
