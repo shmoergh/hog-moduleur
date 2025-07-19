@@ -1986,7 +1986,7 @@
 		(stroke
 			(width 2)
 			(type solid)
-			(color 255 0 255 1)
+			(color 0 194 0 1)
 		)
 		(fill
 			(type none)
@@ -2030,6 +2030,34 @@
 		)
 		(uuid "090c128c-d9bd-4a77-a42d-9c38fb91340d")
 	)
+	(text "CHECKED"
+		(exclude_from_sim no)
+		(at 237.49 111.76 0)
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.254)
+				(bold yes)
+				(color 0 194 0 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "1637bec3-9c93-4a97-8611-8594238d8887")
+	)
+	(text "CHECKED"
+		(exclude_from_sim no)
+		(at 92.71 46.99 0)
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.254)
+				(bold yes)
+				(color 0 194 0 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "47484d8b-f824-4012-9e47-9bdf689fb5ea")
+	)
 	(text "CV Input"
 		(exclude_from_sim no)
 		(at 29.21 82.55 0)
@@ -2055,6 +2083,20 @@
 		)
 		(uuid "52e32846-1cfe-4c0c-bf38-39f4fd74f84b")
 	)
+	(text "CHECKED"
+		(exclude_from_sim no)
+		(at 128.27 110.49 0)
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.254)
+				(bold yes)
+				(color 0 194 0 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "542b87c1-e84a-48fd-bed8-e50c0a381ce8")
+	)
 	(text "H"
 		(exclude_from_sim no)
 		(at 274.828 56.388 0)
@@ -2069,6 +2111,20 @@
 		)
 		(uuid "58287f49-9834-47c5-a0aa-773b66e052da")
 	)
+	(text "CHECKED"
+		(exclude_from_sim no)
+		(at 297.18 64.77 0)
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.254)
+				(bold yes)
+				(color 0 194 0 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "59a3e303-f676-422d-ad72-465090a16fb4")
+	)
 	(text "If you need you can solder \na shield around the diodes\nwhich is the most noise-prone\npart of the circuit."
 		(exclude_from_sim no)
 		(at 245.11 158.242 0)
@@ -2080,7 +2136,7 @@
 		)
 		(uuid "6aecc95f-f18a-4f47-b455-4f9a57330c6e")
 	)
-	(text "ALL OPAMP POLARITY\nMUST BE DOUBLECHECKED"
+	(text "ALL OPAMP POLARITY\nDOUBLECHECKED"
 		(exclude_from_sim no)
 		(at 129.54 172.72 0)
 		(effects
@@ -2088,11 +2144,39 @@
 				(size 2 2)
 				(thickness 0.254)
 				(bold yes)
-				(color 255 0 255 1)
+				(color 0 194 0 1)
 			)
 			(justify left bottom)
 		)
 		(uuid "7da47ff3-aba5-4e4e-a34d-d302b136142e")
+	)
+	(text "CHECKED"
+		(exclude_from_sim no)
+		(at 54.61 55.88 0)
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.254)
+				(bold yes)
+				(color 0 194 0 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "7ddc903a-dd97-4e75-9085-c3d2b6bbf777")
+	)
+	(text "CHECKED"
+		(exclude_from_sim no)
+		(at 250.19 62.23 0)
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.254)
+				(bold yes)
+				(color 0 194 0 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "926053c6-2685-4c94-82c4-0e3f585d3e7c")
 	)
 	(text "This is on \nthe UI board"
 		(exclude_from_sim no)
@@ -2106,6 +2190,20 @@
 			(justify left bottom)
 		)
 		(uuid "a53420b0-7e7f-43f1-934b-36d8f914955a")
+	)
+	(text "CHECKED"
+		(exclude_from_sim no)
+		(at 91.44 118.11 0)
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.254)
+				(bold yes)
+				(color 0 194 0 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "a9b53e3a-3634-43bd-8a32-61edfd3e5cab")
 	)
 	(text "Diode network is prone to picking up hum. \nMust be shielded."
 		(exclude_from_sim no)
@@ -13687,7 +13785,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:CP_Elec_4x5.4"
+		(property "Footprint" "Capacitor_SMD:CP_Elec_4x5.7"
 			(at 154.94 42.8752 0)
 			(effects
 				(font
@@ -13732,7 +13830,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C2982485"
+		(property "LCSC" "C249889"
 			(at 158.75 41.91 0)
 			(effects
 				(font
