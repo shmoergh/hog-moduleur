@@ -5348,7 +5348,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "????"
+		(property "Value" "510k"
 			(at 6.6 0.5 90)
 			(layer "F.SilkS")
 			(uuid "e6ad431d-3281-4861-b365-33cc5444d0db")
@@ -7248,7 +7248,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "????"
+		(property "Value" "130k"
 			(at 6.6 0.5 0)
 			(layer "F.SilkS")
 			(uuid "57d9e079-c31a-4c32-95e8-8d0912b195da")
@@ -7967,7 +7967,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "????"
+		(property "Value" "510k"
 			(at 6.6 0.5 90)
 			(layer "F.SilkS")
 			(uuid "a255c287-1790-47d6-90b3-451e88b2f147")
@@ -13288,7 +13288,7 @@
 		)
 	)
 	(gr_text "+12V"
-		(at 168.45 101.658 0)
+		(at 161.846 87.815 90)
 		(layer "F.SilkS")
 		(uuid "90496caf-8dd1-4d9e-b7ae-46f54f92a1d8")
 		(effects
@@ -13444,7 +13444,7 @@
 		)
 	)
 	(gr_text "-12V"
-		(at 161.973 87.688 90)
+		(at 169.212 101.658 0)
 		(layer "F.SilkS" knockout)
 		(uuid "ee7afd1f-9b71-4673-a1d5-d58207f2a4bc")
 		(effects

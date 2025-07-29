@@ -7019,7 +7019,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "????"
+		(property "Value" "130k"
 			(at 43.18 58.42 0)
 			(effects
 				(font
@@ -8034,7 +8034,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "????"
+		(property "Value" "510k"
 			(at 101.6 78.74 0)
 			(effects
 				(font
@@ -8375,7 +8375,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "????"
+		(property "Value" "510k"
 			(at 101.6 58.42 0)
 			(effects
 				(font

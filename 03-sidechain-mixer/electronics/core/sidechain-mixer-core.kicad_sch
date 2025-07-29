@@ -2965,7 +2965,7 @@
 			)
 		)
 		(instances
-			(project "sidechain-mixer"
+			(project "sidechain-mixer-core"
 				(path "/8e2e31f3-eed5-4de1-966c-f4162758c735"
 					(page "3")
 				)
@@ -3007,7 +3007,7 @@
 			)
 		)
 		(instances
-			(project "sidechain-mixer"
+			(project "sidechain-mixer-core"
 				(path "/8e2e31f3-eed5-4de1-966c-f4162758c735"
 					(page "4")
 				)
