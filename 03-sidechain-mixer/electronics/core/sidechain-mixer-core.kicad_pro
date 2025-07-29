@@ -329,7 +329,24 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [],
+    "erc_exclusions": [
+      [
+        "wire_dangling|1117600|1168400|c666ec28-1860-46a9-adfd-9a11a6ba9273|00000000-0000-0000-0000-000000000000|/8e2e31f3-eed5-4de1-966c-f4162758c735/392b84ef-7d00-474b-a582-028beb91858c||",
+        ""
+      ],
+      [
+        "wire_dangling|3149600|254000|b3ac2a35-e4ea-4217-a8ca-4e517b45496c|00000000-0000-0000-0000-000000000000|/8e2e31f3-eed5-4de1-966c-f4162758c735/392b84ef-7d00-474b-a582-028beb91858c||",
+        ""
+      ],
+      [
+        "wire_dangling|3225800|215900|174deef3-4c92-46cd-90e2-1d3ee709fa32|3f860ecd-f094-4041-b870-c80f83d75bb9|/8e2e31f3-eed5-4de1-966c-f4162758c735/392b84ef-7d00-474b-a582-028beb91858c||",
+        ""
+      ],
+      [
+        "wire_dangling|520700|1993900|aed8a479-dd5d-47a0-aa6a-74ddf4726843|d4ffc5eb-71f0-4e64-a857-bc758212d148|/8e2e31f3-eed5-4de1-966c-f4162758c735/392b84ef-7d00-474b-a582-028beb91858c||",
+        ""
+      ]
+    ],
     "meta": {
       "version": 0
     },
@@ -553,7 +570,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "sidechain-mixer.kicad_pro",
+    "filename": "sidechain-mixer-core.kicad_pro",
     "version": 3
   },
   "net_settings": {
