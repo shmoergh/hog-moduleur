@@ -4,6 +4,12 @@
 	(generator_version "9.0")
 	(uuid "8e2e31f3-eed5-4de1-966c-f4162758c735")
 	(paper "A4")
+	(title_block
+		(title "Hog Moduleur VCF")
+		(date "2025-07-31")
+		(rev "v0.2")
+		(company "Shmøergh")
+	)
 	(lib_symbols
 		(symbol "Connector_Generic:Conn_01x06"
 			(pin_names

@@ -2280,9 +2280,9 @@
 		)
 		(uuid "ef35fb84-01d4-44d8-8f38-4062d9c71e51")
 	)
-	(text "TEST:\nI never really needed RV_BALANCE1. \nWhat if R13 and R22 are 2k and we\ndon't use the trimmer at all \n(ie. 1,2,3 legs are all connected)?\nOnce tested, R13 and R22 can be SMDs."
+	(text "TEST:\nI never really needed RV_BALANCE1. \nWhat if R13 and R22 are 2k and we\ndon't use the trimmer at all \n(ie. 1,2,3 legs are all connected)?\nOnce tested, R13 and R22 can be SMDs.\n\n-> result: WORKS but better to \ndoublecheck again on another\ntest"
 		(exclude_from_sim no)
-		(at 203.2 33.02 0)
+		(at 185.42 27.94 0)
 		(effects
 			(font
 				(size 2 2)
@@ -2293,20 +2293,6 @@
 			(justify left bottom)
 		)
 		(uuid "f0533769-5c35-488c-bbad-9f55168f7ac3")
-	)
-	(text "TEST:\nR15 value\nOnce tested, \nreplace with SMD"
-		(exclude_from_sim no)
-		(at 111.76 81.28 0)
-		(effects
-			(font
-				(size 2 2)
-				(thickness 0.254)
-				(bold yes)
-				(color 255 0 255 1)
-			)
-			(justify left bottom)
-		)
-		(uuid "f65b364a-28f8-4839-b55e-09e3895f2b63")
 	)
 	(junction
 		(at 101.6 93.98)
@@ -3069,6 +3055,17 @@
 			(type default)
 		)
 		(uuid "2b7be07e-eb24-4484-bf47-c4afc0ddc725")
+	)
+	(polyline
+		(pts
+			(xy 207.01 27.94) (xy 207.01 50.8)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 255 0 255 1)
+		)
+		(uuid "2d3f38f7-572c-476b-a300-419fdd31380b")
 	)
 	(wire
 		(pts
@@ -4049,6 +4046,17 @@
 			(type default)
 		)
 		(uuid "b9d5603b-10c1-4552-9fb3-c7ed5f903bac")
+	)
+	(polyline
+		(pts
+			(xy 179.07 50.8) (xy 207.01 50.8)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 255 0 255 1)
+		)
+		(uuid "bc0cd032-1b3c-4517-a572-db1bda381551")
 	)
 	(wire
 		(pts
@@ -13974,7 +13982,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "33k?"
+		(property "Value" "33k"
 			(at 144.78 82.7786 90)
 			(effects
 				(font
@@ -13983,7 +13991,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Shmoergh_Custom_Footprints:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 143.51 86.868 90)
 			(effects
 				(font
@@ -14010,7 +14018,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C4216"
 			(at 143.51 85.09 0)
 			(effects
 				(font
@@ -14019,7 +14027,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part URL" "https://mou.sr/4nYn0OW"
+		(property "Part URL" ""
 			(at 143.51 85.09 0)
 			(effects
 				(font
@@ -14028,7 +14036,7 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor" "Mouser"
+		(property "Vendor" "JLCPCB"
 			(at 143.51 85.09 0)
 			(effects
 				(font
@@ -14064,8 +14072,17 @@
 				(hide yes)
 			)
 		)
-		(property "Part no." "603-MF0207FTE52-33K "
+		(property "Part no." ""
 			(at 143.51 85.09 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part No." ""
+			(at 143.51 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14244,7 +14261,7 @@
 				)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "20k"
 			(at 38.1 55.4736 90)
 			(effects
 				(font
@@ -14279,7 +14296,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C25804"
+		(property "LCSC" "C4184"
 			(at 38.1 58.42 90)
 			(effects
 				(font
@@ -14326,6 +14343,15 @@
 		)
 		(property "CHECKED" "YES"
 			(at 38.1 58.42 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part No." ""
+			(at 38.1 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)

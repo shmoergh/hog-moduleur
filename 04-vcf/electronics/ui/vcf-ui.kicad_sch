@@ -7,7 +7,7 @@
 	(title_block
 		(title "Hog Moduleur VCO UI")
 		(date "2025-07-06")
-		(rev "v0.1")
+		(rev "v0.2")
 		(company "Shmøergh")
 	)
 	(lib_symbols
@@ -2912,7 +2912,7 @@
 		)
 		(uuid "67054e50-4fb5-49c7-80de-5ec1dae4375d")
 	)
-	(text "Adjust resistors for logarithmic\ncurve of the attenuverter: \n10k — logarithmic\n1M — close to linear"
+	(text "Adjust resistors for logarithmic\ncurve of the attenuverter: \n10k — logarithmic\n1M — close to linear\nAround 47k is a pretty sweet spot."
 		(exclude_from_sim no)
 		(at 73.66 116.84 0)
 		(effects
@@ -2922,19 +2922,6 @@
 			(justify left)
 		)
 		(uuid "afbffe6b-0253-47b0-b870-d9440ea75321")
-	)
-	(text "To be tested\nMaybe it's better for\noverall use if the cutoff\ncan be turned all the way\ndown to -12V instead of GND."
-		(exclude_from_sim no)
-		(at 110.49 54.61 0)
-		(effects
-			(font
-				(size 2 2)
-				(thickness 0.25)
-				(color 255 0 255 1)
-			)
-			(justify left)
-		)
-		(uuid "b6743942-cd0b-4f1d-ba95-b5622a768410")
 	)
 	(text "Shielding pairs\nDO NOT GROUND ON UI BOARD!"
 		(exclude_from_sim no)
@@ -2947,20 +2934,7 @@
 		)
 		(uuid "c24ac635-db6e-4162-8ae7-425c15c6b09d")
 	)
-	(text "Resistor values to be tested"
-		(exclude_from_sim no)
-		(at 73.66 124.46 0)
-		(effects
-			(font
-				(size 2 2)
-				(thickness 0.25)
-				(color 255 0 255 1)
-			)
-			(justify left)
-		)
-		(uuid "ca2f6af2-2cad-4e21-a911-805df38e3505")
-	)
-	(text "Adjust resistors for logarithmic\ncurve of the attenuverter: \n10k — logarithmic\n1M — close to linear"
+	(text "Adjust resistors for logarithmic\ncurve of the attenuverter: \n10k - logarithmic\n1M - close to linear\nAround 47k is a pretty sweet spot."
 		(exclude_from_sim no)
 		(at 182.88 116.84 0)
 		(effects
@@ -2970,19 +2944,6 @@
 			(justify left)
 		)
 		(uuid "cd1668de-dc9c-48aa-8753-ec1cf82843f8")
-	)
-	(text "Resistor values to be tested"
-		(exclude_from_sim no)
-		(at 182.88 124.46 0)
-		(effects
-			(font
-				(size 2 2)
-				(thickness 0.25)
-				(color 255 0 255 1)
-			)
-			(justify left)
-		)
-		(uuid "eb97e9d4-fa0a-4396-a568-b7f251cf1cb5")
 	)
 	(junction
 		(at 231.14 33.02)

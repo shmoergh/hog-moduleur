@@ -1066,7 +1066,7 @@
 		(descr "Through hole straight pin header, 1x03, 2.54mm pitch, single row")
 		(tags "Through hole pin header THT 1x03 2.54mm single row")
 		(property "Reference" "JP1"
-			(at 0 -2.38 0)
+			(at -4.445 6.731 90)
 			(layer "F.SilkS")
 			(uuid "fd4863c0-2559-434a-a423-e6e846f0b737")
 			(effects
@@ -6518,7 +6518,6 @@
 		)
 	)
 	(footprint "Shmoergh_Logo:Gyeszno"
-		(locked yes)
 		(layer "F.Cu")
 		(uuid "9699c592-13f2-4dc9-9f25-f7ce87be5d14")
 		(at 147.829 129.979)
@@ -9948,7 +9947,7 @@
 			)
 		)
 		(property ki_fp_filters "SOIC*3.9x4.9mm*P1.27mm* DIP*W7.62mm* TO*99* OnSemi*Micro8* TSSOP*3x3mm*P0.65mm* TSSOP*4.4x3mm*P0.65mm* MSOP*3x3mm*P0.65mm* SSOP*3.9x4.9mm*P0.635mm* LFCSP*2x2mm*P0.5mm* *SIP* SOIC*5.3x6.2mm*P1.27mm*")
-		(path "/ff7060be-2fb5-4a95-830f-c19790ebbcb5")
+		(path "/7f2fea86-bd3e-4236-9003-22e9050a75f2")
 		(sheetname "/")
 		(sheetfile "vcf-ui.kicad_sch")
 		(attr through_hole)
@@ -12517,6 +12516,47 @@
 		)
 		(embedded_fonts no)
 	)
+	(gr_line
+		(start 128.953 95.816)
+		(end 126.413 95.816)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "2854010a-2b1a-4b93-b89f-f6b3e56fcbd7")
+	)
+	(gr_line
+		(start 130.858 94.419)
+		(end 129.461 96.324)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "4316e76c-850f-47b0-9573-3c92a35cdd97")
+	)
+	(gr_line
+		(start 130.858 93.149)
+		(end 128.953 95.816)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "52ce3b6a-132c-4456-b019-9629ece0ae45")
+	)
+	(gr_rect
+		(start 168.577 92.641)
+		(end 173.911 100.388)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "61f6befe-5757-42d1-9cbb-88922953d26f")
+	)
 	(gr_rect
 		(start 142.829 144.479)
 		(end 163.829 144.979)
@@ -12525,7 +12565,6 @@
 			(type solid)
 		)
 		(fill yes)
-		(locked yes)
 		(layer "F.SilkS")
 		(uuid "6606bfb2-6cd3-4d71-b816-d8bd1a09c69f")
 	)
@@ -12536,9 +12575,19 @@
 			(width 0.1)
 			(type default)
 		)
-		(locked yes)
 		(layer "F.SilkS")
 		(uuid "6a606e63-46eb-465b-a7da-88840621c518")
+	)
+	(gr_rect
+		(start 168.577 147.124)
+		(end 173.911 152.331)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "aafa3567-c8d3-4942-a5df-f2cfb1ffb1eb")
 	)
 	(gr_rect
 		(start 163.329 126.479)
@@ -12548,7 +12597,6 @@
 			(type solid)
 		)
 		(fill yes)
-		(locked yes)
 		(layer "F.SilkS")
 		(uuid "c2a132ae-56e3-493f-9930-8b1b1291287e")
 	)
@@ -12560,9 +12608,29 @@
 			(type default)
 		)
 		(fill no)
-		(locked yes)
 		(layer "F.SilkS")
 		(uuid "e11cd065-656c-4132-99d1-2e3c68c02fd0")
+	)
+	(gr_rect
+		(start 131.112 149.537)
+		(end 146.479 152.331)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "efec5428-1f1e-42a1-ac5a-fee5394a4a9f")
+	)
+	(gr_line
+		(start 126.413 95.816)
+		(end 126.413 96.324)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "f1f55b7d-b664-4b0a-99bb-56095423786f")
 	)
 	(gr_circle
 		(center 152.579 125.979)
@@ -12572,9 +12640,19 @@
 			(type solid)
 		)
 		(fill yes)
-		(locked yes)
 		(layer "F.SilkS")
 		(uuid "f4a4fb2a-cda5-4eba-b4f9-ab9f52153dc4")
+	)
+	(gr_rect
+		(start 125.016 96.578)
+		(end 135.43 101.912)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "ff842f83-f421-48ca-af52-861c813ccfbe")
 	)
 	(gr_line
 		(start 178.7 154)
@@ -12816,7 +12894,6 @@
 		(uuid "ff563f3e-7cde-42f7-a769-44b6fcf40656")
 	)
 	(gr_text "SHMØERGH \nHOG MODULEUR"
-		(locked yes)
 		(at 143.329 138.979 0)
 		(layer "F.SilkS")
 		(uuid "03af84ad-dc1f-45b0-affd-311cb928f7e8")
@@ -13141,6 +13218,19 @@
 			)
 		)
 	)
+	(gr_text "GND"
+		(at 155.115 62.542 0)
+		(layer "F.SilkS")
+		(uuid "04f44f2e-54ae-41b0-86ce-0c94474eb1d4")
+		(effects
+			(font
+				(size 1 0.75)
+				(thickness 0.17)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
 	(gr_text "DEFAULTS"
 		(at 138.986 148.775 0)
 		(layer "F.SilkS")
@@ -13154,6 +13244,19 @@
 			(justify bottom)
 		)
 	)
+	(gr_text "CUTOFF"
+		(at 130.858 93.657 0)
+		(layer "F.SilkS")
+		(uuid "3e6fcc49-c605-4cb9-823b-d9143acfd4e0")
+		(effects
+			(font
+				(size 1 0.75)
+				(thickness 0.17)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
 	(gr_text "RESO_VALUE"
 		(at 167.688 151.823 0)
 		(layer "F.SilkS")
@@ -13165,6 +13268,32 @@
 				(bold yes)
 			)
 			(justify right bottom)
+		)
+	)
+	(gr_text "HP"
+		(at 130.858 94.927 0)
+		(layer "F.SilkS")
+		(uuid "41fbcadb-7d08-41e6-9c65-3ae493e7eee4")
+		(effects
+			(font
+				(size 1 0.75)
+				(thickness 0.17)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "+12V"
+		(at 170.609 104.96 90)
+		(layer "F.SilkS" knockout)
+		(uuid "606edebf-472d-4dae-a4e9-f6933eb50c74")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2)
+				(bold yes)
+			)
+			(justify left bottom)
 		)
 	)
 	(gr_text "NC"
@@ -13206,6 +13335,19 @@
 			(justify left bottom)
 		)
 	)
+	(gr_text "+12V"
+		(at 171.244 92.387 0)
+		(layer "F.SilkS")
+		(uuid "93dd4274-68ca-4185-b4a6-154495c4ab3a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
 	(gr_text "BIAS"
 		(at 181.531 68.638 90)
 		(layer "F.SilkS")
@@ -13230,6 +13372,58 @@
 				(bold yes)
 			)
 			(justify bottom)
+		)
+	)
+	(gr_text "-12V"
+		(at 154.607 52.255 0)
+		(layer "F.SilkS")
+		(uuid "af4ca0bd-59ec-44e0-a6e6-3c763dff744a")
+		(effects
+			(font
+				(size 1 0.75)
+				(thickness 0.17)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "LP"
+		(at 130.858 96.324 0)
+		(layer "F.SilkS")
+		(uuid "b4074a8f-12d9-48e8-b5cc-40608a55c961")
+		(effects
+			(font
+				(size 1 0.75)
+				(thickness 0.17)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "CUTOFF POT RANGE"
+		(at 154.226 62.669 90)
+		(layer "F.SilkS")
+		(uuid "b5df71e3-97d0-4b3f-a561-15292b56968e")
+		(effects
+			(font
+				(size 1 0.75)
+				(thickness 0.17)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "OUT"
+		(at 132.89 103.436 0)
+		(layer "F.SilkS")
+		(uuid "bd3699c6-d664-4fa6-a785-197574f2aa08")
+		(effects
+			(font
+				(size 1 0.75)
+				(thickness 0.17)
+				(bold yes)
+			)
+			(justify left bottom)
 		)
 	)
 	(gr_text "HP"
@@ -13271,8 +13465,7 @@
 			(justify right bottom)
 		)
 	)
-	(gr_text "HM-04 VCF UI \nV0.1 2025 JULY"
-		(locked yes)
+	(gr_text "HM-04 VCF UI \nV0.2 2025 JULY"
 		(at 143.329 143.479 0)
 		(layer "F.SilkS")
 		(uuid "f3451d89-41e3-46b5-b588-a3c68b8a7343")
@@ -13284,7 +13477,7 @@
 			)
 			(justify left bottom)
 		)
-		(render_cache "HM-04 VCF UI \nV0.1 2025 JULY" 0
+		(render_cache "HM-04 VCF UI \nV0.2 2025 JULY" 0
 			(polygon
 				(pts
 					(xy 143.475338 140.180584) (xy 143.475338 141.3515) (xy 143.621676 141.3515) (xy 143.621676 140.766077)
@@ -13496,9 +13689,38 @@
 			)
 			(polygon
 				(pts
-					(xy 146.838656 142.40533) (xy 146.838656 143.137161) (xy 146.54591 143.137161) (xy 146.54591 143.2835)
-					(xy 147.277741 143.2835) (xy 147.277741 143.137161) (xy 146.984994 143.137161) (xy 146.984994 142.112584)
-					(xy 146.838656 142.112584) (xy 146.838656 142.258992) (xy 146.54591 142.258992) (xy 146.54591 142.40533)
+					(xy 146.54591 142.990823) (xy 146.54591 143.2835) (xy 147.277741 143.2835) (xy 147.277741 143.137161)
+					(xy 146.692248 143.137161) (xy 146.692248 142.990823)
+				)
+			)
+			(polygon
+				(pts
+					(xy 147.131332 142.258992) (xy 147.131332 142.112584) (xy 146.692248 142.112584) (xy 146.692248 142.258992)
+				)
+			)
+			(polygon
+				(pts
+					(xy 147.131332 142.258992) (xy 147.131332 142.551739) (xy 147.277741 142.551739) (xy 147.277741 142.258992)
+				)
+			)
+			(polygon
+				(pts
+					(xy 146.692248 142.844415) (xy 146.692248 142.990823) (xy 146.838656 142.990823) (xy 146.838656 142.844415)
+				)
+			)
+			(polygon
+				(pts
+					(xy 146.54591 142.258992) (xy 146.54591 142.40533) (xy 146.692248 142.40533) (xy 146.692248 142.258992)
+				)
+			)
+			(polygon
+				(pts
+					(xy 146.984994 142.551739) (xy 146.984994 142.698077) (xy 147.131332 142.698077) (xy 147.131332 142.551739)
+				)
+			)
+			(polygon
+				(pts
+					(xy 146.838656 142.698077) (xy 146.838656 142.844415) (xy 146.984994 142.844415) (xy 146.984994 142.698077)
 				)
 			)
 			(polygon
@@ -25680,7 +25902,6 @@
 	)
 	(group ""
 		(uuid "69d0a3a7-c96e-41d6-87dc-d504f5dad9fb")
-		(locked yes)
 		(members "03af84ad-dc1f-45b0-affd-311cb928f7e8" "20fb748d-bea1-42e1-beed-2f4d709fae46"
 			"6606bfb2-6cd3-4d71-b816-d8bd1a09c69f" "9699c592-13f2-4dc9-9f25-f7ce87be5d14"
 			"c2a132ae-56e3-493f-9930-8b1b1291287e" "e11cd065-656c-4132-99d1-2e3c68c02fd0"
@@ -25689,7 +25910,6 @@
 	)
 	(group ""
 		(uuid "20fb748d-bea1-42e1-beed-2f4d709fae46")
-		(locked yes)
 		(members "6a606e63-46eb-465b-a7da-88840621c518" "f4a4fb2a-cda5-4eba-b4f9-ab9f52153dc4")
 	)
 	(embedded_fonts no)
