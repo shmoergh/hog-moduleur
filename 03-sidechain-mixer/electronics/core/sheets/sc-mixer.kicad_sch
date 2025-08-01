@@ -4984,7 +4984,7 @@
 				(hide yes)
 			)
 		)
-		(property "CHECKED" ""
+		(property "CHECKED" "YES"
 			(at 314.96 44.45 90)
 			(effects
 				(font
@@ -5292,7 +5292,7 @@
 				(hide yes)
 			)
 		)
-		(property "CHECKED" ""
+		(property "CHECKED" "YES"
 			(at 218.44 52.07 0)
 			(effects
 				(font
@@ -5620,7 +5620,7 @@
 				(hide yes)
 			)
 		)
-		(property "CHECKED" ""
+		(property "CHECKED" "YES"
 			(at 190.5 193.04 0)
 			(effects
 				(font
@@ -5760,7 +5760,7 @@
 				(hide yes)
 			)
 		)
-		(property "CHECKED" ""
+		(property "CHECKED" "YES"
 			(at 297.18 44.45 0)
 			(effects
 				(font
@@ -6180,7 +6180,7 @@
 				(hide yes)
 			)
 		)
-		(property "CHECKED" ""
+		(property "CHECKED" "YES"
 			(at 118.11 196.85 0)
 			(effects
 				(font
@@ -6461,7 +6461,7 @@
 				(hide yes)
 			)
 		)
-		(property "CHECKED" ""
+		(property "CHECKED" "YES"
 			(at 146.05 132.08 0)
 			(effects
 				(font
@@ -6610,7 +6610,7 @@
 				(hide yes)
 			)
 		)
-		(property "CHECKED" ""
+		(property "CHECKED" "YES"
 			(at 73.66 52.07 0)
 			(effects
 				(font
@@ -6758,6 +6758,15 @@
 				(hide yes)
 			)
 		)
+		(property "CHECKED" "YES"
+			(at 45.72 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "e447f8a3-7242-4a10-a22d-71f4ae57aa4f")
 		)
@@ -6855,7 +6864,7 @@
 				(hide yes)
 			)
 		)
-		(property "CHECKED" ""
+		(property "CHECKED" "YES"
 			(at 167.64 200.66 0)
 			(effects
 				(font
@@ -6967,7 +6976,7 @@
 				(hide yes)
 			)
 		)
-		(property "CHECKED" ""
+		(property "CHECKED" "YES"
 			(at 207.01 73.66 90)
 			(effects
 				(font
@@ -7165,7 +7174,7 @@
 				(hide yes)
 			)
 		)
-		(property "CHECKED" ""
+		(property "CHECKED" "YES"
 			(at 156.21 200.66 0)
 			(effects
 				(font
@@ -7277,7 +7286,7 @@
 				(hide yes)
 			)
 		)
-		(property "CHECKED" ""
+		(property "CHECKED" "YES"
 			(at 228.6 121.92 90)
 			(effects
 				(font
@@ -7434,6 +7443,15 @@
 				(hide yes)
 			)
 		)
+		(property "CHECKED" "YES"
+			(at 248.92 19.05 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "111dd213-f15a-4535-864b-e33acdde5353")
 		)
@@ -7513,7 +7531,7 @@
 				(hide yes)
 			)
 		)
-		(property "CHECKED" ""
+		(property "CHECKED" "YES"
 			(at 179.07 200.66 0)
 			(effects
 				(font
@@ -7654,6 +7672,15 @@
 				(hide yes)
 			)
 		)
+		(property "CHECKED" "YES"
+			(at 71.12 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "4aeb5b8f-613e-47e4-b652-3795f54de33e")
 		)
@@ -7750,6 +7777,15 @@
 			)
 		)
 		(property "Vendor" "JLCPCB"
+			(at 33.02 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CHECKED" "YES"
 			(at 33.02 129.54 0)
 			(effects
 				(font
@@ -7918,7 +7954,7 @@
 				(hide yes)
 			)
 		)
-		(property "CHECKED" ""
+		(property "CHECKED" "YES"
 			(at 49.53 69.85 90)
 			(effects
 				(font
@@ -8058,7 +8094,7 @@
 				(hide yes)
 			)
 		)
-		(property "CHECKED" ""
+		(property "CHECKED" "YES"
 			(at 248.92 41.91 0)
 			(effects
 				(font
@@ -8309,7 +8345,7 @@
 				(hide yes)
 			)
 		)
-		(property "CHECKED" ""
+		(property "CHECKED" "YES"
 			(at 232.41 39.37 90)
 			(effects
 				(font
@@ -8404,7 +8440,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-323_HandSoldering"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 45.72 129.54 0)
 			(effects
 				(font
@@ -8467,7 +8503,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C2128"
+		(property "LCSC" "C81598"
 			(at 45.72 129.54 0)
 			(effects
 				(font
@@ -8494,7 +8530,16 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor" ""
+		(property "Vendor" "JLCPCB"
+			(at 45.72 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CHECKED" "YES"
 			(at 45.72 129.54 0)
 			(effects
 				(font
@@ -8782,7 +8827,7 @@
 				(hide yes)
 			)
 		)
-		(property "CHECKED" ""
+		(property "CHECKED" "YES"
 			(at 198.12 34.29 90)
 			(effects
 				(font
@@ -8897,7 +8942,7 @@
 				(hide yes)
 			)
 		)
-		(property "CHECKED" ""
+		(property "CHECKED" "YES"
 			(at 190.5 200.66 0)
 			(effects
 				(font
@@ -9037,7 +9082,7 @@
 				(hide yes)
 			)
 		)
-		(property "CHECKED" ""
+		(property "CHECKED" "YES"
 			(at 189.23 93.98 0)
 			(effects
 				(font
@@ -9158,7 +9203,7 @@
 				(hide yes)
 			)
 		)
-		(property "CHECKED" ""
+		(property "CHECKED" "YES"
 			(at 74.93 40.64 90)
 			(effects
 				(font
@@ -9403,6 +9448,15 @@
 			)
 		)
 		(property "Vendor" "JLCPCB"
+			(at 128.27 196.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CHECKED" "YES"
 			(at 128.27 196.85 0)
 			(effects
 				(font
@@ -9701,7 +9755,7 @@
 				(hide yes)
 			)
 		)
-		(property "CHECKED" ""
+		(property "CHECKED" "YES"
 			(at 248.92 29.21 90)
 			(effects
 				(font
@@ -9900,7 +9954,7 @@
 				(hide yes)
 			)
 		)
-		(property "CHECKED" ""
+		(property "CHECKED" "YES"
 			(at 167.64 193.04 0)
 			(effects
 				(font
@@ -10013,7 +10067,7 @@
 				(hide yes)
 			)
 		)
-		(property "CHECKED" ""
+		(property "CHECKED" "YES"
 			(at 238.76 54.61 90)
 			(effects
 				(font
@@ -10143,7 +10197,7 @@
 				(hide yes)
 			)
 		)
-		(property "CHECKED" ""
+		(property "CHECKED" "YES"
 			(at 49.53 49.53 90)
 			(effects
 				(font
@@ -10300,6 +10354,15 @@
 				(hide yes)
 			)
 		)
+		(property "CHECKED" "YES"
+			(at 228.6 111.76 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "2fb37648-9134-4499-81f7-49c930968563")
 		)
@@ -10397,7 +10460,7 @@
 				(hide yes)
 			)
 		)
-		(property "CHECKED" ""
+		(property "CHECKED" "YES"
 			(at 195.58 52.07 0)
 			(effects
 				(font
@@ -10521,7 +10584,7 @@
 				(hide yes)
 			)
 		)
-		(property "CHECKED" ""
+		(property "CHECKED" "YES"
 			(at 215.9 34.29 90)
 			(effects
 				(font
@@ -10829,7 +10892,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-323_HandSoldering"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 172.72 125.73 0)
 			(effects
 				(font
@@ -10892,7 +10955,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C2128"
+		(property "LCSC" "C81598"
 			(at 172.72 125.73 90)
 			(effects
 				(font
@@ -10919,8 +10982,17 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor" ""
+		(property "Vendor" "JLCPCB"
 			(at 172.72 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CHECKED" "YES"
+			(at 172.72 125.73 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11034,7 +11106,7 @@
 				(hide yes)
 			)
 		)
-		(property "CHECKED" ""
+		(property "CHECKED" "YES"
 			(at 138.43 196.85 0)
 			(effects
 				(font
@@ -11155,7 +11227,7 @@
 				(hide yes)
 			)
 		)
-		(property "CHECKED" ""
+		(property "CHECKED" "YES"
 			(at 207.01 129.54 90)
 			(effects
 				(font
@@ -11267,7 +11339,7 @@
 				(hide yes)
 			)
 		)
-		(property "CHECKED" ""
+		(property "CHECKED" "YES"
 			(at 283.21 63.5 90)
 			(effects
 				(font
@@ -11425,6 +11497,15 @@
 				(hide yes)
 			)
 		)
+		(property "CHECKED" "YES"
+			(at 74.93 27.94 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e89f1d53-2e00-46bd-97a8-cf3434f53443")
 		)
@@ -11531,7 +11612,7 @@
 				(hide yes)
 			)
 		)
-		(property "CHECKED" ""
+		(property "CHECKED" "YES"
 			(at 148.59 196.85 0)
 			(effects
 				(font
@@ -11652,7 +11733,7 @@
 				(hide yes)
 			)
 		)
-		(property "CHECKED" ""
+		(property "CHECKED" "YES"
 			(at 167.64 60.96 90)
 			(effects
 				(font
@@ -11785,7 +11866,7 @@
 				(hide yes)
 			)
 		)
-		(property "CHECKED" ""
+		(property "CHECKED" "YES"
 			(at 179.07 193.04 0)
 			(effects
 				(font
@@ -12082,7 +12163,7 @@
 				(hide yes)
 			)
 		)
-		(property "CHECKED" ""
+		(property "CHECKED" "YES"
 			(at 228.6 132.08 0)
 			(effects
 				(font
@@ -12203,7 +12284,7 @@
 				(hide yes)
 			)
 		)
-		(property "CHECKED" ""
+		(property "CHECKED" "YES"
 			(at 158.75 52.07 90)
 			(effects
 				(font
@@ -12513,7 +12594,7 @@
 				(hide yes)
 			)
 		)
-		(property "CHECKED" ""
+		(property "CHECKED" "YES"
 			(at 232.41 44.45 90)
 			(effects
 				(font
@@ -12643,7 +12724,7 @@
 				(hide yes)
 			)
 		)
-		(property "CHECKED" ""
+		(property "CHECKED" "YES"
 			(at 172.72 115.57 90)
 			(effects
 				(font
@@ -13040,6 +13121,15 @@
 				(hide yes)
 			)
 		)
+		(property "CHECKED" "YES"
+			(at 295.91 19.05 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "0b341b8b-c591-4b83-87c0-bdb4ceae2aca")
 		)
@@ -13161,6 +13251,15 @@
 				(hide yes)
 			)
 		)
+		(property "CHECKED" "YES"
+			(at 186.69 69.85 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "84bfbde1-f925-44e8-b04d-11e3bdc0b615")
 		)
@@ -13237,7 +13336,7 @@
 				(hide yes)
 			)
 		)
-		(property "CHECKED" ""
+		(property "CHECKED" "YES"
 			(at 49.53 90.17 90)
 			(effects
 				(font
@@ -13349,7 +13448,7 @@
 				(hide yes)
 			)
 		)
-		(property "CHECKED" ""
+		(property "CHECKED" "YES"
 			(at 162.56 91.44 90)
 			(effects
 				(font
@@ -13482,7 +13581,7 @@
 				(hide yes)
 			)
 		)
-		(property "CHECKED" ""
+		(property "CHECKED" "YES"
 			(at 156.21 193.04 0)
 			(effects
 				(font
@@ -13660,7 +13759,7 @@
 				(hide yes)
 			)
 		)
-		(property "CHECKED" ""
+		(property "CHECKED" "YES"
 			(at 186.69 81.28 90)
 			(effects
 				(font
@@ -14052,7 +14151,7 @@
 				(hide yes)
 			)
 		)
-		(property "CHECKED" ""
+		(property "CHECKED" "YES"
 			(at 273.05 41.91 90)
 			(effects
 				(font

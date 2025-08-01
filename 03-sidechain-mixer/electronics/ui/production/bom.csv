@@ -1,0 +1,12 @@
+﻿Designator,Footprint,Quantity,Value,LCSC Part #
+J1,PinSocket_2x03_P2.54mm_Vertical,1,Conn_02x03_Odd_Even,
+J2,PinSocket_2x05_P2.54mm_Vertical,1,Conn_02x05_Odd_Even,
+"J3, J7",PinHeader_1x04_P2.54mm_Vertical,2,Conn_01x04,
+J4,PinSocket_1x02_P2.54mm_Vertical,1,Conn_01x02,
+J5,PinSocket_1x06_P2.54mm_Vertical,1,Conn_01x06,
+"J_IN1, J_IN2, J_IN3, J_IN4, J_OUT1",Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical_CircularHoles,5,PJ398SM,
+R1,R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,1,10k,
+R2,R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,1,0,
+R3,R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,1,20k,
+"RV_IN1, RV_IN2, RV_IN3",TRIM_PTA3043-2010CIA503,3,A100k,
+"RV_IN4, RV_IN4_GAIN1, RV_MAIN_VOL1, RV_THRESHOLD1",Potentiometer_Bourns_Single-PTV09A,4,A100k,

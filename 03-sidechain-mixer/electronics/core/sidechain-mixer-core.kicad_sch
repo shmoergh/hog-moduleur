@@ -2615,7 +2615,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part URL" "https://mou.sr/40bhVZG"
+		(property "Part URL" ""
 			(at 215.9 45.72 0)
 			(effects
 				(font
@@ -2651,7 +2651,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part no." "474-PRT-09280"
+		(property "Mouser Part no." ""
 			(at 215.9 45.72 0)
 			(effects
 				(font
@@ -2758,7 +2758,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part URL" "https://mou.sr/40QhDaC"
+		(property "Part URL" ""
 			(at 215.9 106.68 0)
 			(effects
 				(font
@@ -2794,7 +2794,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part no." "200-TSW10507TD"
+		(property "Mouser Part no." ""
 			(at 215.9 106.68 0)
 			(effects
 				(font
