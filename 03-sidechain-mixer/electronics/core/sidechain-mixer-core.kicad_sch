@@ -1846,7 +1846,7 @@
 	)
 	(global_label "CH_4_GAIN_3_VOL_3"
 		(shape bidirectional)
-		(at 226.06 76.2 0)
+		(at 226.06 78.74 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1856,7 +1856,7 @@
 		)
 		(uuid "33674cfa-b370-4966-9f16-cde08762fa59")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 248.9646 76.2 0)
+			(at 248.9646 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1890,22 +1890,22 @@
 	)
 	(global_label "MAIN_VOL_3"
 		(shape bidirectional)
-		(at 226.06 81.28 0)
+		(at 208.28 73.66 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "3b1b6b08-0b47-448e-9c42-2ea87473b1cf")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 241.2237 81.28 0)
+			(at 193.1163 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -1956,7 +1956,7 @@
 	)
 	(global_label "RATIO_1"
 		(shape bidirectional)
-		(at 208.28 73.66 180)
+		(at 208.28 76.2 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1966,7 +1966,7 @@
 		)
 		(uuid "3fde8729-0e81-464d-9d1f-da20f4866036")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 196.7449 73.66 0)
+			(at 196.7449 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1978,7 +1978,7 @@
 	)
 	(global_label "CH_4_GAIN_1"
 		(shape bidirectional)
-		(at 226.06 73.66 0)
+		(at 226.06 81.28 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1988,7 +1988,7 @@
 		)
 		(uuid "49d1dc63-23f2-4a33-b752-7fca8ed7337c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 242.3727 73.66 0)
+			(at 242.3727 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2022,7 +2022,7 @@
 	)
 	(global_label "RATIO_3"
 		(shape bidirectional)
-		(at 208.28 76.2 180)
+		(at 208.28 78.74 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2032,7 +2032,7 @@
 		)
 		(uuid "63c9a758-af0a-4067-9e49-8395fd74d51a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 196.7449 76.2 0)
+			(at 196.7449 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2044,7 +2044,7 @@
 	)
 	(global_label "THRESHOLD"
 		(shape bidirectional)
-		(at 208.28 78.74 180)
+		(at 208.28 81.28 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2054,7 +2054,7 @@
 		)
 		(uuid "7814e2b1-b4fb-4472-856b-dc62a6509575")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 193.2978 78.74 0)
+			(at 193.2978 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2132,7 +2132,7 @@
 	)
 	(global_label "CH_4_VOL_2"
 		(shape bidirectional)
-		(at 226.06 78.74 0)
+		(at 226.06 76.2 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2142,7 +2142,7 @@
 		)
 		(uuid "c16f233e-b53a-4339-97fe-3a248a2bcedd")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 241.526 78.74 0)
+			(at 241.526 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2154,22 +2154,22 @@
 	)
 	(global_label "MAIN_VOL_1"
 		(shape bidirectional)
-		(at 208.28 81.28 180)
+		(at 226.06 73.66 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "d2f2e254-fa57-481a-9820-36418bc21366")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 193.1163 81.28 0)
+			(at 241.2237 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 				(hide yes)
 			)
 		)
