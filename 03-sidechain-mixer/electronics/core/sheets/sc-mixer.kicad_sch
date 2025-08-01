@@ -1885,6 +1885,17 @@
 		)
 		(uuid "07a74496-a258-493f-bc5b-512d5563e1f0")
 	)
+	(text "FROM\nJACK"
+		(exclude_from_sim no)
+		(at 76.2 73.66 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "120ad1e0-73c8-4ed8-8344-47814a7317ab")
+	)
 	(text "A=1-11"
 		(exclude_from_sim no)
 		(at 52.07 203.2 0)
@@ -1907,6 +1918,20 @@
 			(justify left)
 		)
 		(uuid "2cf92793-546b-4fa5-9d77-f01485b94482")
+	)
+	(text "DO NOT SOLDER R28 \nIF YOU'RE USING\nTHE EXPERIMENTAL UI!"
+		(exclude_from_sim no)
+		(at 149.86 144.78 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+				(color 255 0 0 1)
+			)
+			(justify left)
+		)
+		(uuid "3a900753-23b5-438f-971a-adf0e40dca46")
 	)
 	(text "Inverter"
 		(exclude_from_sim no)
@@ -2076,6 +2101,16 @@
 			(justify left)
 		)
 		(uuid "c0e487e9-de36-44a0-9e12-67864d13debd")
+	)
+	(text "IN"
+		(exclude_from_sim no)
+		(at 91.44 82.55 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "ef6cd3b4-b402-4a65-9997-1139a8c0d42a")
 	)
 	(text "Inverted submix"
 		(exclude_from_sim no)
@@ -2419,6 +2454,10 @@
 		(uuid "ffc23c39-28fa-4661-aec2-b50c2ee8684b")
 	)
 	(no_connect
+		(at 85.09 82.55)
+		(uuid "00dd32e0-ffc2-4687-8eef-574cc1a9f476")
+	)
+	(no_connect
 		(at 87.63 179.07)
 		(uuid "5e7d39dd-5578-4478-8d4e-8d4520f5b3f2")
 	)
@@ -2433,6 +2472,10 @@
 	(no_connect
 		(at 83.82 175.26)
 		(uuid "b7ae08b7-72d5-4403-bd01-e751d0a0967e")
+	)
+	(no_connect
+		(at 81.28 78.74)
+		(uuid "bc0f88e5-d9b1-43a0-9c3f-4c45aea3a80b")
 	)
 	(no_connect
 		(at 48.26 195.58)
@@ -2988,6 +3031,17 @@
 		)
 		(uuid "3b252e77-fc3e-4bde-be76-10c7a5acff99")
 	)
+	(polyline
+		(pts
+			(xy 146.05 120.65) (xy 146.05 123.19)
+		)
+		(stroke
+			(width 1)
+			(type solid)
+			(color 255 0 0 1)
+		)
+		(uuid "3b465c0b-3b15-47c2-bd2c-84b8566cc3c0")
+	)
 	(wire
 		(pts
 			(xy 33.02 69.85) (xy 45.72 69.85)
@@ -3238,6 +3292,16 @@
 		)
 		(uuid "6047c314-a083-4442-894f-d821dfcdce4e")
 	)
+	(polyline
+		(pts
+			(xy 81.28 77.47) (xy 81.28 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "65bc0ef7-768a-4c01-9a45-a1929e116be8")
+	)
 	(wire
 		(pts
 			(xy 58.42 49.53) (xy 58.42 69.85)
@@ -3267,6 +3331,16 @@
 			(type default)
 		)
 		(uuid "67b63151-af81-41a7-8cc7-118e5b49b7ff")
+	)
+	(polyline
+		(pts
+			(xy 77.47 72.39) (xy 81.28 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6b2a844f-2bb7-4a0a-95a9-9757f8af62ec")
 	)
 	(wire
 		(pts
@@ -3507,6 +3581,16 @@
 			(type default)
 		)
 		(uuid "8992d300-ee08-4a7e-b164-e004969c72e4")
+	)
+	(wire
+		(pts
+			(xy 81.28 88.9) (xy 81.28 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "89ca6d9b-b0c6-4c5e-9d56-07b1e5c44134")
 	)
 	(wire
 		(pts
@@ -3998,6 +4082,16 @@
 		)
 		(uuid "c4090efc-8782-4fb2-aa94-154192c5f103")
 	)
+	(polyline
+		(pts
+			(xy 86.36 82.55) (xy 90.17 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c5112f62-d196-40ea-a50c-f3fbf79f0ff3")
+	)
 	(wire
 		(pts
 			(xy 144.78 68.58) (xy 144.78 71.12)
@@ -4067,6 +4161,17 @@
 			(type default)
 		)
 		(uuid "cb069136-4215-4fc3-b9ad-ece87654ed82")
+	)
+	(polyline
+		(pts
+			(xy 153.67 139.7) (xy 153.67 123.19)
+		)
+		(stroke
+			(width 1)
+			(type solid)
+			(color 255 0 0 1)
+		)
+		(uuid "cb4b6bad-3295-4d8f-96af-61d62f035b71")
 	)
 	(wire
 		(pts
@@ -4317,6 +4422,17 @@
 			(type default)
 		)
 		(uuid "ec2d0141-2c9d-4ea6-bb86-ead5022bf7d8")
+	)
+	(polyline
+		(pts
+			(xy 153.67 123.19) (xy 146.05 123.19)
+		)
+		(stroke
+			(width 1)
+			(type solid)
+			(color 255 0 0 1)
+		)
+		(uuid "ed969ea6-36d0-4dda-83d0-9e2dff12495d")
 	)
 	(wire
 		(pts
@@ -5256,7 +5372,7 @@
 				)
 			)
 		)
-		(property "Value" "100k"
+		(property "Value" "10k"
 			(at 146.05 114.3 90)
 			(effects
 				(font
@@ -5787,7 +5903,7 @@
 				)
 			)
 		)
-		(property "Value" "100k"
+		(property "Value" "10k"
 			(at 128.27 139.7 90)
 			(effects
 				(font
@@ -8019,7 +8135,7 @@
 				)
 			)
 		)
-		(property "Value" "100k"
+		(property "Value" "10k"
 			(at 139.7 139.7 0)
 			(effects
 				(font
@@ -9655,6 +9771,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 81.28 88.9 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8a01c820-d0a8-4c32-b017-6d353d5ea96d")
+		(property "Reference" "#PWR010"
+			(at 81.28 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 81.28 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 81.28 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 81.28 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 81.28 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "04638512-834a-4931-b87c-a738449188a4")
+		)
+		(instances
+			(project "sidechain-mixer-core"
+				(path "/8e2e31f3-eed5-4de1-966c-f4162758c735/392b84ef-7d00-474b-a582-028beb91858c"
+					(reference "#PWR010")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 167.64 193.04 0)
 		(unit 1)
@@ -10542,6 +10724,80 @@
 			(project "sidechain-mixer"
 				(path "/8e2e31f3-eed5-4de1-966c-f4162758c735/392b84ef-7d00-474b-a582-028beb91858c"
 					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Potentiometer")
+		(at 81.28 82.55 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a528f760-6dd9-4474-957a-5bbf23a40b41")
+		(property "Reference" "#RV_CH_VOL2"
+			(at 78.74 81.2799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "A100k"
+			(at 78.74 83.8199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 81.28 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 81.28 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Potentiometer"
+			(at 81.28 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "59223e67-d587-4901-a991-8cbb5f5d7030")
+		)
+		(pin "3"
+			(uuid "6c382d33-e9d6-4be6-9917-6c2f7623d31d")
+		)
+		(pin "2"
+			(uuid "9944f99a-c625-4637-8e0e-e3e4271ae4a8")
+		)
+		(instances
+			(project "sidechain-mixer-core"
+				(path "/8e2e31f3-eed5-4de1-966c-f4162758c735/392b84ef-7d00-474b-a582-028beb91858c"
+					(reference "#RV_CH_VOL2")
 					(unit 1)
 				)
 			)
@@ -13490,7 +13746,7 @@
 				)
 			)
 		)
-		(property "Value" "100k"
+		(property "Value" "10k"
 			(at 121.92 130.81 90)
 			(effects
 				(font

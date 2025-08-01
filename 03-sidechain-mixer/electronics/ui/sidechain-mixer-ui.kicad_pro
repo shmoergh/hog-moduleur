@@ -60,67 +60,11 @@
       ],
       "drc_exclusions": [
         [
-          "courtyards_overlap|130005000|45906028|02fd4172-6973-472f-8709-03938eef1a60|7ec78656-03e4-45cf-a461-0a72c0691482",
-          "Should be fine as it's a mounting hole"
-        ],
-        [
-          "duplicate_footprints|127937000|117025000|ed9905e4-c3c9-4e0f-b271-cf24db9e0047|6801b5d7-bacc-4e0e-9a3b-41b6249b1b92",
+          "extra_footprint|144574000|98737000|fd56e94f-0f88-4e0c-a102-29b55b389983|00000000-0000-0000-0000-000000000000",
           ""
         ],
         [
-          "duplicate_footprints|145971000|105087000|ee176ae6-61ac-41bc-bedd-ff8fcc41bc53|6801b5d7-bacc-4e0e-9a3b-41b6249b1b92",
-          ""
-        ],
-        [
-          "duplicate_footprints|146479000|129598000|145947f9-bfdf-4fd1-94be-83321dbe97aa|6801b5d7-bacc-4e0e-9a3b-41b6249b1b92",
-          ""
-        ],
-        [
-          "duplicate_footprints|157894000|55000000|9699c592-13f2-4dc9-9f25-f7ce87be5d14|6801b5d7-bacc-4e0e-9a3b-41b6249b1b92",
-          ""
-        ],
-        [
-          "duplicate_footprints|163624000|126169000|6a0583b0-4477-4db8-9fbd-b1460f4ce94b|6801b5d7-bacc-4e0e-9a3b-41b6249b1b92",
-          ""
-        ],
-        [
-          "duplicate_footprints|168958000|63431000|6e81d2b1-5cc7-46f6-a7fa-c6f8d41349ba|6801b5d7-bacc-4e0e-9a3b-41b6249b1b92",
-          ""
-        ],
-        [
-          "duplicate_footprints|173530000|55176000|9051bf24-3e84-471d-8a3b-5123fbd7ad2e|6801b5d7-bacc-4e0e-9a3b-41b6249b1b92",
-          ""
-        ],
-        [
-          "extra_footprint|127937000|117025000|ed9905e4-c3c9-4e0f-b271-cf24db9e0047|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "extra_footprint|145971000|105087000|ee176ae6-61ac-41bc-bedd-ff8fcc41bc53|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "extra_footprint|146479000|129598000|145947f9-bfdf-4fd1-94be-83321dbe97aa|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "extra_footprint|157894000|55000000|9699c592-13f2-4dc9-9f25-f7ce87be5d14|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "extra_footprint|163624000|126169000|6a0583b0-4477-4db8-9fbd-b1460f4ce94b|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "extra_footprint|168958000|63431000|6e81d2b1-5cc7-46f6-a7fa-c6f8d41349ba|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "extra_footprint|169339000|149537000|6801b5d7-bacc-4e0e-9a3b-41b6249b1b92|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "extra_footprint|173530000|55176000|9051bf24-3e84-471d-8a3b-5123fbd7ad2e|00000000-0000-0000-0000-000000000000",
+          "extra_footprint|169000000|77500000|92db8c6c-a0c1-4a98-80e4-7b5a76c57ed6|00000000-0000-0000-0000-000000000000",
           ""
         ]
       ],
@@ -317,7 +261,12 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [],
+    "erc_exclusions": [
+      [
+        "multiple_net_names|660400|431800|1810557a-9d5d-46dc-948b-653b47e486c7|4aee9b5f-dd2f-4f31-97d9-02d8d703ae82|/ab333f71-eefa-415f-b212-ebe7a942b1c8|/ab333f71-eefa-415f-b212-ebe7a942b1c8|/ab333f71-eefa-415f-b212-ebe7a942b1c8",
+        ""
+      ]
+    ],
     "meta": {
       "version": 0
     },
@@ -541,7 +490,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "vco-ui.kicad_pro",
+    "filename": "sidechain-mixer-ui.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -577,7 +526,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "plot/pdf/",
+      "plot": "plot/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",
