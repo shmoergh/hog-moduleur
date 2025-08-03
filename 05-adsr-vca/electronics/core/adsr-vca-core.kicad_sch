@@ -1270,7 +1270,7 @@
 	)
 	(global_label "DECAY_1"
 		(shape bidirectional)
-		(at 223.52 73.66 0)
+		(at 223.52 68.58 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1280,7 +1280,7 @@
 		)
 		(uuid "0ad33756-a2d5-444c-957f-7476648e7fde")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 235.6598 73.66 0)
+			(at 235.6598 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1490,7 +1490,7 @@
 	)
 	(global_label "A1_D3_R3"
 		(shape bidirectional)
-		(at 223.52 68.58 0)
+		(at 223.52 73.66 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1500,7 +1500,7 @@
 		)
 		(uuid "68d432d7-411f-4b75-aeda-096989d47b1c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 236.8088 68.58 0)
+			(at 236.8088 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
