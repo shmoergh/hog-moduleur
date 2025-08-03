@@ -1576,7 +1576,7 @@
 			)
 		)
 	)
-	(global_label "LED_B"
+	(global_label "LED_K"
 		(shape bidirectional)
 		(at 54.61 74.93 180)
 		(fields_autoplaced yes)
@@ -1796,7 +1796,7 @@
 			)
 		)
 	)
-	(global_label "LED_B"
+	(global_label "LED_K"
 		(shape bidirectional)
 		(at 205.74 92.71 180)
 		(fields_autoplaced yes)
