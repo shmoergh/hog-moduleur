@@ -2507,7 +2507,7 @@
 		)
 		(uuid "6d5b9126-432f-4c15-83d5-d9ddf9da3fee")
 	)
-	(text "Option #1: set channel 4 input gain\n----------------------------\nThis option allows setting the gain\nof channel 4 (which is the trigger channel\nof the sidechain compressor). To use\nthis option:\n\n1. Connect 2+3 on JP1 and JP2\n2. Solder 100kΩ in R1\n(DO NOT SOLDER R2)"
+	(text "Option #1: set channel 4 input gain\n----------------------------\nThis option allows setting the gain\nof channel 4 (which is the trigger channel\nof the sidechain compressor). To use\nthis option:\n\n1. Connect 2+3 on JP1 and JP2\n2. Solder 10kΩ in R1\n(DO NOT SOLDER R2)"
 		(exclude_from_sim no)
 		(at 222.25 80.01 0)
 		(effects

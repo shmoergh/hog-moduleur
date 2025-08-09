@@ -49,7 +49,7 @@
       "conflict_shadows",
       "shapes"
     ],
-    "visible_layers": "ffffffff_ffffffff_ffffff77_fffdffff",
+    "visible_layers": "ffffffff_ffffffff_ffffff75_ffffffff",
     "zone_display_mode": 0
   },
   "git": {
@@ -58,7 +58,7 @@
     "ssh_key": ""
   },
   "meta": {
-    "filename": "sidechain-mixer-core.kicad_prl",
+    "filename": "adsr-vca-ui.kicad_prl",
     "version": 5
   },
   "net_inspector_panel": {
