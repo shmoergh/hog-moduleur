@@ -1,0 +1,9 @@
+﻿Designator,Footprint,Quantity,Value,LCSC Part #
+D1,LED_D3.0mm,1,D,
+"J1, J3, J6, J8",PinSocket_2x03_P2.54mm_Vertical,4,Conn_02x03_Odd_Even,
+J4,PinSocket_1x02_P2.54mm_Vertical,1,Conn_01x02,
+J5,PinSocket_1x06_P2.54mm_Vertical,1,Conn_01x06,
+JP_DEFAULT_ENV_TO_VCA1,PinHeader_1x02_P2.54mm_Horizontal,1,Jumper_2_Open,
+"J_ENV_OUT1, J_GATE1, J_VCA_CV1, J_VCA_IN1, J_VCA_OUT1",Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical_CircularHoles,5,PJ398SM,
+"RV_ATTACK1, RV_DECAY1, RV_RELEASE1",Potentiometer_Bourns_Single-PTV09A,3,A500k,
+RV_SUSTAIN1,TRIM_PTA4543-2015DPB103,1,10k,

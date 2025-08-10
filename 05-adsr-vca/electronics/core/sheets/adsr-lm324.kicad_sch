@@ -2242,6 +2242,32 @@
 			(embedded_fonts no)
 		)
 	)
+	(circle
+		(center 163.83 69.85)
+		(radius 6.35)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 255 0 255 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 30f3f756-a571-4514-9000-a2653309d0dc)
+	)
+	(circle
+		(center 133.35 69.85)
+		(radius 6.35)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 255 0 255 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 3349aaee-22b0-4f9c-a9ea-30a87b9721fc)
+	)
 	(rectangle
 		(start 157.48 19.05)
 		(end 181.61 36.83)
@@ -2277,6 +2303,19 @@
 			(type none)
 		)
 		(uuid 7ee16ea6-89eb-4324-837d-477f88b15f71)
+	)
+	(rectangle
+		(start 55.88 17.78)
+		(end 95.25 53.34)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 255 0 255 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid e1d91827-78d4-4175-b471-2341290d2388)
 	)
 	(rectangle
 		(start 132.08 90.17)
@@ -2323,6 +2362,16 @@
 		)
 		(uuid "1952672f-090f-4f9e-8672-88e710c1c4ec")
 	)
+	(text "+"
+		(exclude_from_sim no)
+		(at 160.02 82.55 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "52ee8404-a687-4ce1-873a-71d11795382f")
+	)
 	(text "4V"
 		(exclude_from_sim no)
 		(at 220.98 64.77 0)
@@ -2332,6 +2381,16 @@
 			)
 		)
 		(uuid "5f67caed-0304-4639-a174-fdb7de5d73c5")
+	)
+	(text "+"
+		(exclude_from_sim no)
+		(at 143.51 53.34 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "635af1a9-55b0-4d7e-b568-8ee198e20ff6")
 	)
 	(text "DECAY_3"
 		(exclude_from_sim no)
@@ -2343,6 +2402,53 @@
 			(justify right)
 		)
 		(uuid "89c32162-96d9-4ac6-b7a4-97b3ecb0d207")
+	)
+	(text "The sustain pot value also\naffects the minimum decay time.\nThe higher the pot value, the \nlonger the minimum decay time.\nTo be able to experiment, I left\nthese two resistors THT. \n\nFor a 10k sustain pot use R10=10k\nand R11=4.7k. For lower minimum \ndecay time, use a 5k or 1k pot.\nBut then you need to update the\nvalue of R10 and R11 accordingly."
+		(exclude_from_sim no)
+		(at 58.42 38.1 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 255 0 255 1)
+			)
+			(justify left)
+		)
+		(uuid "8e0ec8bd-085b-4c51-a232-4fc10753eed9")
+	)
+	(text "+"
+		(exclude_from_sim no)
+		(at 242.57 82.55 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "9d11d02a-2445-462b-a4a9-a20bdf097e8b")
+	)
+	(text "Experimental"
+		(exclude_from_sim no)
+		(at 58.42 21.59 0)
+		(effects
+			(font
+				(size 2.27 2.27)
+				(thickness 0.454)
+				(bold yes)
+				(italic yes)
+				(color 255 0 255 1)
+			)
+			(justify left)
+		)
+		(uuid "a445b29a-8a19-4d5d-8b3e-8274cf6585d4")
+	)
+	(text "~9.7V Max"
+		(exclude_from_sim no)
+		(at 156.21 77.47 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "b420fc6f-9982-40e0-a2cf-781c82df199a")
 	)
 	(text "RELEASE_3"
 		(exclude_from_sim no)
@@ -2638,7 +2744,7 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 52.07) (xy 55.88 52.07)
+			(xy 39.37 52.07) (xy 52.07 52.07)
 		)
 		(stroke
 			(width 0)
@@ -2745,6 +2851,17 @@
 			(type dash)
 		)
 		(uuid "2c27b721-5414-4fb4-be5a-586b646de508")
+	)
+	(polyline
+		(pts
+			(xy 153.67 60.96) (xy 133.35 60.96)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 255 0 255 1)
+		)
+		(uuid "2e31a596-5dcd-4752-80b3-405d07681031")
 	)
 	(wire
 		(pts
@@ -3086,6 +3203,17 @@
 		)
 		(uuid "6b0590d8-c560-461b-946d-343e6718e84a")
 	)
+	(polyline
+		(pts
+			(xy 153.67 30.48) (xy 153.67 60.96)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 255 0 255 1)
+		)
+		(uuid "6b8ac34b-fe22-43b2-811d-ca9469cd2d14")
+	)
 	(wire
 		(pts
 			(xy 97.79 40.64) (xy 184.15 40.64)
@@ -3115,6 +3243,17 @@
 			(type default)
 		)
 		(uuid "70b475a7-c7e2-42ec-a171-fdbd71882ed9")
+	)
+	(polyline
+		(pts
+			(xy 153.67 60.96) (xy 163.83 60.96)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 255 0 255 1)
+		)
+		(uuid "712bf199-ec00-4b93-a81e-1e3b8c98714b")
 	)
 	(polyline
 		(pts
@@ -3258,7 +3397,7 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 69.85) (xy 59.69 69.85)
+			(xy 52.07 69.85) (xy 59.69 69.85)
 		)
 		(stroke
 			(width 0)
@@ -3328,7 +3467,7 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 52.07) (xy 55.88 69.85)
+			(xy 52.07 52.07) (xy 52.07 69.85)
 		)
 		(stroke
 			(width 0)
@@ -3476,6 +3615,17 @@
 		)
 		(uuid "adea34b2-3080-40da-aa94-8a7151a55ba8")
 	)
+	(polyline
+		(pts
+			(xy 133.35 60.96) (xy 133.35 63.5)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 255 0 255 1)
+		)
+		(uuid "af470d05-1cb3-4d34-b0f7-42675bc24acc")
+	)
 	(wire
 		(pts
 			(xy 78.74 87.63) (xy 78.74 72.39)
@@ -3598,6 +3748,17 @@
 	)
 	(polyline
 		(pts
+			(xy 163.83 60.96) (xy 163.83 63.5)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 255 0 255 1)
+		)
+		(uuid "c680f85e-1feb-4b69-94ce-391686168d49")
+	)
+	(polyline
+		(pts
 			(xy 147.32 76.2) (xy 147.32 78.74)
 		)
 		(stroke
@@ -3615,6 +3776,17 @@
 			(type default)
 		)
 		(uuid "cc22f310-fe8d-4389-9b4d-3059ef00ddd1")
+	)
+	(polyline
+		(pts
+			(xy 95.25 30.48) (xy 153.67 30.48)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 255 0 255 1)
+		)
+		(uuid "d4784f43-bf75-4629-adc4-10892fa7ff36")
 	)
 	(wire
 		(pts
@@ -4097,7 +4269,7 @@
 				(hide yes)
 			)
 		)
-		(property "CHECKED" ""
+		(property "CHECKED" "YES"
 			(at 34.29 170.18 0)
 			(effects
 				(font
@@ -4281,7 +4453,7 @@
 				(hide yes)
 			)
 		)
-		(property "CHECKED" ""
+		(property "CHECKED" "YES"
 			(at 46.99 74.93 90)
 			(effects
 				(font
@@ -4493,7 +4665,7 @@
 				(hide yes)
 			)
 		)
-		(property "CHECKED" ""
+		(property "CHECKED" "YES"
 			(at 34.29 177.8 0)
 			(effects
 				(font
@@ -4605,7 +4777,7 @@
 				(hide yes)
 			)
 		)
-		(property "CHECKED" ""
+		(property "CHECKED" "YES"
 			(at 210.82 69.85 90)
 			(effects
 				(font
@@ -4700,7 +4872,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Shmoergh_Custom_Footprints:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 163.83 74.168 90)
 			(effects
 				(font
@@ -4727,7 +4899,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C23162"
+		(property "LCSC" ""
 			(at 163.83 72.39 90)
 			(effects
 				(font
@@ -4745,7 +4917,7 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor" "JLCPCB"
+		(property "Vendor" ""
 			(at 163.83 72.39 90)
 			(effects
 				(font
@@ -4932,7 +5104,7 @@
 				(hide yes)
 			)
 		)
-		(property "CHECKED" ""
+		(property "CHECKED" "YES"
 			(at 238.76 114.3 90)
 			(effects
 				(font
@@ -5191,7 +5363,7 @@
 				(hide yes)
 			)
 		)
-		(property "CHECKED" ""
+		(property "CHECKED" "YES"
 			(at 245.11 83.82 0)
 			(effects
 				(font
@@ -5305,7 +5477,7 @@
 				(hide yes)
 			)
 		)
-		(property "CHECKED" ""
+		(property "CHECKED" "YES"
 			(at 184.15 120.65 0)
 			(effects
 				(font
@@ -5471,7 +5643,7 @@
 				(hide yes)
 			)
 		)
-		(property "CHECKED" ""
+		(property "CHECKED" "YES"
 			(at 157.48 83.82 0)
 			(effects
 				(font
@@ -5650,7 +5822,7 @@
 				(hide yes)
 			)
 		)
-		(property "CHECKED" ""
+		(property "CHECKED" "YES"
 			(at 67.31 72.39 0)
 			(effects
 				(font
@@ -5772,7 +5944,7 @@
 				(hide yes)
 			)
 		)
-		(property "CHECKED" ""
+		(property "CHECKED" "YES"
 			(at 255.27 83.82 90)
 			(effects
 				(font
@@ -6105,7 +6277,7 @@
 				(hide yes)
 			)
 		)
-		(property "CHECKED" ""
+		(property "CHECKED" "YES"
 			(at 133.35 54.61 90)
 			(effects
 				(font
@@ -6235,7 +6407,7 @@
 				(hide yes)
 			)
 		)
-		(property "CHECKED" ""
+		(property "CHECKED" "YES"
 			(at 39.37 45.72 90)
 			(effects
 				(font
@@ -6365,7 +6537,7 @@
 				(hide yes)
 			)
 		)
-		(property "CHECKED" ""
+		(property "CHECKED" "YES"
 			(at 39.37 82.55 90)
 			(effects
 				(font
@@ -6589,7 +6761,7 @@
 				(hide yes)
 			)
 		)
-		(property "CHECKED" ""
+		(property "CHECKED" "YES"
 			(at 198.12 52.07 0)
 			(effects
 				(font
@@ -7106,7 +7278,7 @@
 				(hide yes)
 			)
 		)
-		(property "CHECKED" ""
+		(property "CHECKED" "YES"
 			(at 210.82 58.42 90)
 			(effects
 				(font
@@ -7266,7 +7438,7 @@
 				(hide yes)
 			)
 		)
-		(property "CHECKED" ""
+		(property "CHECKED" "YES"
 			(at 26.67 173.99 0)
 			(effects
 				(font
@@ -7388,7 +7560,7 @@
 				(hide yes)
 			)
 		)
-		(property "CHECKED" ""
+		(property "CHECKED" "YES"
 			(at 88.9 72.39 0)
 			(effects
 				(font
@@ -7518,7 +7690,7 @@
 				(hide yes)
 			)
 		)
-		(property "CHECKED" ""
+		(property "CHECKED" "YES"
 			(at 67.31 87.63 90)
 			(effects
 				(font
@@ -7648,7 +7820,7 @@
 				(hide yes)
 			)
 		)
-		(property "CHECKED" ""
+		(property "CHECKED" "YES"
 			(at 39.37 58.42 90)
 			(effects
 				(font
@@ -7778,7 +7950,7 @@
 				(hide yes)
 			)
 		)
-		(property "CHECKED" ""
+		(property "CHECKED" "YES"
 			(at 111.76 120.65 90)
 			(effects
 				(font
@@ -7971,7 +8143,7 @@
 				(hide yes)
 			)
 		)
-		(property "CHECKED" ""
+		(property "CHECKED" "YES"
 			(at 146.05 54.61 0)
 			(effects
 				(font
@@ -8122,7 +8294,7 @@
 				(hide yes)
 			)
 		)
-		(property "CHECKED" ""
+		(property "CHECKED" "YES"
 			(at 215.9 105.41 90)
 			(effects
 				(font
@@ -8398,7 +8570,7 @@
 				(hide yes)
 			)
 		)
-		(property "CHECKED" ""
+		(property "CHECKED" "YES"
 			(at 97.79 81.28 90)
 			(effects
 				(font
@@ -8555,7 +8727,7 @@
 				(hide yes)
 			)
 		)
-		(property "CHECKED" ""
+		(property "CHECKED" "YES"
 			(at 227.33 83.82 0)
 			(effects
 				(font
@@ -8770,7 +8942,7 @@
 				(hide yes)
 			)
 		)
-		(property "CHECKED" ""
+		(property "CHECKED" "YES"
 			(at 110.49 54.61 0)
 			(effects
 				(font
@@ -8891,7 +9063,7 @@
 				(hide yes)
 			)
 		)
-		(property "CHECKED" ""
+		(property "CHECKED" "YES"
 			(at 110.49 72.39 90)
 			(effects
 				(font
@@ -9052,7 +9224,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Shmoergh_Custom_Footprints:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 133.35 74.168 90)
 			(effects
 				(font
@@ -9079,7 +9251,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C25804"
+		(property "LCSC" ""
 			(at 133.35 72.39 90)
 			(effects
 				(font
@@ -9097,7 +9269,7 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor" "JLCPCB"
+		(property "Vendor" ""
 			(at 133.35 72.39 90)
 			(effects
 				(font
@@ -9382,6 +9554,15 @@
 				(hide yes)
 			)
 		)
+		(property "CHECKED" "YES"
+			(at 143.51 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "6121b04c-9ce5-4c66-a1fa-507b316d4479")
 		)
@@ -9486,6 +9667,15 @@
 			)
 		)
 		(property "LCSC" "C7420337"
+			(at 251.46 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CHECKED" "YES"
 			(at 251.46 123.19 0)
 			(effects
 				(font
