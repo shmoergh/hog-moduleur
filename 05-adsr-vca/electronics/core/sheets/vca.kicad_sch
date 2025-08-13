@@ -1468,6 +1468,16 @@
 	)
 	(wire
 		(pts
+			(xy 68.58 127) (xy 68.58 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "28a6d6aa-85d1-4be3-922d-0844d9f2bfcc")
+	)
+	(wire
+		(pts
 			(xy 139.7 113.03) (xy 135.89 113.03)
 		)
 		(stroke
@@ -1495,6 +1505,16 @@
 			(type default)
 		)
 		(uuid "35c8d717-b7c8-41d6-a812-ff543af8eb7b")
+	)
+	(wire
+		(pts
+			(xy 111.76 120.65) (xy 111.76 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3aff2852-041f-445c-a123-730eb677a512")
 	)
 	(wire
 		(pts
@@ -1615,6 +1635,16 @@
 			(type default)
 		)
 		(uuid "773e5358-6cfa-4c6c-a743-c9517d0fc651")
+	)
+	(wire
+		(pts
+			(xy 105.41 120.65) (xy 111.76 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7a46a4ce-1513-4b7b-b0e8-37449dc7254e")
 	)
 	(wire
 		(pts
@@ -1908,6 +1938,16 @@
 	)
 	(wire
 		(pts
+			(xy 68.58 114.3) (xy 68.58 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e8754ca1-7739-43a4-bc72-0b705bc553bd")
+	)
+	(wire
+		(pts
 			(xy 106.68 86.36) (xy 106.68 83.82)
 		)
 		(stroke
@@ -1975,6 +2015,16 @@
 			(type default)
 		)
 		(uuid "fa652f9b-0491-4e9b-879d-be8fb7ee2885")
+	)
+	(wire
+		(pts
+			(xy 72.39 120.65) (xy 97.79 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fe517c91-2433-43a1-bbda-e70107fcef18")
 	)
 	(hierarchical_label "OUT"
 		(shape output)
@@ -2221,6 +2271,136 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 101.6 120.65 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1daeba38-6d18-410e-9410-5840ab851c2c")
+		(property "Reference" "R29"
+			(at 101.6 114.3 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "200k"
+			(at 101.6 116.84 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 101.6 122.428 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 101.6 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 101.6 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25811"
+			(at 101.6 120.65 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CHECKED" "YES"
+			(at 101.6 120.65 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor" "JLCPCB"
+			(at 101.6 120.65 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part No." ""
+			(at 101.6 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part URL" ""
+			(at 101.6 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arwill" ""
+			(at 101.6 120.65 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Hestore" ""
+			(at 101.6 120.65 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0fb99cda-63f6-4606-a163-d26f059cb735")
+		)
+		(pin "2"
+			(uuid "50eadbac-72c2-4074-8979-268cb3049690")
+		)
+		(instances
+			(project "adsr-vca-core"
+				(path "/8e2e31f3-eed5-4de1-966c-f4162758c735/c6cac276-2f32-41b3-9c97-03c30aa61119"
+					(reference "R29")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:-12V")
 		(at 22.86 186.69 180)
 		(unit 1)
@@ -2281,6 +2461,124 @@
 			(project "adsr-vca-core"
 				(path "/8e2e31f3-eed5-4de1-966c-f4162758c735/c6cac276-2f32-41b3-9c97-03c30aa61119"
 					(reference "#PWR018")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Potentiometer_Trim")
+		(at 68.58 120.65 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2947ab7d-eaa1-458d-9f37-e2e4de2f3455")
+		(property "Reference" "RV_VCA_BIAS1"
+			(at 66.04 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "100k"
+			(at 61.595 122.555 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Potentiometer_THT:Potentiometer_ACP_CA6-H2,5_Horizontal"
+			(at 68.58 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 68.58 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Trim-potentiometer"
+			(at 68.58 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arwill" ""
+			(at 68.58 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Hestore" ""
+			(at 68.58 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part No." ""
+			(at 68.58 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part URL" ""
+			(at 68.58 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor" "Mouser"
+			(at 68.58 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "f33e2134-cd8e-4f74-9e17-b63f9eed0018")
+		)
+		(pin "3"
+			(uuid "d46ba174-ec0e-4d28-b812-d94ba1c90b2c")
+		)
+		(pin "1"
+			(uuid "81ab8a36-a9be-4ad8-b8dd-7a991f98faa6")
+		)
+		(instances
+			(project "adsr-vca-core"
+				(path "/8e2e31f3-eed5-4de1-966c-f4162758c735/c6cac276-2f32-41b3-9c97-03c30aa61119"
+					(reference "RV_VCA_BIAS1")
 					(unit 1)
 				)
 			)
@@ -3620,6 +3918,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:-12V")
+		(at 68.58 127 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a3dc62f9-09b1-4f17-9df9-0cf9be723674")
+		(property "Reference" "#PWR038"
+			(at 68.58 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "-12V"
+			(at 68.58 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 68.58 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 68.58 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"-12V\""
+			(at 68.58 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "30b4b2fc-f702-43d2-8834-207a7b33c9d0")
+		)
+		(instances
+			(project "adsr-vca-core"
+				(path "/8e2e31f3-eed5-4de1-966c-f4162758c735/c6cac276-2f32-41b3-9c97-03c30aa61119"
+					(reference "#PWR038")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 106.68 80.01 180)
 		(unit 1)
@@ -3875,6 +4239,72 @@
 			(project ""
 				(path "/8e2e31f3-eed5-4de1-966c-f4162758c735/c6cac276-2f32-41b3-9c97-03c30aa61119"
 					(reference "U2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+12V")
+		(at 68.58 114.3 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bf8296f3-1af4-4b1d-b70a-53720effb90b")
+		(property "Reference" "#PWR037"
+			(at 68.58 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+12V"
+			(at 68.58 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 68.58 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 68.58 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
+			(at 68.58 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "dd6cf7ce-23f1-495e-94c4-c1d54a3b1a6c")
+		)
+		(instances
+			(project "adsr-vca-core"
+				(path "/8e2e31f3-eed5-4de1-966c-f4162758c735/c6cac276-2f32-41b3-9c97-03c30aa61119"
+					(reference "#PWR037")
 					(unit 1)
 				)
 			)
