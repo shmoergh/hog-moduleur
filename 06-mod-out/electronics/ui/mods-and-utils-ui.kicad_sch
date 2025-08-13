@@ -1888,7 +1888,7 @@
 		(uuid "e76b7279-defd-4f05-b953-ea042ad1ae94")
 	)
 	(no_connect
-		(at 245.11 41.91)
+		(at 247.65 41.91)
 		(uuid "192f90c8-d9c1-43d6-94f9-9c2956fd2671")
 	)
 	(no_connect
@@ -2486,16 +2486,6 @@
 			(type default)
 		)
 		(uuid "ba185208-602f-459e-a1ca-910d166e0831")
-	)
-	(wire
-		(pts
-			(xy 245.11 41.91) (xy 247.65 41.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bc08d02a-3933-4ee8-8e25-a6cd5b6363ab")
 	)
 	(wire
 		(pts
