@@ -21844,19 +21844,6 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "ENV"
-		(at 145.59 44.127 180)
-		(layer "F.SilkS")
-		(uuid "01dc1db4-6607-4716-a653-6390e5d9e739")
-		(effects
-			(font
-				(size 1 0.75)
-				(thickness 0.15)
-				(bold yes)
-			)
-			(justify bottom)
-		)
-	)
 	(gr_text "+"
 		(at 125.778 59.875 0)
 		(layer "F.SilkS")
@@ -21869,27 +21856,14 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "VOUT"
-		(at 153.21 44.127 180)
-		(layer "F.SilkS")
-		(uuid "094eff45-7dd1-4ccf-aba0-80074653602c")
-		(effects
-			(font
-				(size 1 0.75)
-				(thickness 0.15)
-				(bold yes)
-			)
-			(justify bottom)
-		)
-	)
-	(gr_text "NC"
+	(gr_text "VCOUT"
 		(at 155.877 44.127 180)
 		(layer "F.SilkS")
-		(uuid "140b1aa5-70eb-4876-b129-304ee263c3a0")
+		(uuid "0cb2d953-ea21-48fe-a4c8-768afb5167f5")
 		(effects
 			(font
 				(size 1 0.75)
-				(thickness 0.15)
+				(thickness 0.17)
 				(bold yes)
 			)
 			(justify bottom)
@@ -21921,14 +21895,27 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "GATE"
-		(at 143.05 44.127 180)
+	(gr_text "VCIN"
+		(at 150.162 44.127 180)
 		(layer "F.SilkS")
-		(uuid "3a0dd34f-7ae8-4043-ab4f-254b999abe48")
+		(uuid "3ca62392-492c-48e3-af58-963a74027006")
 		(effects
 			(font
 				(size 1 0.75)
-				(thickness 0.15)
+				(thickness 0.17)
+				(bold yes)
+			)
+			(justify bottom)
+		)
+	)
+	(gr_text "ENV"
+		(at 147.622 44.127 180)
+		(layer "F.SilkS")
+		(uuid "3f228ac3-17b1-441b-bb6c-6771f07a5bd5")
+		(effects
+			(font
+				(size 1 0.75)
+				(thickness 0.17)
 				(bold yes)
 			)
 			(justify bottom)
@@ -22061,6 +22048,19 @@
 			(justify left bottom)
 		)
 	)
+	(gr_text "GATI"
+		(at 145.082 44.127 180)
+		(layer "F.SilkS")
+		(uuid "9193a9b1-b17a-4032-9306-ed5c8def5268")
+		(effects
+			(font
+				(size 1 0.75)
+				(thickness 0.17)
+				(bold yes)
+			)
+			(justify bottom)
+		)
+	)
 	(gr_text "A1"
 		(at 133.017 99.118 0)
 		(layer "F.SilkS")
@@ -22074,27 +22074,14 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "VIN"
-		(at 148.003 44.127 180)
-		(layer "F.SilkS")
-		(uuid "b0a4baba-70a1-47ab-9a1f-37f39d137f2e")
-		(effects
-			(font
-				(size 1 0.75)
-				(thickness 0.15)
-				(bold yes)
-			)
-			(justify bottom)
-		)
-	)
 	(gr_text "VCV"
-		(at 150.675 44.127 180)
+		(at 152.702 44.127 180)
 		(layer "F.SilkS")
-		(uuid "b45259a7-8284-4ea2-acf2-f4c285bdd069")
+		(uuid "b072835f-417f-4b7e-b97e-d349c59763dc")
 		(effects
 			(font
 				(size 1 0.75)
-				(thickness 0.15)
+				(thickness 0.17)
 				(bold yes)
 			)
 			(justify bottom)
@@ -22165,6 +22152,19 @@
 			(justify right bottom)
 		)
 	)
+	(gr_text "GATD"
+		(at 142.288 44.127 180)
+		(layer "F.SilkS")
+		(uuid "ec01e28a-9a67-420a-b97d-040bd53b9f39")
+		(effects
+			(font
+				(size 1 0.75)
+				(thickness 0.17)
+				(bold yes)
+			)
+			(justify bottom)
+		)
+	)
 	(gr_text "ENV"
 		(at 133.017 96.578 0)
 		(layer "F.SilkS")
@@ -22204,10 +22204,10 @@
 			(justify right bottom)
 		)
 	)
-	(gr_text "VOUT"
-		(at 153.21 44.127 180)
+	(gr_text "VCOU"
+		(at 156.004 44.127 180)
 		(layer "B.SilkS")
-		(uuid "012d8275-ff2f-4161-b7b0-6a3c9519543e")
+		(uuid "05f73b4f-e271-44e8-b327-f0b9d8a23a07")
 		(effects
 			(font
 				(size 1 0.75)
@@ -22557,10 +22557,23 @@
 			)
 		)
 	)
-	(gr_text "NC"
-		(at 155.877 44.127 180)
+	(gr_text "ENV"
+		(at 148.003 44.127 180)
 		(layer "B.SilkS")
-		(uuid "27bdc9bf-400d-4d53-9f69-47340926a84f")
+		(uuid "16a08309-730b-42c6-b310-bc19319cefd3")
+		(effects
+			(font
+				(size 1 0.75)
+				(thickness 0.15)
+				(bold yes)
+			)
+			(justify bottom mirror)
+		)
+	)
+	(gr_text "VCV"
+		(at 153.21 44.127 180)
+		(layer "B.SilkS")
+		(uuid "1cc4cbaf-7dfd-43b5-b00b-b71da15a5573")
 		(effects
 			(font
 				(size 1 0.75)
@@ -22583,10 +22596,10 @@
 			(justify bottom mirror)
 		)
 	)
-	(gr_text "VCV"
+	(gr_text "VCIN"
 		(at 150.543 44.127 180)
 		(layer "B.SilkS")
-		(uuid "5c07271d-10e4-43d0-b159-d85401ef67d4")
+		(uuid "4d237bda-35f9-43b8-b073-50a66248c9f0")
 		(effects
 			(font
 				(size 1 0.75)
@@ -22609,10 +22622,10 @@
 			(justify bottom mirror)
 		)
 	)
-	(gr_text "12V"
-		(at 151.6225 105.214 180)
+	(gr_text "GATI"
+		(at 145.463 44.127 180)
 		(layer "B.SilkS")
-		(uuid "8edb797c-5352-4424-afeb-69ce309e32ba")
+		(uuid "6d8638ba-d831-4f35-9b1d-34a08584e731")
 		(effects
 			(font
 				(size 1 0.75)
@@ -22622,10 +22635,10 @@
 			(justify bottom mirror)
 		)
 	)
-	(gr_text "VIN"
-		(at 148.003 44.127 180)
+	(gr_text "12V"
+		(at 151.6225 105.214 180)
 		(layer "B.SilkS")
-		(uuid "91c097e3-1648-4029-9234-4f34d03cf710")
+		(uuid "8edb797c-5352-4424-afeb-69ce309e32ba")
 		(effects
 			(font
 				(size 1 0.75)
@@ -23160,23 +23173,10 @@
 			)
 		)
 	)
-	(gr_text "GATE"
+	(gr_text "GATD"
 		(at 142.796 44.127 180)
 		(layer "B.SilkS")
-		(uuid "bb5f5482-6b52-49ef-b3ed-afcdf2298c5c")
-		(effects
-			(font
-				(size 1 0.75)
-				(thickness 0.15)
-				(bold yes)
-			)
-			(justify bottom mirror)
-		)
-	)
-	(gr_text "ENV"
-		(at 145.463 44.127 180)
-		(layer "B.SilkS")
-		(uuid "df136628-1c28-43d5-a3ef-fe7880bc4a70")
+		(uuid "dfba94b8-6144-4922-b345-8645c764fe22")
 		(effects
 			(font
 				(size 1 0.75)
