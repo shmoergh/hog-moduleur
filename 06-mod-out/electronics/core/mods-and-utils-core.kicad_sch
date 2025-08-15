@@ -2092,22 +2092,22 @@
 	)
 	(global_label "OUTPUT_DRIVE_3"
 		(shape bidirectional)
-		(at 208.28 119.38 180)
+		(at 226.06 119.38 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "2565762d-b87c-4aaf-8dff-6c95ff556772")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 188.4597 119.38 0)
+			(at 245.8803 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -2312,29 +2312,29 @@
 	)
 	(global_label "OUTPUT_VOL_3"
 		(shape bidirectional)
-		(at 226.06 119.38 0)
+		(at 208.28 119.38 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "787180c5-4114-4956-b2e5-fc58ea174055")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 243.9451 119.38 0)
+			(at 190.3949 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 				(hide yes)
 			)
 		)
 	)
 	(global_label "OUTPUT_LINE_OUT"
 		(shape output)
-		(at 208.28 124.46 180)
+		(at 208.28 127 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2344,7 +2344,7 @@
 		)
 		(uuid "85ac015c-f450-4813-91c7-4f88b35b2aea")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 188.4219 124.46 0)
+			(at 188.4219 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2598,7 +2598,7 @@
 	)
 	(global_label "OUTPUT_IN"
 		(shape input)
-		(at 208.28 127 180)
+		(at 208.28 124.46 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2608,7 +2608,7 @@
 		)
 		(uuid "dcd284b3-5065-49d7-b1e8-0eeb4ba5ea83")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 195.1952 127 0)
+			(at 195.1952 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
