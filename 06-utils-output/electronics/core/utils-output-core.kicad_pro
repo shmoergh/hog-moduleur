@@ -68,10 +68,6 @@
           ""
         ],
         [
-          "duplicate_footprints|125143000|51197000|2d977b20-56e8-42ae-aaf6-7097252fadf7|e49e73da-9528-4359-a3e7-a2509485b4de",
-          ""
-        ],
-        [
           "extra_footprint|125143000|51197000|2d977b20-56e8-42ae-aaf6-7097252fadf7|00000000-0000-0000-0000-000000000000",
           ""
         ],
@@ -497,7 +493,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "mods-and-utils-core.kicad_pro",
+    "filename": "utils-output-core.kicad_pro",
     "version": 3
   },
   "net_settings": {
