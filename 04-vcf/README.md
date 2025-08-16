@@ -7,7 +7,7 @@ Dual mode Eurorack compatible diode filter based on the famous Synthacon Steiner
 - Classic diode filter with extremely drippy character
 - Low pass and high pass filter inputs
 - Fine-tunable maximum resonance control — can go smooth to crazy
-- Two external CV inputs with attenuverters
+- Two external CV inputs with logarithmic attenuverters
 - Optional EMC shielding to isolate external noise
 - Separate core and UI PCBs for reusability and custom UI builds
 - Gerber files for JLCPCB order
