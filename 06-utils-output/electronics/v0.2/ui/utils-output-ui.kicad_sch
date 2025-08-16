@@ -4415,7 +4415,7 @@
 	)
 	(global_label "OUTPUT_OUT_DEFAULT"
 		(shape input)
-		(at 240.03 29.21 180)
+		(at 240.03 34.29 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4425,7 +4425,7 @@
 		)
 		(uuid "01606ef2-01f5-47de-9278-e9b07f144eaf")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 216.3619 29.21 0)
+			(at 216.3619 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4613,7 +4613,7 @@
 	)
 	(global_label "CRUSH_OUT_DEFAULT"
 		(shape input)
-		(at 240.03 34.29 180)
+		(at 240.03 29.21 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4623,7 +4623,7 @@
 		)
 		(uuid "4e7ee93a-303c-4f66-bcaf-637ef82be3c7")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 217.1481 34.29 0)
+			(at 217.1481 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4679,7 +4679,7 @@
 	)
 	(global_label "OUTPUT_PHONES_OUT"
 		(shape output)
-		(at 240.03 100.33 180)
+		(at 240.03 97.79 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4689,7 +4689,7 @@
 		)
 		(uuid "54ad1686-ad04-454d-9822-1f5436568f56")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 216.6643 100.33 0)
+			(at 216.6643 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4855,7 +4855,7 @@
 	)
 	(global_label "LFO_TRI_DEFAULT"
 		(shape input)
-		(at 240.03 36.83 180)
+		(at 240.03 41.91 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4865,7 +4865,7 @@
 		)
 		(uuid "820602b3-aa7e-4bac-ba2b-f3afea278e98")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 220.8976 36.83 0)
+			(at 220.8976 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4921,7 +4921,7 @@
 	)
 	(global_label "OUTPUT_IN_DEFAULT"
 		(shape input)
-		(at 240.03 41.91 180)
+		(at 240.03 36.83 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4931,7 +4931,7 @@
 		)
 		(uuid "8742f6ba-b940-4b44-ab0b-1e30c3a38da7")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 218.0552 41.91 0)
+			(at 218.0552 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5339,7 +5339,7 @@
 	)
 	(global_label "OUTPUT_VOL_3"
 		(shape bidirectional)
-		(at 240.03 97.79 180)
+		(at 240.03 100.33 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5349,7 +5349,7 @@
 		)
 		(uuid "d5695c50-1f6f-4b02-a1ee-1081a7d23b04")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 222.1449 97.79 0)
+			(at 222.1449 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
