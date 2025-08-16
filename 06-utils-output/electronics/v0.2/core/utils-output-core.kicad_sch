@@ -2454,7 +2454,7 @@
 	)
 	(global_label "OUTPUT_PHONES_OUT"
 		(shape output)
-		(at 208.28 121.92 180)
+		(at 208.28 119.38 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2464,7 +2464,7 @@
 		)
 		(uuid "018abfc2-cd53-4539-b34c-807f6583305d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 184.9143 121.92 0)
+			(at 184.9143 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2762,7 +2762,7 @@
 	)
 	(global_label "OUTPUT_VOL_3"
 		(shape bidirectional)
-		(at 208.28 119.38 180)
+		(at 208.28 121.92 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2772,7 +2772,7 @@
 		)
 		(uuid "787180c5-4114-4956-b2e5-fc58ea174055")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 190.3949 119.38 0)
+			(at 190.3949 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
