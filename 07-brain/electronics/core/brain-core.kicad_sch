@@ -2114,8 +2114,8 @@
 		)
 	)
 	(sheet
-		(at 139.7 74.93)
-		(size 27.94 11.43)
+		(at 132.08 73.66)
+		(size 29.21 11.43)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -2130,7 +2130,7 @@
 		)
 		(uuid "32847f22-b12c-47fa-93af-9590081bf97a")
 		(property "Sheetname" "LEDs"
-			(at 139.7 74.2184 0)
+			(at 132.08 72.9484 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2139,7 +2139,7 @@
 			)
 		)
 		(property "Sheetfile" "sheets/leds.kicad_sch"
-			(at 139.7 86.9446 0)
+			(at 132.08 85.6746 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2198,7 +2198,7 @@
 		)
 	)
 	(sheet
-		(at 29.21 74.93)
+		(at 30.48 73.66)
 		(size 30.48 11.43)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2214,7 +2214,7 @@
 		)
 		(uuid "8a188845-24ef-4ee2-8aa9-3f104a808c23")
 		(property "Sheetname" "MIDI In"
-			(at 29.21 74.2184 0)
+			(at 30.48 72.9484 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2223,7 +2223,7 @@
 			)
 		)
 		(property "Sheetfile" "sheets/midi-in.kicad_sch"
-			(at 29.21 86.9446 0)
+			(at 30.48 85.6746 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2282,7 +2282,91 @@
 		)
 	)
 	(sheet
-		(at 80.01 50.8)
+		(at 81.28 50.8)
+		(size 29.21 12.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "a5dac03c-0548-4574-b19b-4dd5fbd38e47")
+		(property "Sheetname" "Audio CV Out"
+			(at 81.28 50.0884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sheets/audio-cv-out.kicad_sch"
+			(at 81.28 64.0846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "brain-core"
+				(path "/8e2e31f3-eed5-4de1-966c-f4162758c735"
+					(page "9")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 30.48 96.52)
+		(size 29.21 11.43)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "a97d408f-9e6e-4f2a-a0b2-91646f8dc854")
+		(property "Sheetname" "Buttons"
+			(at 30.48 95.8084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sheets/buttons.kicad_sch"
+			(at 30.48 108.5346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "brain-core"
+				(path "/8e2e31f3-eed5-4de1-966c-f4162758c735"
+					(page "10")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 132.08 50.8)
 		(size 29.21 11.43)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2298,7 +2382,7 @@
 		)
 		(uuid "b082d257-9358-41e3-a203-3f08ae6b6f5f")
 		(property "Sheetname" "Pulse IO"
-			(at 80.01 50.0884 0)
+			(at 132.08 50.0884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2307,7 +2391,7 @@
 			)
 		)
 		(property "Sheetfile" "sheets/pulse-io.kicad_sch"
-			(at 80.01 62.8146 0)
+			(at 132.08 62.8146 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2436,8 +2520,8 @@
 		)
 	)
 	(sheet
-		(at 80.01 76.2)
-		(size 30.48 11.43)
+		(at 81.28 73.66)
+		(size 30.48 48.26)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -2452,7 +2536,7 @@
 		)
 		(uuid "e381105c-725b-4f82-965a-3ba61dbc8b0a")
 		(property "Sheetname" "MCU"
-			(at 80.01 75.4884 0)
+			(at 81.28 72.9484 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2461,7 +2545,7 @@
 			)
 		)
 		(property "Sheetfile" "sheets/mcu.kicad_sch"
-			(at 80.01 88.2146 0)
+			(at 81.28 122.5046 0)
 			(effects
 				(font
 					(size 1.27 1.27)

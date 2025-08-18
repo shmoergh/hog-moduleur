@@ -2274,7 +2274,7 @@
 		)
 		(uuid "d919572c-18ac-44b9-b440-5917a77a957b")
 	)
-	(hierarchical_label "AUDIO_IN_2_GPIO"
+	(hierarchical_label "GPIO_AUDIO_IN_2"
 		(shape output)
 		(at 208.28 90.17 0)
 		(effects
@@ -2285,7 +2285,7 @@
 		)
 		(uuid "e162f8e1-4aa1-4ab0-a39c-e8e8d35a2383")
 	)
-	(hierarchical_label "AUDIO_IN_1_GPIO"
+	(hierarchical_label "GPIO_AUDIO_IN_1"
 		(shape output)
 		(at 208.28 36.83 0)
 		(effects

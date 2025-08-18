@@ -785,6 +785,14 @@
     [
       "676f845b-15a5-416c-82f1-a8769d54bb0d",
       "Audio CV In"
+    ],
+    [
+      "a5dac03c-0548-4574-b19b-4dd5fbd38e47",
+      "Audio CV Out"
+    ],
+    [
+      "a97d408f-9e6e-4f2a-a0b2-91646f8dc854",
+      "Buttons"
     ]
   ],
   "text_variables": {}
