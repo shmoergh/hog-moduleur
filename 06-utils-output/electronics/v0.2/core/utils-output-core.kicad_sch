@@ -1524,7 +1524,7 @@
 		)
 		(uuid "04522756-3b1a-4ebb-822d-e19cd2221af7")
 	)
-	(text "LFO_TRI"
+	(text "OUTPUT_OUT"
 		(exclude_from_sim no)
 		(at 209.55 45.72 0)
 		(effects
@@ -1535,7 +1535,7 @@
 		)
 		(uuid "1b3a0795-3690-4313-8167-0e2e2c5d8a29")
 	)
-	(text "HEADPHONES_OUT"
+	(text "LFO_TRI"
 		(exclude_from_sim no)
 		(at 209.55 53.34 0)
 		(effects
@@ -1546,7 +1546,7 @@
 		)
 		(uuid "4a697962-01a1-4a11-8a2d-12f0209930ae")
 	)
-	(text "BITCRUSHER_IN"
+	(text "CRUSH_OUT"
 		(exclude_from_sim no)
 		(at 209.55 40.64 0)
 		(effects
@@ -1579,7 +1579,7 @@
 		)
 		(uuid "73728b9b-1d0d-4544-b7c4-8e339db4586f")
 	)
-	(text "OUTPUT_IN"
+	(text "LFO_SQR"
 		(exclude_from_sim no)
 		(at 209.55 50.8 0)
 		(effects
@@ -1602,7 +1602,7 @@
 		)
 		(uuid "977681d7-8585-422d-900f-ff2a0d5b2e4a")
 	)
-	(text "BITCRUSHER_OUT"
+	(text "CRUSH_IN"
 		(exclude_from_sim no)
 		(at 209.55 43.18 0)
 		(effects
@@ -1625,7 +1625,7 @@
 		)
 		(uuid "fa7760ee-0c94-4d2d-b523-e42be1281ed9")
 	)
-	(text "LFO_SQR"
+	(text "OUTPUT_IN"
 		(exclude_from_sim no)
 		(at 209.55 48.26 0)
 		(effects
@@ -1990,16 +1990,6 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 124.46) (xy 59.69 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7ec462c4-102e-41af-8038-1ea69225fca8")
-	)
-	(wire
-		(pts
 			(xy 223.52 97.79) (xy 226.06 97.79)
 		)
 		(stroke
@@ -2007,16 +1997,6 @@
 			(type default)
 		)
 		(uuid "8250db76-845b-4fa6-bac3-f4011523bc53")
-	)
-	(wire
-		(pts
-			(xy 226.06 119.38) (xy 223.52 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "85470e11-b608-40cf-b4db-b16c29782240")
 	)
 	(wire
 		(pts
@@ -2230,6 +2210,16 @@
 	)
 	(wire
 		(pts
+			(xy 226.06 119.38) (xy 223.52 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c79f226b-04ed-4bb8-929f-d15ff96f2534")
+	)
+	(wire
+		(pts
 			(xy 222.25 45.72) (xy 212.09 45.72)
 		)
 		(stroke
@@ -2380,6 +2370,16 @@
 	)
 	(wire
 		(pts
+			(xy 57.15 124.46) (xy 59.69 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f09394f1-69b5-4fef-9eb4-46398b0b1cfe")
+	)
+	(wire
+		(pts
 			(xy 245.11 45.72) (xy 234.95 45.72)
 		)
 		(stroke
@@ -2454,7 +2454,7 @@
 	)
 	(global_label "OUTPUT_PHONES_OUT"
 		(shape output)
-		(at 208.28 119.38 180)
+		(at 208.28 121.92 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2464,7 +2464,7 @@
 		)
 		(uuid "018abfc2-cd53-4539-b34c-807f6583305d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 184.9143 119.38 0)
+			(at 184.9143 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2536,28 +2536,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "OUTPUT_DRIVE_3"
-		(shape bidirectional)
-		(at 226.06 119.38 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "2565762d-b87c-4aaf-8dff-6c95ff556772")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 245.8803 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 				(hide yes)
 			)
 		)
@@ -2738,6 +2716,28 @@
 			)
 		)
 	)
+	(global_label "OUTPUT_VOL_3"
+		(shape bidirectional)
+		(at 226.06 116.84 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "68f0e06e-512d-4fe0-aa7c-45856f06a795")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 243.9451 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "CRUSH_TRIG"
 		(shape input)
 		(at 208.28 73.66 180)
@@ -2751,28 +2751,6 @@
 		(uuid "6bb975a4-1621-4f9b-88af-86860e83fe78")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 193.8043 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "OUTPUT_VOL_3"
-		(shape bidirectional)
-		(at 208.28 121.92 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "787180c5-4114-4956-b2e5-fc58ea174055")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 190.3949 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2828,7 +2806,7 @@
 	)
 	(global_label "OUTPUT_VOL_2"
 		(shape bidirectional)
-		(at 226.06 116.84 0)
+		(at 226.06 119.38 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2838,7 +2816,7 @@
 		)
 		(uuid "972b311d-d9e7-41c4-b423-712e0c4004f5")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 243.9451 116.84 0)
+			(at 243.9451 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2958,6 +2936,28 @@
 			)
 		)
 	)
+	(global_label "OUTPUT_VOL_3"
+		(shape bidirectional)
+		(at 57.15 124.46 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c4a418c4-4f7f-423b-86ad-1bf15918bc18")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 39.2649 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "LFO_RATE"
 		(shape input)
 		(at 57.15 93.98 180)
@@ -2982,7 +2982,7 @@
 	)
 	(global_label "OUTPUT_DRIVE_1"
 		(shape bidirectional)
-		(at 208.28 116.84 180)
+		(at 208.28 119.38 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2992,7 +2992,7 @@
 		)
 		(uuid "d49903fc-785a-4280-8c68-0527ab3620b6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 188.4597 116.84 0)
+			(at 188.4597 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3024,28 +3024,6 @@
 			)
 		)
 	)
-	(global_label "OUTPUT_VOL_3"
-		(shape bidirectional)
-		(at 57.15 124.46 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "d98bb29d-0261-40c9-b919-354d3fbfc344")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 39.2649 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "OUTPUT_IN"
 		(shape input)
 		(at 208.28 124.46 180)
@@ -3059,6 +3037,28 @@
 		(uuid "dcd284b3-5065-49d7-b1e8-0eeb4ba5ea83")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 195.1952 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "OUTPUT_DRIVE_3"
+		(shape bidirectional)
+		(at 208.28 116.84 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "dead1aed-12a1-4049-a851-13b168da9446")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 188.4597 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4447,16 +4447,6 @@
 				(justify left)
 			)
 		)
-		(pin "DRIVE_3" bidirectional
-			(at 59.69 118.11 180)
-			(uuid "1f9558ef-6b0a-4b2d-ac53-e6ce73b2b7f0")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 		(pin "HEADPHONES" output
 			(at 97.79 111.76 0)
 			(uuid "5fd769d8-1cdb-4c60-ae55-9cd14a980d3a")
@@ -4487,9 +4477,19 @@
 				(justify left)
 			)
 		)
+		(pin "DRIVE_3" bidirectional
+			(at 59.69 118.11 180)
+			(uuid "d0eccf4e-6f8d-462d-a063-1176f47bd613")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(pin "MAIN_VOL_3" bidirectional
 			(at 59.69 124.46 180)
-			(uuid "6df3c39e-412a-43ff-93f3-159f79f1f473")
+			(uuid "8b6bcc3d-fd1c-4fdd-b87f-38c4e27ef0da")
 			(effects
 				(font
 					(size 1.27 1.27)
