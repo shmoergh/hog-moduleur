@@ -1408,6 +1408,32 @@
 		)
 		(uuid "a87d9ac2-75ce-44b4-8ad8-939108b35d54")
 	)
+	(text "S&H notes Aug 20 2025:\n- tested, works\n- 2N3819 is significantly better for bitcrusher (audio)\nthan other JFET's (e.g. J112)"
+		(exclude_from_sim no)
+		(at 109.22 22.86 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.1588)
+				(color 0 194 194 1)
+			)
+			(justify left)
+		)
+		(uuid "b695a179-f19c-4c51-9715-c7574b35a7eb")
+	)
+	(text "Oscillator notes Aug 20 2025\n- tested, works\n\nFrequency range:\n- with A500k crush pot -> 210Hz - 15kHz\n- with A1M crush pot -> 160Hz - 19kHz (better)"
+		(exclude_from_sim no)
+		(at 105.41 140.97 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.1588)
+				(color 0 194 194 1)
+			)
+			(justify left)
+		)
+		(uuid "e31ad89d-034f-4b65-aefc-3cd6fdc0eff3")
+	)
 	(junction
 		(at 179.07 48.26)
 		(diameter 0)
@@ -2640,6 +2666,127 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 111.76 50.8 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0d2b9180-58a7-4864-8806-6d1ce2bd740a")
+		(property "Reference" "R10"
+			(at 111.76 44.45 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 111.76 46.99 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 111.76 52.578 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 111.76 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 111.76 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25804"
+			(at 111.76 50.8 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" ""
+			(at 111.76 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part No." ""
+			(at 111.76 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part URL" ""
+			(at 111.76 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor" "JLCPCB"
+			(at 111.76 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field4" ""
+			(at 111.76 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fa9cb17a-dca0-4050-958b-e112619c508b")
+		)
+		(pin "2"
+			(uuid "5c94d482-4658-4c0a-8e72-3922f5b6f49a")
+		)
+		(instances
+			(project "utils-output-core"
+				(path "/8e2e31f3-eed5-4de1-966c-f4162758c735/db8ca729-d0ac-4a4b-85bc-9e88a5b3d47c"
+					(reference "R10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 179.07 62.23 0)
 		(unit 1)
@@ -3597,7 +3744,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "503ba0ab-d650-4264-b8dc-ab7c58f98c09")
-		(property "Reference" "D6"
+		(property "Reference" "#D6"
 			(at 119.38 55.88 90)
 			(effects
 				(font
@@ -3703,7 +3850,7 @@
 		(instances
 			(project "utils-output-core"
 				(path "/8e2e31f3-eed5-4de1-966c-f4162758c735/db8ca729-d0ac-4a4b-85bc-9e88a5b3d47c"
-					(reference "D6")
+					(reference "#D6")
 					(unit 1)
 				)
 			)
@@ -4083,7 +4230,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "72968674-fbd7-4357-8702-fda93fd6dbb5")
-		(property "Reference" "D5"
+		(property "Reference" "#D5"
 			(at 119.38 44.45 90)
 			(effects
 				(font
@@ -4189,7 +4336,7 @@
 		(instances
 			(project "utils-output-core"
 				(path "/8e2e31f3-eed5-4de1-966c-f4162758c735/db8ca729-d0ac-4a4b-85bc-9e88a5b3d47c"
-					(reference "D5")
+					(reference "#D5")
 					(unit 1)
 				)
 			)
@@ -4322,127 +4469,6 @@
 			(project "mods-and-utils-core"
 				(path "/8e2e31f3-eed5-4de1-966c-f4162758c735/db8ca729-d0ac-4a4b-85bc-9e88a5b3d47c"
 					(reference "#PWR036")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 111.76 50.8 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "798b446b-d4bd-4daa-bb9f-63f0e359dab2")
-		(property "Reference" "R10"
-			(at 111.76 53.34 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "100k"
-			(at 111.76 55.88 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 111.76 52.578 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 111.76 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 111.76 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C25803"
-			(at 111.76 50.8 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser" ""
-			(at 111.76 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part No." ""
-			(at 111.76 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part URL" ""
-			(at 111.76 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Vendor" "JLCPCB"
-			(at 111.76 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Field4" ""
-			(at 111.76 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ec1131cc-ec27-491f-bcc6-c3941a71750c")
-		)
-		(pin "2"
-			(uuid "540fb663-e260-441d-80b4-0ad0a411b30f")
-		)
-		(instances
-			(project "utils-output-core"
-				(path "/8e2e31f3-eed5-4de1-966c-f4162758c735/db8ca729-d0ac-4a4b-85bc-9e88a5b3d47c"
-					(reference "R10")
 					(unit 1)
 				)
 			)
@@ -5238,7 +5264,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a7918712-61c2-4d9e-a0a9-67a137efa1d2")
-		(property "Reference" "D7"
+		(property "Reference" "#D3"
 			(at 212.09 39.37 90)
 			(effects
 				(font
@@ -5344,7 +5370,7 @@
 		(instances
 			(project "utils-output-core"
 				(path "/8e2e31f3-eed5-4de1-966c-f4162758c735/db8ca729-d0ac-4a4b-85bc-9e88a5b3d47c"
-					(reference "D7")
+					(reference "#D3")
 					(unit 1)
 				)
 			)
@@ -5426,7 +5452,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b0ec44d9-4ad9-4cba-98e4-4a783c378924")
-		(property "Reference" "D8"
+		(property "Reference" "#D8"
 			(at 212.09 50.8 90)
 			(effects
 				(font
@@ -5532,7 +5558,7 @@
 		(instances
 			(project "utils-output-core"
 				(path "/8e2e31f3-eed5-4de1-966c-f4162758c735/db8ca729-d0ac-4a4b-85bc-9e88a5b3d47c"
-					(reference "D8")
+					(reference "#D8")
 					(unit 1)
 				)
 			)
@@ -5658,7 +5684,7 @@
 				)
 			)
 		)
-		(property "Value" "1M"
+		(property "Value" "A1M"
 			(at 90.17 146.05 90)
 			(effects
 				(font
@@ -6206,7 +6232,7 @@
 				)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "4.7k"
 			(at 63.5 137.16 0)
 			(effects
 				(font
@@ -6328,7 +6354,7 @@
 				)
 			)
 		)
-		(property "Value" "1u (foil)"
+		(property "Value" "1n (foil)"
 			(at 161.29 101.6 90)
 			(effects
 				(font
@@ -6336,7 +6362,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Rect_L7.0mm_W4.5mm_P5.00mm"
+		(property "Footprint" "Capacitor_THT:C_Rect_L7.2mm_W2.5mm_P5.00mm_FKS2_FKP2_MKS2_MKP2"
 			(at 165.1 105.7148 0)
 			(effects
 				(font
