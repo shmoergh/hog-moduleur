@@ -9275,7 +9275,7 @@
 				)
 			)
 		)
-		(property "Value" "470n (foil)"
+		(property "Value" "1u (foil)"
 			(at 226.06 55.88 90)
 			(effects
 				(font
@@ -9283,7 +9283,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Rect_L7.0mm_W3.5mm_P5.00mm"
+		(property "Footprint" "Capacitor_THT:C_Rect_L7.0mm_W4.5mm_P5.00mm"
 			(at 220.98 60.6552 0)
 			(effects
 				(font
@@ -9366,6 +9366,15 @@
 		)
 		(property "CHECKED" "YES"
 			(at 224.79 59.69 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part No." ""
+			(at 224.79 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11286,8 +11295,9 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 271.78 57.15 270)
+		(lib_id "Device:C_Polarized")
+		(at 271.78 57.15 90)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11302,7 +11312,7 @@
 				)
 			)
 		)
-		(property "Value" "1u (Foil)"
+		(property "Value" "47u"
 			(at 271.78 53.0606 90)
 			(effects
 				(font
@@ -11310,8 +11320,8 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Rect_L7.0mm_W4.5mm_P5.00mm"
-			(at 267.97 58.1152 0)
+		(property "Footprint" "Capacitor_THT:CP_Radial_D8.0mm_P5.00mm"
+			(at 275.59 58.1152 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11328,7 +11338,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Polarized capacitor"
 			(at 271.78 57.15 0)
 			(effects
 				(font
@@ -11337,7 +11347,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part URL" "https://mou.sr/3ZROEn2"
+		(property "Part URL" "https://mou.sr/472flJF"
 			(at 271.78 57.15 0)
 			(effects
 				(font
@@ -11382,7 +11392,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part no." "80-R82EC4100Z370K "
+		(property "Part no." "667-EEA-GA1V470B "
 			(at 271.78 57.15 90)
 			(effects
 				(font
@@ -11393,6 +11403,15 @@
 		)
 		(property "CHECKED" "YES"
 			(at 271.78 57.15 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part No." ""
+			(at 271.78 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)

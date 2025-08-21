@@ -6318,7 +6318,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "93a36d14-df63-4c65-a21a-a57ed90568d7")
-		(property "Reference" "D14"
+		(property "Reference" "#D14"
 			(at 71.12 66.04 90)
 			(effects
 				(font
@@ -6424,7 +6424,7 @@
 		(instances
 			(project "utils-output-core"
 				(path "/8e2e31f3-eed5-4de1-966c-f4162758c735/41496549-080e-47b7-9088-5316bbc20ed8"
-					(reference "D14")
+					(reference "#D14")
 					(unit 1)
 				)
 			)
@@ -7278,7 +7278,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ce26b303-1e48-4bf1-802e-9704d562f671")
-		(property "Reference" "D13"
+		(property "Reference" "#D13"
 			(at 71.12 54.61 90)
 			(effects
 				(font
@@ -7384,7 +7384,7 @@
 		(instances
 			(project "utils-output-core"
 				(path "/8e2e31f3-eed5-4de1-966c-f4162758c735/41496549-080e-47b7-9088-5316bbc20ed8"
-					(reference "D13")
+					(reference "#D13")
 					(unit 1)
 				)
 			)

@@ -5730,7 +5730,7 @@
 			(drill 1.15)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 26 "RELEASE_1")
+			(net 24 "A1_D3_R3")
 			(pinfunction "2")
 			(pintype "passive")
 			(uuid "741c808c-5b22-4d3f-8d7a-0c1d327e83aa")
@@ -17250,6 +17250,14 @@
 		(uuid "7564fd61-8c13-4f05-ab2b-fd4aa34b5458")
 	)
 	(segment
+		(start 139.5 90)
+		(end 137 90)
+		(width 0.508)
+		(layer "F.Cu")
+		(net 24)
+		(uuid "7737e27e-231e-4f7e-a409-b81fed8a536f")
+	)
+	(segment
 		(start 153 89.549)
 		(end 152.321 90.228)
 		(width 0.508)
@@ -17368,14 +17376,6 @@
 		(layer "B.Cu")
 		(net 25)
 		(uuid "e346a92e-fd74-449d-9829-6b2a545a9014")
-	)
-	(segment
-		(start 134.5 90)
-		(end 137 90)
-		(width 0.508)
-		(layer "F.Cu")
-		(net 26)
-		(uuid "1e1605bf-32c5-49b7-b5bd-dc3b04b6a8e2")
 	)
 	(segment
 		(start 126.51 96.04)
