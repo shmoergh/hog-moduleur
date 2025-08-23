@@ -2242,32 +2242,6 @@
 			(embedded_fonts no)
 		)
 	)
-	(circle
-		(center 163.83 69.85)
-		(radius 6.35)
-		(stroke
-			(width 0)
-			(type solid)
-			(color 255 0 255 1)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 30f3f756-a571-4514-9000-a2653309d0dc)
-	)
-	(circle
-		(center 133.35 69.85)
-		(radius 6.35)
-		(stroke
-			(width 0)
-			(type solid)
-			(color 255 0 255 1)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 3349aaee-22b0-4f9c-a9ea-30a87b9721fc)
-	)
 	(rectangle
 		(start 157.48 19.05)
 		(end 181.61 36.83)
@@ -2303,19 +2277,6 @@
 			(type none)
 		)
 		(uuid 7ee16ea6-89eb-4324-837d-477f88b15f71)
-	)
-	(rectangle
-		(start 55.88 17.78)
-		(end 95.25 53.34)
-		(stroke
-			(width 0)
-			(type solid)
-			(color 255 0 255 1)
-		)
-		(fill
-			(type none)
-		)
-		(uuid e1d91827-78d4-4175-b471-2341290d2388)
 	)
 	(rectangle
 		(start 132.08 90.17)
@@ -2403,18 +2364,6 @@
 		)
 		(uuid "89c32162-96d9-4ac6-b7a4-97b3ecb0d207")
 	)
-	(text "The sustain pot value also\naffects the minimum decay time.\nThe higher the pot value, the \nlonger the minimum decay time.\nTo be able to experiment, I left\nthese two resistors THT. \n\nFor a 10k sustain pot use R10=10k\nand R11=4.7k. For lower minimum \ndecay time, use a 5k or 1k pot.\nBut then you need to update the\nvalue of R10 and R11 accordingly."
-		(exclude_from_sim no)
-		(at 58.42 38.1 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(color 255 0 255 1)
-			)
-			(justify left)
-		)
-		(uuid "8e0ec8bd-085b-4c51-a232-4fc10753eed9")
-	)
 	(text "+"
 		(exclude_from_sim no)
 		(at 242.57 82.55 0)
@@ -2424,21 +2373,6 @@
 			)
 		)
 		(uuid "9d11d02a-2445-462b-a4a9-a20bdf097e8b")
-	)
-	(text "Experimental"
-		(exclude_from_sim no)
-		(at 58.42 21.59 0)
-		(effects
-			(font
-				(size 2.27 2.27)
-				(thickness 0.454)
-				(bold yes)
-				(italic yes)
-				(color 255 0 255 1)
-			)
-			(justify left)
-		)
-		(uuid "a445b29a-8a19-4d5d-8b3e-8274cf6585d4")
 	)
 	(text "~9.7V Max"
 		(exclude_from_sim no)
@@ -2852,17 +2786,6 @@
 		)
 		(uuid "2c27b721-5414-4fb4-be5a-586b646de508")
 	)
-	(polyline
-		(pts
-			(xy 153.67 60.96) (xy 133.35 60.96)
-		)
-		(stroke
-			(width 0)
-			(type solid)
-			(color 255 0 255 1)
-		)
-		(uuid "2e31a596-5dcd-4752-80b3-405d07681031")
-	)
 	(wire
 		(pts
 			(xy 238.76 96.52) (xy 238.76 110.49)
@@ -2872,16 +2795,6 @@
 			(type default)
 		)
 		(uuid "2ec573f2-6bbe-43f5-8404-a1fbc872221c")
-	)
-	(polyline
-		(pts
-			(xy 135.89 99.06) (xy 138.43 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2ed89760-8ac1-4533-a916-2f6706d35a70")
 	)
 	(polyline
 		(pts
@@ -3203,17 +3116,6 @@
 		)
 		(uuid "6b0590d8-c560-461b-946d-343e6718e84a")
 	)
-	(polyline
-		(pts
-			(xy 153.67 30.48) (xy 153.67 60.96)
-		)
-		(stroke
-			(width 0)
-			(type solid)
-			(color 255 0 255 1)
-		)
-		(uuid "6b8ac34b-fe22-43b2-811d-ca9469cd2d14")
-	)
 	(wire
 		(pts
 			(xy 97.79 40.64) (xy 184.15 40.64)
@@ -3243,17 +3145,6 @@
 			(type default)
 		)
 		(uuid "70b475a7-c7e2-42ec-a171-fdbd71882ed9")
-	)
-	(polyline
-		(pts
-			(xy 153.67 60.96) (xy 163.83 60.96)
-		)
-		(stroke
-			(width 0)
-			(type solid)
-			(color 255 0 255 1)
-		)
-		(uuid "712bf199-ec00-4b93-a81e-1e3b8c98714b")
 	)
 	(polyline
 		(pts
@@ -3607,24 +3498,13 @@
 	)
 	(polyline
 		(pts
-			(xy 142.24 105.41) (xy 135.89 105.41)
+			(xy 142.24 105.41) (xy 146.05 105.41)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "adea34b2-3080-40da-aa94-8a7151a55ba8")
-	)
-	(polyline
-		(pts
-			(xy 133.35 60.96) (xy 133.35 63.5)
-		)
-		(stroke
-			(width 0)
-			(type solid)
-			(color 255 0 255 1)
-		)
-		(uuid "af470d05-1cb3-4d34-b0f7-42675bc24acc")
 	)
 	(wire
 		(pts
@@ -3728,7 +3608,7 @@
 	)
 	(polyline
 		(pts
-			(xy 135.89 99.06) (xy 135.89 105.41)
+			(xy 146.05 99.06) (xy 146.05 105.41)
 		)
 		(stroke
 			(width 0)
@@ -3745,17 +3625,6 @@
 			(type default)
 		)
 		(uuid "c12e1e33-39a0-4486-9a89-b69d55f29578")
-	)
-	(polyline
-		(pts
-			(xy 163.83 60.96) (xy 163.83 63.5)
-		)
-		(stroke
-			(width 0)
-			(type solid)
-			(color 255 0 255 1)
-		)
-		(uuid "c680f85e-1feb-4b69-94ce-391686168d49")
 	)
 	(polyline
 		(pts
@@ -3776,17 +3645,6 @@
 			(type default)
 		)
 		(uuid "cc22f310-fe8d-4389-9b4d-3059ef00ddd1")
-	)
-	(polyline
-		(pts
-			(xy 95.25 30.48) (xy 153.67 30.48)
-		)
-		(stroke
-			(width 0)
-			(type solid)
-			(color 255 0 255 1)
-		)
-		(uuid "d4784f43-bf75-4629-adc4-10892fa7ff36")
 	)
 	(wire
 		(pts
