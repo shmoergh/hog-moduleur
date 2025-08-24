@@ -68,7 +68,47 @@
           ""
         ],
         [
+          "duplicate_footprints|138605000|84894000|300cef9a-fe25-4daa-8691-51873b75f770|7a0bc424-d149-41ea-a2c1-709a00653209",
+          ""
+        ],
+        [
+          "duplicate_footprints|147368000|57208000|b19ffd97-4239-454d-9ac3-7233f2ae746f|7a0bc424-d149-41ea-a2c1-709a00653209",
+          ""
+        ],
+        [
+          "duplicate_footprints|149146000|71432000|dcffb331-dcf2-41fb-8009-768f9d65df43|7a0bc424-d149-41ea-a2c1-709a00653209",
+          ""
+        ],
+        [
+          "duplicate_footprints|159306000|57208000|148e2ee8-c55e-47b7-bc95-e343a6f7184a|7a0bc424-d149-41ea-a2c1-709a00653209",
+          ""
+        ],
+        [
+          "duplicate_footprints|180007000|87815000|e49e73da-9528-4359-a3e7-a2509485b4de|2d977b20-56e8-42ae-aaf6-7097252fadf7",
+          ""
+        ],
+        [
           "extra_footprint|125143000|51197000|2d977b20-56e8-42ae-aaf6-7097252fadf7|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "extra_footprint|138605000|84894000|300cef9a-fe25-4daa-8691-51873b75f770|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "extra_footprint|147368000|57208000|b19ffd97-4239-454d-9ac3-7233f2ae746f|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "extra_footprint|149146000|71432000|dcffb331-dcf2-41fb-8009-768f9d65df43|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "extra_footprint|155115000|94800000|7a0bc424-d149-41ea-a2c1-709a00653209|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "extra_footprint|159306000|57208000|148e2ee8-c55e-47b7-bc95-e343a6f7184a|00000000-0000-0000-0000-000000000000",
           ""
         ],
         [
@@ -572,7 +612,7 @@
           "show": true
         },
         {
-          "group_by": true,
+          "group_by": false,
           "label": "Value",
           "name": "Value",
           "show": true
@@ -596,7 +636,7 @@
           "show": false
         },
         {
-          "group_by": true,
+          "group_by": false,
           "label": "Footprint",
           "name": "Footprint",
           "show": true
@@ -626,7 +666,7 @@
           "show": false
         },
         {
-          "group_by": false,
+          "group_by": true,
           "label": "LCSC",
           "name": "LCSC",
           "show": true

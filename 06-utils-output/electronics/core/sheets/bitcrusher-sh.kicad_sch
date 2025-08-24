@@ -2566,6 +2566,15 @@
 				(hide yes)
 			)
 		)
+		(property "CHECKED" "YES"
+			(at 48.26 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "773c3028-2972-4660-b3a0-6bbbe870e45b")
 		)
@@ -2771,6 +2780,15 @@
 				(hide yes)
 			)
 		)
+		(property "CHECKED" "YES"
+			(at 111.76 50.8 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "fa9cb17a-dca0-4050-958b-e112619c508b")
 		)
@@ -2958,6 +2976,15 @@
 				(hide yes)
 			)
 		)
+		(property "CHECKED" "YES"
+			(at 200.66 135.89 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "4bb0b604-f037-47a2-8bc7-f0d62dbea170")
 		)
@@ -3074,6 +3101,15 @@
 			)
 		)
 		(property "Field4" ""
+			(at 33.02 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CHECKED" "YES"
 			(at 33.02 181.61 0)
 			(effects
 				(font
@@ -3290,6 +3326,15 @@
 				(hide yes)
 			)
 		)
+		(property "CHECKED" "YES"
+			(at 179.07 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "dd0d24e0-500e-4606-a540-c75945cd56f8")
 		)
@@ -3411,6 +3456,15 @@
 				(hide yes)
 			)
 		)
+		(property "CHECKED" "YES"
+			(at 181.61 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "96f5b155-27bd-43e5-807a-175890fc88a7")
 		)
@@ -3524,6 +3578,15 @@
 			)
 		)
 		(property "Field4" ""
+			(at 168.91 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CHECKED" "YES"
 			(at 168.91 114.3 0)
 			(effects
 				(font
@@ -3665,7 +3728,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C22935"
 			(at 154.94 55.88 90)
 			(effects
 				(font
@@ -3711,6 +3774,15 @@
 			)
 		)
 		(property "Field4" ""
+			(at 154.94 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CHECKED" "YES"
 			(at 154.94 55.88 0)
 			(effects
 				(font
@@ -3963,6 +4035,15 @@
 				(hide yes)
 			)
 		)
+		(property "CHECKED" "YES"
+			(at 175.26 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "30bc697c-00ab-4187-90fc-98b8df0013a1")
 		)
@@ -4030,7 +4111,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C4216"
 			(at 186.69 135.89 90)
 			(effects
 				(font
@@ -4077,6 +4158,15 @@
 		)
 		(property "Field4" ""
 			(at 186.69 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CHECKED" "YES"
+			(at 186.69 135.89 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4198,6 +4288,15 @@
 		)
 		(property "Field4" ""
 			(at 228.6 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CHECKED" "YES"
+			(at 228.6 45.72 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4648,6 +4747,15 @@
 				(hide yes)
 			)
 		)
+		(property "CHECKED" "YES"
+			(at 143.51 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e58e94fa-8c57-48a0-afc2-9247c3ed60ca")
 		)
@@ -4787,6 +4895,15 @@
 				(hide yes)
 			)
 		)
+		(property "CHECKED" "YES"
+			(at 109.22 125.73 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f758e1c7-9fd1-4fb9-93d3-cc49287675e8")
 		)
@@ -4901,6 +5018,15 @@
 		)
 		(property "Field4" ""
 			(at 105.41 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CHECKED" "YES"
+			(at 105.41 92.71 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5023,6 +5149,15 @@
 			)
 		)
 		(property "Field4" ""
+			(at 105.41 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CHECKED" "YES"
 			(at 105.41 106.68 0)
 			(effects
 				(font
@@ -5231,6 +5366,15 @@
 			)
 		)
 		(property "Field4" ""
+			(at 57.15 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CHECKED" "YES"
 			(at 57.15 173.99 0)
 			(effects
 				(font
@@ -5845,6 +5989,15 @@
 				(hide yes)
 			)
 		)
+		(property "CHECKED" "YES"
+			(at 194.31 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "effeab04-02d5-4fad-bdb2-0ef7d6f8fb6b")
 		)
@@ -6182,6 +6335,15 @@
 				(hide yes)
 			)
 		)
+		(property "CHECKED" "YES"
+			(at 203.2 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "effeab04-02d5-4fad-bdb2-0ef7d6f8fb6c")
 		)
@@ -6267,7 +6429,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C25804"
+		(property "LCSC" "C23162"
 			(at 68.58 138.43 90)
 			(effects
 				(font
@@ -6313,6 +6475,15 @@
 			)
 		)
 		(property "Field4" ""
+			(at 68.58 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CHECKED" "YES"
 			(at 68.58 138.43 0)
 			(effects
 				(font
@@ -6418,6 +6589,15 @@
 		)
 		(property "LCSC" ""
 			(at 161.29 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CHECKED" "YES"
+			(at 161.29 106.68 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6541,6 +6721,15 @@
 			)
 		)
 		(property "Field4" ""
+			(at 24.13 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CHECKED" "YES"
 			(at 24.13 177.8 0)
 			(effects
 				(font
@@ -6683,6 +6872,15 @@
 			)
 		)
 		(property "Field4" ""
+			(at 57.15 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CHECKED" "YES"
 			(at 57.15 181.61 0)
 			(effects
 				(font
@@ -6899,6 +7097,15 @@
 				(hide yes)
 			)
 		)
+		(property "CHECKED" "YES"
+			(at 69.85 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "bef4d6ee-0afb-4f18-a127-0ba2d2152c4a")
 		)
@@ -6999,6 +7206,15 @@
 		)
 		(property "LCSC" ""
 			(at 166.37 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CHECKED" "YES"
+			(at 166.37 50.8 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7133,6 +7349,15 @@
 				(hide yes)
 			)
 		)
+		(property "CHECKED" "YES"
+			(at 33.02 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "740b60f1-686f-435e-a96e-976b6529429e")
 		)
@@ -7247,6 +7472,15 @@
 			)
 		)
 		(property "Vendor" "JLCPCB"
+			(at 185.42 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CHECKED" "YES"
 			(at 185.42 83.82 0)
 			(effects
 				(font
