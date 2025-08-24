@@ -3326,6 +3326,16 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "Dual mono out"
+		(exclude_from_sim no)
+		(at 186.69 120.65 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "2722836a-ae48-4118-98a0-2c56e33fee40")
+	)
 	(text "UI power connection"
 		(exclude_from_sim no)
 		(at 31.75 170.18 0)
@@ -3366,6 +3376,12 @@
 		(uuid "8c15694b-c3b5-4174-aa3b-d048c475b122")
 	)
 	(junction
+		(at 180.34 115.57)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8c72ca6d-fdf1-4cbe-a0ac-239fa6d3391a")
+	)
+	(junction
 		(at 52.07 185.42)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3400,6 +3416,10 @@
 	(no_connect
 		(at 255.27 66.04)
 		(uuid "29d1ddd8-712b-4222-97b2-ff55c5d0305d")
+	)
+	(no_connect
+		(at 242.57 34.29)
+		(uuid "47a27c91-6807-47b4-9efc-74c2848033ed")
 	)
 	(no_connect
 		(at 252.73 102.87)
@@ -3662,6 +3682,16 @@
 			(type default)
 		)
 		(uuid "2bd52b96-9d38-4700-91fc-a3ab17bf8ccb")
+	)
+	(wire
+		(pts
+			(xy 180.34 115.57) (xy 185.42 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "31040129-d17e-4267-9ea2-96da0192498c")
 	)
 	(wire
 		(pts
@@ -4055,16 +4085,6 @@
 	)
 	(wire
 		(pts
-			(xy 240.03 34.29) (xy 242.57 34.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9c42309f-af8d-40e9-8f39-bc0549b363df")
-	)
-	(wire
-		(pts
 			(xy 48.26 182.88) (xy 48.26 180.34)
 		)
 		(stroke
@@ -4202,6 +4222,16 @@
 			(type default)
 		)
 		(uuid "c2819056-676f-41f1-9f6a-cced8a5c550c")
+	)
+	(wire
+		(pts
+			(xy 180.34 115.57) (xy 180.34 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c3b31432-6469-4755-bfef-2c49d6c7dc4c")
 	)
 	(wire
 		(pts
@@ -4453,28 +4483,6 @@
 		)
 		(uuid "fef24d6b-7b1c-4769-9d78-b8df50e89ec5")
 	)
-	(global_label "OUTPUT_OUT_DEFAULT"
-		(shape input)
-		(at 240.03 34.29 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "01606ef2-01f5-47de-9278-e9b07f144eaf")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 216.3619 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "LFO_SQR_DEFAULT"
 		(shape input)
 		(at 240.03 39.37 180)
@@ -4565,7 +4573,7 @@
 	)
 	(global_label "OUTPUT_OUT"
 		(shape output)
-		(at 180.34 115.57 0)
+		(at 185.42 115.57 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4575,7 +4583,7 @@
 		)
 		(uuid "1f04851c-b9a6-47d5-9e2d-c6462a4b1a4a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 195.1181 115.57 0)
+			(at 200.1981 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5214,28 +5222,6 @@
 		(uuid "adea9f25-8a6f-463f-8108-10b64755a45d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 274.8257 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "OUTPUT_OUT_DEFAULT"
-		(shape input)
-		(at 180.34 118.11 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "b5349d73-7a78-41ef-b6eb-73d5fc24f085")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 204.0081 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
