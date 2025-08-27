@@ -1,4 +1,5 @@
 ﻿Designator,Footprint,Quantity,Value,LCSC Part #
+D1,D_SMA,1,SMAJ5.0CA,
 "D_DRIVE1, D_LFO1",LED_D3.0mm,2,Red LED,
 D_DRIVE_FROM_CORE1,PinSocket_1x02_P2.54mm_Vertical,1,Red LED,
 J1,PinSocket_2x03_P2.54mm_Vertical,1,Conn_02x03_Odd_Even,
@@ -11,6 +12,7 @@ J6,PinSocket_2x05_P2.54mm_Vertical,1,Conn_02x05_Odd_Even,
 Q1,TO-92_Inline_Wide,1,2N3904,
 R1,R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,1,47k,
 R2,R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,1,1k,
+R3,R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,1,150-220,
 RV_CRUSH1,Potentiometer_Bourns_Single-PTV09A,1,1M,
 RV_DRIVE1,Potentiometer_Bourns_Single-PTV09A,1,100k,
 RV_LFO_AMOUNT1,Potentiometer_Bourns_Dual-PTV112-4,1,A20k,
