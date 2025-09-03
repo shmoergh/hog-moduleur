@@ -759,10 +759,6 @@
       "Root"
     ],
     [
-      "db8ca729-d0ac-4a4b-85bc-9e88a5b3d47c",
-      "Bitcrusher - S&H"
-    ],
-    [
       "8bc1c38c-66cf-4d37-87f2-6eda8e5acaa7",
       "Power"
     ],
@@ -793,6 +789,10 @@
     [
       "a97d408f-9e6e-4f2a-a0b2-91646f8dc854",
       "Buttons"
+    ],
+    [
+      "6d9ed0a4-9ccf-4f42-8434-45714a6fdbff",
+      "Pots"
     ]
   ],
   "text_variables": {}

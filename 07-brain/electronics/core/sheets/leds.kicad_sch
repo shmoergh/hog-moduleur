@@ -1104,7 +1104,7 @@
 		)
 		(uuid "f8bc7ddd-0e25-443e-ae27-fa0ee7e57d3e")
 	)
-	(hierarchical_label "GPIO_LED_1"
+	(hierarchical_label "LED_1"
 		(shape input)
 		(at 57.15 62.23 180)
 		(effects
@@ -1115,7 +1115,7 @@
 		)
 		(uuid "1d75ae38-e43a-4495-b5df-c5c1f833f42f")
 	)
-	(hierarchical_label "GPIO_LED_3"
+	(hierarchical_label "LED_3"
 		(shape input)
 		(at 190.5 62.23 180)
 		(effects
@@ -1126,7 +1126,7 @@
 		)
 		(uuid "a5c7cd07-afbc-4549-991b-91a70ec38c64")
 	)
-	(hierarchical_label "GPIO_LED_6"
+	(hierarchical_label "LED_6"
 		(shape input)
 		(at 190.5 123.19 180)
 		(effects
@@ -1137,7 +1137,7 @@
 		)
 		(uuid "a82070dd-9d55-47b1-9613-933ce6bfd37b")
 	)
-	(hierarchical_label "GPIO_LED_5"
+	(hierarchical_label "LED_5"
 		(shape input)
 		(at 123.19 123.19 180)
 		(effects
@@ -1148,7 +1148,7 @@
 		)
 		(uuid "baf78c8d-3869-4010-bf0a-da5375d39a1b")
 	)
-	(hierarchical_label "GPIO_LED_2"
+	(hierarchical_label "LED_2"
 		(shape input)
 		(at 123.19 62.23 180)
 		(effects
@@ -1159,7 +1159,7 @@
 		)
 		(uuid "c088f2b2-1ad6-4323-9c3d-a2784e0f7bef")
 	)
-	(hierarchical_label "GPIO_LED_4"
+	(hierarchical_label "LED_4"
 		(shape input)
 		(at 57.15 123.19 180)
 		(effects

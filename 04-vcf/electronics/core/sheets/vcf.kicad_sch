@@ -2255,6 +2255,17 @@
 		)
 		(uuid "cd5f9691-0428-4def-a656-338f4dd41b77")
 	)
+	(text "The value of this cap balances between these:\n1. The time the output needs to settle around\n0V. If it's too big then it's going to take\nlonger time which results in the signal going \ntoo much in the extremes (around +/-10V) that\ncan lead to distortion.\n2. The lower the value of this cap the more it's\ngoing to skew the original signal (square horizontals\nstart falling/skewing).\n\nExperiments show that 10u is a good compromise."
+		(exclude_from_sim no)
+		(at 284.48 36.83 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e38fdcd7-33a8-4ce4-a2f6-d245352707b1")
+	)
 	(text "Usually around 10k"
 		(exclude_from_sim no)
 		(at 266.7 76.2 0)
@@ -3397,6 +3408,16 @@
 		)
 		(uuid "599c4280-7d55-4b15-9fc1-a508a24407f7")
 	)
+	(polyline
+		(pts
+			(xy 271.78 21.59) (xy 271.78 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5be8081c-2210-4afa-a18a-7cbbda0946b9")
+	)
 	(wire
 		(pts
 			(xy 78.74 93.98) (xy 78.74 110.49)
@@ -3416,6 +3437,16 @@
 			(type default)
 		)
 		(uuid "5d44b8b9-b73a-492d-aaae-8db2905d96eb")
+	)
+	(polyline
+		(pts
+			(xy 281.94 21.59) (xy 271.78 21.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5ec065a5-fabd-4715-b2a8-e12eb8009813")
 	)
 	(wire
 		(pts
@@ -11312,7 +11343,7 @@
 				)
 			)
 		)
-		(property "Value" "47u"
+		(property "Value" "10u"
 			(at 271.78 53.0606 90)
 			(effects
 				(font

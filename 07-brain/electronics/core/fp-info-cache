@@ -1,4 +1,4 @@
-26026746516243069
+26028503077011387
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -95460,6 +95460,13 @@ SPST_Narrow_Circular_Pushbutton_LED
 6
 Shmoergh_Custom_Footprints
 SR1712-0203
+
+
+0
+12
+10
+Shmoergh_Custom_Footprints
+SR1712-0204
 
 
 0
