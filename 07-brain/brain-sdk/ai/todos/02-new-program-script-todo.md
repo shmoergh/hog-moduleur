@@ -17,7 +17,7 @@
 - [ ] The generated `CMakeLists.txt` should:
   - [ ] Define a CMake project with the program name
   - [ ] Call `add_executable(<name> main.cpp)`
-  - [ ] Link against `pico_stdlib` and `brain_io`
+  - [ ] Link against `pico_stdlib`, `brain_ui` and `brain_io`
   - [ ] Enable USB output and UART by default:
     ```cmake
     pico_enable_stdio_usb(<name> 1)
