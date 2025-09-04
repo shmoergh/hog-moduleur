@@ -2,7 +2,7 @@
 
 ## About
 
-We're building a module for a synthesizer, called Brain. It is a universal digital module in a Eurorack synthesizer with multipurpose inputs and outputs which allows users to write their own firmware. Additionally we're going to provide some basic modules and probably an SDK for it so that it's easy to get started.
+We're building a module for a synthesizer, called Brain. It is a universal digital module in a Eurorack synthesizer with multipurpose inputs and outputs which allows users to write their own firmwares. Additionally we're going to provide some basic modules and an SDK for it so that it's easy to get started.
 
 ## Features
 
@@ -24,8 +24,13 @@ As the Pico and Pico2 are pin compatible, the newer version can be used for heav
 
 Code can be flashed to the Pico using the normal procedure of holding the dedicated button while plugging the pico in a computer. Then the Pico appears as a drive which can accept firmware files.
 
-## Factory programs
-
-The first (default) factory program will be a MIDI to CV converter, as the rest of the synth works with control voltage. Later we'll work on a sequencer/arpeggiator, delay or reverb, external sound sources, basic drum machine and so on.
+### Factory apps
 
 The factory programs are all written in C++ using the Pico SDK.
+
+### User apps
+
+Anyone can write their own apps for the Brain module. For this we'll provide an SDK with easy access to the built in I/O and interface components. We'll also provide a boilerplate shell script which makes it easy for anyone to get started with a new app/firmware.
+
+
+

@@ -1,0 +1,6 @@
+.idea
+_deps
+cmake-*
+build
+.DS_Store
+*.pdf
