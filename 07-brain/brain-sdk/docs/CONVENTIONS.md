@@ -6,7 +6,7 @@
 ---
 
 ## 0) TL;DR Checklist
-- 2-space indent, max 100 cols, UTF-8, Unix newlines.
+- 4-space indent, max 100 cols, UTF-8, Unix newlines.
 - Filenames: `lower_case_with_underscores.{h,cc,cpp}`.
 - Folder names: `kebab-case` (e.g., `brain-io`, `brain-dsp`).
 - Types/classes/enums: `PascalCase`.
