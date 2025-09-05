@@ -11,8 +11,7 @@ namespace ui {
  */
 class Button {
 	public:
-	Button(uint gpio_pin, uint32_t debounce_ms = 50, uint32_t long_press_ms = 500,
-		uint32_t double_tap_ms = 300);
+	Button(uint gpio_pin, uint32_t debounce_ms = 50, uint32_t long_press_ms = 500);
 
 	void Init(bool pull_up = true);
 	void Update();
@@ -20,7 +19,6 @@ class Button {
 	void SetOnPress(std::function<void()> callback);
 	void SetOnRelease(std::function<void()> callback);
 	void SetOnSingleTap(std::function<void()> callback);
-	void SetOnDoubleTap(std::function<void()> callback);
 	void SetOnLongPress(std::function<void()> callback);
 
 	private:
@@ -31,16 +29,14 @@ class Button {
 	absolute_time_t last_tap_time_;
 	uint32_t debounce_ms_;
 	uint32_t long_press_ms_;
-	uint32_t double_tap_ms_;
 
 	std::function<void()> on_press_;
 	std::function<void()> on_release_;
 	std::function<void()> on_single_tap_;
-	std::function<void()> on_double_tap_;
 	std::function<void()> on_long_press_;
 
 	bool long_press_triggered_;
-	bool double_tap_pending_;
+	// double tap members removed
 };
 
 }  // namespace ui
