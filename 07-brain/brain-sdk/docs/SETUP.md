@@ -47,6 +47,24 @@ cmake -B build -G "Unix Makefiles"
 cmake --build build
 ```
 
+
+## C++ Linting & Formatting
+To enforce code style and formatting (Google C++ Style, 4-space indent, etc.), use clang-format:
+
+### Install clang-format
+```sh
+brew install clang-format
+```
+
+### Usage
+- Format a file in-place:
+	```sh
+	clang-format -style=file -i path/to/file.cpp
+	```
+- Or use the Clang-Format VSCode extension for auto-formatting on save.
+
+The `.clang-format` file in the project root configures formatting rules.
+
 ## Debugging a program
 Edit `.vscode/launch.json` and set the `executable` parameter to the desired program's `.elf` file, e.g.:
 ```jsonc
