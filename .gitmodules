@@ -1,0 +1,3 @@
+[submodule "07-brain/brain-sdk/pico-sdk"]
+	path = 07-brain/brain-sdk/pico-sdk
+	url = https://github.com/raspberrypi/pico-sdk.git
