@@ -1,7 +1,0 @@
-cmake_minimum_required(VERSION 3.22)
-project(blinky)
-add_executable(blinky main.cpp)
-target_link_libraries(blinky pico_stdlib brain-ui brain-io)
-pico_enable_stdio_usb(blinky 1)
-pico_enable_stdio_uart(blinky 1)
-pico_add_extra_outputs(blinky)
