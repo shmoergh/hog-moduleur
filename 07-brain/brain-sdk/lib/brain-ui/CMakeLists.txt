@@ -1,4 +1,4 @@
-add_library(brain-ui brain-ui.c brain-ui.h button.cc pot.cc)
+add_library(brain-ui brain-ui.c brain-ui.h button.cpp pot.cpp)
 target_include_directories(brain-ui PUBLIC
 	${CMAKE_CURRENT_SOURCE_DIR}
 	include
