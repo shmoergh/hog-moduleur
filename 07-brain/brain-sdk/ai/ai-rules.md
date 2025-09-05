@@ -7,3 +7,4 @@
  - Always update todo lists by checking off finished tasks as work progresses.
  - In agent mode, apply changes to a single file directly without asking for permission. Ask for permission only when editing multiple files at once.
  - Always check both the header and implementation files of all C++ classes when making changes or reviewing code.
+ - When you create a new component make sure to doublecheck if the related includes are correctly linked in the corresponding CMakeLists.txt files.
