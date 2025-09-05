@@ -1,5 +1,4 @@
 BasedOnStyle: Google
-IndentWidth: 4
 ColumnLimit: 100
 AllowShortFunctionsOnASingleLine: Empty
 SortIncludes: true
@@ -9,3 +8,23 @@ PointerAlignment: Left
 SpacesInParentheses: false
 SpacesInSquareBrackets: false
 SpaceAfterCStyleCast: true
+
+# Tabs everywhere
+UseTab: Always
+IndentWidth: 4
+TabWidth: 4
+ContinuationIndentWidth: 4
+
+# Stop aligning wrapped parameters and access specifiers with spaces
+AlignAfterOpenBracket: DontAlign
+BreakConstructorInitializers: AfterColon
+ConstructorInitializerIndentWidth: 4
+# AlwaysBreakAfterDefinitionReturnType: None
+# AlwaysBreakAfterReturnType: None
+
+# Turn off alignment features that sneak in spaces
+AlignOperands: DontAlign
+AlignTrailingComments: false
+AlignConsecutiveAssignments: false
+AlignConsecutiveDeclarations: false
+AccessModifierOffset: 0   # ensures `public:` is flush, not indented with spaces

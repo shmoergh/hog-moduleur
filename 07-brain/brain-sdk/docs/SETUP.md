@@ -35,6 +35,32 @@ rm -rf pico-sdk
 ```
 Then add as a submodule as above.
 
+## Recommended VSCode and clang-format settings for C/C++
+
+Add the following to your VSCode `settings.json` for consistent tab-based formatting in C and C++:
+
+```jsonc
+// All for C
+"C_Cpp.clang_format_style": "file",
+"C_Cpp.clang_format_fallbackStyle": "none",
+"[c]": {
+	"editor.insertSpaces": false,
+	"editor.tabSize": 4,
+	"editor.detectIndentation": false,
+	"editor.formatOnSave": true,
+	"editor.defaultFormatter": "xaver.clang-format"
+},
+"[cpp]": {
+	"editor.insertSpaces": false,
+	"editor.tabSize": 4,
+	"editor.detectIndentation": false,
+	"editor.formatOnSave": true,
+	"editor.defaultFormatter": "xaver.clang-format"
+},
+```
+
+This ensures that both VSCode and clang-format use tabs (width 4) for indentation in all C/C++ files.
+
 ## Creating a new program
 Use the helper script:
 ```sh
