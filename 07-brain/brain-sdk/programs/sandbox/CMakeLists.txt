@@ -1,0 +1,7 @@
+cmake_minimum_required(VERSION 3.22)
+project(sandbox)
+add_executable(sandbox main.cpp)
+target_link_libraries(sandbox pico_stdlib brain-ui brain-io)
+pico_enable_stdio_usb(sandbox 1)
+pico_enable_stdio_uart(sandbox 1)
+pico_add_extra_outputs(sandbox)
