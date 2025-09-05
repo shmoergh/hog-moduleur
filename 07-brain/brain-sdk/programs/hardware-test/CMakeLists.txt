@@ -1,0 +1,7 @@
+cmake_minimum_required(VERSION 3.22)
+project(hardware-test)
+add_executable(hardware-test main.cpp)
+target_link_libraries(hardware-test pico_stdlib brain-ui brain-io)
+pico_enable_stdio_usb(hardware-test 1)
+pico_enable_stdio_uart(hardware-test 1)
+pico_add_extra_outputs(hardware-test)

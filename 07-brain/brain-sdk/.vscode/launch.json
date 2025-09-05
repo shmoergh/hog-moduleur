@@ -6,7 +6,7 @@
             "gdbPath": "arm-none-eabi-gdb",
             "cwd": "${workspaceRoot}",
             // "executable": "${command:cmake.launchTargetPath}",
-            "executable": "${workspaceFolder}/build/programs/sandbox/sandbox.elf",
+            "executable": "${workspaceFolder}/build/programs/hardware-test/hardware-test.elf",
             "preLaunchTask": "CMake Build",
             "request": "launch",
             "type": "cortex-debug",
