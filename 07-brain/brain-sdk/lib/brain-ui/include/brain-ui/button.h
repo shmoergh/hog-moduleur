@@ -4,11 +4,10 @@
 #include <functional>
 
 namespace brain {
-namespace io {
+namespace ui {
 
 /**
- * @brief Button input handler with debounce, long press, and double-tap
- * detection.
+ * @brief Button input handler with debounce, long press, and double-tap detection.
  */
 class Button {
 	public:
@@ -44,5 +43,5 @@ class Button {
 	bool double_tap_pending_;
 };
 
-}  // namespace io
+}  // namespace ui
 }  // namespace brain

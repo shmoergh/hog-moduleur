@@ -1,9 +1,9 @@
-#include "brain-io/button.h"
+#include "brain-ui/button.h"
 
 #include <stdio.h>
 
 namespace brain {
-namespace io {
+namespace ui {
 
 Button::Button(
 	uint gpio_pin, uint32_t debounce_ms, uint32_t long_press_ms, uint32_t double_tap_ms) :
@@ -95,5 +95,5 @@ void Button::SetOnLongPress(std::function<void()> callback) {
 	on_long_press_ = callback;
 }
 
-}  // namespace io
+}  // namespace ui
 }  // namespace brain
