@@ -19,32 +19,32 @@ int main() {
 	 * Button tests
 	 */
 	brain::ui::Button button(BUTTON_PIN);
-	button.Init(true);	// Use pull-up
+	button.init(true);	// Use pull-up
 
-	button.SetOnPress([]() {
+	button.setOnPress([]() {
 		printf("Button pressed!\n");
 		gpio_put(LED_PIN, 1);
 	});
-	button.SetOnRelease([]() {
+	button.setOnRelease([]() {
 		printf("Button released!\n");
 		gpio_put(LED_PIN, 0);
 	});
-	button.SetOnSingleTap([]() { printf("Single tap detected!\n"); });
-	button.SetOnLongPress([]() { printf("Long press detected!\n"); });
+	button.setOnSingleTap([]() { printf("Single tap detected!\n"); });
+	button.setOnLongPress([]() { printf("Long press detected!\n"); });
 
 	/**
 	 * Pot tests
 	 */
 	brain::ui::Pot pot(POT_PIN, 7);	 // 10-bit resolution for demo
-	pot.Init();
-	pot.SetOnChangeCallback([](uint16_t value) { printf("Pot value changed: %u\n", value); });
+	pot.init();
+	pot.setOnChangeCallback([](uint16_t value) { printf("Pot value changed: %u\n", value); });
 
 	/**
 	 * Main loop
 	 */
 	while (true) {
-		button.Update();
-		pot.Update();
+		button.update();
+		pot.update();
 		sleep_ms(5);  // Poll every 5ms
 	}
 	return 0;

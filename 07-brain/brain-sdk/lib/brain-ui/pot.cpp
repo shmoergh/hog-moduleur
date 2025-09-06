@@ -13,7 +13,7 @@ Pot::Pot(uint gpio_pin, uint8_t resolution_bits) :
 	last_value_(0),
 	on_change_callback_(nullptr) {}
 
-void Pot::Init() {
+void Pot::init() {
 	adc_init();
 	adc_gpio_init(gpio_pin_);
 	// Select ADC input channel based on pin (assume pin matches ADC channel)
@@ -23,7 +23,7 @@ void Pot::Init() {
 	last_value_ = 0;
 }
 
-void Pot::Update() {
+void Pot::update() {
 	raw_value_ = adc_read();
 	// Add to smoothing buffer
 	smoothing_buffer_[smoothing_index_++] = raw_value_;
@@ -31,7 +31,7 @@ void Pot::Update() {
 		smoothing_index_ = 0;
 		smoothing_filled_ = true;
 	}
-	uint16_t smoothed = GetSmoothedValue();
+	uint16_t smoothed = getSmoothedValue();
 	uint16_t max_adc = (1 << 12) - 1;  // RP2040 ADC is 12-bit
 	uint16_t max_res = (1 << resolution_bits_) - 1;
 	scaled_value_ = (smoothed * max_res) / max_adc;
@@ -43,15 +43,15 @@ void Pot::Update() {
 	}
 }
 
-void Pot::SetOnChangeCallback(std::function<void(uint16_t)> callback) {
+void Pot::setOnChangeCallback(std::function<void(uint16_t)> callback) {
 	on_change_callback_ = callback;
 }
 
-uint16_t Pot::GetValue() const {
+uint16_t Pot::getValue() const {
 	return scaled_value_;
 }
 
-uint16_t Pot::GetSmoothedValue() const {
+uint16_t Pot::getSmoothedValue() const {
 	size_t count = smoothing_filled_ ? kSmoothingWindow : smoothing_index_;
 	uint32_t sum = 0;
 	for (size_t i = 0; i < count; ++i) {

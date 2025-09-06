@@ -13,13 +13,13 @@ class Button {
 	public:
 	Button(uint gpio_pin, uint32_t debounce_ms = 50, uint32_t long_press_ms = 500);
 
-	void Init(bool pull_up = true);
-	void Update();
+	void init(bool pull_up = true);
+	void update();
 
-	void SetOnPress(std::function<void()> callback);
-	void SetOnRelease(std::function<void()> callback);
-	void SetOnSingleTap(std::function<void()> callback);
-	void SetOnLongPress(std::function<void()> callback);
+	void setOnPress(std::function<void()> callback);
+	void setOnRelease(std::function<void()> callback);
+	void setOnSingleTap(std::function<void()> callback);
+	void setOnLongPress(std::function<void()> callback);
 
 	private:
 	uint gpio_pin_;

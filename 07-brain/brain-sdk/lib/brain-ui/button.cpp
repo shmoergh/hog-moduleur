@@ -12,7 +12,7 @@ Button::Button(uint gpio_pin, uint32_t debounce_ms, uint32_t long_press_ms) :
 	long_press_ms_(long_press_ms),
 	long_press_triggered_(false) {}
 
-void Button::Init(bool pull_up) {
+void Button::init(bool pull_up) {
 	gpio_init(gpio_pin_);
 	gpio_set_dir(gpio_pin_, GPIO_IN);
 	if (pull_up) {
@@ -27,7 +27,7 @@ void Button::Init(bool pull_up) {
 	long_press_triggered_ = false;
 }
 
-void Button::Update() {
+void Button::update() {
 	bool current_state = gpio_get(gpio_pin_);
 	absolute_time_t now = get_absolute_time();
 
@@ -51,8 +51,7 @@ void Button::Update() {
 				is_pressed_ = false;
 				if (on_release_) on_release_();
 				// Single tap detection
-				if (last_tap_time_ > 0 &&
-					absolute_time_diff_us(last_tap_time_, now) / 1000 > 50) {  // 50ms threshold
+				if (last_tap_time_ > 0 && absolute_time_diff_us(last_tap_time_, now) / 1000 > 50) {
 					if (on_single_tap_) on_single_tap_();
 					last_tap_time_ = 0;
 				}
@@ -68,17 +67,16 @@ void Button::Update() {
 	}
 }
 
-void Button::SetOnPress(std::function<void()> callback) {
+void Button::setOnPress(std::function<void()> callback) {
 	on_press_ = callback;
 }
-void Button::SetOnRelease(std::function<void()> callback) {
+void Button::setOnRelease(std::function<void()> callback) {
 	on_release_ = callback;
 }
-void Button::SetOnSingleTap(std::function<void()> callback) {
+void Button::setOnSingleTap(std::function<void()> callback) {
 	on_single_tap_ = callback;
 }
-// SetOnDoubleTap removed
-void Button::SetOnLongPress(std::function<void()> callback) {
+void Button::setOnLongPress(std::function<void()> callback) {
 	on_long_press_ = callback;
 }
 

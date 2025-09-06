@@ -12,11 +12,11 @@ class Pot {
 	public:
 	Pot(uint gpio_pin, uint8_t resolution_bits = 12);
 
-	void Init();
-	void Update();
+	void init();
+	void update();
 
-	void SetOnChangeCallback(std::function<void(uint16_t)> callback);
-	uint16_t GetValue() const;
+	void setOnChangeCallback(std::function<void(uint16_t)> callback);
+	uint16_t getValue() const;
 
 	private:
 	uint gpio_pin_;
@@ -31,7 +31,7 @@ class Pot {
 	uint16_t smoothing_buffer_[kSmoothingWindow] = {0};
 	size_t smoothing_index_ = 0;
 	bool smoothing_filled_ = false;
-	uint16_t GetSmoothedValue() const;
+	uint16_t getSmoothedValue() const;
 };
 
 }  // namespace ui
