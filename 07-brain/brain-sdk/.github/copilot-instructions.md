@@ -28,20 +28,6 @@ Copilot should assume the following hardware environment:
 - **Object-oriented approach**:
     - Each hardware component (button, pot, LED, DAC channel, etc.) should be encapsulated in a class.
     - Prefer callbacks for event-driven code (e.g. button press/release, end of LED blink).
-- **Naming conventions**:
-    - 4-space indent, max 100 cols, UTF-8, Unix newlines.
-    - Filenames: `lower_case_with_underscores.{h,cpp}`.
-    - Folder names: `kebab-case` (e.g., `brain-io`, `brain-dsp`).
-    - Types/classes/enums: `camelCase`.
-    - Functions/methods: `camelCase`.
-    - Variables: `lower_case_with_underscores`; class members end with `_`.
-    - Constants: `kPascalCase`.
-    - Macros: `ALL_CAPS_WITH_UNDERSCORES` (avoid; prefer `constexpr`/`enum`).
-    - No exceptions, no RTTI by default. No dynamic allocation in ISRs.
-    - `const` and `constexpr` aggressively. Prefer `enum class` over `#define`.
-    - One `#include` per line. Order: C system → C++ std → third-party → project.
-    - Headers are self-contained & guarded. `.cpp` mirrors header order.
-    - Public APIs documented with brief Doxygen comments.
 - **Formatting**: Follow Google C++ style, tabs instead of spaces for indentation.
 
 ## Expectations for Copilot

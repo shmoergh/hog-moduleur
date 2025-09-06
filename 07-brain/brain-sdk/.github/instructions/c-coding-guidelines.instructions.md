@@ -1,28 +1,17 @@
-# Brain SDK – C/C++ Conventions (Google Style, Embedded-friendly)
+---
+applyTo: '**/*.h,**/*.cpp,**/*.c'
+---
+# Project C/C++ Coding Guidelines (Google Style, Embedded-friendly)
 
-> Scope: All code in `brain-sdk/` (`lib/*`, `programs/*`).
 > Baseline: Google C++ Style Guide (naming, formatting, includes) with embedded tweaks.
 
 ---
 
-## 0) TL;DR Checklist
-- 4-space indent, max 100 cols, UTF-8, Unix newlines.
-- Filenames: `lower_case_with_underscores.{h,cc,cpp}`.
-- Folder names: `kebab-case` (e.g., `brain-io`, `brain-dsp`).
-- Types/classes/enums: `PascalCase`.
-- Functions: `PascalCase`.
-- Variables: `lower_case_with_underscores`; class members end with `_`.
-- Constants: `kPascalCase`.
-- Macros: `ALL_CAPS_WITH_UNDERSCORES` (avoid; prefer `constexpr`/`enum`).
-- No exceptions, no RTTI by default. No dynamic allocation in ISRs.
-- `const` and `constexpr` aggressively. Prefer `enum class` over `#define`.
-- One `#include` per line. Order: C system → C++ std → third-party → project.
-- Headers are self-contained & guarded. `.cc/.cpp` mirrors header order.
-- Public APIs documented with brief Doxygen comments.
+Apply the [general coding guidelines](../instructions/general-coding-guidelines.instructions.md) to all code. When found conflicting information, use the instructions in this file.
 
 ---
 
-## 1) File Layout & Naming
+## File Layout & Naming
 - **Folders**: use kebab-case → `lib/brain-io/`, `lib/brain-dsp/`.
 - **Files**: `lower_case_with_underscores.h` / `.cc` (or `.cpp`).
 - **One module per pair**: `brain-io/gpio_driver.h` ↔ `brain-io/gpio_driver.cc`.
@@ -40,7 +29,7 @@
 
 ---
 
-## 2) Includes & Dependencies
+## Includes & Dependencies
 Order in both headers and sources:
 1. C system headers (`<stdint.h>`, `<stddef.h>`)
 2. C++ standard (`<array>`, `<span>`, `<optional>`)
@@ -51,14 +40,14 @@ One include per line; no wildcard includes. Prefer forward declarations in heade
 
 ---
 
-## 3) Formatting
+## Formatting
 - **Indent**: 4 spaces; **Line length**: 100.
 - **Braces**: K&R style.
 ```cpp
 if (ready) {
-	DoThing();
+    DoThing();
 } else {
-  	HandleError();
+    HandleError();
 }
 ```
 - **Namespace**: wrap entire file; avoid anonymous namespaces in headers.
@@ -70,10 +59,10 @@ namespace brain::io {
 
 ---
 
-## 4) Naming
+## Naming
 - **Namespaces**: `lower_case` (e.g., `brain::io`).
 - **Types / Classes / Structs / Enums**: `PascalCase` (e.g., `AdcSampler`).
-- **Functions & Methods**: `PascalCase` (e.g., `Init()`, `ReadChannel()`).
+- **Functions & Methods**: `camelCase` (e.g., `init()`, `readChannel()`).
 - **Variables**: `lower_case_with_underscores` (`sample_rate_hz`).
   - **Data members**: `trailing_underscore_` (e.g., `gpio_`).
 - **Constants**: `kPascalCase` (`kMaxChannels`).
@@ -82,7 +71,7 @@ namespace brain::io {
 
 ---
 
-## 5) Language Use
+## Language Use
 ### C++
 - **C++17+** (or project default). Prefer `<array>`, `<span>`, `<optional>`, `<chrono>`.
 - **No exceptions / no RTTI** by default (size & determinism). Use `Status` returns.
@@ -110,7 +99,7 @@ uint16_t SampleOnce(int channel);
 
 ---
 
-## 7) Error Handling & Logging
+## Error Handling & Logging
 - Return `bool` / small `Status` enums for expected errors; no exceptions.
 - For fatal HW config errors in bring-up/demo code, `assert()` is acceptable (not in library hot paths).
 - Logging:
@@ -119,7 +108,7 @@ uint16_t SampleOnce(int channel);
 
 ---
 
-## 8) Embedded Rules (Pico/RP2040)
+## Embedded Rules (Pico/RP2040)
 - **ISRs**: `static inline` where sensible; **no malloc/new**, no `printf`, keep <50 µs.
 - **Volatile** only for MMIO or truly shared flags; pair with memory barriers when needed.
 - **Concurrency**: prefer RP2040 primitives (IRQ disable windows, multicore queues, spinlocks) with brief critical sections.
@@ -129,37 +118,14 @@ uint16_t SampleOnce(int channel);
 
 ---
 
-## 9) Tests & Examples
-- Unit tests for pure logic (host-buildable) go under `tests/` (future).
-- Hardware demos live in `programs/<name>/`.
-- Keep examples tiny: one concept per example.
-
----
-
-## 10) CMake Conventions
-- Targets mirror file names: `brain-io`, `adc-sampler`, etc.
-- Libraries default to **`INTERFACE`** if header-only; otherwise `STATIC`.
-- All executables link `pico_stdlib` and only the libs they need.
-- Stdio defaults (for picoprobe):
-  ```cmake
-  pico_enable_stdio_usb(<target> 0)
-  pico_enable_stdio_uart(<target> 1)
-  ```
-- Add UF2 outputs:
-  ```cmake
-  pico_add_extra_outputs(<target>)
-  ```
-
----
-
-## 11) Comments & Documentation
+## Comments & Documentation
 - Prefer short, clear comments explaining *why*, not *what*.
 - File header (top 6 lines): one-sentence purpose, dependencies, hardware notes, author/owner.
 - Use Doxygen for public APIs; keep private helpers undocumented unless non-obvious.
 
 ---
 
-## 12) Sample Skeleton
+## Sample Skeleton
 
 ```cpp
 // adc-sampler.h
@@ -168,13 +134,13 @@ uint16_t SampleOnce(int channel);
 namespace brain::io {
 
 class AdcSampler {
- public:
-  bool Init();                   // config ADC + mux GPIOs
-  uint16_t SampleChannel(int channel);  // 0..2
+  public:
+    bool init();                   // config ADC + mux GPIOs
+    uint16_t sampleChannel(int channel);  // 0..2
 
- private:
-  void SelectMux(int channel);
-  uint16_t ReadAdcOnce();
+  private:
+    void selectMux(int channel);
+    uint16_t readAdcOnce();
 
   int adc_channel_ = 0;
 };
@@ -190,24 +156,24 @@ class AdcSampler {
 
 namespace brain::io {
 
-bool AdcSampler::Init() {
+bool AdcSampler::init() {
   adc_init();
   // configure GPIOs, etc.
   return true;
 }
 
-uint16_t AdcSampler::SampleChannel(int channel) {
-  SelectMux(channel);
+uint16_t AdcSampler::sampleChannel(int channel) {
+  selectMux(channel);
   sleep_us(10);     // settle
-  (void)ReadAdcOnce(); // throw-away
-  return ReadAdcOnce();
+  (void)readAdcOnce(); // throw-away
+  return readAdcOnce();
 }
 
-void AdcSampler::SelectMux(int channel) {
+void AdcSampler::selectMux(int channel) {
   // drive S0/S1, keep S2 low
 }
 
-uint16_t AdcSampler::ReadAdcOnce() {
+uint16_t AdcSampler::readAdcOnce() {
   return adc_read();
 }
 
@@ -216,9 +182,9 @@ uint16_t AdcSampler::ReadAdcOnce() {
 
 ---
 
-## 13) Things to Avoid
+## Things to Avoid
 - Global mutable state (except tightly-scoped singletons for HW where necessary).
-- Hidden work in constructors; prefer `Init()` returning `bool`.
+- Hidden work in constructors; prefer `init()` returning `bool`.
 - Long lambdas or templates in embedded hot paths (code size bloat).
 - Overuse of macros; prefer `constexpr`, `inline`, and typed enums.
 
