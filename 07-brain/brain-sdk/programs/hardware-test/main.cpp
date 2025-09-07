@@ -8,7 +8,7 @@
 #include "brain-ui/pot.h"
 
 const uint LED_PIN = 10;
-const uint BUTTON_PIN = 15;	 // Change to your button GPIO
+const uint BUTTON_PIN = 18;	 // Change to your button GPIO
 const uint POT_PIN = 26;  // Change to your pot GPIO (ADC0=GPIO26)
 
 /**
@@ -22,44 +22,61 @@ const uint POT_PIN = 26;  // Change to your pot GPIO (ADC0=GPIO26)
 int main() {
 	stdio_init_all();
 
+	printf("---== Hog Moduleur Brain hardware test ==---\r\n");
+	printf("\r\n");
+
 	/**
 	 *  1. LED tests
 	 * ---------------------------------------------------------------------- */
+	printf("1. LED tests");
+	sleep_ms(2000);
 	brain::ui::Led led(LED_PIN);
 	led.init();
 	led.setOnStateChange([](bool on) { printf("LED state changed: %s\n", on ? "ON" : "OFF"); });
 	led.setOnBlinkEnd([]() { printf("LED blink finished\n"); });
+	printf("\r\n");
 
 	// Test: turn LED on for 500ms, then off
+	printf("1.1 Turn LED on for 500ms, then off\r\n");
 	led.on();
 	sleep_ms(500);
 	led.off();
-	sleep_ms(500);
+	sleep_ms(2000);
+	printf("\r\n");
 
-	// Test: set brightness to half for 500ms
+	// Test: set brightness to half for 2s
+	printf("1.2 Set brightness to half for 2s\r\n");
 	led.setBrightness(128);
-	sleep_ms(500);
+	sleep_ms(2000);
 	led.setBrightness(0);
-	sleep_ms(500);
+	sleep_ms(2000);
+	printf("\r\n");
 
 	// Test: finite blink (3 times, 200ms interval)
+	printf("1.3 Finite blink (3 times, 200ms interval)\r\n");
 	led.blink(3, 200);
 	while (led.isOn() || led.isOn() == false) {
 		led.update();
 		sleep_ms(5);
 		if (!led.isOn() && !led.isOn()) break;	// Wait for blink to finish
 	}
+	sleep_ms(2000);
+	printf("\r\n");
 
 	// Test: constant blink (indefinite, 100ms interval)
-	led.startBlink(100);
-	uint blink_duration = 1000;	 // ms
+	printf("1.4 Constant blink (for 2s, 200ms interval)\r\n");
+	led.startBlink(200);
+	uint blink_duration = 2000;	 // ms
 	absolute_time_t blink_start = get_absolute_time();
 	while (absolute_time_diff_us(blink_start, get_absolute_time()) / 1000 < blink_duration) {
 		led.update();
 		sleep_ms(5);
 	}
 	led.stopBlink();
-	sleep_ms(500);
+	sleep_ms(2000);
+	printf("\r\n");
+	printf("LED test finished\r\n");
+	printf("-----\r\n");
 
 	/**
 	 * 2. Button tests
@@ -81,16 +98,16 @@ int main() {
 	/**
 	 * 3. Pot tests
 	 * ---------------------------------------------------------------------- */
-	brain::ui::Pot pot(POT_PIN, 7);	 // 10-bit resolution for demo
-	pot.init();
-	pot.setOnChangeCallback([](uint16_t value) { printf("Pot value changed: %u\n", value); });
+	// brain::ui::Pot pot(POT_PIN, 7);	 // 10-bit resolution for demo
+	// pot.init();
+	// pot.setOnChangeCallback([](uint16_t value) { printf("Pot value changed: %u\n", value); });
 
 	/**
 	 * Main loop
 	 * ---------------------------------------------------------------------- */
 	while (true) {
 		button.update();
-		pot.update();
+		// pot.update();
 		led.update();
 		sleep_ms(5);  // Poll every 5ms
 	}

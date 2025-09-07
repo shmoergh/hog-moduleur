@@ -1320,6 +1320,19 @@
 		)
 		(uuid "04522756-3b1a-4ebb-822d-e19cd2221af7")
 	)
+	(text "Audio/CV in"
+		(exclude_from_sim no)
+		(at 31.115 111.125 0)
+		(effects
+			(font
+				(size 2.27 2.27)
+				(thickness 0.2838)
+				(italic yes)
+			)
+			(justify left)
+		)
+		(uuid "10ca583a-d95a-49ca-9fef-47f76aa3a208")
+	)
 	(text "SAMPLE\nTO BE REMOVED"
 		(exclude_from_sim no)
 		(at 273.05 26.67 0)
@@ -1333,6 +1346,32 @@
 			)
 		)
 		(uuid "191dca2e-0805-4296-8cd4-743c26c309f4")
+	)
+	(text "Pulse I/O"
+		(exclude_from_sim no)
+		(at 194.31 110.49 0)
+		(effects
+			(font
+				(size 2.27 2.27)
+				(thickness 0.2838)
+				(italic yes)
+			)
+			(justify right)
+		)
+		(uuid "32b0d110-b408-4a86-93ab-5f513de9377e")
+	)
+	(text "Audio/CV out"
+		(exclude_from_sim no)
+		(at 29.21 76.2 0)
+		(effects
+			(font
+				(size 2.27 2.27)
+				(thickness 0.2838)
+				(italic yes)
+			)
+			(justify left)
+		)
+		(uuid "38e574dc-51dc-4c3c-9d03-87d7a373353c")
 	)
 	(text "SAMPLE\nTO BE REMOVED"
 		(exclude_from_sim no)
@@ -1348,6 +1387,19 @@
 		)
 		(uuid "7dbdc6cf-5159-477d-8d46-79b91834337b")
 	)
+	(text "LEDs"
+		(exclude_from_sim no)
+		(at 193.675 90.17 0)
+		(effects
+			(font
+				(size 2.27 2.27)
+				(thickness 0.2838)
+				(italic yes)
+			)
+			(justify right)
+		)
+		(uuid "92856358-8c86-427c-a36d-7c89e671510a")
+	)
 	(text "Modules"
 		(exclude_from_sim no)
 		(at 15.24 17.78 0)
@@ -1360,6 +1412,19 @@
 			(justify left)
 		)
 		(uuid "977681d7-8585-422d-900f-ff2a0d5b2e4a")
+	)
+	(text "Buttons"
+		(exclude_from_sim no)
+		(at 193.675 53.34 0)
+		(effects
+			(font
+				(size 2.27 2.27)
+				(thickness 0.2838)
+				(italic yes)
+			)
+			(justify right)
+		)
+		(uuid "b0bb5360-ff5f-499f-9843-2c85a68defbb")
 	)
 	(text "Analog"
 		(exclude_from_sim no)
@@ -1374,6 +1439,19 @@
 		)
 		(uuid "cdcc5ed9-5ae0-4b0d-b4d7-c2565bb5011a")
 	)
+	(text "Pots"
+		(exclude_from_sim no)
+		(at 29.21 52.07 0)
+		(effects
+			(font
+				(size 2.27 2.27)
+				(thickness 0.2838)
+				(italic yes)
+			)
+			(justify left)
+		)
+		(uuid "d0d45f1a-4e12-4f02-bcf4-00134476954c")
+	)
 	(text "Digital"
 		(exclude_from_sim no)
 		(at 127 30.48 0)
@@ -1386,6 +1464,19 @@
 			(justify left)
 		)
 		(uuid "e49986ee-af59-48de-9ff1-a7835c02a8a5")
+	)
+	(text "MIDI"
+		(exclude_from_sim no)
+		(at 194.31 67.945 0)
+		(effects
+			(font
+				(size 2.27 2.27)
+				(thickness 0.2838)
+				(italic yes)
+			)
+			(justify right)
+		)
+		(uuid "ec5c1c17-2583-4266-b909-3c8caf59e3af")
 	)
 	(text "UI I/O"
 		(exclude_from_sim no)
@@ -1412,7 +1503,7 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 88.9) (xy 101.6 88.9)
+			(xy 88.9 93.98) (xy 101.6 93.98)
 		)
 		(stroke
 			(width 0)
@@ -1432,7 +1523,7 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 76.2) (xy 101.6 76.2)
+			(xy 88.9 81.28) (xy 101.6 81.28)
 		)
 		(stroke
 			(width 0)
@@ -1542,7 +1633,7 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 78.74) (xy 54.61 78.74)
+			(xy 52.07 83.82) (xy 54.61 83.82)
 		)
 		(stroke
 			(width 0)
@@ -1562,7 +1653,7 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 109.22) (xy 101.6 109.22)
+			(xy 88.9 118.11) (xy 101.6 118.11)
 		)
 		(stroke
 			(width 0)
@@ -1582,7 +1673,7 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 86.36) (xy 101.6 86.36)
+			(xy 88.9 91.44) (xy 101.6 91.44)
 		)
 		(stroke
 			(width 0)
@@ -1632,7 +1723,7 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 106.68) (xy 101.6 106.68)
+			(xy 88.9 115.57) (xy 101.6 115.57)
 		)
 		(stroke
 			(width 0)
@@ -1662,7 +1753,7 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 106.68) (xy 54.61 106.68)
+			(xy 52.07 115.57) (xy 54.61 115.57)
 		)
 		(stroke
 			(width 0)
@@ -1672,7 +1763,7 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 81.28) (xy 101.6 81.28)
+			(xy 88.9 86.36) (xy 101.6 86.36)
 		)
 		(stroke
 			(width 0)
@@ -1682,7 +1773,7 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 76.2) (xy 54.61 76.2)
+			(xy 52.07 81.28) (xy 54.61 81.28)
 		)
 		(stroke
 			(width 0)
@@ -1692,7 +1783,7 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 109.22) (xy 54.61 109.22)
+			(xy 52.07 118.11) (xy 54.61 118.11)
 		)
 		(stroke
 			(width 0)
@@ -1742,7 +1833,7 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 78.74) (xy 101.6 78.74)
+			(xy 88.9 83.82) (xy 101.6 83.82)
 		)
 		(stroke
 			(width 0)
@@ -1851,7 +1942,7 @@
 		(uuid "11009d07-c4c5-42a3-9d24-4ec511ea5980")
 	)
 	(label "GPIO_4"
-		(at 91.44 78.74 0)
+		(at 91.44 83.82 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1871,7 +1962,7 @@
 		(uuid "2dd55a25-e6fb-409b-b4c6-50599f12366b")
 	)
 	(label "GPIO_5"
-		(at 91.44 81.28 0)
+		(at 91.44 86.36 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1901,7 +1992,7 @@
 		(uuid "4af5a152-1a5e-478e-b0af-0aadd4dbd441")
 	)
 	(label "GPIO_28"
-		(at 91.44 109.22 0)
+		(at 91.44 118.11 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1931,7 +2022,7 @@
 		(uuid "77c088de-524a-4cd1-a5c9-5b1f63c1d987")
 	)
 	(label "GPIO_27"
-		(at 91.44 106.68 0)
+		(at 91.44 115.57 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1971,7 +2062,7 @@
 		(uuid "ab385515-f9fb-4d26-a34b-b67c28367c56")
 	)
 	(label "GPIO_7"
-		(at 91.44 88.9 0)
+		(at 91.44 93.98 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2011,7 +2102,7 @@
 		(uuid "dee21462-3d0e-4fa1-a06d-7b8c0fd6bcc7")
 	)
 	(label "GPIO_2"
-		(at 91.44 76.2 0)
+		(at 91.44 81.28 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2031,7 +2122,7 @@
 		(uuid "ef1e5373-e28a-4cd9-acd9-17a38f939a0e")
 	)
 	(label "GPIO_6"
-		(at 91.44 86.36 0)
+		(at 91.44 91.44 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2074,7 +2165,7 @@
 	)
 	(global_label "AUDIO_CV_OUT_1"
 		(shape output)
-		(at 52.07 76.2 180)
+		(at 52.07 81.28 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2084,7 +2175,7 @@
 		)
 		(uuid "0d36a8e2-8822-430c-92e3-0997bd4ad820")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 33.3609 76.2 0)
+			(at 33.3609 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2206,7 +2297,7 @@
 	)
 	(global_label "AUDIO_CV_IN_2"
 		(shape input)
-		(at 52.07 109.22 180)
+		(at 52.07 118.11 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2216,7 +2307,7 @@
 		)
 		(uuid "68602485-e559-46ca-aeb1-6048cd6046e1")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 35.0542 109.22 0)
+			(at 35.0542 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2338,7 +2429,7 @@
 	)
 	(global_label "AUDIO_CV_IN_1"
 		(shape input)
-		(at 52.07 106.68 180)
+		(at 52.07 115.57 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2348,7 +2439,7 @@
 		)
 		(uuid "b437dd44-7069-42ec-81b6-3c209f380777")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 35.0542 106.68 0)
+			(at 35.0542 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2404,7 +2495,7 @@
 	)
 	(global_label "AUDIO_CV_OUT_2"
 		(shape output)
-		(at 52.07 78.74 180)
+		(at 52.07 83.82 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2414,7 +2505,7 @@
 		)
 		(uuid "e4ec4c04-96dd-427a-b40a-c9bcd535ff88")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 33.3609 78.74 0)
+			(at 33.3609 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3588,7 +3679,7 @@
 		)
 	)
 	(sheet
-		(at 54.61 104.14)
+		(at 54.61 113.03)
 		(size 34.29 7.62)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3604,7 +3695,7 @@
 		)
 		(uuid "676f845b-15a5-416c-82f1-a8769d54bb0d")
 		(property "Sheetname" "Audio CV In"
-			(at 54.61 103.4284 0)
+			(at 54.61 112.3184 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3613,7 +3704,7 @@
 			)
 		)
 		(property "Sheetfile" "sheets/audio-cv-in.kicad_sch"
-			(at 54.61 112.3446 0)
+			(at 54.61 121.2346 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3622,7 +3713,7 @@
 			)
 		)
 		(pin "AUDIO_CV_IN_1" input
-			(at 54.61 106.68 180)
+			(at 54.61 115.57 180)
 			(uuid "04169c29-c519-4c10-ba73-2e4ec1322c6f")
 			(effects
 				(font
@@ -3632,7 +3723,7 @@
 			)
 		)
 		(pin "AUDIO_CV_IN_2" input
-			(at 54.61 109.22 180)
+			(at 54.61 118.11 180)
 			(uuid "967627a3-7174-4369-ba96-a2281f76c825")
 			(effects
 				(font
@@ -3642,7 +3733,7 @@
 			)
 		)
 		(pin "GPIO_AUDIO_IN_1" output
-			(at 88.9 106.68 0)
+			(at 88.9 115.57 0)
 			(uuid "550f57df-d532-4062-bec1-001c7e08335d")
 			(effects
 				(font
@@ -3652,7 +3743,7 @@
 			)
 		)
 		(pin "GPIO_AUDIO_IN_2" output
-			(at 88.9 109.22 0)
+			(at 88.9 118.11 0)
 			(uuid "82adefee-e72d-4cff-a595-61e647c64b5f")
 			(effects
 				(font
@@ -3885,7 +3976,7 @@
 		)
 	)
 	(sheet
-		(at 54.61 73.66)
+		(at 54.61 78.74)
 		(size 34.29 17.78)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3901,7 +3992,7 @@
 		)
 		(uuid "a5dac03c-0548-4574-b19b-4dd5fbd38e47")
 		(property "Sheetname" "Audio CV Out"
-			(at 54.61 72.9484 0)
+			(at 54.61 78.0284 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3910,7 +4001,7 @@
 			)
 		)
 		(property "Sheetfile" "sheets/audio-cv-out.kicad_sch"
-			(at 54.61 92.0246 0)
+			(at 54.61 97.1046 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3919,7 +4010,7 @@
 			)
 		)
 		(pin "AUDIO_CV_OUT_1" output
-			(at 54.61 76.2 180)
+			(at 54.61 81.28 180)
 			(uuid "c02aaa0b-ea64-428a-83e6-7f84c9864dba")
 			(effects
 				(font
@@ -3929,7 +4020,7 @@
 			)
 		)
 		(pin "DAC_CS" input
-			(at 88.9 81.28 0)
+			(at 88.9 86.36 0)
 			(uuid "4dc7af01-56c3-4607-9ed9-113a630577d9")
 			(effects
 				(font
@@ -3939,7 +4030,7 @@
 			)
 		)
 		(pin "DAC_SCK" input
-			(at 88.9 76.2 0)
+			(at 88.9 81.28 0)
 			(uuid "41faa5aa-3339-47e2-955c-d0015e61a69a")
 			(effects
 				(font
@@ -3949,7 +4040,7 @@
 			)
 		)
 		(pin "DAC_SDI" input
-			(at 88.9 78.74 0)
+			(at 88.9 83.82 0)
 			(uuid "2a6a5bda-9044-4a4a-98a6-a7f0f3f35458")
 			(effects
 				(font
@@ -3959,7 +4050,7 @@
 			)
 		)
 		(pin "AUDIO_CV_OUT_2" output
-			(at 54.61 78.74 180)
+			(at 54.61 83.82 180)
 			(uuid "d51fafaf-f869-4562-9750-6fbc4e9e2159")
 			(effects
 				(font
@@ -3969,7 +4060,7 @@
 			)
 		)
 		(pin "OUT_COUPLING_S1" input
-			(at 88.9 86.36 0)
+			(at 88.9 91.44 0)
 			(uuid "0f2ba1ae-c27c-4540-b1c8-6f2cd5f8e3b7")
 			(effects
 				(font
@@ -3979,7 +4070,7 @@
 			)
 		)
 		(pin "OUT_COUPLING_S2" input
-			(at 88.9 88.9 0)
+			(at 88.9 93.98 0)
 			(uuid "22eac441-f141-4c5c-9810-241183f53f70")
 			(effects
 				(font
@@ -4335,7 +4426,7 @@
 			)
 		)
 		(pin "DAC_CS" output
-			(at 101.6 81.28 180)
+			(at 101.6 86.36 180)
 			(uuid "54e20d18-01b6-411b-a31c-b22b7a02c7e9")
 			(effects
 				(font
@@ -4345,7 +4436,7 @@
 			)
 		)
 		(pin "DAC_SCK" output
-			(at 101.6 76.2 180)
+			(at 101.6 81.28 180)
 			(uuid "df9b40ce-43b7-44fd-979a-ef0adcc122b0")
 			(effects
 				(font
@@ -4355,7 +4446,7 @@
 			)
 		)
 		(pin "DAC_SDI" output
-			(at 101.6 78.74 180)
+			(at 101.6 83.82 180)
 			(uuid "cf4a8f66-cc7f-4a2c-85a7-f12a58c73aae")
 			(effects
 				(font
@@ -4365,7 +4456,7 @@
 			)
 		)
 		(pin "OUT_COUPLING_S1" output
-			(at 101.6 86.36 180)
+			(at 101.6 91.44 180)
 			(uuid "8b93e6a9-0b3b-4e5c-a2aa-310de065ebe2")
 			(effects
 				(font
@@ -4375,7 +4466,7 @@
 			)
 		)
 		(pin "OUT_COUPLING_S2" output
-			(at 101.6 88.9 180)
+			(at 101.6 93.98 180)
 			(uuid "4c1dc852-9ce4-43aa-94c9-63c9fd91201f")
 			(effects
 				(font
@@ -4385,7 +4476,7 @@
 			)
 		)
 		(pin "GPIO_AUDIO_IN_1" input
-			(at 101.6 106.68 180)
+			(at 101.6 115.57 180)
 			(uuid "121a1a9f-02e1-48ac-9f20-d2ce598fb930")
 			(effects
 				(font
@@ -4395,7 +4486,7 @@
 			)
 		)
 		(pin "GPIO_AUDIO_IN_2" input
-			(at 101.6 109.22 180)
+			(at 101.6 118.11 180)
 			(uuid "d0468f79-9fc2-4ccb-ae4e-89e51500a346")
 			(effects
 				(font
