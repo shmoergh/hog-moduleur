@@ -1,4 +1,0 @@
-(sym_lib_table
-  (version 7)
-  (lib (name "MCU_RaspberryPi_and_Boards")(type "Legacy")(uri "${KIPRJMOD}/components/MCU_RaspberryPi_and_Boards.lib")(options "")(descr ""))
-)
