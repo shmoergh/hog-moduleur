@@ -7,7 +7,8 @@
 constexpr uint LED_PIN = 10;
 
 void testLED() {
-	printf("1. LED tests\r\n");
+	printf("LED tests\n");
+	printf("============================\n\n");
 	brain::ui::Led led(LED_PIN);
 	led.init();
 	led.setOnStateChange([](bool on) { printf("LED state changed: %s\n", on ? "ON" : "OFF"); });

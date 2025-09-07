@@ -17,7 +17,8 @@ void pot_change_cb(uint8_t idx, uint16_t val) {
 }
 
 void testPotMux() {
-	printf("3. PotMultiplexer tests\r\n");
+	printf("Pot multiplexer tests\n");
+	printf("============================\n\n");
 	brain::ui::PotMultiplexerConfig pot_cfg = {};
 	pot_cfg.adc_gpio = POT_ADC_GPIO;
 	pot_cfg.s0_gpio = POT_S0_GPIO;
@@ -32,14 +33,75 @@ void testPotMux() {
 	pot_mux.init(pot_cfg);
 	pot_mux.setOnChange(pot_change_cb);
 
-	for (int i = 0; i < 50; ++i) {
+	// Thresholds for pot range detection (with ADC tolerance)
+	constexpr uint16_t MIN_THRESHOLD = 3;  // Close to 0
+	constexpr uint16_t MAX_THRESHOLD = 124;	 // Close to 127
+
+	// Track completion state for each pot
+	bool pot_min_reached[NUM_POTS] = {false};
+	bool pot_max_reached[NUM_POTS] = {false};
+	bool all_pots_tested = false;
+
+	printf("\r\n=== POT CALIBRATION TEST ===\r\n");
+	printf(
+		"Please turn each pot fully counter-clockwise (minimum), then fully clockwise "
+		"(maximum).\r\n");
+	printf("Pot range: 0-127 (min threshold: %u, max threshold: %u)\r\n\r\n", MIN_THRESHOLD,
+		MAX_THRESHOLD);
+
+	while (!all_pots_tested) {
 		pot_mux.scan();
+
+		// Check current values and update status
 		for (uint8_t j = 0; j < NUM_POTS; ++j) {
 			uint16_t val = pot_mux.get(j);
-			printf("Pot %d value: %u\t", j, val);
+
+			// Check if pot reached minimum
+			if (!pot_min_reached[j] && val <= MIN_THRESHOLD) {
+				pot_min_reached[j] = true;
+				printf("✓ Pot %d: Minimum reached (value: %u)\r\n", j, val);
+			}
+
+			// Check if pot reached maximum (only after minimum was reached)
+			if (pot_min_reached[j] && !pot_max_reached[j] && val >= MAX_THRESHOLD) {
+				pot_max_reached[j] = true;
+				printf("✓ Pot %d: Maximum reached (value: %u) - COMPLETE!\r\n", j, val);
+			}
 		}
-		printf("\r\n");
+
+		// Display current status
+		printf("Status: ");
+		for (uint8_t j = 0; j < NUM_POTS; ++j) {
+			printf("Pot%d:", j);
+			if (pot_max_reached[j]) {
+				printf("DONE ");
+			} else if (pot_min_reached[j]) {
+				printf("MIN✓ ");
+			} else {
+				printf("--- ");
+			}
+		}
+
+		// Show current values
+		printf("| Values: ");
+		for (uint8_t j = 0; j < NUM_POTS; ++j) {
+			uint16_t val = pot_mux.get(j);
+			printf("%u ", val);
+		}
+		printf("\r");
+
+		// Check if all pots are complete
+		all_pots_tested = true;
+		for (uint8_t j = 0; j < NUM_POTS; ++j) {
+			if (!pot_max_reached[j]) {
+				all_pots_tested = false;
+				break;
+			}
+		}
+
 		sleep_ms(100);
 	}
+
+	printf("\r\n\r\n🎉 All pots successfully tested!\r\n");
 	printf("PotMultiplexer test finished\r\n-----\r\n");
 }

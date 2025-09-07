@@ -12,7 +12,8 @@ static constexpr uint kButtonPin = 18;
 static constexpr uint kLedPin = 10;
 
 void testButton() {
-	printf("2. Button tests\r\n");
+	printf("Button tests\n");
+	printf("============================\n\n");
 	brain::ui::Led led(kLedPin);
 	led.init();
 	brain::ui::Button button(kButtonPin);
