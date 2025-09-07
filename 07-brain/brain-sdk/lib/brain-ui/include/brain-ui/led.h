@@ -1,13 +1,14 @@
 #pragma once
+
 #include <pico/stdlib.h>
 
+#include <cstdint>
 #include <functional>
 
-namespace brain {
-namespace ui {
-/**
- * @brief LED handler for PWM brightness, blinking, and state callbacks.
- */
+namespace brain::ui {
+
+/// LED handler for PWM brightness, blinking, and state callbacks.
+/// Provides PWM-based brightness control and various blinking patterns.
 class Led {
 	public:
 	Led(uint gpio_pin);
@@ -42,5 +43,5 @@ class Led {
 	uint duration_ms_ = 0;
 	absolute_time_t blink_start_time_ = 0;
 };
-}  // namespace ui
-}  // namespace brain
+
+}  // namespace brain::ui

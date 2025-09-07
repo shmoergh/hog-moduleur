@@ -2,8 +2,7 @@
 
 #include <hardware/pwm.h>
 
-namespace brain {
-namespace ui {
+namespace brain::ui {
 
 Led::Led(uint gpio_pin) :
 	gpio_pin_(gpio_pin),
@@ -28,13 +27,17 @@ void Led::init() {
 void Led::on() {
 	setBrightness(255);
 	state_ = true;
-	if (on_state_change_) on_state_change_(true);
+	if (on_state_change_) {
+		on_state_change_(true);
+	}
 }
 
 void Led::off() {
 	setBrightness(0);
 	state_ = false;
-	if (on_state_change_) on_state_change_(false);
+	if (on_state_change_) {
+		on_state_change_(false);
+	}
 }
 
 void Led::setBrightness(uint8_t value) {
@@ -42,7 +45,9 @@ void Led::setBrightness(uint8_t value) {
 	uint slice = pwm_gpio_to_slice_num(gpio_pin_);
 	pwm_set_gpio_level(gpio_pin_, brightness_);
 	state_ = (brightness_ > 0);
-	if (on_state_change_) on_state_change_(state_);
+	if (on_state_change_) {
+		on_state_change_(state_);
+	}
 }
 
 void Led::blink(uint times, uint interval_ms) {
@@ -77,31 +82,41 @@ void Led::stopBlink() {
 	blinking_ = false;
 	constant_blink_ = false;
 	setBrightness(0);
-	if (on_blink_end_) on_blink_end_();
+	if (on_blink_end_) {
+		on_blink_end_();
+	}
 }
 
 void Led::update() {
-	if (!blinking_) return;
+	if (!blinking_) {
+		return;
+	}
+
 	absolute_time_t now = get_absolute_time();
 	if (absolute_time_diff_us(last_blink_time_, now) / 1000 >= blink_interval_ms_) {
 		last_blink_time_ = now;
 		if (state_) {
 			off();
-			if (!constant_blink_ && !duration_blink_) blink_count_++;
+			if (!constant_blink_ && !duration_blink_) {
+				blink_count_++;
+			}
 		} else {
 			on();
 		}
+
 		// Handle finite blink
 		if (!constant_blink_ && !duration_blink_ && blink_count_ >= blink_times_) {
 			stopBlink();
 		}
 	}
+
 	// Handle duration-based blink
 	if (duration_blink_ && absolute_time_diff_us(blink_start_time_, now) / 1000 >= duration_ms_) {
 		stopBlink();
 		duration_blink_ = false;
 	}
 }
+
 bool Led::isBlinking() const {
 	return blinking_;
 }
@@ -118,5 +133,4 @@ bool Led::isOn() const {
 	return state_;
 }
 
-}  // namespace ui
-}  // namespace brain
+}  // namespace brain::ui
