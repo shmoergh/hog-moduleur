@@ -48,10 +48,22 @@ void Led::setBrightness(uint8_t value) {
 void Led::blink(uint times, uint interval_ms) {
 	blinking_ = true;
 	constant_blink_ = false;
+	duration_blink_ = false;
 	blink_times_ = times;
 	blink_interval_ms_ = interval_ms;
 	blink_count_ = 0;
 	last_blink_time_ = get_absolute_time();
+}
+
+void Led::blinkDuration(uint duration_ms, uint interval_ms) {
+	blinking_ = true;
+	constant_blink_ = false;
+	duration_blink_ = true;
+	duration_ms_ = duration_ms;
+	blink_interval_ms_ = interval_ms;
+	blink_count_ = 0;
+	last_blink_time_ = get_absolute_time();
+	blink_start_time_ = get_absolute_time();
 }
 
 void Led::startBlink(uint interval_ms) {
@@ -75,14 +87,23 @@ void Led::update() {
 		last_blink_time_ = now;
 		if (state_) {
 			off();
-			if (!constant_blink_) blink_count_++;
+			if (!constant_blink_ && !duration_blink_) blink_count_++;
 		} else {
 			on();
 		}
-		if (!constant_blink_ && blink_count_ >= blink_times_) {
+		// Handle finite blink
+		if (!constant_blink_ && !duration_blink_ && blink_count_ >= blink_times_) {
 			stopBlink();
 		}
 	}
+	// Handle duration-based blink
+	if (duration_blink_ && absolute_time_diff_us(blink_start_time_, now) / 1000 >= duration_ms_) {
+		stopBlink();
+		duration_blink_ = false;
+	}
+}
+bool Led::isBlinking() const {
+	return blinking_;
 }
 
 void Led::setOnStateChange(std::function<void(bool)> callback) {

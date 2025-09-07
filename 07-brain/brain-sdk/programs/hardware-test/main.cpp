@@ -55,16 +55,25 @@ int main() {
 	// Test: finite blink (3 times, 200ms interval)
 	printf("1.3 Finite blink (3 times, 200ms interval)\r\n");
 	led.blink(3, 200);
-	while (led.isOn() || led.isOn() == false) {
+	while (led.isBlinking()) {
 		led.update();
 		sleep_ms(5);
-		if (!led.isOn() && !led.isOn()) break;	// Wait for blink to finish
 	}
 	sleep_ms(2000);
 	printf("\r\n");
 
-	// Test: constant blink (indefinite, 100ms interval)
-	printf("1.4 Constant blink (for 2s, 200ms interval)\r\n");
+	// Test: duration blink (blink for 2s, 100ms interval)
+	printf("1.4 Duration blink (2s, 100ms interval)\r\n");
+	led.blinkDuration(2000, 100);
+	while (led.isBlinking()) {
+		led.update();
+		sleep_ms(5);
+	}
+	sleep_ms(2000);
+	printf("\r\n");
+
+	// Test: constant blink (for 2s, 200ms interval)
+	printf("1.5 Constant blink (for 2s, 200ms interval)\r\n");
 	led.startBlink(200);
 	uint blink_duration = 2000;	 // ms
 	absolute_time_t blink_start = get_absolute_time();
