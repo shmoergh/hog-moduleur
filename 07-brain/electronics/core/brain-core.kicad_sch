@@ -1349,7 +1349,7 @@
 	)
 	(text "Pulse I/O"
 		(exclude_from_sim no)
-		(at 194.31 110.49 0)
+		(at 194.945 107.95 0)
 		(effects
 			(font
 				(size 2.27 2.27)
@@ -1496,6 +1496,21 @@
 			(justify left)
 		)
 		(uuid "d0d45f1a-4e12-4f02-bcf4-00134476954c")
+	)
+	(text "SDK Done"
+		(exclude_from_sim no)
+		(at 184.785 111.76 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+				(italic yes)
+				(color 0 194 0 1)
+			)
+			(justify left)
+		)
+		(uuid "d41a4785-6d0f-41eb-a3fb-198eeb33ac26")
 	)
 	(text "Digital"
 		(exclude_from_sim no)
