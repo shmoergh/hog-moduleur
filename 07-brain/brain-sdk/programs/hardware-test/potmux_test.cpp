@@ -1,5 +1,3 @@
-#include "potmux_test.h"
-
 #include <pico/stdlib.h>
 
 #include <cstdio>
@@ -18,7 +16,7 @@ void pot_change_cb(uint8_t idx, uint16_t val) {
 	printf("Pot %d changed: %u\r\n", idx, val);
 }
 
-void RunPotmuxTest() {
+void testPotMux() {
 	printf("3. PotMultiplexer tests\r\n");
 	brain::ui::PotMultiplexerConfig pot_cfg = {};
 	pot_cfg.adc_gpio = POT_ADC_GPIO;

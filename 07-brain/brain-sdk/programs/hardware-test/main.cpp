@@ -4,12 +4,11 @@
 
 #include <iostream>
 
-#include "button_test.h"
-#include "led_test.h"
-#include "potmux_test.h"
-
 // Function declarations
-void test_pulse();
+void testLED();
+void testButton();
+void testPotMux();
+void testPulse();
 
 int main() {
 	stdio_init_all();
@@ -19,20 +18,20 @@ int main() {
 	while (true) {
 		printf("\r\n=== Starting test iteration ===\r\n");
 
-		// printf("\r\n-> Running LED test...\r\n");
-		RunLedTest();
+		printf("\r\n-> Running LED test...\r\n");
+		testLED();
 
-		// printf("\r\n-> Running button test...\r\n");
-		// RunButtonTest();
+		printf("\r\n-> Running button test...\r\n");
+		testButton();
 
 		printf("\r\n-> Running potentiometer multiplexer test...\r\n");
-		RunPotmuxTest();
+		testPotMux();
 
 		printf("\r\n-> Running pulse test...\r\n");
-		test_pulse();
+		testPulse();
 
 		printf("\r\n=== Test iteration complete ===\r\n");
-		// sleep_ms(1000);	 // 1 second delay between iterations
+		sleep_ms(1000);	 // 1 second delay between iterations
 	}
 
 	return 0;  // This will never be reached

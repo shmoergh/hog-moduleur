@@ -1,14 +1,12 @@
-#include "led_test.h"
+#include "brain-ui/led.h"
 
 #include <pico/stdlib.h>
 
 #include <cstdio>
 
-#include "brain-ui/led.h"
-
 constexpr uint LED_PIN = 10;
 
-void RunLedTest() {
+void testLED() {
 	printf("1. LED tests\r\n");
 	brain::ui::Led led(LED_PIN);
 	led.init();

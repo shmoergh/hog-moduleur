@@ -12,7 +12,7 @@
 static constexpr int kTestInputGpio = 2;
 static constexpr int kTestOutputGpio = 3;
 
-void test_pulse() {
+void testPulse() {
 	printf("Brain-IO Pulse Component Test\n");
 	printf("============================\n\n");
 
