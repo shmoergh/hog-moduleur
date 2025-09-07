@@ -775,10 +775,6 @@
       "MCU"
     ],
     [
-      "32847f22-b12c-47fa-93af-9590081bf97a",
-      "LEDs"
-    ],
-    [
       "a5dac03c-0548-4574-b19b-4dd5fbd38e47",
       "Audio CV Out"
     ],
@@ -793,6 +789,10 @@
     [
       "a97d408f-9e6e-4f2a-a0b2-91646f8dc854",
       "Buttons"
+    ],
+    [
+      "58d976d6-5ff2-4f75-8bc0-3e0bd551e7f0",
+      "LEDs"
     ]
   ],
   "text_variables": {}

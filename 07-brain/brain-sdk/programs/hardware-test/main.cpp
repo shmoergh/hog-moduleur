@@ -7,7 +7,7 @@
 #include "brain-ui/led.h"
 #include "brain-ui/pot.h"
 
-const uint LED_PIN = PICO_DEFAULT_LED_PIN;
+const uint LED_PIN = 10;
 const uint BUTTON_PIN = 15;	 // Change to your button GPIO
 const uint POT_PIN = 26;  // Change to your pot GPIO (ADC0=GPIO26)
 

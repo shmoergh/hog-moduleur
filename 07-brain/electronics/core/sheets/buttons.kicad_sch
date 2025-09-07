@@ -725,7 +725,7 @@
 		)
 		(uuid "ff6d907a-3a5f-4806-8392-e2a221123b9d")
 	)
-	(hierarchical_label "BTN2_LED"
+	(hierarchical_label "BTN_2_LED"
 		(shape input)
 		(at 161.29 87.63 180)
 		(effects
@@ -736,7 +736,7 @@
 		)
 		(uuid "34fa73c1-889b-408e-8134-8a5cd6ea5825")
 	)
-	(hierarchical_label "BTN2"
+	(hierarchical_label "BTN_2"
 		(shape output)
 		(at 199.39 78.74 0)
 		(effects
@@ -747,7 +747,7 @@
 		)
 		(uuid "5711cc29-6d4f-4695-b25b-86f81b72b02c")
 	)
-	(hierarchical_label "BTN1_LED"
+	(hierarchical_label "BTN_1_LED"
 		(shape input)
 		(at 95.25 87.63 180)
 		(effects
@@ -758,7 +758,7 @@
 		)
 		(uuid "8f1b976c-a1cf-47c5-85af-41eaf6ec4b7d")
 	)
-	(hierarchical_label "BTN1"
+	(hierarchical_label "BTN_1"
 		(shape output)
 		(at 133.35 78.74 0)
 		(effects

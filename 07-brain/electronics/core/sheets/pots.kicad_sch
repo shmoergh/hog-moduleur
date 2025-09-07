@@ -1145,7 +1145,7 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 72.39) (xy 92.71 74.93)
+			(xy 67.31 72.39) (xy 67.31 74.93)
 		)
 		(stroke
 			(width 0)
@@ -1222,16 +1222,6 @@
 			(type default)
 		)
 		(uuid "3d5f1414-34cd-4fc9-ab62-678031326d5e")
-	)
-	(wire
-		(pts
-			(xy 92.71 124.46) (xy 92.71 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3d800c3d-cedd-4f88-8da4-bc68be69c29d")
 	)
 	(wire
 		(pts
@@ -1315,16 +1305,6 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 134.62) (xy 92.71 137.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "90224d04-3b84-4446-a038-8a445cba63d0")
-	)
-	(wire
-		(pts
 			(xy 144.78 40.64) (xy 135.89 40.64)
 		)
 		(stroke
@@ -1362,16 +1342,6 @@
 			(type default)
 		)
 		(uuid "9ff9e4ef-cc1c-449a-aac7-dae48404dab8")
-	)
-	(wire
-		(pts
-			(xy 92.71 104.14) (xy 92.71 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ad39a608-5bbd-4533-80a4-02d58eeea497")
 	)
 	(wire
 		(pts
@@ -1415,16 +1385,6 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 93.98) (xy 92.71 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c7080f29-56f9-4794-84a2-38988c728144")
-	)
-	(wire
-		(pts
 			(xy 121.92 86.36) (xy 125.73 86.36)
 		)
 		(stroke
@@ -1455,7 +1415,7 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 62.23) (xy 92.71 64.77)
+			(xy 67.31 62.23) (xy 67.31 64.77)
 		)
 		(stroke
 			(width 0)
@@ -1533,6 +1493,17 @@
 		)
 		(uuid "f0a543da-3918-4483-9aeb-b05d7507fceb")
 	)
+	(hierarchical_label "POT_3"
+		(shape input)
+		(at 96.52 130.81 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "50770e4d-5565-4542-9278-843549a573a1")
+	)
 	(hierarchical_label "POTS_MUX_S0"
 		(shape input)
 		(at 160.02 73.66 0)
@@ -1565,6 +1536,28 @@
 			(justify left)
 		)
 		(uuid "eee8d48d-be01-44b2-b10e-2022e62d19d4")
+	)
+	(hierarchical_label "POT_2"
+		(shape input)
+		(at 96.52 100.33 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f3a6402b-5c84-4214-82a1-ea9dacb9e36c")
+	)
+	(hierarchical_label "POT_1"
+		(shape input)
+		(at 96.52 68.58 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f7efbd38-727d-45a7-838d-0cfe02af12a8")
 	)
 	(symbol
 		(lib_id "Device:C")
@@ -1685,72 +1678,6 @@
 			(project "brain-core"
 				(path "/8e2e31f3-eed5-4de1-966c-f4162758c735/6d9ed0a4-9ccf-4f42-8434-45714a6fdbff"
 					(reference "C1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GNDA")
-		(at 92.71 137.16 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "149c87db-1318-4759-b1dc-3d05e23a1f72")
-		(property "Reference" "#PWR036"
-			(at 92.71 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GNDA"
-			(at 92.71 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 92.71 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 92.71 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
-			(at 92.71 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "49e2fd16-8c3a-4226-add8-87d93f876bba")
-		)
-		(instances
-			(project "brain-core"
-				(path "/8e2e31f3-eed5-4de1-966c-f4162758c735/6d9ed0a4-9ccf-4f42-8434-45714a6fdbff"
-					(reference "#PWR036")
 					(unit 1)
 				)
 			)
@@ -1878,147 +1805,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GNDA")
-		(at 92.71 106.68 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "39ad65ad-050f-49db-ac59-c518e4fe45be")
-		(property "Reference" "#PWR035"
-			(at 92.71 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GNDA"
-			(at 92.71 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 92.71 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 92.71 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
-			(at 92.71 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "da20e246-f79e-40f1-a9b2-661371023bd3")
-		)
-		(instances
-			(project "brain-core"
-				(path "/8e2e31f3-eed5-4de1-966c-f4162758c735/6d9ed0a4-9ccf-4f42-8434-45714a6fdbff"
-					(reference "#PWR035")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_Potentiometer")
-		(at 92.71 130.81 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3f773f6c-c6c1-493c-b3ad-9be807bc1597")
-		(property "Reference" "RV3"
-			(at 90.17 129.5399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "R_Potentiometer"
-			(at 90.17 132.0799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 92.71 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 92.71 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Potentiometer"
-			(at 92.71 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2b15f86f-e4fa-434b-8b2e-86494d815cf9")
-		)
-		(pin "3"
-			(uuid "9ccfdd17-1dcc-4ae4-a0c1-5929c310f7dc")
-		)
-		(pin "2"
-			(uuid "54bd70b3-abfe-4d5b-837e-bddb7416b6e2")
-		)
-		(instances
-			(project "brain-core"
-				(path "/8e2e31f3-eed5-4de1-966c-f4162758c735/6d9ed0a4-9ccf-4f42-8434-45714a6fdbff"
-					(reference "RV3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Potentiometer")
-		(at 92.71 68.58 0)
+		(at 67.31 68.58 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2026,8 +1814,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "44da3676-17ba-46f3-ae0a-09b798213735")
-		(property "Reference" "RV1"
-			(at 90.17 67.3099 0)
+		(property "Reference" "#RV1"
+			(at 64.77 67.3099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2035,8 +1823,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "R_Potentiometer"
-			(at 90.17 69.8499 0)
+		(property "Value" "100k"
+			(at 64.77 69.8499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2045,7 +1833,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 92.71 68.58 0)
+			(at 67.31 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2054,7 +1842,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 92.71 68.58 0)
+			(at 67.31 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2063,7 +1851,7 @@
 			)
 		)
 		(property "Description" "Potentiometer"
-			(at 92.71 68.58 0)
+			(at 67.31 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2083,7 +1871,7 @@
 		(instances
 			(project ""
 				(path "/8e2e31f3-eed5-4de1-966c-f4162758c735/6d9ed0a4-9ccf-4f42-8434-45714a6fdbff"
-					(reference "RV1")
+					(reference "#RV1")
 					(unit 1)
 				)
 			)
@@ -2091,7 +1879,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 92.71 62.23 0)
+		(at 67.31 62.23 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2100,7 +1888,7 @@
 		(fields_autoplaced yes)
 		(uuid "5b5270fd-86c3-4e9b-8dbc-fbe9c6b2f1ab")
 		(property "Reference" "#PWR01"
-			(at 92.71 66.04 0)
+			(at 67.31 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2109,7 +1897,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 92.71 57.15 0)
+			(at 67.31 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2117,7 +1905,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 92.71 62.23 0)
+			(at 67.31 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2126,7 +1914,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 92.71 62.23 0)
+			(at 67.31 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2135,7 +1923,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 92.71 62.23 0)
+			(at 67.31 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2400,145 +2188,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3.3V")
-		(at 92.71 93.98 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "96b94f49-9dea-4e15-b398-0f0ccd7ff9af")
-		(property "Reference" "#PWR03"
-			(at 92.71 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 92.71 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 92.71 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 92.71 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 92.71 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "bde8c022-4c09-4d61-89e9-bcb66154b5e6")
-		)
-		(instances
-			(project "brain-core"
-				(path "/8e2e31f3-eed5-4de1-966c-f4162758c735/6d9ed0a4-9ccf-4f42-8434-45714a6fdbff"
-					(reference "#PWR03")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Potentiometer")
-		(at 92.71 100.33 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a5f1e7ab-b745-4dd5-a73f-c89c795b3b82")
-		(property "Reference" "RV2"
-			(at 90.17 99.0599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "R_Potentiometer"
-			(at 90.17 101.5999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 92.71 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 92.71 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Potentiometer"
-			(at 92.71 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ffece661-fc53-440d-8196-dbb421dee36c")
-		)
-		(pin "3"
-			(uuid "4e0cc825-ebab-41e7-a0dd-0cf8bc2239b7")
-		)
-		(pin "2"
-			(uuid "75c684fc-4777-420d-b853-f8fa7f348f41")
-		)
-		(instances
-			(project "brain-core"
-				(path "/8e2e31f3-eed5-4de1-966c-f4162758c735/6d9ed0a4-9ccf-4f42-8434-45714a6fdbff"
-					(reference "RV2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 190.5 76.2 0)
 		(unit 1)
@@ -2730,7 +2379,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDA")
-		(at 92.71 74.93 0)
+		(at 67.31 74.93 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2739,7 +2388,7 @@
 		(fields_autoplaced yes)
 		(uuid "cb448f38-011c-4aa7-92b5-56b98f3e71fa")
 		(property "Reference" "#PWR033"
-			(at 92.71 81.28 0)
+			(at 67.31 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2748,7 +2397,7 @@
 			)
 		)
 		(property "Value" "GNDA"
-			(at 92.71 80.01 0)
+			(at 67.31 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2756,7 +2405,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 92.71 74.93 0)
+			(at 67.31 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2765,7 +2414,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 92.71 74.93 0)
+			(at 67.31 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2774,7 +2423,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
-			(at 92.71 74.93 0)
+			(at 67.31 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2789,72 +2438,6 @@
 			(project "brain-core"
 				(path "/8e2e31f3-eed5-4de1-966c-f4162758c735/6d9ed0a4-9ccf-4f42-8434-45714a6fdbff"
 					(reference "#PWR033")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 92.71 124.46 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d444b9be-bf95-4af7-980c-e34774041e28")
-		(property "Reference" "#PWR031"
-			(at 92.71 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 92.71 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 92.71 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 92.71 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 92.71 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c65dac3c-5239-4256-ac46-277330991846")
-		)
-		(instances
-			(project "brain-core"
-				(path "/8e2e31f3-eed5-4de1-966c-f4162758c735/6d9ed0a4-9ccf-4f42-8434-45714a6fdbff"
-					(reference "#PWR031")
 					(unit 1)
 				)
 			)

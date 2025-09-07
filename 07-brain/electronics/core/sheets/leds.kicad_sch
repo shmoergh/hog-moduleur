@@ -312,7 +312,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Transistor_BJT:MMBT3904"
+		(symbol "Transistor_BJT:2N3904"
 			(pin_names
 				(offset 0)
 				(hide yes)
@@ -329,7 +329,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "MMBT3904"
+			(property "Value" "2N3904"
 				(at 5.08 0 0)
 				(effects
 					(font
@@ -338,7 +338,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
 				(at 5.08 -1.905 0)
 				(effects
 					(font
@@ -349,7 +349,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://www.onsemi.com/pdf/datasheet/pzt3904-d.pdf"
+			(property "Datasheet" "https://www.onsemi.com/pub/Collateral/2N3903-D.PDF"
 				(at 0 0 0)
 				(effects
 					(font
@@ -359,7 +359,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "0.2A Ic, 40V Vce, Small Signal NPN Transistor, SOT-23"
+			(property "Description" "0.2A Ic, 40V Vce, Small Signal NPN Transistor, TO-92"
 				(at 0 0 0)
 				(effects
 					(font
@@ -377,7 +377,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "SOT?23*"
+			(property "ki_fp_filters" "TO?92*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -386,7 +386,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "MMBT3904_0_1"
+			(symbol "2N3904_0_1"
 				(polyline
 					(pts
 						(xy -2.54 0) (xy 0.635 0)
@@ -423,7 +423,7 @@
 					)
 				)
 			)
-			(symbol "MMBT3904_1_1"
+			(symbol "2N3904_1_1"
 				(polyline
 					(pts
 						(xy 0.635 0.635) (xy 2.54 2.54)
@@ -470,7 +470,7 @@
 							)
 						)
 					)
-					(number "1"
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -506,7 +506,7 @@
 							)
 						)
 					)
-					(number "2"
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -746,27 +746,7 @@
 	)
 	(wire
 		(pts
-			(xy 217.17 55.88) (xy 217.17 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "02ef6afb-f21e-484d-b168-700ebbe2b78c")
-	)
-	(wire
-		(pts
-			(xy 190.5 62.23) (xy 194.31 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "062eced8-302f-42e8-930b-ef3c7f8d13cf")
-	)
-	(wire
-		(pts
-			(xy 83.82 55.88) (xy 83.82 57.15)
+			(xy 159.385 86.995) (xy 159.385 88.265)
 		)
 		(stroke
 			(width 0)
@@ -776,47 +756,7 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 72.39) (xy 149.86 67.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "079c86a8-8384-4957-bbb1-60f15905a03e")
-	)
-	(wire
-		(pts
-			(xy 201.93 62.23) (xy 209.55 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0c41d14a-fb1b-4cd6-8fe2-f53740a4bea1")
-	)
-	(wire
-		(pts
-			(xy 83.82 133.35) (xy 83.82 128.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "15120159-53ed-40ac-adef-3c9a036001d1")
-	)
-	(wire
-		(pts
-			(xy 149.86 116.84) (xy 149.86 118.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1b7c874c-9aa8-4733-94db-cee00fbbfe8f")
-	)
-	(wire
-		(pts
-			(xy 83.82 38.1) (xy 83.82 39.37)
+			(xy 159.385 69.215) (xy 159.385 70.485)
 		)
 		(stroke
 			(width 0)
@@ -826,47 +766,7 @@
 	)
 	(wire
 		(pts
-			(xy 217.17 107.95) (xy 217.17 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "305c20fc-f844-44b9-b12b-1b0d7ff38266")
-	)
-	(wire
-		(pts
-			(xy 190.5 123.19) (xy 194.31 123.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "30bd2929-bf5b-409b-99c7-5acaec693c48")
-	)
-	(wire
-		(pts
-			(xy 201.93 123.19) (xy 209.55 123.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "32896203-59e4-4714-8794-5a1f05e1dc4d")
-	)
-	(wire
-		(pts
-			(xy 149.86 133.35) (xy 149.86 128.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "336cd8fc-b072-45d1-8d78-01dea27e7db0")
-	)
-	(wire
-		(pts
-			(xy 83.82 72.39) (xy 83.82 67.31)
+			(xy 159.385 103.505) (xy 159.385 98.425)
 		)
 		(stroke
 			(width 0)
@@ -876,57 +776,7 @@
 	)
 	(wire
 		(pts
-			(xy 217.17 72.39) (xy 217.17 67.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3f92a918-b171-4275-b62c-0ebc0bce7074")
-	)
-	(wire
-		(pts
-			(xy 123.19 123.19) (xy 127 123.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "474f8b44-a551-45b3-adb7-8f8ca7387dd0")
-	)
-	(wire
-		(pts
-			(xy 217.17 46.99) (xy 217.17 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4b7558eb-2020-4728-bdc1-313aa35ab22e")
-	)
-	(wire
-		(pts
-			(xy 123.19 62.23) (xy 127 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "729f358c-7c18-4462-a784-beb43622f731")
-	)
-	(wire
-		(pts
-			(xy 83.82 107.95) (xy 83.82 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "77f03899-587f-4fbd-8dfe-3491495ea896")
-	)
-	(wire
-		(pts
-			(xy 57.15 62.23) (xy 60.96 62.23)
+			(xy 132.715 93.345) (xy 136.525 93.345)
 		)
 		(stroke
 			(width 0)
@@ -936,77 +786,7 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 62.23) (xy 142.24 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8f90eef8-834a-41ec-bc1d-d20bae01cbf2")
-	)
-	(wire
-		(pts
-			(xy 217.17 133.35) (xy 217.17 128.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "90a94002-bbb1-497c-a4ba-ecc99cf32ad8")
-	)
-	(wire
-		(pts
-			(xy 149.86 99.06) (xy 149.86 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "96bfba54-bb62-4fb7-9e55-68c1a0df2f8c")
-	)
-	(wire
-		(pts
-			(xy 149.86 107.95) (xy 149.86 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "99e2f8d1-3c4e-4b4b-b17d-a9e7593701f2")
-	)
-	(wire
-		(pts
-			(xy 217.17 38.1) (xy 217.17 39.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a225d6ff-e6d7-45f7-892e-b2e24bc2a1f4")
-	)
-	(wire
-		(pts
-			(xy 83.82 99.06) (xy 83.82 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a30535a3-14ca-48b1-b895-4648c3ae4a4f")
-	)
-	(wire
-		(pts
-			(xy 68.58 123.19) (xy 76.2 123.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a51625c3-4170-4829-a7bc-8d250dda4253")
-	)
-	(wire
-		(pts
-			(xy 68.58 62.23) (xy 76.2 62.23)
+			(xy 144.145 93.345) (xy 151.765 93.345)
 		)
 		(stroke
 			(width 0)
@@ -1016,17 +796,7 @@
 	)
 	(wire
 		(pts
-			(xy 217.17 116.84) (xy 217.17 118.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d77733c9-83a5-42f4-997d-7a71495d5047")
-	)
-	(wire
-		(pts
-			(xy 83.82 46.99) (xy 83.82 48.26)
+			(xy 159.385 78.105) (xy 159.385 79.375)
 		)
 		(stroke
 			(width 0)
@@ -1034,79 +804,9 @@
 		)
 		(uuid "db7bc7f0-d7ac-42c8-98ff-2830f04cdd8d")
 	)
-	(wire
-		(pts
-			(xy 149.86 38.1) (xy 149.86 39.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e063aa73-1b61-4d05-81d8-e68e303ae0b3")
-	)
-	(wire
-		(pts
-			(xy 83.82 116.84) (xy 83.82 118.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e7d1e054-33ee-4cf0-81d7-f82ff0b0753a")
-	)
-	(wire
-		(pts
-			(xy 217.17 99.06) (xy 217.17 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ed8022a7-574a-4a6b-b772-ff485dc5f63b")
-	)
-	(wire
-		(pts
-			(xy 134.62 123.19) (xy 142.24 123.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "efd9ef54-a703-4e29-a709-21d582e6ae11")
-	)
-	(wire
-		(pts
-			(xy 57.15 123.19) (xy 60.96 123.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f3662341-c851-4cea-99db-5840ad582a3d")
-	)
-	(wire
-		(pts
-			(xy 149.86 55.88) (xy 149.86 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f4fef867-9c03-41cc-aed7-ee931dc7f665")
-	)
-	(wire
-		(pts
-			(xy 149.86 46.99) (xy 149.86 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f8bc7ddd-0e25-443e-ae27-fa0ee7e57d3e")
-	)
 	(hierarchical_label "LED_1"
 		(shape input)
-		(at 57.15 62.23 180)
+		(at 132.715 93.345 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1115,262 +815,9 @@
 		)
 		(uuid "1d75ae38-e43a-4495-b5df-c5c1f833f42f")
 	)
-	(hierarchical_label "LED_3"
-		(shape input)
-		(at 190.5 62.23 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "a5c7cd07-afbc-4549-991b-91a70ec38c64")
-	)
-	(hierarchical_label "LED_6"
-		(shape input)
-		(at 190.5 123.19 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "a82070dd-9d55-47b1-9613-933ce6bfd37b")
-	)
-	(hierarchical_label "LED_5"
-		(shape input)
-		(at 123.19 123.19 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "baf78c8d-3869-4010-bf0a-da5375d39a1b")
-	)
-	(hierarchical_label "LED_2"
-		(shape input)
-		(at 123.19 62.23 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "c088f2b2-1ad6-4323-9c3d-a2784e0f7bef")
-	)
-	(hierarchical_label "LED_4"
-		(shape input)
-		(at 57.15 123.19 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "f7bff790-794d-458b-9681-4aa26642be65")
-	)
-	(symbol
-		(lib_id "power:+12V")
-		(at 217.17 99.06 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "069d896e-b4b5-40b0-b44c-efe7388046ba")
-		(property "Reference" "#PWR063"
-			(at 217.17 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+12V"
-			(at 217.17 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 217.17 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 217.17 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 217.17 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2a450125-9212-4681-a087-c8d88658d42d")
-		)
-		(instances
-			(project "brain-core"
-				(path "/8e2e31f3-eed5-4de1-966c-f4162758c735/32847f22-b12c-47fa-93af-9590081bf97a"
-					(reference "#PWR063")
-					(unit 1)
-				)
-			)
-		)
-	)
 	(symbol
 		(lib_id "power:GND")
-		(at 149.86 72.39 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0e325f10-ab12-4dd5-94ea-c89270547c88")
-		(property "Reference" "#PWR056"
-			(at 149.86 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 149.86 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 149.86 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 149.86 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 149.86 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "28c478c8-48bb-46d6-99d9-b8f5f6c3ee2c")
-		)
-		(instances
-			(project "brain-core"
-				(path "/8e2e31f3-eed5-4de1-966c-f4162758c735/32847f22-b12c-47fa-93af-9590081bf97a"
-					(reference "#PWR056")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+12V")
-		(at 217.17 38.1 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "15170cb5-9257-420c-9fd6-e971acf18f2d")
-		(property "Reference" "#PWR057"
-			(at 217.17 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+12V"
-			(at 217.17 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 217.17 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 217.17 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 217.17 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "167a4488-390a-4f84-b7b7-ed75004bd521")
-		)
-		(instances
-			(project "brain-core"
-				(path "/8e2e31f3-eed5-4de1-966c-f4162758c735/32847f22-b12c-47fa-93af-9590081bf97a"
-					(reference "#PWR057")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 83.82 72.39 0)
+		(at 159.385 103.505 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1379,7 +826,7 @@
 		(fields_autoplaced yes)
 		(uuid "1914a358-3142-418b-99ce-d09f17d3e5bb")
 		(property "Reference" "#PWR054"
-			(at 83.82 78.74 0)
+			(at 159.385 109.855 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1388,7 +835,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 83.82 77.47 0)
+			(at 159.385 108.585 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1396,7 +843,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 83.82 72.39 0)
+			(at 159.385 103.505 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1405,7 +852,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 83.82 72.39 0)
+			(at 159.385 103.505 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1414,7 +861,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 83.82 72.39 0)
+			(at 159.385 103.505 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1427,7 +874,7 @@
 		)
 		(instances
 			(project "brain-core"
-				(path "/8e2e31f3-eed5-4de1-966c-f4162758c735/32847f22-b12c-47fa-93af-9590081bf97a"
+				(path "/8e2e31f3-eed5-4de1-966c-f4162758c735/58d976d6-5ff2-4f75-8bc0-3e0bd551e7f0"
 					(reference "#PWR054")
 					(unit 1)
 				)
@@ -1435,295 +882,17 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED")
-		(at 149.86 52.07 90)
+		(lib_id "Transistor_BJT:2N3904")
+		(at 156.845 93.345 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "1b1040be-e82d-41c3-bb9a-6210231b3702")
-		(property "Reference" "D9"
-			(at 153.67 52.3874 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "LED"
-			(at 153.67 54.9274 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 149.86 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 149.86 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 149.86 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 149.86 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0d984074-8989-46da-b766-38aee1ea2511")
-		)
-		(pin "2"
-			(uuid "09dc0264-9fb2-4e37-8b13-1c4526e5a9b0")
-		)
-		(instances
-			(project "brain-core"
-				(path "/8e2e31f3-eed5-4de1-966c-f4162758c735/32847f22-b12c-47fa-93af-9590081bf97a"
-					(reference "D9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:LED")
-		(at 83.82 113.03 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "22fbe713-7814-45af-89fb-f118820a6968")
-		(property "Reference" "D11"
-			(at 87.63 113.3474 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "LED"
-			(at 87.63 115.8874 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 83.82 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 83.82 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 83.82 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 83.82 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2dd73fef-22c5-4a8c-9574-b3e4bbdae51c")
-		)
-		(pin "2"
-			(uuid "d8c94486-aaa1-4c2e-9414-5ab0f8928dc5")
-		)
-		(instances
-			(project "brain-core"
-				(path "/8e2e31f3-eed5-4de1-966c-f4162758c735/32847f22-b12c-47fa-93af-9590081bf97a"
-					(reference "D11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 217.17 104.14 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "27b16395-8cfc-4aff-8f29-6647170f4397")
-		(property "Reference" "R48"
-			(at 220.98 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1k"
-			(at 220.98 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 218.948 104.14 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 217.17 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 217.17 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" ""
-			(at 217.17 104.14 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser" ""
-			(at 217.17 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part No." ""
-			(at 217.17 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part URL" ""
-			(at 217.17 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Vendor" "JLCPCB"
-			(at 217.17 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Field4" ""
-			(at 217.17 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "5b804734-737d-4e4e-9ba7-302b7701a069")
-		)
-		(pin "2"
-			(uuid "89abb36f-f327-488d-840f-e8e055f88dec")
-		)
-		(instances
-			(project "brain-core"
-				(path "/8e2e31f3-eed5-4de1-966c-f4162758c735/32847f22-b12c-47fa-93af-9590081bf97a"
-					(reference "R48")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Transistor_BJT:MMBT3904")
-		(at 81.28 123.19 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "31fed3ad-71ed-49d0-aa6a-764a8fbd7771")
-		(property "Reference" "Q9"
-			(at 85.09 127 0)
+		(uuid "53185354-33c8-4f39-8203-7948439e5f42")
+		(property "Reference" "Q2"
+			(at 162.56 92.0749 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1731,8 +900,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "MMBT3904"
-			(at 85.09 129.54 0)
+		(property "Value" "2N3904"
+			(at 162.56 94.6149 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1740,8 +909,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 86.36 125.095 0)
+		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+			(at 161.925 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1751,8 +920,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8552894390268936192"
-			(at 81.28 123.19 0)
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/2N3903-D.PDF"
+			(at 156.845 93.345 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1761,44 +930,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "0.2A Ic, 40V Vce, Small Signal NPN Transistor, SOT-23"
-			(at 81.28 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part No." ""
-			(at 81.28 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part URL" ""
-			(at 81.28 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Vendor" "JLCPCB"
-			(at 81.28 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C20526"
-			(at 81.28 123.19 0)
+		(property "Description" "0.2A Ic, 40V Vce, Small Signal NPN Transistor, TO-92"
+			(at 156.845 93.345 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1807,139 +940,18 @@
 			)
 		)
 		(pin "2"
-			(uuid "d15fc613-93f1-48a4-9df4-cee2ea975e09")
-		)
-		(pin "1"
-			(uuid "852a22e1-24cb-43cc-bcc2-113845a0400d")
+			(uuid "49130003-6f63-49a1-a813-d07acac3e678")
 		)
 		(pin "3"
-			(uuid "2c514377-cbe5-4ad7-958c-ccbe914be71e")
-		)
-		(instances
-			(project "brain-core"
-				(path "/8e2e31f3-eed5-4de1-966c-f4162758c735/32847f22-b12c-47fa-93af-9590081bf97a"
-					(reference "Q9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 149.86 43.18 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "38d236e3-149a-43d3-9f85-9183e8319a5f")
-		(property "Reference" "R40"
-			(at 153.67 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1k"
-			(at 153.67 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 151.638 43.18 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 149.86 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 149.86 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" ""
-			(at 149.86 43.18 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser" ""
-			(at 149.86 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part No." ""
-			(at 149.86 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part URL" ""
-			(at 149.86 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Vendor" "JLCPCB"
-			(at 149.86 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Field4" ""
-			(at 149.86 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
+			(uuid "a734a8f7-b7c2-4d89-91c2-b83a33b14b8e")
 		)
 		(pin "1"
-			(uuid "c4c49916-3c87-465a-aa2e-e23b3450ce25")
-		)
-		(pin "2"
-			(uuid "c4f91ab7-f575-4677-b9ed-46e86d46a493")
+			(uuid "ec128e3b-22aa-472e-aac0-10ad624caed1")
 		)
 		(instances
-			(project "brain-core"
-				(path "/8e2e31f3-eed5-4de1-966c-f4162758c735/32847f22-b12c-47fa-93af-9590081bf97a"
-					(reference "R40")
+			(project ""
+				(path "/8e2e31f3-eed5-4de1-966c-f4162758c735/58d976d6-5ff2-4f75-8bc0-3e0bd551e7f0"
+					(reference "Q2")
 					(unit 1)
 				)
 			)
@@ -1947,758 +959,7 @@
 	)
 	(symbol
 		(lib_id "power:+12V")
-		(at 83.82 99.06 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "483f688d-05d4-4dcd-ac61-f306b98b4920")
-		(property "Reference" "#PWR059"
-			(at 83.82 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+12V"
-			(at 83.82 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 83.82 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 83.82 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 83.82 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "881510d5-6592-415d-9772-6a4d784827f3")
-		)
-		(instances
-			(project "brain-core"
-				(path "/8e2e31f3-eed5-4de1-966c-f4162758c735/32847f22-b12c-47fa-93af-9590081bf97a"
-					(reference "#PWR059")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+12V")
-		(at 149.86 99.06 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4c0e9c8b-b711-4937-b690-260b7d76ece1")
-		(property "Reference" "#PWR061"
-			(at 149.86 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+12V"
-			(at 149.86 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 149.86 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 149.86 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 149.86 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2ec99ea0-ef8b-4d7c-867f-111a7d1c1455")
-		)
-		(instances
-			(project "brain-core"
-				(path "/8e2e31f3-eed5-4de1-966c-f4162758c735/32847f22-b12c-47fa-93af-9590081bf97a"
-					(reference "#PWR061")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Transistor_BJT:MMBT3904")
-		(at 214.63 123.19 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "5283085d-14be-4175-99ee-eea5c6e3fefb")
-		(property "Reference" "Q11"
-			(at 218.44 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MMBT3904"
-			(at 218.44 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 219.71 125.095 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8552894390268936192"
-			(at 214.63 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "0.2A Ic, 40V Vce, Small Signal NPN Transistor, SOT-23"
-			(at 214.63 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part No." ""
-			(at 214.63 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part URL" ""
-			(at 214.63 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Vendor" "JLCPCB"
-			(at 214.63 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C20526"
-			(at 214.63 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "f69c4d3a-0d2b-419f-92d9-90162354b1d9")
-		)
-		(pin "1"
-			(uuid "71666212-27fa-4990-a77f-4c2b2aa86b47")
-		)
-		(pin "3"
-			(uuid "cfd170d3-ec82-481d-81e7-52132496cb4d")
-		)
-		(instances
-			(project "brain-core"
-				(path "/8e2e31f3-eed5-4de1-966c-f4162758c735/32847f22-b12c-47fa-93af-9590081bf97a"
-					(reference "Q11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+12V")
-		(at 149.86 38.1 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5df3d838-46f9-42c1-b9ce-098b1a968e24")
-		(property "Reference" "#PWR055"
-			(at 149.86 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+12V"
-			(at 149.86 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 149.86 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 149.86 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 149.86 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "adf121fe-9888-4791-9ef6-6982e1ff23e3")
-		)
-		(instances
-			(project "brain-core"
-				(path "/8e2e31f3-eed5-4de1-966c-f4162758c735/32847f22-b12c-47fa-93af-9590081bf97a"
-					(reference "#PWR055")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:LED")
-		(at 217.17 113.03 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "62c2a520-04a3-4c85-a2b4-be7a3825df60")
-		(property "Reference" "D13"
-			(at 220.98 113.3474 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "LED"
-			(at 220.98 115.8874 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 217.17 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 217.17 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 217.17 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 217.17 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "892229af-fa44-4795-b5a8-f434edc00509")
-		)
-		(pin "2"
-			(uuid "4f9fd14a-38b5-45c8-89b7-b0154df8442f")
-		)
-		(instances
-			(project "brain-core"
-				(path "/8e2e31f3-eed5-4de1-966c-f4162758c735/32847f22-b12c-47fa-93af-9590081bf97a"
-					(reference "D13")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 217.17 43.18 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "672a62d3-3326-4854-bc02-4e25f5166ea8")
-		(property "Reference" "R42"
-			(at 220.98 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1k"
-			(at 220.98 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 218.948 43.18 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 217.17 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 217.17 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" ""
-			(at 217.17 43.18 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser" ""
-			(at 217.17 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part No." ""
-			(at 217.17 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part URL" ""
-			(at 217.17 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Vendor" "JLCPCB"
-			(at 217.17 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Field4" ""
-			(at 217.17 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8bf5b03a-e0dd-48a3-8f6c-b8caa4cfad56")
-		)
-		(pin "2"
-			(uuid "104af10b-4991-490c-a35f-8213eb0e8f8f")
-		)
-		(instances
-			(project "brain-core"
-				(path "/8e2e31f3-eed5-4de1-966c-f4162758c735/32847f22-b12c-47fa-93af-9590081bf97a"
-					(reference "R42")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 130.81 123.19 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "6aef6ce8-ed77-4d31-9adc-faadab433a00")
-		(property "Reference" "R45"
-			(at 130.81 125.73 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "47k"
-			(at 130.81 128.27 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 130.81 124.968 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 130.81 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 130.81 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C25803"
-			(at 130.81 123.19 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser" ""
-			(at 130.81 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part No." ""
-			(at 130.81 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part URL" ""
-			(at 130.81 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Vendor" "JLCPCB"
-			(at 130.81 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Field4" ""
-			(at 130.81 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "afdacf02-c3ba-4b62-8c2a-6b705f4b18d9")
-		)
-		(pin "2"
-			(uuid "b14e1f94-798d-4443-8082-b90330815624")
-		)
-		(instances
-			(project "brain-core"
-				(path "/8e2e31f3-eed5-4de1-966c-f4162758c735/32847f22-b12c-47fa-93af-9590081bf97a"
-					(reference "R45")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 130.81 62.23 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "73bf2793-a4db-47db-89f3-852b7cfb7969")
-		(property "Reference" "R39"
-			(at 130.81 64.77 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "47k"
-			(at 130.81 67.31 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 130.81 64.008 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 130.81 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 130.81 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C25803"
-			(at 130.81 62.23 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser" ""
-			(at 130.81 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part No." ""
-			(at 130.81 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part URL" ""
-			(at 130.81 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Vendor" "JLCPCB"
-			(at 130.81 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Field4" ""
-			(at 130.81 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "20ec67db-e17b-4d40-8a1c-09d12b66e9f3")
-		)
-		(pin "2"
-			(uuid "15b792e4-e36c-4854-8395-42e1535237ee")
-		)
-		(instances
-			(project "brain-core"
-				(path "/8e2e31f3-eed5-4de1-966c-f4162758c735/32847f22-b12c-47fa-93af-9590081bf97a"
-					(reference "R39")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+12V")
-		(at 83.82 38.1 0)
+		(at 159.385 69.215 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2707,7 +968,7 @@
 		(fields_autoplaced yes)
 		(uuid "7c1eced6-e5f7-45c6-b31a-834d65b7725a")
 		(property "Reference" "#PWR053"
-			(at 83.82 41.91 0)
+			(at 159.385 73.025 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2716,7 +977,7 @@
 			)
 		)
 		(property "Value" "+12V"
-			(at 83.82 33.02 0)
+			(at 159.385 64.135 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2724,7 +985,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 83.82 38.1 0)
+			(at 159.385 69.215 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2733,7 +994,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 83.82 38.1 0)
+			(at 159.385 69.215 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2742,7 +1003,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 83.82 38.1 0)
+			(at 159.385 69.215 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2755,7 +1016,7 @@
 		)
 		(instances
 			(project "brain-core"
-				(path "/8e2e31f3-eed5-4de1-966c-f4162758c735/32847f22-b12c-47fa-93af-9590081bf97a"
+				(path "/8e2e31f3-eed5-4de1-966c-f4162758c735/58d976d6-5ff2-4f75-8bc0-3e0bd551e7f0"
 					(reference "#PWR053")
 					(unit 1)
 				)
@@ -2763,129 +1024,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 83.82 104.14 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "83ce8704-d257-4879-903b-acc68854eb3f")
-		(property "Reference" "R44"
-			(at 87.63 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1k"
-			(at 87.63 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 85.598 104.14 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 83.82 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 83.82 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" ""
-			(at 83.82 104.14 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser" ""
-			(at 83.82 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part No." ""
-			(at 83.82 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part URL" ""
-			(at 83.82 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Vendor" "JLCPCB"
-			(at 83.82 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Field4" ""
-			(at 83.82 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "20a4c886-40d6-4fba-99af-dc6ec681f309")
-		)
-		(pin "2"
-			(uuid "bdf1213d-fda5-4a3c-b4d9-c39b3897873c")
-		)
-		(instances
-			(project "brain-core"
-				(path "/8e2e31f3-eed5-4de1-966c-f4162758c735/32847f22-b12c-47fa-93af-9590081bf97a"
-					(reference "R44")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:LED")
-		(at 83.82 52.07 90)
+		(at 159.385 83.185 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2894,7 +1034,7 @@
 		(fields_autoplaced yes)
 		(uuid "8596f31b-ad64-4423-b92b-68a90f935b0e")
 		(property "Reference" "D8"
-			(at 87.63 52.3874 90)
+			(at 163.195 83.5024 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2903,7 +1043,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 87.63 54.9274 90)
+			(at 163.195 86.0424 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2912,7 +1052,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 83.82 52.07 0)
+			(at 159.385 83.185 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2921,7 +1061,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 83.82 52.07 0)
+			(at 159.385 83.185 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2930,7 +1070,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 83.82 52.07 0)
+			(at 159.385 83.185 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2939,7 +1079,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 83.82 52.07 0)
+			(at 159.385 83.185 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2955,7 +1095,7 @@
 		)
 		(instances
 			(project ""
-				(path "/8e2e31f3-eed5-4de1-966c-f4162758c735/32847f22-b12c-47fa-93af-9590081bf97a"
+				(path "/8e2e31f3-eed5-4de1-966c-f4162758c735/58d976d6-5ff2-4f75-8bc0-3e0bd551e7f0"
 					(reference "D8")
 					(unit 1)
 				)
@@ -2963,662 +1103,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_BJT:MMBT3904")
-		(at 81.28 62.23 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "8afa73ca-a4d2-4114-99ab-2cfd9e2b615a")
-		(property "Reference" "Q6"
-			(at 85.09 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MMBT3904"
-			(at 85.09 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 86.36 64.135 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8552894390268936192"
-			(at 81.28 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "0.2A Ic, 40V Vce, Small Signal NPN Transistor, SOT-23"
-			(at 81.28 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part No." ""
-			(at 81.28 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part URL" ""
-			(at 81.28 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Vendor" "JLCPCB"
-			(at 81.28 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C20526"
-			(at 81.28 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "48084416-cca1-41eb-9b54-ff1f361ac18b")
-		)
-		(pin "1"
-			(uuid "a4439cb0-9633-486a-997b-20ce190515fd")
-		)
-		(pin "3"
-			(uuid "e391eb95-f40a-426d-8215-7342aa995fd7")
-		)
-		(instances
-			(project "brain-core"
-				(path "/8e2e31f3-eed5-4de1-966c-f4162758c735/32847f22-b12c-47fa-93af-9590081bf97a"
-					(reference "Q6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:LED")
-		(at 149.86 113.03 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "90ca0a0b-bdf2-480f-8ce7-25b6e9edf945")
-		(property "Reference" "D12"
-			(at 153.67 113.3474 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "LED"
-			(at 153.67 115.8874 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 149.86 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 149.86 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 149.86 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 149.86 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e349141b-5849-47c1-8056-cd3a9283c43c")
-		)
-		(pin "2"
-			(uuid "f22427a4-76ea-435d-88be-cb39a6e3194f")
-		)
-		(instances
-			(project "brain-core"
-				(path "/8e2e31f3-eed5-4de1-966c-f4162758c735/32847f22-b12c-47fa-93af-9590081bf97a"
-					(reference "D12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Transistor_BJT:MMBT3904")
-		(at 147.32 123.19 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "97f69a6d-4ef4-4746-9c0d-3502db5fce61")
-		(property "Reference" "Q10"
-			(at 151.13 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MMBT3904"
-			(at 151.13 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 152.4 125.095 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8552894390268936192"
-			(at 147.32 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "0.2A Ic, 40V Vce, Small Signal NPN Transistor, SOT-23"
-			(at 147.32 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part No." ""
-			(at 147.32 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part URL" ""
-			(at 147.32 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Vendor" "JLCPCB"
-			(at 147.32 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C20526"
-			(at 147.32 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "22b042da-eda1-42bc-9bb3-59e8ad18ac4e")
-		)
-		(pin "1"
-			(uuid "9da6aaec-1194-4bdd-a912-74305d0deb79")
-		)
-		(pin "3"
-			(uuid "8a233b87-3899-4c85-8f89-5b8aa2adc427")
-		)
-		(instances
-			(project "brain-core"
-				(path "/8e2e31f3-eed5-4de1-966c-f4162758c735/32847f22-b12c-47fa-93af-9590081bf97a"
-					(reference "Q10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
-		(at 64.77 123.19 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "98cda5ff-32eb-4014-9daa-d06d96b1e11c")
-		(property "Reference" "R43"
-			(at 64.77 125.73 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "47k"
-			(at 64.77 128.27 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 64.77 124.968 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 64.77 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 64.77 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C25803"
-			(at 64.77 123.19 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser" ""
-			(at 64.77 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part No." ""
-			(at 64.77 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part URL" ""
-			(at 64.77 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Vendor" "JLCPCB"
-			(at 64.77 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Field4" ""
-			(at 64.77 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "82739ea5-5224-4461-bc40-e6559a407728")
-		)
-		(pin "2"
-			(uuid "ac0b19bf-4ce3-4424-8ec8-6f9597098c51")
-		)
-		(instances
-			(project "brain-core"
-				(path "/8e2e31f3-eed5-4de1-966c-f4162758c735/32847f22-b12c-47fa-93af-9590081bf97a"
-					(reference "R43")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Transistor_BJT:MMBT3904")
-		(at 147.32 62.23 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "a12621fd-7f00-404b-b107-46e2ba3e6aa0")
-		(property "Reference" "Q7"
-			(at 151.13 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MMBT3904"
-			(at 151.13 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 152.4 64.135 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8552894390268936192"
-			(at 147.32 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "0.2A Ic, 40V Vce, Small Signal NPN Transistor, SOT-23"
-			(at 147.32 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part No." ""
-			(at 147.32 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part URL" ""
-			(at 147.32 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Vendor" "JLCPCB"
-			(at 147.32 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C20526"
-			(at 147.32 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "4eb4955a-d4ab-43c7-8f4e-88abcc5eec02")
-		)
-		(pin "1"
-			(uuid "5b33fdc6-2d22-47f1-b860-1e0a6f909697")
-		)
-		(pin "3"
-			(uuid "a6ca508b-8591-4917-9ac8-59318691a040")
-		)
-		(instances
-			(project "brain-core"
-				(path "/8e2e31f3-eed5-4de1-966c-f4162758c735/32847f22-b12c-47fa-93af-9590081bf97a"
-					(reference "Q7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 198.12 62.23 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "b76e51c8-c033-4c85-8849-eee5fdbc845a")
-		(property "Reference" "R41"
-			(at 198.12 64.77 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "47k"
-			(at 198.12 67.31 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 198.12 64.008 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 198.12 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 198.12 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C25803"
-			(at 198.12 62.23 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser" ""
-			(at 198.12 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part No." ""
-			(at 198.12 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part URL" ""
-			(at 198.12 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Vendor" "JLCPCB"
-			(at 198.12 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Field4" ""
-			(at 198.12 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "80fa3319-3828-4f5e-a9fb-5f17c1a9ec48")
-		)
-		(pin "2"
-			(uuid "ff65e9b2-908b-484e-b81f-e8680cdfcb4d")
-		)
-		(instances
-			(project "brain-core"
-				(path "/8e2e31f3-eed5-4de1-966c-f4162758c735/32847f22-b12c-47fa-93af-9590081bf97a"
-					(reference "R41")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 83.82 43.18 180)
+		(at 159.385 74.295 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3626,7 +1112,7 @@
 		(dnp no)
 		(uuid "c45454ea-9b37-4cc4-a979-53bc6866ada8")
 		(property "Reference" "R38"
-			(at 87.63 44.45 0)
+			(at 163.195 75.565 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3634,7 +1120,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 87.63 41.91 0)
+			(at 163.195 73.025 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3642,7 +1128,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 85.598 43.18 90)
+			(at 161.163 74.295 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3651,7 +1137,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 83.82 43.18 0)
+			(at 159.385 74.295 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3660,7 +1146,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 83.82 43.18 0)
+			(at 159.385 74.295 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3669,7 +1155,7 @@
 			)
 		)
 		(property "LCSC" ""
-			(at 83.82 43.18 90)
+			(at 159.385 74.295 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3678,7 +1164,7 @@
 			)
 		)
 		(property "Mouser" ""
-			(at 83.82 43.18 0)
+			(at 159.385 74.295 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3687,7 +1173,7 @@
 			)
 		)
 		(property "Part No." ""
-			(at 83.82 43.18 0)
+			(at 159.385 74.295 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3696,7 +1182,7 @@
 			)
 		)
 		(property "Part URL" ""
-			(at 83.82 43.18 0)
+			(at 159.385 74.295 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3705,7 +1191,7 @@
 			)
 		)
 		(property "Vendor" "JLCPCB"
-			(at 83.82 43.18 0)
+			(at 159.385 74.295 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3714,7 +1200,7 @@
 			)
 		)
 		(property "Field4" ""
-			(at 83.82 43.18 0)
+			(at 159.385 74.295 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3730,7 +1216,7 @@
 		)
 		(instances
 			(project "brain-core"
-				(path "/8e2e31f3-eed5-4de1-966c-f4162758c735/32847f22-b12c-47fa-93af-9590081bf97a"
+				(path "/8e2e31f3-eed5-4de1-966c-f4162758c735/58d976d6-5ff2-4f75-8bc0-3e0bd551e7f0"
 					(reference "R38")
 					(unit 1)
 				)
@@ -3738,572 +1224,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 217.17 133.35 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c48db4e6-ebb9-4c05-9afb-58c985e21ff6")
-		(property "Reference" "#PWR064"
-			(at 217.17 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 217.17 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 217.17 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 217.17 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 217.17 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "992b79ec-2c88-4d0a-8cfe-e8f649478989")
-		)
-		(instances
-			(project "brain-core"
-				(path "/8e2e31f3-eed5-4de1-966c-f4162758c735/32847f22-b12c-47fa-93af-9590081bf97a"
-					(reference "#PWR064")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Transistor_BJT:MMBT3904")
-		(at 214.63 62.23 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "c61b925d-8289-44e5-a45d-621b9278485c")
-		(property "Reference" "Q8"
-			(at 218.44 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MMBT3904"
-			(at 218.44 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 219.71 64.135 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8552894390268936192"
-			(at 214.63 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "0.2A Ic, 40V Vce, Small Signal NPN Transistor, SOT-23"
-			(at 214.63 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part No." ""
-			(at 214.63 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part URL" ""
-			(at 214.63 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Vendor" "JLCPCB"
-			(at 214.63 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C20526"
-			(at 214.63 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "8decfd67-fa2d-443d-92a7-5def2eb3ed5f")
-		)
-		(pin "1"
-			(uuid "0bc9e742-2f16-4033-b2e5-883101450941")
-		)
-		(pin "3"
-			(uuid "e9197534-34bf-44a6-b67b-03302cd425c7")
-		)
-		(instances
-			(project "brain-core"
-				(path "/8e2e31f3-eed5-4de1-966c-f4162758c735/32847f22-b12c-47fa-93af-9590081bf97a"
-					(reference "Q8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:LED")
-		(at 217.17 52.07 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c8dadaf1-56da-4700-b61a-610a4cf71ca3")
-		(property "Reference" "D10"
-			(at 220.98 52.3874 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "LED"
-			(at 220.98 54.9274 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 217.17 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 217.17 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 217.17 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 217.17 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "558097b6-0723-4446-a259-5545ba2106f5")
-		)
-		(pin "2"
-			(uuid "7e9010a3-af4a-4765-85cd-4145dcf9cb9d")
-		)
-		(instances
-			(project "brain-core"
-				(path "/8e2e31f3-eed5-4de1-966c-f4162758c735/32847f22-b12c-47fa-93af-9590081bf97a"
-					(reference "D10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
-		(at 198.12 123.19 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "c905766b-79ed-4102-a61b-1dc96753c32c")
-		(property "Reference" "R47"
-			(at 198.12 125.73 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "47k"
-			(at 198.12 128.27 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 198.12 124.968 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 198.12 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 198.12 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C25803"
-			(at 198.12 123.19 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser" ""
-			(at 198.12 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part No." ""
-			(at 198.12 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part URL" ""
-			(at 198.12 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Vendor" "JLCPCB"
-			(at 198.12 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Field4" ""
-			(at 198.12 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "15d9d789-a764-4b06-bbd6-bf0d6450da28")
-		)
-		(pin "2"
-			(uuid "640f074f-3fb6-4503-b6a2-22cf6ce84001")
-		)
-		(instances
-			(project "brain-core"
-				(path "/8e2e31f3-eed5-4de1-966c-f4162758c735/32847f22-b12c-47fa-93af-9590081bf97a"
-					(reference "R47")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 149.86 104.14 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "d2de1658-6aea-44a3-a324-492a73a7cfd5")
-		(property "Reference" "R46"
-			(at 153.67 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1k"
-			(at 153.67 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 151.638 104.14 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 149.86 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 149.86 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" ""
-			(at 149.86 104.14 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser" ""
-			(at 149.86 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part No." ""
-			(at 149.86 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part URL" ""
-			(at 149.86 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Vendor" "JLCPCB"
-			(at 149.86 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Field4" ""
-			(at 149.86 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "94cb78ac-85cb-4913-9cf5-7c5aaf5402dd")
-		)
-		(pin "2"
-			(uuid "57b0fc4d-bf89-4994-85ce-256d7ed841f9")
-		)
-		(instances
-			(project "brain-core"
-				(path "/8e2e31f3-eed5-4de1-966c-f4162758c735/32847f22-b12c-47fa-93af-9590081bf97a"
-					(reference "R46")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 149.86 133.35 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d7ece776-b05d-4f35-b510-1cd7df510a7e")
-		(property "Reference" "#PWR062"
-			(at 149.86 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 149.86 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 149.86 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 149.86 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 149.86 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f6b34fe0-6e1d-4423-baa0-ff4e017b248c")
-		)
-		(instances
-			(project "brain-core"
-				(path "/8e2e31f3-eed5-4de1-966c-f4162758c735/32847f22-b12c-47fa-93af-9590081bf97a"
-					(reference "#PWR062")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 64.77 62.23 90)
+		(at 140.335 93.345 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4311,7 +1233,7 @@
 		(dnp no)
 		(uuid "dfceea0a-afe6-45c7-a608-8af6f851d95b")
 		(property "Reference" "R37"
-			(at 64.77 64.77 90)
+			(at 140.335 95.885 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4319,7 +1241,7 @@
 			)
 		)
 		(property "Value" "47k"
-			(at 64.77 67.31 90)
+			(at 140.335 98.425 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4327,7 +1249,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 64.77 64.008 90)
+			(at 140.335 95.123 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4336,7 +1258,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 64.77 62.23 0)
+			(at 140.335 93.345 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4345,7 +1267,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 64.77 62.23 0)
+			(at 140.335 93.345 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4354,7 +1276,7 @@
 			)
 		)
 		(property "LCSC" "C25803"
-			(at 64.77 62.23 90)
+			(at 140.335 93.345 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4363,7 +1285,7 @@
 			)
 		)
 		(property "Mouser" ""
-			(at 64.77 62.23 0)
+			(at 140.335 93.345 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4372,7 +1294,7 @@
 			)
 		)
 		(property "Part No." ""
-			(at 64.77 62.23 0)
+			(at 140.335 93.345 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4381,7 +1303,7 @@
 			)
 		)
 		(property "Part URL" ""
-			(at 64.77 62.23 0)
+			(at 140.335 93.345 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4390,7 +1312,7 @@
 			)
 		)
 		(property "Vendor" "JLCPCB"
-			(at 64.77 62.23 0)
+			(at 140.335 93.345 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4399,7 +1321,7 @@
 			)
 		)
 		(property "Field4" ""
-			(at 64.77 62.23 0)
+			(at 140.335 93.345 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4415,140 +1337,8 @@
 		)
 		(instances
 			(project "brain-core"
-				(path "/8e2e31f3-eed5-4de1-966c-f4162758c735/32847f22-b12c-47fa-93af-9590081bf97a"
+				(path "/8e2e31f3-eed5-4de1-966c-f4162758c735/58d976d6-5ff2-4f75-8bc0-3e0bd551e7f0"
 					(reference "R37")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 217.17 72.39 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e4ac2be0-6dc8-44bf-8827-141d6db4489d")
-		(property "Reference" "#PWR058"
-			(at 217.17 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 217.17 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 217.17 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 217.17 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 217.17 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c03422d4-3168-41ab-a307-7fc428c626e3")
-		)
-		(instances
-			(project "brain-core"
-				(path "/8e2e31f3-eed5-4de1-966c-f4162758c735/32847f22-b12c-47fa-93af-9590081bf97a"
-					(reference "#PWR058")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 83.82 133.35 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e52aa246-b37f-4bdc-ab46-a9521ad67ef8")
-		(property "Reference" "#PWR060"
-			(at 83.82 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 83.82 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 83.82 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 83.82 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 83.82 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f24c1a4d-9579-42f8-94e6-a988a1e739c8")
-		)
-		(instances
-			(project "brain-core"
-				(path "/8e2e31f3-eed5-4de1-966c-f4162758c735/32847f22-b12c-47fa-93af-9590081bf97a"
-					(reference "#PWR060")
 					(unit 1)
 				)
 			)

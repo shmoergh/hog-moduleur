@@ -3608,7 +3608,7 @@
 		)
 		(uuid "214441c7-ddd0-4cd4-9d18-28cbbccc164e")
 	)
-	(hierarchical_label "OUT_SWITCH_S2"
+	(hierarchical_label "OUT_COUPLING_S2"
 		(shape input)
 		(at 109.22 50.8 180)
 		(effects
@@ -3619,7 +3619,7 @@
 		)
 		(uuid "3096d0f6-c91d-44c7-9106-f5e9d6703375")
 	)
-	(hierarchical_label "OUT_SWITCH_S1"
+	(hierarchical_label "OUT_COUPLING_S1"
 		(shape input)
 		(at 109.22 48.26 180)
 		(effects
