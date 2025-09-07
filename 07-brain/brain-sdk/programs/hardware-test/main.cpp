@@ -8,6 +8,9 @@
 #include "led_test.h"
 #include "potmux_test.h"
 
+// Function declarations
+void test_pulse();
+
 int main() {
 	stdio_init_all();
 	printf("---== Hog Moduleur Brain hardware test ==---\r\n\r\n");
@@ -24,6 +27,9 @@ int main() {
 
 		printf("\r\n-> Running potentiometer multiplexer test...\r\n");
 		RunPotmuxTest();
+
+		printf("\r\n-> Running pulse test...\r\n");
+		test_pulse();
 
 		printf("\r\n=== Test iteration complete ===\r\n");
 		// sleep_ms(1000);	 // 1 second delay between iterations

@@ -1373,6 +1373,21 @@
 		)
 		(uuid "38e574dc-51dc-4c3c-9d03-87d7a373353c")
 	)
+	(text "SDK Done"
+		(exclude_from_sim no)
+		(at 29.21 55.88 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+				(italic yes)
+				(color 0 194 0 1)
+			)
+			(justify left)
+		)
+		(uuid "79c3e7d6-7dff-4699-bbce-6abf29c553b5")
+	)
 	(text "SAMPLE\nTO BE REMOVED"
 		(exclude_from_sim no)
 		(at 303.53 26.67 0)
@@ -1413,6 +1428,21 @@
 		)
 		(uuid "977681d7-8585-422d-900f-ff2a0d5b2e4a")
 	)
+	(text "SDK Done"
+		(exclude_from_sim no)
+		(at 185.42 93.98 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+				(italic yes)
+				(color 0 194 0 1)
+			)
+			(justify left)
+		)
+		(uuid "9d337e19-a2b7-4815-a069-c5109118aa19")
+	)
 	(text "Buttons"
 		(exclude_from_sim no)
 		(at 193.675 53.34 0)
@@ -1438,6 +1468,21 @@
 			(justify right)
 		)
 		(uuid "cdcc5ed9-5ae0-4b0d-b4d7-c2565bb5011a")
+	)
+	(text "SDK Done"
+		(exclude_from_sim no)
+		(at 180.975 57.15 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+				(italic yes)
+				(color 0 194 0 1)
+			)
+			(justify left)
+		)
+		(uuid "d0630178-6bd5-408a-998d-73a3af56f64a")
 	)
 	(text "Pots"
 		(exclude_from_sim no)
