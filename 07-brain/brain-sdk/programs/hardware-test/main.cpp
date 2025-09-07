@@ -20,7 +20,7 @@ int main() {
 		printf("\r\n=== Starting test iteration ===\r\n");
 
 		// printf("\r\n-> Running LED test...\r\n");
-		// RunLedTest();
+		RunLedTest();
 
 		// printf("\r\n-> Running button test...\r\n");
 		// RunButtonTest();
