@@ -17,6 +17,10 @@ void testButton() {
 	led.init();
 	brain::ui::Button button(kButtonPin);
 	button.init(true);
+
+	bool singleTapDetected = false;
+	bool longPressDetected = false;
+
 	button.setOnPress([&]() {
 		printf("Button pressed!\n");
 		led.on();
@@ -25,13 +29,30 @@ void testButton() {
 		printf("Button released!\n");
 		led.off();
 	});
-	button.setOnSingleTap([]() { printf("Single tap detected!\n"); });
-	button.setOnLongPress([]() { printf("Long press detected!\n"); });
+	button.setOnSingleTap([&]() {
+		printf("Single tap detected!\n");
+		singleTapDetected = true;
+	});
+	button.setOnLongPress([&]() {
+		printf("Long press detected!\n");
+		longPressDetected = true;
+	});
 
-	for (int i = 0; i < 50; ++i) {
+	printf("Please perform a SINGLE TAP on the button to continue...\n");
+	while (!singleTapDetected) {
 		button.update();
 		led.update();
-		sleep_ms(100);
+		sleep_ms(10);
 	}
-	printf("Button test finished\r\n-----\r\n");
+
+	printf(
+		"Great! Now please perform a LONG PRESS (hold for ~1 second) on the button to "
+		"continue...\n");
+	while (!longPressDetected) {
+		button.update();
+		led.update();
+		sleep_ms(10);
+	}
+
+	printf("Button test finished successfully!\r\n-----\r\n");
 }
