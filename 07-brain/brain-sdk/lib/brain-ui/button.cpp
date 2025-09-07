@@ -1,9 +1,11 @@
+// Button input handler with debounce, long press, and single-tap detection.
+// Implementation of callback-based button event system for Brain module.
+
 #include "brain-ui/button.h"
 
-#include <stdio.h>
+#include <cstdio>
 
-namespace brain {
-namespace ui {
+namespace brain::ui {
 
 Button::Button(uint gpio_pin, uint32_t debounce_ms, uint32_t long_press_ms) :
 	gpio_pin_(gpio_pin),
@@ -80,5 +82,4 @@ void Button::setOnLongPress(std::function<void()> callback) {
 	on_long_press_ = callback;
 }
 
-}  // namespace ui
-}  // namespace brain
+}  // namespace brain::ui

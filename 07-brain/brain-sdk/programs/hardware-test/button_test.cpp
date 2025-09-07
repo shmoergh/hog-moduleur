@@ -1,20 +1,23 @@
-#include "button_test.h"
+// Test function for Brain-UI Button component functionality.
+// Demonstrates button press/release, single tap, and long press detection.
 
-#include <pico/stdlib.h>
+#include "button_test.h"
 
 #include <cstdio>
 
 #include "brain-ui/button.h"
 #include "brain-ui/led.h"
+#include "pico/stdlib.h"
 
-constexpr uint BUTTON_PIN = 18;
-constexpr uint LED_PIN = 10;
+// Test GPIO pins - these can be changed to match actual hardware
+static constexpr uint kButtonPin = 18;
+static constexpr uint kLedPin = 10;
 
-void RunButtonTest() {
+void runButtonTest() {
 	printf("2. Button tests\r\n");
-	brain::ui::Led led(LED_PIN);
+	brain::ui::Led led(kLedPin);
 	led.init();
-	brain::ui::Button button(BUTTON_PIN);
+	brain::ui::Button button(kButtonPin);
 	button.init(true);
 	button.setOnPress([&]() {
 		printf("Button pressed!\n");

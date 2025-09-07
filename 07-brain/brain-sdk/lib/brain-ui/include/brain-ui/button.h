@@ -1,13 +1,19 @@
-#pragma once
-#include <pico/stdlib.h>
+// Button input handler with debounce, long press, and single-tap detection.
+// Provides callback system for user input events on Brain module hardware.
+// Requires: GPIO pin with pull-up/pull-down configuration.
 
+#ifndef BRAIN_UI_BUTTON_H_
+#define BRAIN_UI_BUTTON_H_
+
+#include <cstdint>
 #include <functional>
 
-namespace brain {
-namespace ui {
+#include "pico/stdlib.h"
+
+namespace brain::ui {
 
 /**
- * @brief Button input handler with debounce, long press, and double-tap detection.
+ * @brief Button input handler with debounce, long press, and single-tap detection.
  */
 class Button {
 	public:
@@ -36,8 +42,8 @@ class Button {
 	std::function<void()> on_long_press_;
 
 	bool long_press_triggered_;
-	// double tap members removed
 };
 
-}  // namespace ui
-}  // namespace brain
+}  // namespace brain::ui
+
+#endif	// BRAIN_UI_BUTTON_H_
