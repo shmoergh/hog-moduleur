@@ -33,6 +33,7 @@ Anyone can write their own apps for the Brain module. For this we'll provide an 
 - [Button](docs/BUTTON.md)
 - [LED](docs/LED.md)
 - [Pots](docs/POT_MULTIPLEXER.md)
+- [Pulse I/O](docs/PULSE.md)
 - [MIDI parser](docs/MIDI_PARSER.md)
 
 
