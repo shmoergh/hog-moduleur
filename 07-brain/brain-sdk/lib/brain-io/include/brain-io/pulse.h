@@ -8,6 +8,7 @@
 #include <cstdint>
 #include <functional>
 
+#include "brain-gpio-setup.h"
 #include "pico/types.h"
 
 namespace brain::io {
@@ -24,10 +25,10 @@ class Pulse {
 	/**
 	 * @brief Construct a new Pulse object
 	 *
-	 * @param in_gpio GPIO pin number for input
-	 * @param out_gpio GPIO pin number for output
+	 * @param in_gpio GPIO pin number for input (default: GPIO_BRAIN_PULSE_INPUT)
+	 * @param out_gpio GPIO pin number for output (default: GPIO_BRAIN_PULSE_OUTPUT)
 	 */
-	Pulse(uint in_gpio, uint out_gpio);
+	Pulse(uint in_gpio = GPIO_BRAIN_PULSE_INPUT, uint out_gpio = GPIO_BRAIN_PULSE_OUTPUT);
 
 	/**
 	 * @brief Initialize GPIO pins and set safe output state
