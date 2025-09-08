@@ -28,6 +28,11 @@ The factory programs are all written in C++ using the Pico SDK.
 
 Anyone can write their own apps for the Brain module. For this we'll provide an SDK with easy access to the built in I/O and interface components. We'll also provide a boilerplate shell script which makes it easy for anyone to get started with a new app/firmware.
 
+### Core Components
+
+- [MIDI parser](docs/MIDI.md)
+
+
 ### Folder Structure
 ```
 brain-sdk/
@@ -42,4 +47,4 @@ brain-sdk/
 ```
 
 ## Development
-See [docs/SETUP.md](docs/SETUP.md) for setup instructions, prerequisites, and workflow details.
+See [SETUP](docs/SETUP.md) for setup instructions, prerequisites, and workflow details.

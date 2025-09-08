@@ -1,13 +1,9 @@
 ---
-applyTo: '**/*.h,**/*.cpp,**/*.c'
+applyTo: '**'
 ---
 # Project C/C++ Coding Guidelines (Google Style, Embedded-friendly)
 
 > Baseline: Google C++ Style Guide (naming, formatting, includes) with embedded tweaks.
-
----
-
-Apply the [general coding guidelines](../instructions/general-coding-guidelines.instructions.md) to all code. When found conflicting information, use the instructions in this file.
 
 ---
 
@@ -279,11 +275,13 @@ namespace brain::io {
 - Forward-declare where practical; don’t `#include` what you don’t use.
 - Public API gets a brief Doxygen block:
 ```cpp
-/// Samples N channels via a 74HC4051 into the Pico ADC.
-/// Blocking; ~200 µs per channel typical.
-/// @param channels logical channel indices [0..2]
-/// @return last sampled value in 12-bit right-aligned format.
-uint16_t SampleOnce(int channel);
+/*
+ * @brief Samples N channels via a 74HC4051 into the Pico ADC.
+ *
+ * @param channels logical channel indices [0..2]
+ * @return last sampled value in 12-bit right-aligned format.
+ * /
+uint16_t sampleOnce(int channel);
 ```
 
 ---
