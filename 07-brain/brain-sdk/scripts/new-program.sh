@@ -23,7 +23,11 @@ cat > "$PROG_DIR/CMakeLists.txt" <<EOF
 cmake_minimum_required(VERSION 3.22)
 project($PROG_NAME)
 add_executable($PROG_NAME main.cpp)
-target_link_libraries($PROG_NAME pico_stdlib brain-ui brain-io)
+target_link_libraries($PROG_NAME
+	pico_stdlib
+	brain-common
+	brain-ui
+	brain-io)
 pico_enable_stdio_usb($PROG_NAME 1)
 pico_enable_stdio_uart($PROG_NAME 1)
 pico_add_extra_outputs($PROG_NAME)
