@@ -30,7 +30,10 @@ Anyone can write their own apps for the Brain module. For this we'll provide an 
 
 ### Core Components
 
-- [MIDI parser](docs/MIDI.md)
+- [Button](docs/BUTTON.md)
+- [LED](docs/LED.md)
+- [Pots](docs/POT_MULTIPLEXER.md)
+- [MIDI parser](docs/MIDI_PARSER.md)
 
 
 ### Folder Structure
