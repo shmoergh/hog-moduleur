@@ -3,10 +3,11 @@
 #include <cstdio>
 
 #include "brain-ui/pot_multiplexer.h"
+#include "settings.h"
 
-constexpr uint8_t POT_ADC_GPIO = 26;
-constexpr uint8_t POT_S0_GPIO = 16;
-constexpr uint8_t POT_S1_GPIO = 17;
+constexpr uint8_t POT_ADC_GPIO = GPIO_BRAIN_POTMUX_ADC;
+constexpr uint8_t POT_S0_GPIO = GPIO_BRAIN_POTMUX_S0;
+constexpr uint8_t POT_S1_GPIO = GPIO_BRAIN_POTMUX_S1;
 constexpr uint8_t NUM_POTS = 3;
 constexpr uint8_t POT_CHANNEL_MAP[NUM_POTS] = {0, 1, 2};
 

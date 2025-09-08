@@ -4,9 +4,10 @@
 #include <cstdio>
 
 #include "brain-io/midi_parser.h"
+#include "settings.h"
 
 // MIDI configuration
-constexpr uint8_t MIDI_RX_GPIO = 5;	 // UART1 RX pin (configurable based on hardware design)
+constexpr uint8_t MIDI_RX_GPIO = GPIO_BRAIN_MIDI;  // UART1 RX pin
 
 brain::io::MidiParser midi_parser;
 
@@ -79,7 +80,7 @@ void testMidi() {
 	}
 
 	// Configure MIDI parser for channel 1 (not omni mode)
-	midi_parser.setChannel(1);
+	midi_parser.setChannel(MIDI_CHANNEL);
 	midi_parser.setOmni(false);
 
 	// Set up callbacks

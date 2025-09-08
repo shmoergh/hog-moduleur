@@ -4,7 +4,9 @@
 
 #include <cstdio>
 
-constexpr uint LED_PIN = 10;
+#include "settings.h"
+
+constexpr uint LED_PIN = GPIO_BRAIN_LED;
 
 void testLED() {
 	printf("LED tests\n");

@@ -7,16 +7,17 @@
 #include <cstdio>
 
 #include "pico/stdlib.h"
+#include "settings.h"
 
 // Test GPIO pins - these can be changed to match actual hardware
-static constexpr int kTestInputGpio = 3;
-static constexpr int kTestOutputGpio = 8;
+static constexpr int TEST_INPUT_GPIO = GPIO_PULSE_INPUT;
+static constexpr int TEST_OUTPUT_GPIO = GPIO_PULSE_OUTPUT;
 
 void testPulseInput(brain::io::Pulse& pulse) {
 	printf("PHASE 1: PULSE INPUT TEST\n");
 	printf("============================\n");
 	printf("Hardware setup:\n");
-	printf("- Connect a button between GPIO pin %d and GROUND (GND)\n", kTestInputGpio);
+	printf("- Connect a button between GPIO pin %d and GROUND (GND)\n", TEST_INPUT_GPIO);
 	printf("- Button should pull GPIO LOW when pressed (hardware inverts this to logical HIGH)\n");
 	printf("- No pull-down resistor needed (internal pull-up enabled)\n\n");
 
@@ -79,7 +80,7 @@ void testPulseOutput(brain::io::Pulse& pulse) {
 	printf("PHASE 2: PULSE OUTPUT TEST\n");
 	printf("============================\n");
 	printf("Hardware setup:\n");
-	printf("- Connect an oscilloscope or logic analyzer to GPIO pin %d\n", kTestOutputGpio);
+	printf("- Connect an oscilloscope or logic analyzer to GPIO pin %d\n", TEST_OUTPUT_GPIO);
 	printf("- You should see 10 pulses, each 100ms wide, with 1 second intervals\n");
 	printf("- Pulse logic: HIGH = active, LOW = idle\n\n");
 
@@ -114,10 +115,10 @@ void testPulse() {
 	printf("BRAIN-IO PULSE COMPONENT TEST\n");
 	printf("============================\n");
 	printf("This test validates both input and output functionality\n");
-	printf("Test pins: Input=%d, Output=%d\n\n", kTestInputGpio, kTestOutputGpio);
+	printf("Test pins: Input=%d, Output=%d\n\n", TEST_INPUT_GPIO, TEST_OUTPUT_GPIO);
 
 	// Create pulse instance
-	brain::io::Pulse pulse(kTestInputGpio, kTestOutputGpio);
+	brain::io::Pulse pulse(TEST_INPUT_GPIO, TEST_OUTPUT_GPIO);
 
 	// Initialize the pulse component
 	pulse.begin();

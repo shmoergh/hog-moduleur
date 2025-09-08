@@ -28,8 +28,8 @@ int main() {
 	// printf("\r\n-> Running potentiometer multiplexer test...\r\n");
 	// testPotMux();
 
-	printf("\r\n-> Running pulse test...\r\n");
-	testPulse();
+	// printf("\r\n-> Running pulse test...\r\n");
+	// testPulse();
 
 	printf("\r\n-> Running MIDI parser test...\r\n");
 	testMidi();
