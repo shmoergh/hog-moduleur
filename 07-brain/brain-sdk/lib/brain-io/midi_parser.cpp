@@ -1,5 +1,8 @@
 #include "brain-io/midi_parser.h"
 
+#include <hardware/gpio.h>
+#include <hardware/uart.h>
+
 namespace brain::io {
 
 MidiParser::MidiParser(uint8_t channel, bool omni) : channel_filter_(channel), omni_mode_(omni) {
@@ -133,6 +136,45 @@ void MidiParser::setPitchBendCallback(PitchBendCallback callback) {
 
 void MidiParser::setRealtimeCallback(RealtimeCallback callback) {
 	realtime_callback_ = callback;
+}
+
+bool MidiParser::initUart(uart_inst_t* uart, uint8_t rx_gpio, uint32_t baud_rate) {
+	if (uart == nullptr) {
+		return false;
+	}
+
+	uart_ = uart;
+
+	// Initialize UART for MIDI input
+	uart_init(uart_, baud_rate);
+
+	// Set up GPIO pin for MIDI RX
+	gpio_set_function(rx_gpio, GPIO_FUNC_UART);
+
+	// Set UART format for MIDI (8 data bits, 1 stop bit, no parity)
+	uart_set_format(uart_, 8, 1, UART_PARITY_NONE);
+
+	// Disable hardware flow control
+	uart_set_hw_flow(uart_, false, false);
+
+	uart_initialized_ = true;
+	return true;
+}
+
+void MidiParser::processUartInput() {
+	if (!uart_initialized_ || uart_ == nullptr) {
+		return;
+	}
+
+	// Read any available MIDI bytes and feed them to the parser
+	while (uart_is_readable(uart_)) {
+		uint8_t byte = uart_getc(uart_);
+		feed(byte);
+	}
+}
+
+bool MidiParser::isUartInitialized() const {
+	return uart_initialized_;
 }
 
 bool MidiParser::shouldProcessChannel(uint8_t messageChannel) const {

@@ -2,13 +2,15 @@
 
 #include <cstdint>
 
+// Forward declarations for UART types
+typedef struct uart_inst uart_inst_t;
+
 namespace brain::io {
 
 /**
- * @brief MIDI parser for channel voice messages (Note On/Off, CC, Pitch Bend).
- * Transport-agnostic parser that processes raw MIDI bytes.
- * Supports single-channel filtering and optional Omni mode.
- * ISR-safe feed() method for real-time parsing.
+ * @brief MIDI parser with integrated UART input for channel voice messages.
+ * Handles UART MIDI input and parsing with channel filtering and Omni mode support.
+ * ISR-safe feed() method for real-time parsing or use initUart() for integrated UART handling.
  */
 class MidiParser {
 	public:
@@ -60,6 +62,27 @@ class MidiParser {
 	 * @param byte Raw MIDI byte (ISR-safe, noexcept)
 	 */
 	void feed(uint8_t byte) noexcept;
+
+	/**
+	 * @brief Initialize UART for MIDI input (optional integrated approach)
+	 * @param uart UART instance (e.g., uart0, uart1)
+	 * @param rx_gpio GPIO pin for UART RX
+	 * @param baud_rate MIDI baud rate (default: 31250)
+	 * @return true if initialization successful
+	 */
+	bool initUart(uart_inst_t* uart, uint8_t rx_gpio, uint32_t baud_rate = 31250);
+
+	/**
+	 * @brief Process any available UART MIDI input (call regularly in main loop)
+	 * Only works if initUart() was called first
+	 */
+	void processUartInput();
+
+	/**
+	 * @brief Check if UART MIDI input is initialized and ready
+	 * @return true if UART is initialized
+	 */
+	bool isUartInitialized() const;
 
 	/**
 	 * @brief Set callback for Note On messages
@@ -155,6 +178,10 @@ class MidiParser {
 	// Configuration
 	uint8_t channel_filter_ = 1;  // 1-16
 	bool omni_mode_ = false;
+
+	// UART configuration (when using integrated UART)
+	uart_inst_t* uart_ = nullptr;
+	bool uart_initialized_ = false;
 
 	// Callbacks
 	NoteOnCallback note_on_callback_ = nullptr;

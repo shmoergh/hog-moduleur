@@ -9,6 +9,7 @@ void testLED();
 void testButton();
 void testPotMux();
 void testPulse();
+void testMidi();
 
 int main() {
 	stdio_init_all();
@@ -29,6 +30,9 @@ int main() {
 
 	printf("\r\n-> Running pulse test...\r\n");
 	testPulse();
+
+	printf("\r\n-> Running MIDI parser test...\r\n");
+	testMidi();
 
 	printf("\r\n=== Test iteration complete ===\r\n");
 	sleep_ms(1000);	 // 1 second delay between iterations
