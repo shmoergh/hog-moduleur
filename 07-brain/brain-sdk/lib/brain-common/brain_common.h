@@ -9,6 +9,8 @@
 #pragma once
 
 // GPIO pin assignments - centralized for easy reference and updates
+#include <cstdint>
+
 #include "brain-gpio-setup.h"
 
 // Common constants that might be used across modules
