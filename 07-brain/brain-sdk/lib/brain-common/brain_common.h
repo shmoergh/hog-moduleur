@@ -13,6 +13,16 @@
 
 #include "brain-gpio-setup.h"
 
+#define BRAIN_LED_1 GPIO_BRAIN_LED_1
+#define BRAIN_LED_2 GPIO_BRAIN_LED_2
+#define BRAIN_LED_3 GPIO_BRAIN_LED_3
+#define BRAIN_LED_4 GPIO_BRAIN_LED_4
+#define BRAIN_LED_5 GPIO_BRAIN_LED_5
+#define BRAIN_LED_6 GPIO_BRAIN_LED_6
+
+#define BRAIN_BUTTON_1 GPIO_BRAIN_BUTTON_1
+#define BRAIN_BUTTON_2 GPIO_BRAIN_BUTTON_2
+
 // Common constants that might be used across modules
 namespace brain {
 namespace constants {

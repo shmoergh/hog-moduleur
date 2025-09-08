@@ -4,19 +4,16 @@
 
 #include <cstdio>
 
+#include "brain-common/brain_common.h"
 #include "brain-ui/led.h"
 #include "pico/stdlib.h"
-
-// Test GPIO pins - these can be changed to match actual hardware
-static constexpr uint kButtonPin = 18;
-static constexpr uint kLedPin = 10;
 
 void testButton() {
 	printf("Button tests\n");
 	printf("============================\n\n");
-	brain::ui::Led led(kLedPin);
+	brain::ui::Led led(BRAIN_LED_1);
 	led.init();
-	brain::ui::Button button(kButtonPin);
+	brain::ui::Button button(BRAIN_BUTTON_1);
 	button.init(true);
 
 	bool singleTapDetected = false;

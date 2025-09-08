@@ -4,9 +4,9 @@
 
 #include <cstdio>
 
-#include "brain-common/brain-gpio-setup.h"
+#include "brain-common/brain_common.h"
 
-constexpr uint LED_PIN = GPIO_BRAIN_LED_1;
+constexpr uint LED_PIN = BRAIN_LED_1;
 
 void testLED() {
 	printf("LED tests\n");
