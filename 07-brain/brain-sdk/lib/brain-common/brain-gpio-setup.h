@@ -1,5 +1,5 @@
 // GPIO
-#define GPIO_BRAIN_MIDI 9
+#define GPIO_BRAIN_MIDI_RX 9
 
 #define GPIO_BRAIN_LED_1 10
 #define GPIO_BRAIN_LED_2 11

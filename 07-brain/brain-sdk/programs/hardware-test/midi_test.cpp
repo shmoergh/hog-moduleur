@@ -3,12 +3,8 @@
 
 #include <cstdio>
 
-#include "brain-common/brain-gpio-setup.h"
 #include "brain-io/midi_parser.h"
 #include "settings.h"
-
-// MIDI configuration
-constexpr uint8_t MIDI_RX_GPIO = GPIO_BRAIN_MIDI;  // UART1 RX pin
 
 brain::io::MidiParser midi_parser;
 
@@ -74,8 +70,8 @@ void testMidi() {
 
 	printf("\r\n=== INITIALIZING MIDI INPUT ===\r\n");
 
-	// Initialize MIDI parser with UART input
-	if (!midi_parser.initUart(uart1, MIDI_RX_GPIO)) {
+	// Initialize MIDI parser with default Brain module configuration
+	if (!midi_parser.initUart()) {
 		printf("ERROR: Failed to initialize MIDI UART!\r\n");
 		return;
 	}
@@ -91,7 +87,9 @@ void testMidi() {
 	midi_parser.setControlChangeCallback(control_change_cb);
 	midi_parser.setRealtimeCallback(realtime_cb);
 
-	printf("MIDI input initialized on GPIO %u (UART1, 31250 baud)\r\n", MIDI_RX_GPIO);
+	printf(
+		"MIDI input initialized using default Brain module configuration (GPIO 9, UART1, 31250 "
+		"baud)\r\n");
 	printf("Parser configured for MIDI Channel 1\r\n\r\n");
 
 	printf("=== MIDI MESSAGE TEST ===\r\n");

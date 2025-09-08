@@ -3,6 +3,8 @@
 #include <hardware/gpio.h>
 #include <hardware/uart.h>
 
+#include "brain-common/brain-gpio-setup.h"
+
 namespace brain::io {
 
 MidiParser::MidiParser(uint8_t channel, bool omni) : channel_filter_(channel), omni_mode_(omni) {
@@ -136,6 +138,11 @@ void MidiParser::setPitchBendCallback(PitchBendCallback callback) {
 
 void MidiParser::setRealtimeCallback(RealtimeCallback callback) {
 	realtime_callback_ = callback;
+}
+
+bool MidiParser::initUart(uint32_t baud_rate) {
+	// Use default Brain module configuration: UART1 with GPIO_BRAIN_MIDI_RX
+	return initUart(uart1, GPIO_BRAIN_MIDI_RX, baud_rate);
 }
 
 bool MidiParser::initUart(uart_inst_t* uart, uint8_t rx_gpio, uint32_t baud_rate) {

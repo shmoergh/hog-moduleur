@@ -64,6 +64,14 @@ class MidiParser {
 	void feed(uint8_t byte) noexcept;
 
 	/**
+	 * @brief Initialize UART for MIDI input using default Brain module GPIO pins
+	 * Uses GPIO_BRAIN_MIDI_RX and uart1 by default
+	 * @param baud_rate MIDI baud rate (default: 31250)
+	 * @return true if initialization successful
+	 */
+	bool initUart(uint32_t baud_rate = 31250);
+
+	/**
 	 * @brief Initialize UART for MIDI input (optional integrated approach)
 	 * @param uart UART instance (e.g., uart0, uart1)
 	 * @param rx_gpio GPIO pin for UART RX
