@@ -6,6 +6,8 @@
 #include <cstdint>
 #include <functional>
 
+#include "brain-common/brain-gpio-setup.h"
+
 namespace brain::ui {
 
 static constexpr uint8_t kMaxPots = 4;	// 4-channel multiplexer
@@ -27,6 +29,18 @@ struct PotMultiplexerConfig {
 	uint8_t samples_per_read;  ///< Number of samples to average per reading
 	uint16_t change_threshold;	///< Minimum change to trigger callback
 };
+
+/**
+ * @brief Create default configuration for Brain module pot multiplexer
+ *
+ * Returns a PotMultiplexerConfig with default GPIO assignments and
+ * reasonable timing parameters for the Brain module hardware.
+ *
+ * @param num_pots Number of active potentiometers (1-3, defaults to 3)
+ * @param output_resolution Output resolution in bits (defaults to 7 for 0-127 range)
+ * @return Default configuration structure
+ */
+PotMultiplexerConfig createDefaultConfig(uint8_t num_pots = 3, uint8_t output_resolution = 7);
 
 /**
  * @brief Multiplexed potentiometer reader for Brain module

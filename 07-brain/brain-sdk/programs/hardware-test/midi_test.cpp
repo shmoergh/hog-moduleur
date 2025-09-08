@@ -3,6 +3,7 @@
 
 #include <cstdio>
 
+#include "brain-common/brain-gpio-setup.h"
 #include "brain-io/midi_parser.h"
 #include "settings.h"
 

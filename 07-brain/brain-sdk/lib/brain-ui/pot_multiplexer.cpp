@@ -7,7 +7,25 @@
 #include <hardware/gpio.h>
 #include <pico/stdlib.h>
 
+#include "brain-common/brain-gpio-setup.h"
+
 namespace brain::ui {
+
+PotMultiplexerConfig createDefaultConfig(uint8_t num_pots, uint8_t output_resolution) {
+	PotMultiplexerConfig cfg = {};
+	cfg.adc_gpio = GPIO_BRAIN_POTMUX_ADC;
+	cfg.s0_gpio = GPIO_BRAIN_POTMUX_S0;
+	cfg.s1_gpio = GPIO_BRAIN_POTMUX_S1;
+	cfg.num_pots = (num_pots > 3) ? 3 : num_pots;  // Brain module has 3 pots
+	for (int i = 0; i < cfg.num_pots; ++i) {
+		cfg.channel_map[i] = i;	 // Direct mapping: pot 0 -> channel 0, etc.
+	}
+	cfg.output_resolution = output_resolution;
+	cfg.settling_delay_us = 200;  // Reasonable default for 74HC4051
+	cfg.samples_per_read = 6;  // Good balance of stability vs speed
+	cfg.change_threshold = 1;  // Sensitive change detection
+	return cfg;
+}
 
 PotMultiplexer::PotMultiplexer() {
 	for (int i = 0; i < kMaxPots; ++i) {

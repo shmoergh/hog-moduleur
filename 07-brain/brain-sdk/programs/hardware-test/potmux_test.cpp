@@ -3,13 +3,6 @@
 #include <cstdio>
 
 #include "brain-ui/pot_multiplexer.h"
-#include "settings.h"
-
-constexpr uint8_t POT_ADC_GPIO = GPIO_BRAIN_POTMUX_ADC;
-constexpr uint8_t POT_S0_GPIO = GPIO_BRAIN_POTMUX_S0;
-constexpr uint8_t POT_S1_GPIO = GPIO_BRAIN_POTMUX_S1;
-constexpr uint8_t NUM_POTS = 3;
-constexpr uint8_t POT_CHANNEL_MAP[NUM_POTS] = {0, 1, 2};
 
 brain::ui::PotMultiplexer pot_mux;
 
@@ -20,16 +13,11 @@ void pot_change_cb(uint8_t idx, uint16_t val) {
 void testPotMux() {
 	printf("Pot multiplexer tests\n");
 	printf("============================\n\n");
-	brain::ui::PotMultiplexerConfig pot_cfg = {};
-	pot_cfg.adc_gpio = POT_ADC_GPIO;
-	pot_cfg.s0_gpio = POT_S0_GPIO;
-	pot_cfg.s1_gpio = POT_S1_GPIO;
-	pot_cfg.num_pots = NUM_POTS;
-	for (int i = 0; i < NUM_POTS; ++i) pot_cfg.channel_map[i] = POT_CHANNEL_MAP[i];
-	pot_cfg.output_resolution = 7;	// 0-127 range (MIDI-like)
-	pot_cfg.settling_delay_us = 200;
-	pot_cfg.samples_per_read = 6;
-	pot_cfg.change_threshold = 1;
+
+	// Use default configuration for Brain module
+	brain::ui::PotMultiplexerConfig pot_cfg = brain::ui::createDefaultConfig();
+	// Use 7-bit resolution for MIDI-like 0-127 range
+	pot_cfg.output_resolution = 7;
 
 	pot_mux.init(pot_cfg);
 	pot_mux.setOnChange(pot_change_cb);
@@ -39,8 +27,8 @@ void testPotMux() {
 	constexpr uint16_t MAX_THRESHOLD = 124;	 // Close to 127
 
 	// Track completion state for each pot
-	bool pot_min_reached[NUM_POTS] = {false};
-	bool pot_max_reached[NUM_POTS] = {false};
+	bool pot_min_reached[3] = {false};	// Brain module has 3 pots
+	bool pot_max_reached[3] = {false};
 	bool all_pots_tested = false;
 
 	printf("\r\n=== POT CALIBRATION TEST ===\r\n");
@@ -54,7 +42,7 @@ void testPotMux() {
 		pot_mux.scan();
 
 		// Check current values and update status
-		for (uint8_t j = 0; j < NUM_POTS; ++j) {
+		for (uint8_t j = 0; j < 3; ++j) {
 			uint16_t val = pot_mux.get(j);
 
 			// Check if pot reached minimum
@@ -72,7 +60,7 @@ void testPotMux() {
 
 		// Display current status
 		printf("Status: ");
-		for (uint8_t j = 0; j < NUM_POTS; ++j) {
+		for (uint8_t j = 0; j < 3; ++j) {
 			printf("Pot%d:", j);
 			if (pot_max_reached[j]) {
 				printf("DONE ");
@@ -85,7 +73,7 @@ void testPotMux() {
 
 		// Show current values
 		printf("| Values: ");
-		for (uint8_t j = 0; j < NUM_POTS; ++j) {
+		for (uint8_t j = 0; j < 3; ++j) {
 			uint16_t val = pot_mux.get(j);
 			printf("%u ", val);
 		}
@@ -93,7 +81,7 @@ void testPotMux() {
 
 		// Check if all pots are complete
 		all_pots_tested = true;
-		for (uint8_t j = 0; j < NUM_POTS; ++j) {
+		for (uint8_t j = 0; j < 3; ++j) {
 			if (!pot_max_reached[j]) {
 				all_pots_tested = false;
 				break;
