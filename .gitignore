@@ -4,4 +4,4 @@ cmake-*
 build
 .DS_Store
 *.lck
-ai
+**/ai
