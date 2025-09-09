@@ -1,0 +1,8 @@
+﻿Designator,Footprint,Quantity,Value,LCSC Part #
+"D1, D3, D4",LED_D3.0mm,3,LED,
+D2,D_DO-41_SOD81_P7.62mm_Horizontal,1,1N4001,
+IC1,Converter_DCDC_MeanWell_NSD10_DKMW_THT,1,ISOLATED_DC-DC_CONV,
+J1,BarrelJack_Wuerth_6941xx301002,1,Barrel_Jack_Switch,
+"J2, J3, J4, J5",IDC-Header_2x08_P2.54mm_Horizontal,4,Conn_02x08_Odd_Even,
+"R1, R2, R3",R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,3,1k,
+S1,SW_PB400EEQR1BLK,1,PB400EEQR1BLK,
