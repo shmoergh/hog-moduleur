@@ -1,4 +1,4 @@
-#include "brain-io/midi_parser.h"
+#include "midi-parser.h"
 
 #include <hardware/gpio.h>
 #include <hardware/uart.h>

@@ -1,7 +1,7 @@
 // Button input handler with debounce, long press, and single-tap detection.
 // Implementation of callback-based button event system for Brain module.
 
-#include "brain-ui/button.h"
+#include "button.h"
 
 #include <cstdio>
 

@@ -2,7 +2,7 @@
 // Handles GPIO setup, edge detection, and interrupt-driven callbacks.
 // Safe initialization prevents output glitches during startup.
 
-#include "brain-io/pulse.h"
+#include "pulse.h"
 
 #include <algorithm>
 

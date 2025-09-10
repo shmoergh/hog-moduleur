@@ -1,4 +1,4 @@
-// pot_multiplexer.h
+// pot-multiplexer.h
 // Multiplexed potentiometer reader for Hog Moduleur Brain
 // Requires: 74HC4051 multiplexer, ADC GPIO, and S0/S1 selector GPIOs.
 #pragma once

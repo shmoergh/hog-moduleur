@@ -2,7 +2,7 @@
 // Demonstrates digital I/O, edge detection, and callback system.
 // Uses default GPIO pins from brain-gpio-setup.h.
 
-#include "brain-io/pulse.h"
+#include "pulse.h"
 
 #include <cstdio>
 

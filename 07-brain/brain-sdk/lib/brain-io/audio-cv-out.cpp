@@ -1,4 +1,4 @@
-#include "brain-io/audio-cv-out.h"
+#include "audio-cv-out.h"
 
 #include <hardware/gpio.h>
 #include <pico/stdlib.h>

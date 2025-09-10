@@ -1,10 +1,10 @@
-#include "brain-ui/led.h"
+#include "led.h"
 
 #include <pico/stdlib.h>
 
 #include <cstdio>
 
-#include "brain-common/brain_common.h"
+#include "brain-common/brain-common.h"
 
 constexpr uint LED_PIN = BRAIN_LED_1;
 

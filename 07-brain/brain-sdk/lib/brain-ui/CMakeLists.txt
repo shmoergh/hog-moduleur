@@ -3,7 +3,7 @@ add_library(brain-ui
 	brain-ui.h
 	button.cpp
 	led.cpp
-	pot_multiplexer.cpp
+	pot-multiplexer.cpp
 )
 target_include_directories(brain-ui PUBLIC
 	${CMAKE_CURRENT_SOURCE_DIR}

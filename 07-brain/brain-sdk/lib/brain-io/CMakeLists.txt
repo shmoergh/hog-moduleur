@@ -2,7 +2,7 @@ add_library(brain-io
     brain-io.c
     brain-io.h
     pulse.cpp
-    midi_parser.cpp
+    midi-parser.cpp
     audio-cv-out.cpp
 )
 target_include_directories(brain-io PUBLIC

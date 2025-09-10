@@ -3,7 +3,7 @@
 
 #include <cstdio>
 
-#include "brain-io/midi_parser.h"
+#include "midi-parser.h"
 #include "settings.h"
 
 brain::io::MidiParser midi_parser;
