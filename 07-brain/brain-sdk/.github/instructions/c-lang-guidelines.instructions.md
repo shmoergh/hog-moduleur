@@ -9,8 +9,8 @@ applyTo: '**'
 
 ## File Layout & Naming
 - **Folders**: use kebab-case → `lib/brain-io/`, `lib/brain-dsp/`.
-- **Files**: `lower_case_with_underscores.h` / `.cc` (or `.cpp`).
-- **One module per pair**: `brain-io/gpio_driver.h` ↔ `brain-io/gpio_driver.cc`.
+- **Files**: use kebab-case → `brain-io.h` / `.cc` (or `.cpp`).
+- **One module per pair**: `brain-io/gpio-driver.h` ↔ `brain-io/gpio-driver.cc`.
 - **No mega-files**: prefer small, testable units.
 
 **Header guard** (prefer `#ifndef` for brevity):
@@ -39,9 +39,9 @@ One include per line; no wildcard includes. Prefer forward declarations in heade
 - **Braces**: K&R style.
 ```cpp
 if (ready) {
-    DoThing();
+    doThing();
 } else {
-    HandleError();
+    handleError();
 }
 ```
 - **Namespace**: wrap entire file; avoid anonymous namespaces in headers.

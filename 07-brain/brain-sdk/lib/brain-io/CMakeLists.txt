@@ -3,6 +3,7 @@ add_library(brain-io
     brain-io.h
     pulse.cpp
     midi_parser.cpp
+    audio-cv-out.cpp
 )
 target_include_directories(brain-io PUBLIC
 	${CMAKE_CURRENT_SOURCE_DIR}
@@ -17,5 +18,6 @@ target_link_libraries(brain-io
     brain-common
     hardware_gpio
     hardware_timer
+    hardware_spi
 )
 target_include_directories(brain-io PUBLIC ${CMAKE_CURRENT_SOURCE_DIR})
