@@ -8,6 +8,7 @@ add_executable(hardware-test
     pulse_test.cpp
     midi_test.cpp
     audio_cv_out_test.cpp
+    audio_cv_in_test.cpp
 )
 target_link_libraries(hardware-test
     pico_stdlib

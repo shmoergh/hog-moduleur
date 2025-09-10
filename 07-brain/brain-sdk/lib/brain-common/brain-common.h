@@ -37,5 +37,17 @@ constexpr float kAdcVoltageRef = 3.3f;	// Pico ADC reference voltage
 // Default sample rates
 constexpr uint32_t kDefaultAudioSampleRate = 44100;
 constexpr uint32_t kDefaultControlRate = 1000;
+
+// Audio CV In calibration constants (update after hardware testing)
+constexpr float kAudioCvInVoltageAtMinus5V = 0.240f;  // Approx 240mV for -5V input
+constexpr float kAudioCvInVoltageAtPlus5V = 3.000f;   // Approx 3V for +5V input
+
+// Original signal voltage range
+constexpr float kAudioCvInMinVoltage = -5.0f;
+constexpr float kAudioCvInMaxVoltage = 5.0f;
 }  // namespace constants
 }  // namespace brain
+
+// Audio CV In channel constants
+#define BRAIN_AUDIO_CV_IN_CHANNEL_A 0
+#define BRAIN_AUDIO_CV_IN_CHANNEL_B 1
