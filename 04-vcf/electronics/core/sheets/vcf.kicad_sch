@@ -7921,7 +7921,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2k"
+		(property "Value" "1.5k"
 			(at 135.128 54.483 0)
 			(effects
 				(font
@@ -7930,7 +7930,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Shmoergh_Custom_Footprints:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 131.572 53.34 90)
 			(effects
 				(font
@@ -7966,7 +7966,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part URL" "https://mou.sr/45bEPTm"
+		(property "Part URL" ""
 			(at 133.35 53.34 0)
 			(effects
 				(font
@@ -7975,7 +7975,7 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor" "Mouser"
+		(property "Vendor" ""
 			(at 133.35 53.34 0)
 			(effects
 				(font
@@ -8002,7 +8002,7 @@
 				(hide yes)
 			)
 		)
-		(property "CHECKED" "YES"
+		(property "CHECKED" ""
 			(at 133.35 53.34 0)
 			(effects
 				(font
@@ -8011,7 +8011,16 @@
 				(hide yes)
 			)
 		)
-		(property "Part no." "594-MBB02070C2001FCT "
+		(property "Part no." ""
+			(at 133.35 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part No." ""
 			(at 133.35 53.34 0)
 			(effects
 				(font
@@ -8053,7 +8062,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2k"
+		(property "Value" "1.5k"
 			(at 211.328 54.483 0)
 			(effects
 				(font
@@ -8062,7 +8071,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Shmoergh_Custom_Footprints:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 207.772 53.34 90)
 			(effects
 				(font
@@ -8071,7 +8080,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 209.55 53.34 0)
 			(effects
 				(font
@@ -8098,7 +8107,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part URL" "https://mou.sr/45bEPTm"
+		(property "Part URL" ""
 			(at 209.55 53.34 0)
 			(effects
 				(font
@@ -8107,7 +8116,7 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor" "Mouser"
+		(property "Vendor" ""
 			(at 209.55 53.34 0)
 			(effects
 				(font
@@ -8134,7 +8143,7 @@
 				(hide yes)
 			)
 		)
-		(property "CHECKED" "YES"
+		(property "CHECKED" ""
 			(at 209.55 53.34 0)
 			(effects
 				(font
@@ -8143,7 +8152,16 @@
 				(hide yes)
 			)
 		)
-		(property "Part no." "594-MBB02070C2001FCT "
+		(property "Part no." ""
+			(at 209.55 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part No." ""
 			(at 209.55 53.34 0)
 			(effects
 				(font

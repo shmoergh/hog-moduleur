@@ -68,10 +68,6 @@
           "This is fine, the diode will fit"
         ],
         [
-          "duplicate_footprints|128318000|109024000|4e8faa91-a83e-4073-a3ec-5be79869442d|3c33adbb-c34a-4882-9cf7-62a8423b52ec",
-          ""
-        ],
-        [
           "duplicate_footprints|131250000|90000000|c224a55d-db0e-4be1-a859-b6b4854d2aba|7a5d9bc6-02d5-4d04-a4f0-0b38af90d68b",
           ""
         ],
@@ -89,14 +85,6 @@
         ],
         [
           "extra_footprint|125750000|145500000|7a5d9bc6-02d5-4d04-a4f0-0b38af90d68b|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "extra_footprint|127556000|125026000|3c33adbb-c34a-4882-9cf7-62a8423b52ec|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "extra_footprint|128318000|109024000|4e8faa91-a83e-4073-a3ec-5be79869442d|00000000-0000-0000-0000-000000000000",
           ""
         ],
         [
@@ -551,7 +539,7 @@
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 2147483647,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.25,
+        "track_width": 0.508,
         "via_diameter": 0.8,
         "via_drill": 0.4,
         "wire_width": 6
