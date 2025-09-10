@@ -6,7 +6,6 @@ add_library(brain-ui
 	pot-multiplexer.cpp
 )
 target_include_directories(brain-ui PUBLIC
-	${CMAKE_CURRENT_SOURCE_DIR}
 	include
 	..
 	${PICO_SDK_PATH}/src/common/include
@@ -18,4 +17,4 @@ target_link_libraries(brain-ui
 	hardware_adc
 	hardware_pwm
 )
-target_include_directories(brain-ui PUBLIC ${CMAKE_CURRENT_SOURCE_DIR})
+target_include_directories(brain-ui PRIVATE ${CMAKE_CURRENT_SOURCE_DIR})

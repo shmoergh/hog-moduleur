@@ -1,7 +1,7 @@
 // pot_multiplexer.cpp
 // Implementation for multiplexed potentiometer reader using 74HC4051
 // Handles ADC sampling, channel switching, and change detection for Brain module
-#include "pot-multiplexer.h"
+#include "brain-ui/pot-multiplexer.h"
 
 #include <hardware/adc.h>
 #include <hardware/gpio.h>

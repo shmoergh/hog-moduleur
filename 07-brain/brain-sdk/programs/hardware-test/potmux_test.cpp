@@ -2,7 +2,7 @@
 
 #include <cstdio>
 
-#include "pot-multiplexer.h"
+#include "brain-ui/pot-multiplexer.h"
 
 brain::ui::PotMultiplexer pot_mux;
 

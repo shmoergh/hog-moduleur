@@ -2,7 +2,7 @@
 
 #include <pico/stdlib.h>
 
-#include "audio-cv-out.h"
+#include "brain-io/audio-cv-out.h"
 
 using brain::io::AudioCvOut;
 using brain::io::AudioCvOutChannel;

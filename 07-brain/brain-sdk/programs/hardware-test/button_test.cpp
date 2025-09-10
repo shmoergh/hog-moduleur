@@ -1,11 +1,11 @@
 // Test function for Brain-UI Button component functionality.
 // Demonstrates button press/release, single tap, and long press detection.
-#include "button.h"
+#include "brain-ui/button.h"
 
 #include <cstdio>
 
 #include "brain-common/brain-common.h"
-#include "led.h"
+#include "brain-ui/led.h"
 #include "pico/stdlib.h"
 
 void testButton() {
