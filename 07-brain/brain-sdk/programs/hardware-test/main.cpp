@@ -33,14 +33,14 @@ int main() {
 	// printf("\r\n-> Running pulse test...\r\n");
 	// testPulse();
 
-	printf("\r\n-> Running MIDI parser test...\r\n");
-	testMidi();
+	// printf("\r\n-> Running MIDI parser test...\r\n");
+	// testMidi();
 
 	printf("\r\n-> Running Audio CV Out test...\r\n");
 	testAudioCvOut();
 
-	printf("\r\n-> Running Audio CV In test...\r\n");
-	testAudioCvIn();
+	// printf("\r\n-> Running Audio CV In test...\r\n");
+	// testAudioCvIn();
 
 	printf("\r\n=== Test iteration complete ===\r\n");
 	sleep_ms(1000);	 // 1 second delay between iterations

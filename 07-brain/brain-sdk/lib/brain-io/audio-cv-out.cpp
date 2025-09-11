@@ -8,18 +8,18 @@
 namespace brain::io {
 
 // MCP4822 command bits
-static constexpr uint16_t kMCP4822_CHANNEL_A = 0x0000;	// A/B = 0
-static constexpr uint16_t kMCP4822_CHANNEL_B = 0x8000;	// A/B = 1
-static constexpr uint16_t kMCP4822_BUF = 0x4000;  // Buffered = 1
-static constexpr uint16_t kMCP4822_GA = 0x2000;	 // Gain 2x = 1
-static constexpr uint16_t kMCP4822_SHDN = 0x1000;  // Active = 1
+static constexpr uint8_t kMCP4822_CHANNEL_A = 0;  // A/B = 0
+static constexpr uint8_t kMCP4822_CHANNEL_B = 1;  // A/B = 1
+static constexpr uint8_t kMCP4822_GAIN = 0;
+static constexpr uint8_t kMCP4822_ACTIVE = 1;
 
 // Voltage conversion constants
 static constexpr float kMaxVoltage = 10.0f;
 static constexpr uint16_t kMaxDacValue = 4095;
 static constexpr uint32_t kSpiFrequency = 1000000;	// 1 MHz
 
-bool AudioCvOut::init(spi_inst_t* spi_instance, uint cs_pin, uint coupling_pin_a, uint coupling_pin_b) {
+bool AudioCvOut::init(spi_inst_t* spi_instance, uint cs_pin, uint sck_pin, uint tx_pin,
+	uint coupling_pin_a, uint coupling_pin_b) {
 	// Validate SPI instance
 	if (spi_instance != spi0 && spi_instance != spi1) {
 		fprintf(stderr, "AudioCvOut: Invalid SPI instance\n");
@@ -29,12 +29,18 @@ bool AudioCvOut::init(spi_inst_t* spi_instance, uint cs_pin, uint coupling_pin_a
 	// Store configuration
 	spi_instance_ = spi_instance;
 	cs_pin_ = cs_pin;
+	sck_pin_ = sck_pin;
+	tx_pin_ = tx_pin;
 	coupling_pin_a_ = coupling_pin_a;
 	coupling_pin_b_ = coupling_pin_b;
 
 	// Initialize SPI
 	spi_init(spi_instance_, kSpiFrequency);
-	spi_set_format(spi_instance_, 16, SPI_CPOL_0, SPI_CPHA_0, SPI_MSB_FIRST);
+	// spi_set_format(spi_instance_, 16, SPI_CPOL_0, SPI_CPHA_0, SPI_MSB_FIRST);
+
+	// Configure SPI pins (SCK and TX/MOSI) for SPI function
+	gpio_set_function(sck_pin_, GPIO_FUNC_SPI);
+	gpio_set_function(tx_pin_, GPIO_FUNC_SPI);
 
 	// Configure CS pin
 	gpio_init(cs_pin_);
@@ -76,15 +82,28 @@ bool AudioCvOut::setCoupling(AudioCvOutChannel channel, AudioCvOutCoupling coupl
 }
 
 void AudioCvOut::writeDacChannel(AudioCvOutChannel channel, uint16_t dac_value) {
-	// Build MCP4822 command word
-	uint16_t command = kMCP4822_BUF | kMCP4822_GA | kMCP4822_SHDN;
-	command |= (channel == AudioCvOutChannel::kChannelA) ? kMCP4822_CHANNEL_A : kMCP4822_CHANNEL_B;
-	command |= (dac_value & 0x0FFF);  // 12-bit DAC value
+	// Constructing DAC config
+	uint8_t config =
+		(channel == AudioCvOutChannel::kChannelA ? kMCP4822_CHANNEL_A : kMCP4822_CHANNEL_B) << 3 |
+		0 << 2 | kMCP4822_GAIN << 1 | kMCP4822_ACTIVE;
+
+	// Get hi-byte
+	uint8_t data[2];
+	data[0] = config << 4 | (dac_value & 0xf00) >> 8;
+
+	// Get lo-byte
+	data[1] = dac_value & 0xff;
 
 	// Send command via SPI
+	asm volatile("nop \n nop \n nop");
 	gpio_put(cs_pin_, 0);  // Assert CS
-	spi_write16_blocking(spi_instance_, &command, 1);
+	asm volatile("nop \n nop \n nop");
+
+	spi_write_blocking(spi_instance_, data, 2);
+
+	asm volatile("nop \n nop \n nop");
 	gpio_put(cs_pin_, 1);  // Deassert CS
+	asm volatile("nop \n nop \n nop");
 }
 
 uint16_t AudioCvOut::voltageToDAC(float voltage) {

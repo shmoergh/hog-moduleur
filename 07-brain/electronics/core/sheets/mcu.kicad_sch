@@ -1827,7 +1827,7 @@
 	)
 	(hierarchical_label "DAC_SDI"
 		(shape output)
-		(at 105.41 67.31 180)
+		(at 105.41 64.77 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1915,7 +1915,7 @@
 	)
 	(hierarchical_label "GPIO_PULSE_IN"
 		(shape input)
-		(at 105.41 64.77 180)
+		(at 105.41 67.31 180)
 		(effects
 			(font
 				(size 1.27 1.27)

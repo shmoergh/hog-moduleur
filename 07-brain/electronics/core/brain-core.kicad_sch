@@ -2016,7 +2016,7 @@
 		)
 		(uuid "11009d07-c4c5-42a3-9d24-4ec511ea5980")
 	)
-	(label "GPIO_4"
+	(label "GPIO_3"
 		(at 91.44 83.82 0)
 		(effects
 			(font
@@ -2166,7 +2166,7 @@
 		)
 		(uuid "ba17cee6-15a1-4125-99df-9f3ae4d7c406")
 	)
-	(label "GPIO_3"
+	(label "GPIO_4"
 		(at 149.86 115.57 0)
 		(effects
 			(font

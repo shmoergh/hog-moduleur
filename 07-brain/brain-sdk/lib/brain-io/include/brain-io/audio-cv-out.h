@@ -1,7 +1,7 @@
 // Audio/CV output via MCP4822 DAC with DC/AC coupling control
 // Dependencies: SPI, GPIO. Hardware: MCP4822 dual DAC, CD4053 analog switch
 // Controls voltage output 0-10V on channels A/B with switchable DC/AC coupling
-// Pin ownership: SPI CS, two GPIO for coupling control
+// Pin ownership: SPI SCK/TX, SPI CS, two GPIO for coupling control
 // Author: Brain SDK
 #pragma once
 
@@ -29,11 +29,14 @@ class AudioCvOut {
 	 * Initialize SPI interface and GPIO pins for DAC and coupling control
 	 * @param spi_instance SPI peripheral instance (default: spi0)
 	 * @param cs_pin Chip select GPIO pin for MCP4822 (default: GPIO 5)
+	 * @param sck_pin SPI clock (SCK) GPIO pin (default: GPIO 2)
+	 * @param tx_pin SPI TX/MOSI GPIO pin (default: GPIO 3)
 	 * @param coupling_pin_a CD4053 control pin for channel A coupling (default: GPIO 6)
 	 * @param coupling_pin_b CD4053 control pin for channel B coupling (default: GPIO 7)
 	 * @return true if initialization successful, false on error
 	 */
 	bool init(spi_inst_t* spi_instance = spi0, uint cs_pin = GPIO_BRAIN_AUDIO_CV_OUT_CS,
+		uint sck_pin = GPIO_BRAIN_AUDIO_CV_OUT_SCK, uint tx_pin = GPIO_BRAIN_AUDIO_CV_OUT_TX,
 		uint coupling_pin_a = GPIO_BRAIN_AUDIO_CV_OUT_COUPLING_A,
 		uint coupling_pin_b = GPIO_BRAIN_AUDIO_CV_OUT_COUPLING_B);
 
@@ -62,6 +65,8 @@ class AudioCvOut {
 
 	// Hardware configuration
 	uint cs_pin_ = 0;
+	uint sck_pin_ = 0;
+	uint tx_pin_ = 0;
 	uint coupling_pin_a_ = 0;
 	uint coupling_pin_b_ = 0;
 	spi_inst_t* spi_instance_ = nullptr;

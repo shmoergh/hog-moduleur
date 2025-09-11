@@ -8,6 +8,17 @@ using brain::io::AudioCvOut;
 using brain::io::AudioCvOutChannel;
 using brain::io::AudioCvOutCoupling;
 
+static void waitForEnter(const char* prompt = "Press Enter to continue...") {
+	printf("%s\r\n", prompt);
+	fflush(stdout);
+	while (true) {
+		int ch = getchar_timeout_us(1000 * 1000);
+		if (ch == '\n' || ch == '\r') {
+			break;
+		}
+	}
+}
+
 void testAudioCvOut() {
 	printf("AudioCvOut Test Starting...\n");
 	
@@ -18,6 +29,7 @@ void testAudioCvOut() {
 		return;
 	}
 	printf("AudioCvOut initialized successfully\n");
+	waitForEnter();
 	
 	// Test voltage sweep on both channels
 	printf("Testing voltage sweep (0-10V)...\n");
@@ -33,7 +45,7 @@ void testAudioCvOut() {
 		}
 		
 		printf("Set both channels to %.1fV\n", voltage);
-		sleep_ms(300);
+		waitForEnter();
 	}
 	
 	// Test coupling modes
@@ -47,18 +59,19 @@ void testAudioCvOut() {
 	audio_cv_out.setCoupling(AudioCvOutChannel::kChannelA, AudioCvOutCoupling::kDcCoupled);
 	audio_cv_out.setCoupling(AudioCvOutChannel::kChannelB, AudioCvOutCoupling::kDcCoupled);
 	printf("Set DC coupling on both channels\n");
-	sleep_ms(500);
+	waitForEnter();
 	
 	// Test AC coupling  
 	audio_cv_out.setCoupling(AudioCvOutChannel::kChannelA, AudioCvOutCoupling::kAcCoupled);
 	audio_cv_out.setCoupling(AudioCvOutChannel::kChannelB, AudioCvOutCoupling::kAcCoupled);
 	printf("Set AC coupling on both channels\n");
-	sleep_ms(500);
+	waitForEnter();
 	
 	// Return to DC coupling
 	audio_cv_out.setCoupling(AudioCvOutChannel::kChannelA, AudioCvOutCoupling::kDcCoupled);
 	audio_cv_out.setCoupling(AudioCvOutChannel::kChannelB, AudioCvOutCoupling::kDcCoupled);
 	printf("Returned to DC coupling\n");
+	waitForEnter();
 	
 	// Test edge cases
 	printf("Testing edge cases...\n");
@@ -67,16 +80,19 @@ void testAudioCvOut() {
 	if (audio_cv_out.setVoltage(AudioCvOutChannel::kChannelA, 0.0f)) {
 		printf("Set minimum voltage (0V) - OK\n");
 	}
+	waitForEnter();
 	
 	// Test maximum voltage
 	if (audio_cv_out.setVoltage(AudioCvOutChannel::kChannelA, 10.0f)) {
 		printf("Set maximum voltage (10V) - OK\n");  
 	}
+	waitForEnter();
 	
 	// Test invalid voltage (should fail)
 	if (!audio_cv_out.setVoltage(AudioCvOutChannel::kChannelA, 15.0f)) {
 		printf("Rejected invalid voltage (15V) - OK\n");
 	}
+	waitForEnter("Press Enter to finish test...");
 	
 	printf("AudioCvOut test completed successfully!\n");
 }
