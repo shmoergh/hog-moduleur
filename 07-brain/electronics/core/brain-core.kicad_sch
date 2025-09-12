@@ -1402,6 +1402,21 @@
 		)
 		(uuid "7dbdc6cf-5159-477d-8d46-79b91834337b")
 	)
+	(text "SDK Done"
+		(exclude_from_sim no)
+		(at 29.21 72.39 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+				(italic yes)
+				(color 0 194 0 1)
+			)
+			(justify left)
+		)
+		(uuid "7faa3034-7cba-4e9a-b66e-27da3561c991")
+	)
 	(text "LEDs"
 		(exclude_from_sim no)
 		(at 193.675 90.17 0)
