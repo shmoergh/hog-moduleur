@@ -8823,7 +8823,6 @@
 		)
 	)
 	(footprint "Connector_PinSocket_2.54mm:PinSocket_2x03_P2.54mm_Vertical"
-		(locked yes)
 		(layer "B.Cu")
 		(uuid "2092ed8c-3c33-4e26-af4c-46b594c35ce8")
 		(at 29 53 -90)
@@ -8832,7 +8831,7 @@
 		(property "Reference" "J6"
 			(at -0.05 -7.391 90)
 			(layer "B.SilkS")
-			(uuid "80adfa43-2bd7-4d69-a64c-840aab617bdc")
+			(uuid "08b882ca-d44a-4b1d-ab59-78ba1de1146c")
 			(effects
 				(font
 					(size 1 1)
@@ -8844,7 +8843,7 @@
 		(property "Value" "Conn_02x03_Odd_Even"
 			(at -1.27 -7.85 90)
 			(layer "B.Fab")
-			(uuid "206211c9-29dd-4dde-977b-32cb701d0cec")
+			(uuid "3f8ba1c8-128e-4538-8f24-1af2404ff6f8")
 			(effects
 				(font
 					(size 1 1)
@@ -8857,7 +8856,7 @@
 			(at 0 0 90)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "3cd8808d-d957-4a41-bdcc-612d47ce686c")
+			(uuid "cddd6fa3-9cf1-478f-83c8-ce6843d48523")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8870,7 +8869,7 @@
 			(at 0 0 90)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "acc4a0b6-82c9-474f-b7a4-d204b78323f0")
+			(uuid "9a4f3fc3-d6ff-4199-a762-0254ee781af7")
 			(effects
 				(font
 					(size 1.27 1.27)

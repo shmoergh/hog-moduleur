@@ -1311,6 +1311,10 @@
 		(uuid "2841991c-04b1-4e3f-a606-d8180f0ea03b")
 	)
 	(no_connect
+		(at 148.59 107.95)
+		(uuid "7697b7ed-6626-4f4d-b2c5-7513351956b5")
+	)
+	(no_connect
 		(at 166.37 62.23)
 		(uuid "7a424720-c1db-4c2b-9f45-276840494d92")
 	)
@@ -1325,6 +1329,14 @@
 	(no_connect
 		(at 166.37 80.01)
 		(uuid "c4490e09-2ab6-4250-ab0f-65c80d0da050")
+	)
+	(no_connect
+		(at 151.13 107.95)
+		(uuid "c9fcf0d0-f257-40eb-8363-352c30cf363e")
+	)
+	(no_connect
+		(at 146.05 107.95)
+		(uuid "cbb40e6e-1958-42ba-a253-b55504919df1")
 	)
 	(wire
 		(pts
@@ -1425,16 +1437,6 @@
 			(type default)
 		)
 		(uuid "3d089a2e-056c-4d78-9201-e637c9875097")
-	)
-	(wire
-		(pts
-			(xy 148.59 116.84) (xy 148.59 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "40a74a17-3239-4dd6-8340-64cb904ccca6")
 	)
 	(wire
 		(pts
@@ -1605,26 +1607,6 @@
 			(type default)
 		)
 		(uuid "8c9395da-558d-46f4-ba56-12f8f6cbe169")
-	)
-	(wire
-		(pts
-			(xy 151.13 107.95) (xy 151.13 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9c31e34e-eb92-4da0-ae68-fed6c3b41017")
-	)
-	(wire
-		(pts
-			(xy 146.05 111.76) (xy 146.05 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a3934f60-6b1f-41cf-b8de-3500b8a20c50")
 	)
 	(wire
 		(pts
@@ -1803,17 +1785,6 @@
 		)
 		(uuid "51f39113-ceeb-431d-98b7-e12dd355bb26")
 	)
-	(hierarchical_label "SWCLK"
-		(shape input)
-		(at 146.05 111.76 270)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "57420d89-dd05-4c7e-8312-8a3b9fb9cf6a")
-	)
 	(hierarchical_label "BTN_2"
 		(shape input)
 		(at 191.77 92.71 0)
@@ -1835,17 +1806,6 @@
 			(justify right)
 		)
 		(uuid "7a66db3f-0f20-4b33-b457-87b446cf63f2")
-	)
-	(hierarchical_label "SWDIO"
-		(shape input)
-		(at 151.13 111.76 270)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "8f1c46b3-d54e-4b04-bdd5-2ffb71cafcfd")
 	)
 	(hierarchical_label "LED_1"
 		(shape output)
@@ -1871,7 +1831,7 @@
 	)
 	(hierarchical_label "POTS_MUX_S1"
 		(shape input)
-		(at 191.77 100.33 0)
+		(at 191.77 102.87 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2014,7 +1974,7 @@
 	)
 	(hierarchical_label "POTS_MUX_S0"
 		(shape input)
-		(at 191.77 102.87 0)
+		(at 191.77 100.33 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2451,7 +2411,7 @@
 				)
 			)
 		)
-		(property "Footprint" "RPi_Pico:RPi_Pico_SMD_TH"
+		(property "Footprint" "Module:RaspberryPi_Pico_Common_Unspecified"
 			(at 148.59 78.74 90)
 			(effects
 				(font
@@ -2470,6 +2430,42 @@
 			)
 		)
 		(property "Description" ""
+			(at 148.59 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part No." ""
+			(at 148.59 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part URL" ""
+			(at 148.59 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor" ""
+			(at 148.59 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
 			(at 148.59 78.74 0)
 			(effects
 				(font
@@ -2810,72 +2806,6 @@
 			(project ""
 				(path "/8e2e31f3-eed5-4de1-966c-f4162758c735/e381105c-725b-4f82-965a-3ba61dbc8b0a"
 					(reference "#PWR038")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 148.59 116.84 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c89d4571-e543-47d9-9510-0b0139010813")
-		(property "Reference" "#PWR032"
-			(at 148.59 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 148.59 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 148.59 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 148.59 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 148.59 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7b7c2f9e-441f-489e-9c70-65a405983664")
-		)
-		(instances
-			(project ""
-				(path "/8e2e31f3-eed5-4de1-966c-f4162758c735/e381105c-725b-4f82-965a-3ba61dbc8b0a"
-					(reference "#PWR032")
 					(unit 1)
 				)
 			)

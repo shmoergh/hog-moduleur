@@ -456,10 +456,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Diode:BAT54J"
-			(pin_numbers
-				(hide yes)
-			)
+		(symbol "Diode:BAT54W"
 			(pin_names
 				(offset 1.016)
 				(hide yes)
@@ -475,7 +472,7 @@
 					)
 				)
 			)
-			(property "Value" "BAT54J"
+			(property "Value" "BAT54W"
 				(at 0 -2.54 0)
 				(effects
 					(font
@@ -483,7 +480,7 @@
 					)
 				)
 			)
-			(property "Footprint" "Diode_SMD:D_SOD-323F"
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-323_SC-70"
 				(at 0 -4.445 0)
 				(effects
 					(font
@@ -492,7 +489,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/BAT54J.pdf"
+			(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/BAT54W_SER.pdf"
 				(at 0 0 0)
 				(effects
 					(font
@@ -501,7 +498,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "30V 200mA Schottky diode, SOD-323F"
+			(property "Description" "Schottky barrier diode, SOT-323"
 				(at 0 0 0)
 				(effects
 					(font
@@ -510,7 +507,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "diode Schottky"
+			(property "ki_keywords" "schottky diode"
 				(at 0 0 0)
 				(effects
 					(font
@@ -519,7 +516,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "D*SOD?323F*"
+			(property "ki_fp_filters" "SOT?323*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -528,7 +525,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "BAT54J_0_1"
+			(symbol "BAT54W_0_1"
 				(polyline
 					(pts
 						(xy -1.905 0.635) (xy -1.905 1.27) (xy -1.27 1.27) (xy -1.27 -1.27) (xy -0.635 -1.27) (xy -0.635 -0.635)
@@ -566,7 +563,7 @@
 					)
 				)
 			)
-			(symbol "BAT54J_1_1"
+			(symbol "BAT54W_1_1"
 				(pin passive line
 					(at -3.81 0 0)
 					(length 2.54)
@@ -577,7 +574,26 @@
 							)
 						)
 					)
-					(number "1"
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at 0 0 90)
+					(length 2.54)
+					(hide yes)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -595,7 +611,7 @@
 							)
 						)
 					)
-					(number "2"
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1158,211 +1174,6 @@
 						)
 					)
 					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Transistor_BJT:2N3904"
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "Q"
-				(at 5.08 1.905 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "2N3904"
-				(at 5.08 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
-				(at 5.08 -1.905 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.onsemi.com/pub/Collateral/2N3903-D.PDF"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Description" "0.2A Ic, 40V Vce, Small Signal NPN Transistor, TO-92"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "NPN Transistor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "TO?92*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "2N3904_0_1"
-				(polyline
-					(pts
-						(xy -2.54 0) (xy 0.635 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.635 1.905) (xy 0.635 -1.905)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 1.27 0)
-					(radius 2.8194)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "2N3904_1_1"
-				(polyline
-					(pts
-						(xy 0.635 0.635) (xy 2.54 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.635 -0.635) (xy 2.54 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -1.778) (xy 1.778 -1.27) (xy 2.286 -2.286) (xy 1.27 -1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(pin input line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "B"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 5.08 270)
-					(length 2.54)
-					(name "C"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 -5.08 90)
-					(length 2.54)
-					(name "E"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2253,82 +2064,6 @@
 		(uuid "c962528a-77cd-4e48-8b2f-df94347c1234")
 	)
 	(symbol
-		(lib_id "Transistor_BJT:2N3904")
-		(at 86.36 102.87 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "01756c4f-1873-42ab-9599-a7737a9fe092")
-		(property "Reference" "Q5"
-			(at 81.28 101.5999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "2N3904"
-			(at 81.28 104.1399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
-			(at 81.28 104.775 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/2N3903-D.PDF"
-			(at 86.36 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "0.2A Ic, 40V Vce, Small Signal NPN Transistor, TO-92"
-			(at 86.36 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "148fdd4e-e560-4ef8-a62f-d854240cce8e")
-		)
-		(pin "3"
-			(uuid "54164b7c-dbeb-4e89-af82-f6d4fb879521")
-		)
-		(pin "2"
-			(uuid "40a9ab46-913c-4852-94b9-82f4e0ddf7f5")
-		)
-		(instances
-			(project "brain-core"
-				(path "/8e2e31f3-eed5-4de1-966c-f4162758c735/8a188845-24ef-4ee2-8aa9-3f104a808c23"
-					(reference "Q5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+3.3V")
 		(at 166.37 76.2 0)
 		(unit 1)
@@ -2750,188 +2485,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Diode:BAT54J")
-		(at 127 82.55 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3579e223-0f84-48f5-9a71-5042dca0db4e")
-		(property "Reference" "D4"
-			(at 129.54 81.5974 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "BAT54"
-			(at 129.54 84.1374 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 131.445 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 127 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "30V 200mA Schottky diode, SOT-23"
-			(at 127 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part No." ""
-			(at 127 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part URL" ""
-			(at 127 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Vendor" "JLCPCB"
-			(at 127 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C22466368"
-			(at 127 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "d3e2c443-6c46-4024-8957-3ee4f388711f")
-		)
-		(pin "1"
-			(uuid "c0db179e-c95e-4166-8dd3-75ff96ab070b")
-		)
-		(instances
-			(project ""
-				(path "/8e2e31f3-eed5-4de1-966c-f4162758c735/8a188845-24ef-4ee2-8aa9-3f104a808c23"
-					(reference "D4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Transistor_BJT:2N3904")
-		(at 172.72 106.68 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "407ee7e0-10a5-4a3b-a723-b3dd05e5c605")
-		(property "Reference" "Q8"
-			(at 177.8 105.4099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "2N3904"
-			(at 177.8 107.9499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
-			(at 177.8 108.585 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/2N3903-D.PDF"
-			(at 172.72 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "0.2A Ic, 40V Vce, Small Signal NPN Transistor, TO-92"
-			(at 172.72 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "66adcbe0-41ad-4b74-b1c6-ac6d31213928")
-		)
-		(pin "3"
-			(uuid "e4dc2ffb-9767-414d-9806-d6c83b3e6bca")
-		)
-		(pin "2"
-			(uuid "cf401119-c594-4e8f-99da-a2efc1a11b9a")
-		)
-		(instances
-			(project ""
-				(path "/8e2e31f3-eed5-4de1-966c-f4162758c735/8a188845-24ef-4ee2-8aa9-3f104a808c23"
-					(reference "Q8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Isolator:6N137")
 		(at 153.67 93.98 0)
 		(unit 1)
@@ -2959,7 +2512,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-8_W7.62mm"
+		(property "Footprint" "Package_SO:SOP-8_6.605x9.655mm_P2.54mm"
 			(at 153.67 106.68 0)
 			(effects
 				(font
@@ -2978,6 +2531,42 @@
 			)
 		)
 		(property "Description" "Single High Speed LSTTL/TTL Compatible Optocoupler with enable, dV/dt 1000/us, VCM 10, max 7V VCC, DIP-8"
+			(at 153.67 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part No." ""
+			(at 153.67 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part URL" ""
+			(at 153.67 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor" ""
+			(at 153.67 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
 			(at 153.67 93.98 0)
 			(effects
 				(font
@@ -3389,6 +2978,115 @@
 			(project ""
 				(path "/8e2e31f3-eed5-4de1-966c-f4162758c735/8a188845-24ef-4ee2-8aa9-3f104a808c23"
 					(reference "#PWR026")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:BAT54W")
+		(at 127 82.55 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c72eb81b-1f38-470c-b602-03442c21800d")
+		(property "Reference" "D4"
+			(at 129.54 81.5974 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "BAT54W"
+			(at 129.54 84.1374 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 131.445 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/BAT54W_SER.pdf"
+			(at 127 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Schottky barrier diode, SOT-323"
+			(at 127 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part No." ""
+			(at 127 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part URL" ""
+			(at 127 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor" ""
+			(at 127 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 127 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "0ccc7472-5087-4a06-b4d8-86efd4406221")
+		)
+		(pin "2"
+			(uuid "2ec32dd3-d70c-4dc2-95e4-dce4ee71caaf")
+		)
+		(pin "1"
+			(uuid "d5e64370-d195-43e8-9ea8-1e96f4a2ee80")
+		)
+		(instances
+			(project ""
+				(path "/8e2e31f3-eed5-4de1-966c-f4162758c735/8a188845-24ef-4ee2-8aa9-3f104a808c23"
+					(reference "D4")
 					(unit 1)
 				)
 			)

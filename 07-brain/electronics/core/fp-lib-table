@@ -2,4 +2,5 @@
   (version 7)
   (lib (name "Shmoergh_Custom_Footprints")(type "KiCad")(uri "/Users/peterzimon/Shmoergh/hog-moduleur/lib/footprints/Shmoergh_Custom_Footprints.pretty")(options "")(descr ""))
   (lib (name "Shmoergh_Logo")(type "KiCad")(uri "/Users/peterzimon/Shmoergh/hog-moduleur/lib/footprints/Shmoergh_Logo.pretty")(options "")(descr ""))
+  (lib (name "MCU_RaspberryPi_and_Boards")(type "KiCad")(uri "/Users/peterzimon/Shmoergh/hog-moduleur/lib/footprints/MCU_RaspberryPi_and_Boards.pretty")(options "")(descr ""))
 )

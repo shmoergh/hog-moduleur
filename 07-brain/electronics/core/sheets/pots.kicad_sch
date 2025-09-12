@@ -905,6 +905,28 @@
 			(embedded_fonts no)
 		)
 	)
+	(rectangle
+		(start 57.15 50.8)
+		(end 77.47 86.36)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid d802ee3a-ca27-4c0d-bd7f-bd8b51d608e0)
+	)
+	(text "Sample"
+		(exclude_from_sim no)
+		(at 59.69 49.53 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "b883b646-790d-4365-b960-5d05dda6a179")
+	)
 	(junction
 		(at 133.35 92.71)
 		(diameter 0)
@@ -952,6 +974,10 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a4044c32-82c6-42d5-a5e6-e2e2f1f2228a")
+	)
+	(no_connect
+		(at 71.12 68.58)
+		(uuid "b6b366e7-8a1f-4214-9801-b3c5fa880ca1")
 	)
 	(wire
 		(pts
@@ -1680,7 +1706,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm"
 			(at 135.89 86.36 0)
 			(effects
 				(font
