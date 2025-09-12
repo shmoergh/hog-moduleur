@@ -5,7 +5,7 @@
 	(uuid "db19a3d8-3c1d-47a7-9c01-c40887d4ce07")
 	(paper "A4")
 	(lib_symbols
-		(symbol "Amplifier_Operational:MCP6002-xSN"
+		(symbol "Amplifier_Operational:TL072"
 			(pin_names
 				(offset 0.127)
 			)
@@ -21,7 +21,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "MCP6002-xSN"
+			(property "Value" "TL072"
 				(at 0 -5.08 0)
 				(effects
 					(font
@@ -39,7 +39,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf"
+			(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tl071.pdf"
 				(at 0 0 0)
 				(effects
 					(font
@@ -48,7 +48,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "1MHz, Low-Power Op Amp, SOIC-8"
+			(property "Description" "Dual Low-Noise JFET-Input Operational Amplifiers, DIP-8/SOIC-8"
 				(at 0 0 0)
 				(effects
 					(font
@@ -83,7 +83,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "MCP6002-xSN_1_1"
+			(symbol "TL072_1_1"
 				(polyline
 					(pts
 						(xy -5.08 5.08) (xy 5.08 0) (xy -5.08 -5.08) (xy -5.08 5.08)
@@ -151,7 +151,7 @@
 					)
 				)
 			)
-			(symbol "MCP6002-xSN_2_1"
+			(symbol "TL072_2_1"
 				(polyline
 					(pts
 						(xy -5.08 5.08) (xy 5.08 0) (xy -5.08 -5.08) (xy -5.08 5.08)
@@ -219,7 +219,7 @@
 					)
 				)
 			)
-			(symbol "MCP6002-xSN_3_1"
+			(symbol "TL072_3_1"
 				(pin power_in line
 					(at -2.54 7.62 270)
 					(length 3.81)
@@ -1459,10 +1459,10 @@
 		(uuid "317194c9-eea0-4af5-8bdc-e726effcbef4")
 	)
 	(junction
-		(at 26.67 182.88)
+		(at 50.8 182.88)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "35bca564-7e95-4476-8296-adf3feb33a14")
+		(uuid "48ce1abc-5a8c-4ff2-b5c8-9761a7a166bd")
 	)
 	(junction
 		(at 104.14 43.18)
@@ -1471,16 +1471,22 @@
 		(uuid "76d6aced-ad2e-4842-a938-1cce5ec8d58f")
 	)
 	(junction
+		(at 40.64 167.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7c26f492-b620-4274-8b73-aa5bb26bec7f")
+	)
+	(junction
 		(at 175.26 60.96)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7f266434-f579-4114-b8b8-a70a84f2ff49")
 	)
 	(junction
-		(at 38.1 167.64)
+		(at 50.8 167.64)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "82154c05-40dd-4e8c-a17f-114642520d3f")
+		(uuid "881f3ac1-ead2-445f-adb3-59ba98e6a1f6")
 	)
 	(junction
 		(at 104.14 55.88)
@@ -1495,30 +1501,6 @@
 		(uuid "8c4a2f11-481a-45d4-96d9-d49fb2065a71")
 	)
 	(junction
-		(at 50.8 167.64)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "90ba6b21-6974-4330-8511-0b8831eb683d")
-	)
-	(junction
-		(at 26.67 167.64)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9a455ac5-3726-4284-a000-5c79c4068bd9")
-	)
-	(junction
-		(at 38.1 182.88)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9c36ae02-e770-4a9d-990e-95ded4bcae67")
-	)
-	(junction
-		(at 50.8 182.88)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a10bc87d-8135-4ddb-84d7-58f5d8558929")
-	)
-	(junction
 		(at 175.26 114.3)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1531,16 +1513,28 @@
 		(uuid "cc220c86-137f-4567-b562-381fdadeffce")
 	)
 	(junction
+		(at 26.67 182.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cdef0beb-9310-4cd3-85f8-ebb44b8a09bb")
+	)
+	(junction
+		(at 26.67 167.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d34cee6b-be8c-4ed2-b9f7-87468ffa7c41")
+	)
+	(junction
 		(at 62.23 175.26)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e8b0f587-9d3c-41ec-adc8-995c7be5c2ab")
 	)
 	(junction
-		(at 38.1 175.26)
+		(at 40.64 182.88)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "f59c9229-7256-4021-ac7d-8a0da54036ae")
+		(uuid "fa0fa737-5ebf-48ce-a48c-e0e4e67dda18")
 	)
 	(wire
 		(pts
@@ -1624,7 +1618,7 @@
 	)
 	(wire
 		(pts
-			(xy 26.67 167.64) (xy 38.1 167.64)
+			(xy 26.67 167.64) (xy 40.64 167.64)
 		)
 		(stroke
 			(width 0)
@@ -1694,16 +1688,6 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 167.64) (xy 50.8 167.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2e2d3c05-1bb8-4e9c-8a6c-0a9c6417bb62")
-	)
-	(wire
-		(pts
 			(xy 129.54 43.18) (xy 129.54 58.42)
 		)
 		(stroke
@@ -1711,16 +1695,6 @@
 			(type default)
 		)
 		(uuid "3720f5bc-133c-41b6-aa8c-2fb144073753")
-	)
-	(wire
-		(pts
-			(xy 38.1 175.26) (xy 62.23 175.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3be61ba6-14c5-4c28-b465-e6fea5108c8e")
 	)
 	(wire
 		(pts
@@ -1794,13 +1768,33 @@
 	)
 	(wire
 		(pts
+			(xy 40.64 167.64) (xy 50.8 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "547c1251-4d87-4bdd-bdc5-6dfbb7bec93a")
+	)
+	(wire
+		(pts
 			(xy 50.8 167.64) (xy 62.23 167.64)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5924d79c-d386-4842-ae21-8a0fa4047cba")
+		(uuid "5632616a-5060-4972-93be-ace878219932")
+	)
+	(wire
+		(pts
+			(xy 50.8 182.88) (xy 62.23 182.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5b0cac6f-0db7-4e40-b3ce-5b32cbf01b9b")
 	)
 	(wire
 		(pts
@@ -1811,16 +1805,6 @@
 			(type default)
 		)
 		(uuid "6178c76f-236b-4ded-931a-bb561e24e275")
-	)
-	(wire
-		(pts
-			(xy 38.1 182.88) (xy 50.8 182.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "66dff482-cc02-4cd7-9523-b20c3383a001")
 	)
 	(wire
 		(pts
@@ -1921,6 +1905,16 @@
 			(type default)
 		)
 		(uuid "8caec9d9-cbc5-4c63-a7e7-55cdd245db5c")
+	)
+	(wire
+		(pts
+			(xy 40.64 182.88) (xy 50.8 182.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8d808662-2373-40dd-9bb4-029f099fa8ed")
 	)
 	(wire
 		(pts
@@ -2154,7 +2148,7 @@
 	)
 	(wire
 		(pts
-			(xy 26.67 182.88) (xy 38.1 182.88)
+			(xy 26.67 182.88) (xy 40.64 182.88)
 		)
 		(stroke
 			(width 0)
@@ -2221,16 +2215,6 @@
 			(type default)
 		)
 		(uuid "f414beb9-7138-4f73-a0d8-2f7d76d6cc70")
-	)
-	(wire
-		(pts
-			(xy 50.8 182.88) (xy 62.23 182.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f7186dcf-51ea-45f8-8f5a-6e39ba1d6b09")
 	)
 	(wire
 		(pts
@@ -2306,7 +2290,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "06717c4c-2a9f-4643-a899-82a50480d785")
-		(property "Reference" "#PWR04"
+		(property "Reference" "#PWR052"
 			(at 26.67 170.18 0)
 			(effects
 				(font
@@ -2392,7 +2376,7 @@
 		(instances
 			(project "brain-core"
 				(path "/8e2e31f3-eed5-4de1-966c-f4162758c735/676f845b-15a5-416c-82f1-a8769d54bb0d"
-					(reference "#PWR04")
+					(reference "#PWR052")
 					(unit 1)
 				)
 			)
@@ -2408,7 +2392,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "104c2480-b339-4883-a221-d8267126e393")
-		(property "Reference" "#PWR08"
+		(property "Reference" "#PWR055"
 			(at 83.82 43.18 0)
 			(effects
 				(font
@@ -2458,7 +2442,7 @@
 		(instances
 			(project ""
 				(path "/8e2e31f3-eed5-4de1-966c-f4162758c735/676f845b-15a5-416c-82f1-a8769d54bb0d"
-					(reference "#PWR08")
+					(reference "#PWR055")
 					(unit 1)
 				)
 			)
@@ -2473,7 +2457,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "15c88042-2c76-4e73-9f5c-75824f5b36ad")
-		(property "Reference" "R5"
+		(property "Reference" "R30"
 			(at 140.97 60.96 90)
 			(effects
 				(font
@@ -2579,96 +2563,8 @@
 		(instances
 			(project "brain-core"
 				(path "/8e2e31f3-eed5-4de1-966c-f4162758c735/676f845b-15a5-416c-82f1-a8769d54bb0d"
-					(reference "R5")
+					(reference "R30")
 					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Amplifier_Operational:MCP6002-xSN")
-		(at 53.34 175.26 0)
-		(unit 3)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1b2cac0a-003d-4a34-be33-48331bbb9f99")
-		(property "Reference" "U4"
-			(at 52.07 173.9899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MCP6002-xSN"
-			(at 52.07 176.5299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 53.34 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf"
-			(at 53.34 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "1MHz, Low-Power Op Amp, SOIC-8"
-			(at 53.34 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "6605c859-45a9-418c-ac12-aeb2c0947b52")
-		)
-		(pin "2"
-			(uuid "64b769ca-f7ea-43d0-9023-bc7666f148ac")
-		)
-		(pin "1"
-			(uuid "fab5bbfa-8f2d-4348-8a38-7d64fdbcadc3")
-		)
-		(pin "5"
-			(uuid "e50f5403-37e5-4f31-ab65-061a7382dde3")
-		)
-		(pin "6"
-			(uuid "e25693da-7dd8-41e3-b92a-41ea23fd5f0c")
-		)
-		(pin "7"
-			(uuid "86c45724-0edc-4db4-8c22-439b6a0bd123")
-		)
-		(pin "8"
-			(uuid "4299499f-37d4-42e6-ada0-08090ccc09e5")
-		)
-		(pin "4"
-			(uuid "8a7f8a8c-1513-4887-b8e4-336adc04dbc2")
-		)
-		(instances
-			(project ""
-				(path "/8e2e31f3-eed5-4de1-966c-f4162758c735/676f845b-15a5-416c-82f1-a8769d54bb0d"
-					(reference "U4")
-					(unit 3)
 				)
 			)
 		)
@@ -2785,92 +2681,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Amplifier_Operational:MCP6002-xSN")
-		(at 161.29 60.96 0)
-		(mirror x)
-		(unit 2)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "3d5e22d9-473b-402d-bd64-9e2a2962780e")
-		(property "Reference" "U3"
-			(at 161.29 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "MCP6002-xSN"
-			(at 161.29 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 161.29 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf"
-			(at 161.29 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "1MHz, Low-Power Op Amp, SOIC-8"
-			(at 161.29 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "7306a084-bb94-4fdd-b640-e76fc298ee02")
-		)
-		(pin "2"
-			(uuid "884d5ef5-e993-43fe-bc84-e32e51c22031")
-		)
-		(pin "1"
-			(uuid "f13c5e01-e190-4e16-b7f2-31a7ca267353")
-		)
-		(pin "5"
-			(uuid "6f174214-f9b9-4961-9f02-f729dfae5077")
-		)
-		(pin "6"
-			(uuid "b144ade2-663b-4afc-9da6-ff61fa303007")
-		)
-		(pin "7"
-			(uuid "ac003db8-0d17-4ead-8489-1dcf5a9d6009")
-		)
-		(pin "8"
-			(uuid "13ccb40e-4997-4dfc-96b5-6275535da61d")
-		)
-		(pin "4"
-			(uuid "66e7e15b-3c85-4dc1-97d5-3acc874d3e74")
-		)
-		(instances
-			(project ""
-				(path "/8e2e31f3-eed5-4de1-966c-f4162758c735/676f845b-15a5-416c-82f1-a8769d54bb0d"
-					(reference "U3")
-					(unit 2)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 186.69 60.96 90)
 		(mirror x)
@@ -2880,7 +2690,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4f5967e1-abff-4fc9-9b7b-768d84d2c262")
-		(property "Reference" "R7"
+		(property "Reference" "R34"
 			(at 186.69 58.42 90)
 			(effects
 				(font
@@ -2986,7 +2796,7 @@
 		(instances
 			(project "brain-core"
 				(path "/8e2e31f3-eed5-4de1-966c-f4162758c735/676f845b-15a5-416c-82f1-a8769d54bb0d"
-					(reference "R7")
+					(reference "R34")
 					(unit 1)
 				)
 			)
@@ -3002,7 +2812,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4f846c7f-ebda-4c0c-8e1e-82ca650b551f")
-		(property "Reference" "R13"
+		(property "Reference" "R35"
 			(at 186.69 111.76 90)
 			(effects
 				(font
@@ -3108,7 +2918,7 @@
 		(instances
 			(project "brain-core"
 				(path "/8e2e31f3-eed5-4de1-966c-f4162758c735/676f845b-15a5-416c-82f1-a8769d54bb0d"
-					(reference "R13")
+					(reference "R35")
 					(unit 1)
 				)
 			)
@@ -3124,7 +2934,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "52000eda-8d24-457d-8f40-83d1acadb773")
-		(property "Reference" "#PWR09"
+		(property "Reference" "#PWR062"
 			(at 201.93 77.47 0)
 			(effects
 				(font
@@ -3174,7 +2984,7 @@
 		(instances
 			(project "brain-core"
 				(path "/8e2e31f3-eed5-4de1-966c-f4162758c735/676f845b-15a5-416c-82f1-a8769d54bb0d"
-					(reference "#PWR09")
+					(reference "#PWR062")
 					(unit 1)
 				)
 			)
@@ -3190,7 +3000,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5801c5ae-c29a-49f2-bc38-f7a28c941164")
-		(property "Reference" "#PWR025"
+		(property "Reference" "#PWR060"
 			(at 149.86 127 0)
 			(effects
 				(font
@@ -3240,40 +3050,42 @@
 		(instances
 			(project "brain-core"
 				(path "/8e2e31f3-eed5-4de1-966c-f4162758c735/676f845b-15a5-416c-82f1-a8769d54bb0d"
-					(reference "#PWR025")
+					(reference "#PWR060")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Amplifier_Operational:MCP6002-xSN")
-		(at 115.57 111.76 0)
-		(mirror x)
-		(unit 1)
+		(lib_id "Amplifier_Operational:TL072")
+		(at 43.18 175.26 0)
+		(unit 3)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "5d1b7537-b7eb-4c9e-9540-94331defdb07")
-		(property "Reference" "U4"
-			(at 115.57 101.6 0)
+		(fields_autoplaced yes)
+		(uuid "5c21d81f-39a6-4806-a76a-1da14909f4de")
+		(property "Reference" "U9"
+			(at 41.91 173.9899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "MCP6002-xSN"
-			(at 115.57 104.14 0)
+		(property "Value" "TL072"
+			(at 41.91 176.5299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 115.57 111.76 0)
+			(at 43.18 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3281,8 +3093,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf"
-			(at 115.57 111.76 0)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tl071.pdf"
+			(at 43.18 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3290,44 +3102,44 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "1MHz, Low-Power Op Amp, SOIC-8"
-			(at 115.57 111.76 0)
+		(property "Description" "Dual Low-Noise JFET-Input Operational Amplifiers, DIP-8/SOIC-8"
+			(at 43.18 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(pin "3"
-			(uuid "6605c859-45a9-418c-ac12-aeb2c0947b53")
-		)
-		(pin "2"
-			(uuid "64b769ca-f7ea-43d0-9023-bc7666f148ad")
-		)
-		(pin "1"
-			(uuid "fab5bbfa-8f2d-4348-8a38-7d64fdbcadc4")
-		)
-		(pin "5"
-			(uuid "e50f5403-37e5-4f31-ab65-061a7382dde4")
-		)
-		(pin "6"
-			(uuid "e25693da-7dd8-41e3-b92a-41ea23fd5f0d")
 		)
 		(pin "7"
-			(uuid "86c45724-0edc-4db4-8c22-439b6a0bd124")
+			(uuid "1e59dbee-975b-43c9-810d-c2fbf2ff51b0")
 		)
 		(pin "8"
-			(uuid "4299499f-37d4-42e6-ada0-08090ccc09e6")
+			(uuid "bd153f65-f895-49c3-bb01-0d284059044e")
+		)
+		(pin "3"
+			(uuid "4c375e3c-9eff-4285-b1f9-f915856f0504")
 		)
 		(pin "4"
-			(uuid "8a7f8a8c-1513-4887-b8e4-336adc04dbc3")
+			(uuid "a3dd7e4e-7094-4e9b-956b-f5d714033b56")
+		)
+		(pin "2"
+			(uuid "950c71e9-4bac-4d25-9c20-49327b9197d0")
+		)
+		(pin "1"
+			(uuid "bc2452bc-8223-4f72-b5f8-653c4058292a")
+		)
+		(pin "5"
+			(uuid "241f988c-b200-4486-b9d6-4c6cc078087a")
+		)
+		(pin "6"
+			(uuid "cab907ea-30a5-4da3-b00f-e62becf8e799")
 		)
 		(instances
 			(project ""
 				(path "/8e2e31f3-eed5-4de1-966c-f4162758c735/676f845b-15a5-416c-82f1-a8769d54bb0d"
-					(reference "U4")
-					(unit 1)
+					(reference "U9")
+					(unit 3)
 				)
 			)
 		)
@@ -3342,7 +3154,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6257c4d1-a65c-4ff3-b15b-3304381ce3cc")
-		(property "Reference" "C10"
+		(property "Reference" "C15"
 			(at 66.04 177.8 0)
 			(effects
 				(font
@@ -3450,7 +3262,7 @@
 		(instances
 			(project "brain-core"
 				(path "/8e2e31f3-eed5-4de1-966c-f4162758c735/676f845b-15a5-416c-82f1-a8769d54bb0d"
-					(reference "C10")
+					(reference "C15")
 					(unit 1)
 				)
 			)
@@ -3466,7 +3278,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "66010e11-8bec-4827-bfa6-dabc61c305f9")
-		(property "Reference" "#PWR023"
+		(property "Reference" "#PWR064"
 			(at 201.93 130.81 0)
 			(effects
 				(font
@@ -3516,7 +3328,7 @@
 		(instances
 			(project "brain-core"
 				(path "/8e2e31f3-eed5-4de1-966c-f4162758c735/676f845b-15a5-416c-82f1-a8769d54bb0d"
-					(reference "#PWR023")
+					(reference "#PWR064")
 					(unit 1)
 				)
 			)
@@ -3532,7 +3344,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "684a2856-9c0a-425c-b9c6-4ec1a55259ee")
-		(property "Reference" "C7"
+		(property "Reference" "C14"
 			(at 66.04 170.18 0)
 			(effects
 				(font
@@ -3640,7 +3452,7 @@
 		(instances
 			(project "brain-core"
 				(path "/8e2e31f3-eed5-4de1-966c-f4162758c735/676f845b-15a5-416c-82f1-a8769d54bb0d"
-					(reference "C7")
+					(reference "C14")
 					(unit 1)
 				)
 			)
@@ -3656,7 +3468,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6a1656e4-0092-4623-b107-cd60aea6153e")
-		(property "Reference" "R10"
+		(property "Reference" "R29"
 			(at 116.84 93.98 90)
 			(effects
 				(font
@@ -3762,7 +3574,7 @@
 		(instances
 			(project "brain-core"
 				(path "/8e2e31f3-eed5-4de1-966c-f4162758c735/676f845b-15a5-416c-82f1-a8769d54bb0d"
-					(reference "R10")
+					(reference "R29")
 					(unit 1)
 				)
 			)
@@ -3777,7 +3589,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6a32edf0-a4b6-4e9c-a179-7b28d350950a")
-		(property "Reference" "R4"
+		(property "Reference" "R24"
 			(at 92.71 45.72 90)
 			(effects
 				(font
@@ -3883,7 +3695,7 @@
 		(instances
 			(project "brain-core"
 				(path "/8e2e31f3-eed5-4de1-966c-f4162758c735/676f845b-15a5-416c-82f1-a8769d54bb0d"
-					(reference "R4")
+					(reference "R24")
 					(unit 1)
 				)
 			)
@@ -3898,7 +3710,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "78cbdd30-cf98-42d3-81c3-02ab969d45a4")
-		(property "Reference" "R2"
+		(property "Reference" "R25"
 			(at 92.71 58.42 90)
 			(effects
 				(font
@@ -4004,7 +3816,7 @@
 		(instances
 			(project "brain-core"
 				(path "/8e2e31f3-eed5-4de1-966c-f4162758c735/676f845b-15a5-416c-82f1-a8769d54bb0d"
-					(reference "R2")
+					(reference "R25")
 					(unit 1)
 				)
 			)
@@ -4020,7 +3832,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "84d55e4f-acf9-4915-b562-43dfd2da4756")
-		(property "Reference" "#PWR026"
+		(property "Reference" "#PWR058"
 			(at 104.14 124.46 0)
 			(effects
 				(font
@@ -4070,7 +3882,7 @@
 		(instances
 			(project "brain-core"
 				(path "/8e2e31f3-eed5-4de1-966c-f4162758c735/676f845b-15a5-416c-82f1-a8769d54bb0d"
-					(reference "#PWR026")
+					(reference "#PWR058")
 					(unit 1)
 				)
 			)
@@ -4085,7 +3897,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "877c40df-55f5-4f9f-821a-a7c87d14bf81")
-		(property "Reference" "R9"
+		(property "Reference" "R27"
 			(at 92.71 111.76 90)
 			(effects
 				(font
@@ -4191,7 +4003,7 @@
 		(instances
 			(project "brain-core"
 				(path "/8e2e31f3-eed5-4de1-966c-f4162758c735/676f845b-15a5-416c-82f1-a8769d54bb0d"
-					(reference "R9")
+					(reference "R27")
 					(unit 1)
 				)
 			)
@@ -4206,7 +4018,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8d57013b-cadc-4654-a5f2-9e4ee78d1399")
-		(property "Reference" "R8"
+		(property "Reference" "R26"
 			(at 92.71 99.06 90)
 			(effects
 				(font
@@ -4312,7 +4124,7 @@
 		(instances
 			(project "brain-core"
 				(path "/8e2e31f3-eed5-4de1-966c-f4162758c735/676f845b-15a5-416c-82f1-a8769d54bb0d"
-					(reference "R8")
+					(reference "R26")
 					(unit 1)
 				)
 			)
@@ -4328,7 +4140,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "90e03861-75d5-4dd2-b396-96b1404fc3ad")
-		(property "Reference" "#PWR065"
+		(property "Reference" "#PWR057"
 			(at 104.14 71.12 0)
 			(effects
 				(font
@@ -4378,7 +4190,7 @@
 		(instances
 			(project ""
 				(path "/8e2e31f3-eed5-4de1-966c-f4162758c735/676f845b-15a5-416c-82f1-a8769d54bb0d"
-					(reference "#PWR065")
+					(reference "#PWR057")
 					(unit 1)
 				)
 			)
@@ -4394,7 +4206,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "92b29109-941c-460f-b8ab-6c0872cd2f16")
-		(property "Reference" "#PWR06"
+		(property "Reference" "#PWR054"
 			(at 74.93 184.15 0)
 			(effects
 				(font
@@ -4444,8 +4256,94 @@
 		(instances
 			(project "brain-core"
 				(path "/8e2e31f3-eed5-4de1-966c-f4162758c735/676f845b-15a5-416c-82f1-a8769d54bb0d"
-					(reference "#PWR06")
+					(reference "#PWR054")
 					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Amplifier_Operational:TL072")
+		(at 161.29 60.96 0)
+		(mirror x)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "983ece66-9767-49fa-bc63-1a7aa1ee057f")
+		(property "Reference" "U8"
+			(at 161.29 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TL072"
+			(at 161.29 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 161.29 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tl071.pdf"
+			(at 161.29 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Dual Low-Noise JFET-Input Operational Amplifiers, DIP-8/SOIC-8"
+			(at 161.29 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "4749988e-1951-4ea1-a630-2ed0fe85d0ba")
+		)
+		(pin "1"
+			(uuid "2c132173-a851-469d-81b3-c3151c871362")
+		)
+		(pin "5"
+			(uuid "7d19c8c9-d348-4713-b255-931573c4b4c5")
+		)
+		(pin "6"
+			(uuid "d25d1755-af5c-44c7-8ae2-52ee0a0da75e")
+		)
+		(pin "7"
+			(uuid "637a72ed-e1dc-4931-9871-662843424584")
+		)
+		(pin "8"
+			(uuid "383eb6ea-d03e-4ce5-abc9-e2469b8faa45")
+		)
+		(pin "4"
+			(uuid "246c862f-5de3-41f6-ae2c-77189bd1b894")
+		)
+		(pin "3"
+			(uuid "bc6fde1c-bebd-42fa-8d3f-5f3e6839d5ee")
+		)
+		(instances
+			(project ""
+				(path "/8e2e31f3-eed5-4de1-966c-f4162758c735/676f845b-15a5-416c-82f1-a8769d54bb0d"
+					(reference "U8")
+					(unit 2)
 				)
 			)
 		)
@@ -4571,7 +4469,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9b8a20fe-32fb-4751-a686-ea379e7d5aef")
-		(property "Reference" "#PWR024"
+		(property "Reference" "#PWR056"
 			(at 83.82 96.52 0)
 			(effects
 				(font
@@ -4621,96 +4519,8 @@
 		(instances
 			(project "brain-core"
 				(path "/8e2e31f3-eed5-4de1-966c-f4162758c735/676f845b-15a5-416c-82f1-a8769d54bb0d"
-					(reference "#PWR024")
+					(reference "#PWR056")
 					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Amplifier_Operational:MCP6002-xSN")
-		(at 29.21 175.26 0)
-		(unit 3)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9e603909-973e-4fd9-8258-e7be7ac41ace")
-		(property "Reference" "U3"
-			(at 27.94 173.9899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MCP6002-xSN"
-			(at 27.94 176.5299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 29.21 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf"
-			(at 29.21 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "1MHz, Low-Power Op Amp, SOIC-8"
-			(at 29.21 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "7306a084-bb94-4fdd-b640-e76fc298ee03")
-		)
-		(pin "2"
-			(uuid "884d5ef5-e993-43fe-bc84-e32e51c22032")
-		)
-		(pin "1"
-			(uuid "f13c5e01-e190-4e16-b7f2-31a7ca267354")
-		)
-		(pin "5"
-			(uuid "6f174214-f9b9-4961-9f02-f729dfae5078")
-		)
-		(pin "6"
-			(uuid "b144ade2-663b-4afc-9da6-ff61fa303008")
-		)
-		(pin "7"
-			(uuid "ac003db8-0d17-4ead-8489-1dcf5a9d600a")
-		)
-		(pin "8"
-			(uuid "13ccb40e-4997-4dfc-96b5-6275535da61e")
-		)
-		(pin "4"
-			(uuid "66e7e15b-3c85-4dc1-97d5-3acc874d3e75")
-		)
-		(instances
-			(project ""
-				(path "/8e2e31f3-eed5-4de1-966c-f4162758c735/676f845b-15a5-416c-82f1-a8769d54bb0d"
-					(reference "U3")
-					(unit 3)
 				)
 			)
 		)
@@ -4725,7 +4535,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "acaa6303-3de0-4e64-8fb1-38420fab7c65")
-		(property "Reference" "#PWR05"
+		(property "Reference" "#PWR053"
 			(at 26.67 186.69 0)
 			(effects
 				(font
@@ -4811,8 +4621,96 @@
 		(instances
 			(project "brain-core"
 				(path "/8e2e31f3-eed5-4de1-966c-f4162758c735/676f845b-15a5-416c-82f1-a8769d54bb0d"
-					(reference "#PWR05")
+					(reference "#PWR053")
 					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Amplifier_Operational:TL072")
+		(at 29.21 175.26 0)
+		(unit 3)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ad0d5371-3c91-4cc7-988e-f0c8a1678de3")
+		(property "Reference" "U8"
+			(at 27.94 173.9899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TL072"
+			(at 27.94 176.5299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 29.21 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tl071.pdf"
+			(at 29.21 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Dual Low-Noise JFET-Input Operational Amplifiers, DIP-8/SOIC-8"
+			(at 29.21 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "4749988e-1951-4ea1-a630-2ed0fe85d0ba")
+		)
+		(pin "1"
+			(uuid "2c132173-a851-469d-81b3-c3151c871362")
+		)
+		(pin "5"
+			(uuid "7d19c8c9-d348-4713-b255-931573c4b4c5")
+		)
+		(pin "6"
+			(uuid "d25d1755-af5c-44c7-8ae2-52ee0a0da75e")
+		)
+		(pin "7"
+			(uuid "637a72ed-e1dc-4931-9871-662843424584")
+		)
+		(pin "8"
+			(uuid "383eb6ea-d03e-4ce5-abc9-e2469b8faa45")
+		)
+		(pin "4"
+			(uuid "246c862f-5de3-41f6-ae2c-77189bd1b894")
+		)
+		(pin "3"
+			(uuid "bc6fde1c-bebd-42fa-8d3f-5f3e6839d5ee")
+		)
+		(instances
+			(project ""
+				(path "/8e2e31f3-eed5-4de1-966c-f4162758c735/676f845b-15a5-416c-82f1-a8769d54bb0d"
+					(reference "U8")
+					(unit 3)
 				)
 			)
 		)
@@ -4827,7 +4725,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "afbae5e0-1ec3-418c-981f-98ba7e35815a")
-		(property "Reference" "#PWR027"
+		(property "Reference" "#PWR063"
 			(at 201.93 107.95 0)
 			(effects
 				(font
@@ -4877,8 +4775,94 @@
 		(instances
 			(project "brain-core"
 				(path "/8e2e31f3-eed5-4de1-966c-f4162758c735/676f845b-15a5-416c-82f1-a8769d54bb0d"
-					(reference "#PWR027")
+					(reference "#PWR063")
 					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Amplifier_Operational:TL072")
+		(at 161.29 114.3 0)
+		(mirror x)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b46fac92-cffe-4a45-8d06-1a2fd7c22b0d")
+		(property "Reference" "U9"
+			(at 161.29 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TL072"
+			(at 161.29 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 161.29 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tl071.pdf"
+			(at 161.29 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Dual Low-Noise JFET-Input Operational Amplifiers, DIP-8/SOIC-8"
+			(at 161.29 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "7"
+			(uuid "1e59dbee-975b-43c9-810d-c2fbf2ff51b0")
+		)
+		(pin "8"
+			(uuid "bd153f65-f895-49c3-bb01-0d284059044e")
+		)
+		(pin "3"
+			(uuid "4c375e3c-9eff-4285-b1f9-f915856f0504")
+		)
+		(pin "4"
+			(uuid "a3dd7e4e-7094-4e9b-956b-f5d714033b56")
+		)
+		(pin "2"
+			(uuid "950c71e9-4bac-4d25-9c20-49327b9197d0")
+		)
+		(pin "1"
+			(uuid "bc2452bc-8223-4f72-b5f8-653c4058292a")
+		)
+		(pin "5"
+			(uuid "241f988c-b200-4486-b9d6-4c6cc078087a")
+		)
+		(pin "6"
+			(uuid "cab907ea-30a5-4da3-b00f-e62becf8e799")
+		)
+		(instances
+			(project ""
+				(path "/8e2e31f3-eed5-4de1-966c-f4162758c735/676f845b-15a5-416c-82f1-a8769d54bb0d"
+					(reference "U9")
+					(unit 2)
 				)
 			)
 		)
@@ -4892,7 +4876,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "bab00630-226b-45c3-a06a-71da2a4a5cb1")
-		(property "Reference" "R11"
+		(property "Reference" "R31"
 			(at 140.97 114.3 90)
 			(effects
 				(font
@@ -4998,7 +4982,7 @@
 		(instances
 			(project "brain-core"
 				(path "/8e2e31f3-eed5-4de1-966c-f4162758c735/676f845b-15a5-416c-82f1-a8769d54bb0d"
-					(reference "R11")
+					(reference "R31")
 					(unit 1)
 				)
 			)
@@ -5014,7 +4998,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "be0e333f-72d1-4883-946b-310863a47230")
-		(property "Reference" "#PWR022"
+		(property "Reference" "#PWR061"
 			(at 201.93 54.61 0)
 			(effects
 				(font
@@ -5064,7 +5048,7 @@
 		(instances
 			(project ""
 				(path "/8e2e31f3-eed5-4de1-966c-f4162758c735/676f845b-15a5-416c-82f1-a8769d54bb0d"
-					(reference "#PWR022")
+					(reference "#PWR061")
 					(unit 1)
 				)
 			)
@@ -5080,7 +5064,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c6094709-d7b8-4f45-b82f-42af75b31a36")
-		(property "Reference" "R3"
+		(property "Reference" "R28"
 			(at 116.84 40.64 90)
 			(effects
 				(font
@@ -5186,7 +5170,7 @@
 		(instances
 			(project "brain-core"
 				(path "/8e2e31f3-eed5-4de1-966c-f4162758c735/676f845b-15a5-416c-82f1-a8769d54bb0d"
-					(reference "R3")
+					(reference "R28")
 					(unit 1)
 				)
 			)
@@ -5194,7 +5178,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 38.1 171.45 0)
+		(at 50.8 171.45 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5202,8 +5186,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cf0aec30-e5e8-44c3-baf1-40fab3af7c42")
-		(property "Reference" "C5"
-			(at 41.91 170.18 0)
+		(property "Reference" "C12"
+			(at 54.61 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5212,7 +5196,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 41.91 172.72 0)
+			(at 54.61 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5221,7 +5205,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 39.0652 175.26 0)
+			(at 51.7652 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5230,7 +5214,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 38.1 171.45 0)
+			(at 50.8 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5239,7 +5223,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 38.1 171.45 0)
+			(at 50.8 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5248,7 +5232,7 @@
 			)
 		)
 		(property "LCSC" "C14663"
-			(at 38.1 171.45 0)
+			(at 50.8 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5257,7 +5241,7 @@
 			)
 		)
 		(property "Mouser" ""
-			(at 38.1 171.45 0)
+			(at 50.8 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5266,7 +5250,7 @@
 			)
 		)
 		(property "Part No." ""
-			(at 38.1 171.45 0)
+			(at 50.8 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5275,7 +5259,7 @@
 			)
 		)
 		(property "Part URL" ""
-			(at 38.1 171.45 0)
+			(at 50.8 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5284,7 +5268,7 @@
 			)
 		)
 		(property "Vendor" "JLCPCB"
-			(at 38.1 171.45 0)
+			(at 50.8 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5293,7 +5277,7 @@
 			)
 		)
 		(property "Field4" ""
-			(at 38.1 171.45 0)
+			(at 50.8 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5310,101 +5294,15 @@
 		(instances
 			(project "brain-core"
 				(path "/8e2e31f3-eed5-4de1-966c-f4162758c735/676f845b-15a5-416c-82f1-a8769d54bb0d"
-					(reference "C5")
+					(reference "C12")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Amplifier_Operational:MCP6002-xSN")
-		(at 161.29 114.3 0)
-		(mirror x)
-		(unit 2)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "d24ec49c-fa28-4d13-8b0d-7dde9bbae3ff")
-		(property "Reference" "U4"
-			(at 165.1 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "MCP6002-xSN"
-			(at 165.1 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 161.29 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf"
-			(at 161.29 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "1MHz, Low-Power Op Amp, SOIC-8"
-			(at 161.29 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "6605c859-45a9-418c-ac12-aeb2c0947b54")
-		)
-		(pin "2"
-			(uuid "64b769ca-f7ea-43d0-9023-bc7666f148ae")
-		)
-		(pin "1"
-			(uuid "fab5bbfa-8f2d-4348-8a38-7d64fdbcadc5")
-		)
-		(pin "5"
-			(uuid "e50f5403-37e5-4f31-ab65-061a7382dde5")
-		)
-		(pin "6"
-			(uuid "e25693da-7dd8-41e3-b92a-41ea23fd5f0e")
-		)
-		(pin "7"
-			(uuid "86c45724-0edc-4db4-8c22-439b6a0bd125")
-		)
-		(pin "8"
-			(uuid "4299499f-37d4-42e6-ada0-08090ccc09e7")
-		)
-		(pin "4"
-			(uuid "8a7f8a8c-1513-4887-b8e4-336adc04dbc4")
-		)
-		(instances
-			(project ""
-				(path "/8e2e31f3-eed5-4de1-966c-f4162758c735/676f845b-15a5-416c-82f1-a8769d54bb0d"
-					(reference "U4")
-					(unit 2)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
-		(at 38.1 179.07 0)
+		(at 50.8 179.07 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5412,8 +5310,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e3cb65f5-7a8e-4a43-a2aa-dffb2e36cbcb")
-		(property "Reference" "C6"
-			(at 41.91 177.8 0)
+		(property "Reference" "C13"
+			(at 54.61 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5422,7 +5320,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 41.91 180.34 0)
+			(at 54.61 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5431,7 +5329,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 39.0652 182.88 0)
+			(at 51.7652 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5440,7 +5338,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 38.1 179.07 0)
+			(at 50.8 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5449,7 +5347,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 38.1 179.07 0)
+			(at 50.8 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5458,7 +5356,7 @@
 			)
 		)
 		(property "LCSC" "C14663"
-			(at 38.1 179.07 0)
+			(at 50.8 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5467,7 +5365,7 @@
 			)
 		)
 		(property "Mouser" ""
-			(at 38.1 179.07 0)
+			(at 50.8 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5476,7 +5374,7 @@
 			)
 		)
 		(property "Part No." ""
-			(at 38.1 179.07 0)
+			(at 50.8 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5485,7 +5383,7 @@
 			)
 		)
 		(property "Part URL" ""
-			(at 38.1 179.07 0)
+			(at 50.8 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5494,7 +5392,7 @@
 			)
 		)
 		(property "Vendor" "JLCPCB"
-			(at 38.1 179.07 0)
+			(at 50.8 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5503,7 +5401,7 @@
 			)
 		)
 		(property "Field4" ""
-			(at 38.1 179.07 0)
+			(at 50.8 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5520,7 +5418,93 @@
 		(instances
 			(project "brain-core"
 				(path "/8e2e31f3-eed5-4de1-966c-f4162758c735/676f845b-15a5-416c-82f1-a8769d54bb0d"
-					(reference "C6")
+					(reference "C13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Amplifier_Operational:TL072")
+		(at 115.57 58.42 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e6aef6db-7c4b-49d8-be11-1175291a439b")
+		(property "Reference" "U8"
+			(at 115.57 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TL072"
+			(at 115.57 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 115.57 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tl071.pdf"
+			(at 115.57 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Dual Low-Noise JFET-Input Operational Amplifiers, DIP-8/SOIC-8"
+			(at 115.57 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "4749988e-1951-4ea1-a630-2ed0fe85d0ba")
+		)
+		(pin "1"
+			(uuid "2c132173-a851-469d-81b3-c3151c871362")
+		)
+		(pin "5"
+			(uuid "7d19c8c9-d348-4713-b255-931573c4b4c5")
+		)
+		(pin "6"
+			(uuid "d25d1755-af5c-44c7-8ae2-52ee0a0da75e")
+		)
+		(pin "7"
+			(uuid "637a72ed-e1dc-4931-9871-662843424584")
+		)
+		(pin "8"
+			(uuid "383eb6ea-d03e-4ce5-abc9-e2469b8faa45")
+		)
+		(pin "4"
+			(uuid "246c862f-5de3-41f6-ae2c-77189bd1b894")
+		)
+		(pin "3"
+			(uuid "bc6fde1c-bebd-42fa-8d3f-5f3e6839d5ee")
+		)
+		(instances
+			(project ""
+				(path "/8e2e31f3-eed5-4de1-966c-f4162758c735/676f845b-15a5-416c-82f1-a8769d54bb0d"
+					(reference "U8")
 					(unit 1)
 				)
 			)
@@ -5536,7 +5520,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e6cc4688-dec2-498a-9e41-25304e940bc2")
-		(property "Reference" "#PWR07"
+		(property "Reference" "#PWR059"
 			(at 149.86 73.66 0)
 			(effects
 				(font
@@ -5586,7 +5570,7 @@
 		(instances
 			(project "brain-core"
 				(path "/8e2e31f3-eed5-4de1-966c-f4162758c735/676f845b-15a5-416c-82f1-a8769d54bb0d"
-					(reference "#PWR07")
+					(reference "#PWR059")
 					(unit 1)
 				)
 			)
@@ -5601,7 +5585,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ec2a2d86-6761-4e9b-aacc-4bcbf08a705f")
-		(property "Reference" "R12"
+		(property "Reference" "R33"
 			(at 162.56 102.87 90)
 			(effects
 				(font
@@ -5707,7 +5691,7 @@
 		(instances
 			(project "brain-core"
 				(path "/8e2e31f3-eed5-4de1-966c-f4162758c735/676f845b-15a5-416c-82f1-a8769d54bb0d"
-					(reference "R12")
+					(reference "R33")
 					(unit 1)
 				)
 			)
@@ -5722,7 +5706,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "eeeac60c-c966-407a-b69e-7e179b4a13b1")
-		(property "Reference" "R6"
+		(property "Reference" "R32"
 			(at 162.56 49.53 90)
 			(effects
 				(font
@@ -5828,32 +5812,32 @@
 		(instances
 			(project "brain-core"
 				(path "/8e2e31f3-eed5-4de1-966c-f4162758c735/676f845b-15a5-416c-82f1-a8769d54bb0d"
-					(reference "R6")
+					(reference "R32")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Amplifier_Operational:MCP6002-xSN")
-		(at 115.57 58.42 0)
+		(lib_id "Amplifier_Operational:TL072")
+		(at 115.57 111.76 0)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "ff211589-5342-4b51-987c-ead0df0b6d84")
-		(property "Reference" "U3"
-			(at 115.57 68.58 0)
+		(uuid "f8e44348-d232-4b78-885d-7af9dd8bb853")
+		(property "Reference" "U9"
+			(at 115.57 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "MCP6002-xSN"
-			(at 115.57 66.04 0)
+		(property "Value" "TL072"
+			(at 115.57 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5861,7 +5845,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 115.57 58.42 0)
+			(at 115.57 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5869,8 +5853,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf"
-			(at 115.57 58.42 0)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tl071.pdf"
+			(at 115.57 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5878,43 +5862,43 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "1MHz, Low-Power Op Amp, SOIC-8"
-			(at 115.57 58.42 0)
+		(property "Description" "Dual Low-Noise JFET-Input Operational Amplifiers, DIP-8/SOIC-8"
+			(at 115.57 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(pin "3"
-			(uuid "7306a084-bb94-4fdd-b640-e76fc298ee04")
-		)
-		(pin "2"
-			(uuid "884d5ef5-e993-43fe-bc84-e32e51c22033")
-		)
-		(pin "1"
-			(uuid "f13c5e01-e190-4e16-b7f2-31a7ca267355")
-		)
-		(pin "5"
-			(uuid "6f174214-f9b9-4961-9f02-f729dfae5079")
-		)
-		(pin "6"
-			(uuid "b144ade2-663b-4afc-9da6-ff61fa303009")
 		)
 		(pin "7"
-			(uuid "ac003db8-0d17-4ead-8489-1dcf5a9d600b")
+			(uuid "1e59dbee-975b-43c9-810d-c2fbf2ff51b0")
 		)
 		(pin "8"
-			(uuid "13ccb40e-4997-4dfc-96b5-6275535da61f")
+			(uuid "bd153f65-f895-49c3-bb01-0d284059044e")
+		)
+		(pin "3"
+			(uuid "4c375e3c-9eff-4285-b1f9-f915856f0504")
 		)
 		(pin "4"
-			(uuid "66e7e15b-3c85-4dc1-97d5-3acc874d3e76")
+			(uuid "a3dd7e4e-7094-4e9b-956b-f5d714033b56")
+		)
+		(pin "2"
+			(uuid "950c71e9-4bac-4d25-9c20-49327b9197d0")
+		)
+		(pin "1"
+			(uuid "bc2452bc-8223-4f72-b5f8-653c4058292a")
+		)
+		(pin "5"
+			(uuid "241f988c-b200-4486-b9d6-4c6cc078087a")
+		)
+		(pin "6"
+			(uuid "cab907ea-30a5-4da3-b00f-e62becf8e799")
 		)
 		(instances
 			(project ""
 				(path "/8e2e31f3-eed5-4de1-966c-f4162758c735/676f845b-15a5-416c-82f1-a8769d54bb0d"
-					(reference "U3")
+					(reference "U9")
 					(unit 1)
 				)
 			)

@@ -1015,7 +1015,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "46149435-5cda-47db-b2c6-670a96dc76b8")
-		(property "Reference" "#PWR051"
+		(property "Reference" "#PWR023"
 			(at 191.77 73.66 0)
 			(effects
 				(font
@@ -1065,7 +1065,7 @@
 		(instances
 			(project ""
 				(path "/8e2e31f3-eed5-4de1-966c-f4162758c735/b082d257-9358-41e3-a203-3f08ae6b6f5f"
-					(reference "#PWR051")
+					(reference "#PWR023")
 					(unit 1)
 				)
 			)
@@ -1080,7 +1080,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "57cad9d8-6fab-4c49-b7c8-c6c59a8b4f8a")
-		(property "Reference" "R35"
+		(property "Reference" "R3"
 			(at 195.58 76.2 0)
 			(effects
 				(font
@@ -1186,7 +1186,7 @@
 		(instances
 			(project "brain-core"
 				(path "/8e2e31f3-eed5-4de1-966c-f4162758c735/b082d257-9358-41e3-a203-3f08ae6b6f5f"
-					(reference "R35")
+					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -1202,7 +1202,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6d1dcf34-69ae-40f3-9a2d-65d7534ffc89")
-		(property "Reference" "#PWR049"
+		(property "Reference" "#PWR022"
 			(at 99.06 102.87 0)
 			(effects
 				(font
@@ -1252,7 +1252,7 @@
 		(instances
 			(project ""
 				(path "/8e2e31f3-eed5-4de1-966c-f4162758c735/b082d257-9358-41e3-a203-3f08ae6b6f5f"
-					(reference "#PWR049")
+					(reference "#PWR022")
 					(unit 1)
 				)
 			)
@@ -1267,7 +1267,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "75f35681-32f4-4cda-afa6-b332b8da6352")
-		(property "Reference" "Q5"
+		(property "Reference" "Q3"
 			(at 193.04 91.44 0)
 			(effects
 				(font
@@ -1363,7 +1363,7 @@
 		(instances
 			(project "brain-core"
 				(path "/8e2e31f3-eed5-4de1-966c-f4162758c735/b082d257-9358-41e3-a203-3f08ae6b6f5f"
-					(reference "Q5")
+					(reference "Q3")
 					(unit 1)
 				)
 			)
@@ -1379,7 +1379,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "774d96b5-ff56-4c2e-9c37-2e26cce089e2")
-		(property "Reference" "#PWR052"
+		(property "Reference" "#PWR025"
 			(at 209.55 100.33 0)
 			(effects
 				(font
@@ -1429,7 +1429,7 @@
 		(instances
 			(project "brain-core"
 				(path "/8e2e31f3-eed5-4de1-966c-f4162758c735/b082d257-9358-41e3-a203-3f08ae6b6f5f"
-					(reference "#PWR052")
+					(reference "#PWR025")
 					(unit 1)
 				)
 			)
@@ -1444,7 +1444,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "792c1291-2f37-4ef3-993a-8abc6ca3ad3a")
-		(property "Reference" "R34"
+		(property "Reference" "R2"
 			(at 172.72 90.17 90)
 			(effects
 				(font
@@ -1550,7 +1550,7 @@
 		(instances
 			(project "brain-core"
 				(path "/8e2e31f3-eed5-4de1-966c-f4162758c735/b082d257-9358-41e3-a203-3f08ae6b6f5f"
-					(reference "R34")
+					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -1566,7 +1566,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ab5c20fc-648f-467a-8707-98ccd52963e7")
-		(property "Reference" "Q6"
+		(property "Reference" "Q2"
 			(at 120.65 99.0599 0)
 			(effects
 				(font
@@ -1626,7 +1626,7 @@
 		(instances
 			(project ""
 				(path "/8e2e31f3-eed5-4de1-966c-f4162758c735/b082d257-9358-41e3-a203-3f08ae6b6f5f"
-					(reference "Q6")
+					(reference "Q2")
 					(unit 1)
 				)
 			)
@@ -1641,7 +1641,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ad561b6a-ea15-48e1-abab-18c6226d1491")
-		(property "Reference" "R36"
+		(property "Reference" "R4"
 			(at 213.36 88.9 0)
 			(effects
 				(font
@@ -1747,7 +1747,7 @@
 		(instances
 			(project "brain-core"
 				(path "/8e2e31f3-eed5-4de1-966c-f4162758c735/b082d257-9358-41e3-a203-3f08ae6b6f5f"
-					(reference "R36")
+					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -1763,7 +1763,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ad721ee7-8c50-4ccf-b3bd-c7bd64efa4a6")
-		(property "Reference" "#PWR050"
+		(property "Reference" "#PWR024"
 			(at 191.77 104.14 0)
 			(effects
 				(font
@@ -1813,7 +1813,7 @@
 		(instances
 			(project "brain-core"
 				(path "/8e2e31f3-eed5-4de1-966c-f4162758c735/b082d257-9358-41e3-a203-3f08ae6b6f5f"
-					(reference "#PWR050")
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)
@@ -1829,7 +1829,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ae6ee0c1-ca5a-4d1b-bb8f-b39dbbcb1231")
-		(property "Reference" "Q7"
+		(property "Reference" "Q4"
 			(at 205.105 106.0449 0)
 			(effects
 				(font
@@ -1889,7 +1889,7 @@
 		(instances
 			(project "brain-core"
 				(path "/8e2e31f3-eed5-4de1-966c-f4162758c735/b082d257-9358-41e3-a203-3f08ae6b6f5f"
-					(reference "Q7")
+					(reference "Q4")
 					(unit 1)
 				)
 			)
@@ -1904,7 +1904,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "cf8dba34-5c62-400a-a898-7237e983b893")
-		(property "Reference" "R33"
+		(property "Reference" "R1"
 			(at 80.01 88.9 90)
 			(effects
 				(font
@@ -2010,7 +2010,7 @@
 		(instances
 			(project "brain-core"
 				(path "/8e2e31f3-eed5-4de1-966c-f4162758c735/b082d257-9358-41e3-a203-3f08ae6b6f5f"
-					(reference "R33")
+					(reference "R1")
 					(unit 1)
 				)
 			)
@@ -2025,7 +2025,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f3deef43-7ba5-4719-8260-7bda38ab9e8a")
-		(property "Reference" "Q4"
+		(property "Reference" "Q1"
 			(at 100.33 90.17 0)
 			(effects
 				(font
@@ -2121,7 +2121,7 @@
 		(instances
 			(project "brain-core"
 				(path "/8e2e31f3-eed5-4de1-966c-f4162758c735/b082d257-9358-41e3-a203-3f08ae6b6f5f"
-					(reference "Q4")
+					(reference "Q1")
 					(unit 1)
 				)
 			)

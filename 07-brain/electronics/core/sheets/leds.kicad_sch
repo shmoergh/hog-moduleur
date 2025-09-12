@@ -825,7 +825,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1914a358-3142-418b-99ce-d09f17d3e5bb")
-		(property "Reference" "#PWR054"
+		(property "Reference" "#PWR073"
 			(at 159.385 109.855 0)
 			(effects
 				(font
@@ -875,7 +875,7 @@
 		(instances
 			(project "brain-core"
 				(path "/8e2e31f3-eed5-4de1-966c-f4162758c735/58d976d6-5ff2-4f75-8bc0-3e0bd551e7f0"
-					(reference "#PWR054")
+					(reference "#PWR073")
 					(unit 1)
 				)
 			)
@@ -891,7 +891,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "53185354-33c8-4f39-8203-7948439e5f42")
-		(property "Reference" "Q2"
+		(property "Reference" "Q9"
 			(at 162.56 92.0749 0)
 			(effects
 				(font
@@ -951,7 +951,7 @@
 		(instances
 			(project ""
 				(path "/8e2e31f3-eed5-4de1-966c-f4162758c735/58d976d6-5ff2-4f75-8bc0-3e0bd551e7f0"
-					(reference "Q2")
+					(reference "Q9")
 					(unit 1)
 				)
 			)
@@ -967,7 +967,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7c1eced6-e5f7-45c6-b31a-834d65b7725a")
-		(property "Reference" "#PWR053"
+		(property "Reference" "#PWR072"
 			(at 159.385 73.025 0)
 			(effects
 				(font
@@ -1017,7 +1017,7 @@
 		(instances
 			(project "brain-core"
 				(path "/8e2e31f3-eed5-4de1-966c-f4162758c735/58d976d6-5ff2-4f75-8bc0-3e0bd551e7f0"
-					(reference "#PWR053")
+					(reference "#PWR072")
 					(unit 1)
 				)
 			)
@@ -1033,7 +1033,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8596f31b-ad64-4423-b92b-68a90f935b0e")
-		(property "Reference" "D8"
+		(property "Reference" "D7"
 			(at 163.195 83.5024 90)
 			(effects
 				(font
@@ -1096,7 +1096,7 @@
 		(instances
 			(project ""
 				(path "/8e2e31f3-eed5-4de1-966c-f4162758c735/58d976d6-5ff2-4f75-8bc0-3e0bd551e7f0"
-					(reference "D8")
+					(reference "D7")
 					(unit 1)
 				)
 			)
@@ -1111,7 +1111,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c45454ea-9b37-4cc4-a979-53bc6866ada8")
-		(property "Reference" "R38"
+		(property "Reference" "R39"
 			(at 163.195 75.565 0)
 			(effects
 				(font
@@ -1217,7 +1217,7 @@
 		(instances
 			(project "brain-core"
 				(path "/8e2e31f3-eed5-4de1-966c-f4162758c735/58d976d6-5ff2-4f75-8bc0-3e0bd551e7f0"
-					(reference "R38")
+					(reference "R39")
 					(unit 1)
 				)
 			)
@@ -1232,7 +1232,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "dfceea0a-afe6-45c7-a608-8af6f851d95b")
-		(property "Reference" "R37"
+		(property "Reference" "R38"
 			(at 140.335 95.885 90)
 			(effects
 				(font
@@ -1338,7 +1338,7 @@
 		(instances
 			(project "brain-core"
 				(path "/8e2e31f3-eed5-4de1-966c-f4162758c735/58d976d6-5ff2-4f75-8bc0-3e0bd551e7f0"
-					(reference "R37")
+					(reference "R38")
 					(unit 1)
 				)
 			)

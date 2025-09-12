@@ -2262,7 +2262,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "01756c4f-1873-42ab-9599-a7737a9fe092")
-		(property "Reference" "Q9"
+		(property "Reference" "Q5"
 			(at 81.28 101.5999 0)
 			(effects
 				(font
@@ -2322,7 +2322,7 @@
 		(instances
 			(project "brain-core"
 				(path "/8e2e31f3-eed5-4de1-966c-f4162758c735/8a188845-24ef-4ee2-8aa9-3f104a808c23"
-					(reference "Q9")
+					(reference "Q5")
 					(unit 1)
 				)
 			)
@@ -2338,7 +2338,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0a352f87-84b6-49fd-be9a-b355dc847deb")
-		(property "Reference" "#PWR037"
+		(property "Reference" "#PWR027"
 			(at 166.37 80.01 0)
 			(effects
 				(font
@@ -2388,7 +2388,7 @@
 		(instances
 			(project ""
 				(path "/8e2e31f3-eed5-4de1-966c-f4162758c735/8a188845-24ef-4ee2-8aa9-3f104a808c23"
-					(reference "#PWR037")
+					(reference "#PWR027")
 					(unit 1)
 				)
 			)
@@ -2404,7 +2404,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0dfe992c-9629-4544-8fc6-9d3207e3bda6")
-		(property "Reference" "Q3"
+		(property "Reference" "Q6"
 			(at 124.46 118.1099 0)
 			(effects
 				(font
@@ -2500,7 +2500,7 @@
 		(instances
 			(project "brain-core"
 				(path "/8e2e31f3-eed5-4de1-966c-f4162758c735/8a188845-24ef-4ee2-8aa9-3f104a808c23"
-					(reference "Q3")
+					(reference "Q6")
 					(unit 1)
 				)
 			)
@@ -2516,7 +2516,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "13d5e7ec-8d1a-4311-9e20-744186d51e5a")
-		(property "Reference" "R15"
+		(property "Reference" "R6"
 			(at 138.43 128.27 0)
 			(effects
 				(font
@@ -2622,7 +2622,7 @@
 		(instances
 			(project "brain-core"
 				(path "/8e2e31f3-eed5-4de1-966c-f4162758c735/8a188845-24ef-4ee2-8aa9-3f104a808c23"
-					(reference "R15")
+					(reference "R6")
 					(unit 1)
 				)
 			)
@@ -2637,7 +2637,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2de0b612-616d-4996-8a72-cdd3f0d626c7")
-		(property "Reference" "R24"
+		(property "Reference" "R7"
 			(at 170.18 86.36 0)
 			(effects
 				(font
@@ -2743,7 +2743,7 @@
 		(instances
 			(project "brain-core"
 				(path "/8e2e31f3-eed5-4de1-966c-f4162758c735/8a188845-24ef-4ee2-8aa9-3f104a808c23"
-					(reference "R24")
+					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -2759,7 +2759,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3579e223-0f84-48f5-9a71-5042dca0db4e")
-		(property "Reference" "D7"
+		(property "Reference" "D4"
 			(at 129.54 81.5974 90)
 			(effects
 				(font
@@ -2849,7 +2849,7 @@
 		(instances
 			(project ""
 				(path "/8e2e31f3-eed5-4de1-966c-f4162758c735/8a188845-24ef-4ee2-8aa9-3f104a808c23"
-					(reference "D7")
+					(reference "D4")
 					(unit 1)
 				)
 			)
@@ -2941,7 +2941,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "58f35b95-4c78-4904-b689-f626b0292be7")
-		(property "Reference" "U5"
+		(property "Reference" "U2"
 			(at 156.7881 81.28 0)
 			(effects
 				(font
@@ -3013,7 +3013,7 @@
 		(instances
 			(project ""
 				(path "/8e2e31f3-eed5-4de1-966c-f4162758c735/8a188845-24ef-4ee2-8aa9-3f104a808c23"
-					(reference "U5")
+					(reference "U2")
 					(unit 1)
 				)
 			)
@@ -3028,7 +3028,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "95552c2f-947f-4b30-a7a2-c635c3cc5eb6")
-		(property "Reference" "Q1"
+		(property "Reference" "Q7"
 			(at 143.51 114.3 0)
 			(effects
 				(font
@@ -3124,7 +3124,7 @@
 		(instances
 			(project ""
 				(path "/8e2e31f3-eed5-4de1-966c-f4162758c735/8a188845-24ef-4ee2-8aa9-3f104a808c23"
-					(reference "Q1")
+					(reference "Q7")
 					(unit 1)
 				)
 			)
@@ -3140,7 +3140,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "97961c28-ef2f-4331-a522-344dc310380d")
-		(property "Reference" "R14"
+		(property "Reference" "R5"
 			(at 123.19 99.06 0)
 			(effects
 				(font
@@ -3246,7 +3246,7 @@
 		(instances
 			(project "brain-core"
 				(path "/8e2e31f3-eed5-4de1-966c-f4162758c735/8a188845-24ef-4ee2-8aa9-3f104a808c23"
-					(reference "R14")
+					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -3338,7 +3338,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a33a5afa-7965-486a-87bb-5f82c6e66c04")
-		(property "Reference" "#PWR029"
+		(property "Reference" "#PWR026"
 			(at 153.67 113.03 0)
 			(effects
 				(font
@@ -3388,7 +3388,7 @@
 		(instances
 			(project ""
 				(path "/8e2e31f3-eed5-4de1-966c-f4162758c735/8a188845-24ef-4ee2-8aa9-3f104a808c23"
-					(reference "#PWR029")
+					(reference "#PWR026")
 					(unit 1)
 				)
 			)
