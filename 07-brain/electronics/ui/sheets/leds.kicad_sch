@@ -1173,7 +1173,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 154.94 55.88 90)
+		(at 218.44 55.88 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1182,7 +1182,7 @@
 		(fields_autoplaced yes)
 		(uuid "0964aa73-a200-40ee-9e3d-628449381a70")
 		(property "Reference" "D3"
-			(at 158.75 56.1974 90)
+			(at 222.25 56.1974 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1191,7 +1191,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 158.75 58.7374 90)
+			(at 222.25 58.7374 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1200,7 +1200,7 @@
 			)
 		)
 		(property "Footprint" "LED_THT:LED_D3.0mm"
-			(at 154.94 55.88 0)
+			(at 218.44 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1209,7 +1209,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 154.94 55.88 0)
+			(at 218.44 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1218,7 +1218,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 154.94 55.88 0)
+			(at 218.44 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1227,7 +1227,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 154.94 55.88 0)
+			(at 218.44 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1252,7 +1252,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 154.94 119.38 90)
+		(at 91.44 119.38 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1261,7 +1261,7 @@
 		(fields_autoplaced yes)
 		(uuid "0c9b89d0-9dd0-4b12-a102-684412fbd317")
 		(property "Reference" "D4"
-			(at 158.75 119.6974 90)
+			(at 95.25 119.6974 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1270,7 +1270,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 158.75 122.2374 90)
+			(at 95.25 122.2374 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1279,7 +1279,7 @@
 			)
 		)
 		(property "Footprint" "LED_THT:LED_D3.0mm"
-			(at 154.94 119.38 0)
+			(at 91.44 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1288,7 +1288,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 154.94 119.38 0)
+			(at 91.44 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1297,7 +1297,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 154.94 119.38 0)
+			(at 91.44 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1306,7 +1306,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 154.94 119.38 0)
+			(at 91.44 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1331,7 +1331,7 @@
 	)
 	(symbol
 		(lib_id "Transistor_BJT:2N3904")
-		(at 215.9 67.31 0)
+		(at 152.4 130.81 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1340,82 +1340,6 @@
 		(fields_autoplaced yes)
 		(uuid "15a56342-1779-43aa-a9ec-da35e8c64d6b")
 		(property "Reference" "Q5"
-			(at 220.98 66.0399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "2N3904"
-			(at 220.98 68.5799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline_Wide"
-			(at 220.98 69.215 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/2N3903-D.PDF"
-			(at 215.9 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "0.2A Ic, 40V Vce, Small Signal NPN Transistor, TO-92"
-			(at 215.9 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "b84235d4-13bb-4c3d-8833-7b921b3c55b3")
-		)
-		(pin "3"
-			(uuid "2afad147-40da-4c59-85d8-bfacd4384ad8")
-		)
-		(pin "1"
-			(uuid "386be250-1e6e-4c92-a696-54bfc76f5d2f")
-		)
-		(instances
-			(project "brain-ui"
-				(path "/ab333f71-eefa-415f-b212-ebe7a942b1c8/9f96a3d0-be0b-48ed-95c1-63dc6d4e5d49"
-					(reference "Q5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Transistor_BJT:2N3904")
-		(at 152.4 130.81 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "180f3bff-4744-4352-a855-8ebbca8defa5")
-		(property "Reference" "Q4"
 			(at 157.48 129.5399 0)
 			(effects
 				(font
@@ -1456,6 +1380,82 @@
 		)
 		(property "Description" "0.2A Ic, 40V Vce, Small Signal NPN Transistor, TO-92"
 			(at 152.4 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "b84235d4-13bb-4c3d-8833-7b921b3c55b3")
+		)
+		(pin "3"
+			(uuid "2afad147-40da-4c59-85d8-bfacd4384ad8")
+		)
+		(pin "1"
+			(uuid "386be250-1e6e-4c92-a696-54bfc76f5d2f")
+		)
+		(instances
+			(project "brain-ui"
+				(path "/ab333f71-eefa-415f-b212-ebe7a942b1c8/9f96a3d0-be0b-48ed-95c1-63dc6d4e5d49"
+					(reference "Q5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_BJT:2N3904")
+		(at 88.9 130.81 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "180f3bff-4744-4352-a855-8ebbca8defa5")
+		(property "Reference" "Q4"
+			(at 93.98 129.5399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2N3904"
+			(at 93.98 132.0799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline_Wide"
+			(at 93.98 132.715 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/2N3903-D.PDF"
+			(at 88.9 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "0.2A Ic, 40V Vce, Small Signal NPN Transistor, TO-92"
+			(at 88.9 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2099,7 +2099,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 218.44 55.88 90)
+		(at 154.94 119.38 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2108,7 +2108,7 @@
 		(fields_autoplaced yes)
 		(uuid "617ab3e5-145f-46dd-9918-6a3edeee37b5")
 		(property "Reference" "D5"
-			(at 222.25 56.1974 90)
+			(at 158.75 119.6974 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2117,7 +2117,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 222.25 58.7374 90)
+			(at 158.75 122.2374 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2126,7 +2126,7 @@
 			)
 		)
 		(property "Footprint" "LED_THT:LED_D3.0mm"
-			(at 218.44 55.88 0)
+			(at 154.94 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2135,7 +2135,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 218.44 55.88 0)
+			(at 154.94 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2144,7 +2144,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 218.44 55.88 0)
+			(at 154.94 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2153,7 +2153,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 218.44 55.88 0)
+			(at 154.94 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2497,7 +2497,7 @@
 	)
 	(symbol
 		(lib_id "Transistor_BJT:2N3904")
-		(at 88.9 130.81 0)
+		(at 152.4 67.31 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2506,7 +2506,7 @@
 		(fields_autoplaced yes)
 		(uuid "746e7a6f-962f-4921-ae86-749c26d45a4a")
 		(property "Reference" "Q2"
-			(at 93.98 129.5399 0)
+			(at 157.48 66.0399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2515,7 +2515,7 @@
 			)
 		)
 		(property "Value" "2N3904"
-			(at 93.98 132.0799 0)
+			(at 157.48 68.5799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2524,7 +2524,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline_Wide"
-			(at 93.98 132.715 0)
+			(at 157.48 69.215 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2535,7 +2535,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/2N3903-D.PDF"
-			(at 88.9 130.81 0)
+			(at 152.4 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2545,7 +2545,7 @@
 			)
 		)
 		(property "Description" "0.2A Ic, 40V Vce, Small Signal NPN Transistor, TO-92"
-			(at 88.9 130.81 0)
+			(at 152.4 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2839,7 +2839,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 91.44 119.38 90)
+		(at 154.94 55.88 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2848,7 +2848,7 @@
 		(fields_autoplaced yes)
 		(uuid "88f49044-927a-4d92-b464-fe2a1f7ec00c")
 		(property "Reference" "D2"
-			(at 95.25 119.6974 90)
+			(at 158.75 56.1974 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2857,7 +2857,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 95.25 122.2374 90)
+			(at 158.75 58.7374 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2866,7 +2866,7 @@
 			)
 		)
 		(property "Footprint" "LED_THT:LED_D3.0mm"
-			(at 91.44 119.38 0)
+			(at 154.94 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2875,7 +2875,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 91.44 119.38 0)
+			(at 154.94 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2884,7 +2884,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 91.44 119.38 0)
+			(at 154.94 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2893,7 +2893,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 91.44 119.38 0)
+			(at 154.94 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4084,7 +4084,7 @@
 	)
 	(symbol
 		(lib_id "Transistor_BJT:2N3904")
-		(at 152.4 67.31 0)
+		(at 215.9 67.31 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4093,7 +4093,7 @@
 		(fields_autoplaced yes)
 		(uuid "f42ec48e-88a3-42fe-bc3c-ea77e3de8401")
 		(property "Reference" "Q3"
-			(at 157.48 66.0399 0)
+			(at 220.98 66.0399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4102,7 +4102,7 @@
 			)
 		)
 		(property "Value" "2N3904"
-			(at 157.48 68.5799 0)
+			(at 220.98 68.5799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4111,7 +4111,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline_Wide"
-			(at 157.48 69.215 0)
+			(at 220.98 69.215 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4122,7 +4122,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/2N3903-D.PDF"
-			(at 152.4 67.31 0)
+			(at 215.9 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4132,7 +4132,7 @@
 			)
 		)
 		(property "Description" "0.2A Ic, 40V Vce, Small Signal NPN Transistor, TO-92"
-			(at 152.4 67.31 0)
+			(at 215.9 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
