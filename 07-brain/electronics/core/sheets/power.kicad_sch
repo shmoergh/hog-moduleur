@@ -2323,12 +2323,6 @@
 		(uuid "81d0a49c-4528-4091-ad36-6fb7b672fba8")
 	)
 	(junction
-		(at 195.58 81.28)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "896384ce-0122-4a30-ac3a-08e39500b593")
-	)
-	(junction
 		(at 62.23 160.02)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2607,16 +2601,6 @@
 			(type default)
 		)
 		(uuid "5334fe6a-dcdd-4126-a7d2-62815f7ab547")
-	)
-	(wire
-		(pts
-			(xy 195.58 78.74) (xy 195.58 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5aeaff42-7ee1-47d9-8be4-5e40de2e6cfa")
 	)
 	(wire
 		(pts
@@ -3010,16 +2994,6 @@
 	)
 	(wire
 		(pts
-			(xy 195.58 83.82) (xy 198.12 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d5e602e1-03ca-42f8-a46d-dbd515ab75d4")
-	)
-	(wire
-		(pts
 			(xy 143.51 97.79) (xy 143.51 95.25)
 		)
 		(stroke
@@ -3040,16 +3014,6 @@
 	)
 	(wire
 		(pts
-			(xy 195.58 81.28) (xy 198.12 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dc5d6ddb-beb7-4f58-9199-a2d1d8945792")
-	)
-	(wire
-		(pts
 			(xy 96.52 160.02) (xy 99.06 160.02)
 		)
 		(stroke
@@ -3057,16 +3021,6 @@
 			(type default)
 		)
 		(uuid "dffc6d72-7a8e-49ad-b73f-5c86a11a0ba0")
-	)
-	(wire
-		(pts
-			(xy 195.58 81.28) (xy 195.58 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e4e20cc3-d676-4377-bd5a-3f5ca5b7ee56")
 	)
 	(wire
 		(pts
@@ -5151,72 +5105,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+12V")
-		(at 195.58 78.74 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a00c0591-b82a-4005-a46a-548c5c5ce6bd")
-		(property "Reference" "#PWR012"
-			(at 195.58 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+12V"
-			(at 195.58 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 195.58 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 195.58 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 195.58 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f0d8b9a5-a424-459e-a990-361064a01968")
-		)
-		(instances
-			(project "brain-core"
-				(path "/8e2e31f3-eed5-4de1-966c-f4162758c735/8bc1c38c-66cf-4d37-87f2-6eda8e5acaa7"
-					(reference "#PWR012")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:D_Schottky")
 		(at 102.87 160.02 0)
 		(mirror y)
@@ -5909,112 +5797,6 @@
 			(project "vco-core"
 				(path "/8e2e31f3-eed5-4de1-966c-f4162758c735/8bc1c38c-66cf-4d37-87f2-6eda8e5acaa7"
 					(reference "#FLG07")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_01x02")
-		(at 203.2 81.28 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c26d9d55-5b59-42c4-b551-4166d830b9bc")
-		(property "Reference" "J10"
-			(at 205.74 81.2799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Conn_01x02"
-			(at 205.74 83.8199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
-			(at 203.2 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 203.2 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 203.2 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part No." ""
-			(at 203.2 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part URL" ""
-			(at 203.2 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Vendor" ""
-			(at 203.2 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" ""
-			(at 203.2 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "372be614-966e-458c-9aea-5a19f3a19157")
-		)
-		(pin "2"
-			(uuid "56e1d98e-1bdc-4f7c-a0de-3c3cdae4a537")
-		)
-		(instances
-			(project "brain-core"
-				(path "/8e2e31f3-eed5-4de1-966c-f4162758c735/8bc1c38c-66cf-4d37-87f2-6eda8e5acaa7"
-					(reference "J10")
 					(unit 1)
 				)
 			)

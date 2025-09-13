@@ -803,7 +803,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:GNDA"
+		(symbol "power:GND"
 			(power)
 			(pin_numbers
 				(hide yes)
@@ -824,7 +824,7 @@
 					(hide yes)
 				)
 			)
-			(property "Value" "GNDA"
+			(property "Value" "GND"
 				(at 0 -3.81 0)
 				(effects
 					(font
@@ -850,7 +850,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 				(at 0 0 0)
 				(effects
 					(font
@@ -868,7 +868,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "GNDA_0_1"
+			(symbol "GND_0_1"
 				(polyline
 					(pts
 						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
@@ -882,7 +882,7 @@
 					)
 				)
 			)
-			(symbol "GNDA_1_1"
+			(symbol "GND_1_1"
 				(pin power_in line
 					(at 0 0 270)
 					(length 0)
@@ -1301,7 +1301,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 95.25) (xy 133.35 92.71)
+			(xy 133.35 92.71) (xy 133.35 96.52)
 		)
 		(stroke
 			(width 0)
@@ -1791,17 +1791,17 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GNDA")
-		(at 144.78 53.34 0)
+		(lib_id "power:GND")
+		(at 67.31 74.93 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "68613d22-9f5a-4543-8f87-791d573b72a8")
-		(property "Reference" "#PWR069"
-			(at 144.78 59.69 0)
+		(uuid "7de18135-34db-4d4d-b70e-e35b328a415c")
+		(property "Reference" "#PWR059"
+			(at 67.31 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1809,8 +1809,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GNDA"
-			(at 144.78 58.42 0)
+		(property "Value" "GND"
+			(at 67.31 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1818,7 +1818,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 144.78 53.34 0)
+			(at 67.31 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1827,7 +1827,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 144.78 53.34 0)
+			(at 67.31 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1835,8 +1835,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
-			(at 144.78 53.34 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 67.31 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1845,29 +1845,29 @@
 			)
 		)
 		(pin "1"
-			(uuid "cf46be4a-722b-40b6-b7fe-4da805fefdf2")
+			(uuid "c0e96fe5-0fc4-4943-bbb8-bfb543eb21be")
 		)
 		(instances
 			(project "brain-core"
 				(path "/8e2e31f3-eed5-4de1-966c-f4162758c735/6d9ed0a4-9ccf-4f42-8434-45714a6fdbff"
-					(reference "#PWR069")
+					(reference "#PWR059")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "power:GNDA")
-		(at 133.35 95.25 0)
+		(lib_id "power:GND")
+		(at 133.35 96.52 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "891647b8-da2d-439f-832a-766b887e8b5b")
-		(property "Reference" "#PWR067"
-			(at 133.35 101.6 0)
+		(uuid "9b180eef-16c5-4d59-90f8-b5de6eecb965")
+		(property "Reference" "#PWR058"
+			(at 133.35 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1875,8 +1875,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GNDA"
-			(at 133.35 100.33 0)
+		(property "Value" "GND"
+			(at 133.35 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1884,7 +1884,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 133.35 95.25 0)
+			(at 133.35 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1893,7 +1893,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 133.35 95.25 0)
+			(at 133.35 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1901,8 +1901,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
-			(at 133.35 95.25 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 133.35 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1911,12 +1911,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "728b545f-42be-4585-a17f-67dcf5f642e6")
+			(uuid "dab8cd40-87e6-4634-bdb2-080731c0faac")
 		)
 		(instances
 			(project "brain-core"
 				(path "/8e2e31f3-eed5-4de1-966c-f4162758c735/6d9ed0a4-9ccf-4f42-8434-45714a6fdbff"
-					(reference "#PWR067")
+					(reference "#PWR058")
 					(unit 1)
 				)
 			)
@@ -1989,17 +1989,17 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GNDA")
-		(at 67.31 74.93 0)
+		(lib_id "power:GND")
+		(at 144.78 53.34 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "cb448f38-011c-4aa7-92b5-56b98f3e71fa")
-		(property "Reference" "#PWR066"
-			(at 67.31 81.28 0)
+		(uuid "e08fffa6-8e3c-4e79-8653-c305b0b5d2aa")
+		(property "Reference" "#PWR060"
+			(at 144.78 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2007,8 +2007,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GNDA"
-			(at 67.31 80.01 0)
+		(property "Value" "GND"
+			(at 144.78 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2016,7 +2016,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 67.31 74.93 0)
+			(at 144.78 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2025,7 +2025,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 67.31 74.93 0)
+			(at 144.78 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2033,8 +2033,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
-			(at 67.31 74.93 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 144.78 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2043,12 +2043,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "6884426a-e35c-4ba2-bb9f-e713efb8f3e8")
+			(uuid "5bc82399-acc2-4bd9-bd79-050c1b5b274e")
 		)
 		(instances
 			(project "brain-core"
 				(path "/8e2e31f3-eed5-4de1-966c-f4162758c735/6d9ed0a4-9ccf-4f42-8434-45714a6fdbff"
-					(reference "#PWR066")
+					(reference "#PWR060")
 					(unit 1)
 				)
 			)
