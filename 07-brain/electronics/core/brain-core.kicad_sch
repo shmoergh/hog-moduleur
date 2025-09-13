@@ -1950,6 +1950,12 @@
 		(uuid "2268b409-4ec7-4c44-ba21-cd3a39056f07")
 	)
 	(junction
+		(at 299.72 115.57)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "272d10bb-d966-4378-8f0d-51cdd920fae5")
+	)
+	(junction
 		(at 273.05 143.51)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2118,6 +2124,16 @@
 			(type default)
 		)
 		(uuid "11481d40-dc9d-47fb-af90-3f8bf1a02107")
+	)
+	(wire
+		(pts
+			(xy 299.72 115.57) (xy 299.72 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "18d3c717-122f-4fd7-92ce-5af9c9dfe881")
 	)
 	(polyline
 		(pts
@@ -2741,6 +2757,16 @@
 	)
 	(wire
 		(pts
+			(xy 299.72 113.03) (xy 299.72 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bc08190c-3fa7-407e-9d62-2107b1733229")
+	)
+	(wire
+		(pts
 			(xy 260.35 109.22) (xy 261.62 109.22)
 		)
 		(stroke
@@ -2781,6 +2807,16 @@
 	)
 	(wire
 		(pts
+			(xy 299.72 115.57) (xy 303.53 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d890bf20-65ea-41d5-a640-fd7f2fbc9771")
+	)
+	(wire
+		(pts
 			(xy 250.19 137.16) (xy 262.89 137.16)
 		)
 		(stroke
@@ -2788,6 +2824,16 @@
 			(type default)
 		)
 		(uuid "dc320122-6e0e-4880-822d-f8cad4e45b3e")
+	)
+	(wire
+		(pts
+			(xy 299.72 118.11) (xy 303.53 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ddce33e9-7960-4ed0-a7ca-7c29c2e72e6a")
 	)
 	(wire
 		(pts
@@ -4815,6 +4861,72 @@
 	)
 	(symbol
 		(lib_id "power:+12V")
+		(at 299.72 113.03 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9c87ba0a-f1b7-488f-9ea1-fb6082c839f2")
+		(property "Reference" "#PWR067"
+			(at 299.72 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+12V"
+			(at 299.72 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 299.72 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 299.72 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
+			(at 299.72 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b51c5e7f-ad24-432a-ba43-c65c36f2bc35")
+		)
+		(instances
+			(project "brain-core"
+				(path "/8e2e31f3-eed5-4de1-966c-f4162758c735"
+					(reference "#PWR067")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+12V")
 		(at 288.29 120.65 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5302,6 +5414,112 @@
 			(project "brain-core"
 				(path "/8e2e31f3-eed5-4de1-966c-f4162758c735"
 					(reference "J8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 308.61 115.57 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "be4beaf1-bdff-4345-bc71-3455715673cb")
+		(property "Reference" "J9"
+			(at 311.15 115.5699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x02"
+			(at 311.15 118.1099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+			(at 308.61 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 308.61 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 308.61 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part No." ""
+			(at 308.61 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part URL" ""
+			(at 308.61 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor" ""
+			(at 308.61 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 308.61 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "63b35112-1d1c-4920-8abe-64a13e9f5633")
+		)
+		(pin "2"
+			(uuid "ccda525f-3abc-4dba-bd07-41f2be2238fd")
+		)
+		(instances
+			(project "brain-core"
+				(path "/8e2e31f3-eed5-4de1-966c-f4162758c735"
+					(reference "J9")
 					(unit 1)
 				)
 			)
