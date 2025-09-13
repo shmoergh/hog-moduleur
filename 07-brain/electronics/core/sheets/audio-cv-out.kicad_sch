@@ -2537,7 +2537,7 @@
 		(uuid "2048f7cd-d438-48c8-90a0-5cf81dbd27d5")
 	)
 	(junction
-		(at 41.91 99.06)
+		(at 52.07 99.06)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "204cc7e0-11ef-4bcb-8346-6af364491f87")
@@ -2663,6 +2663,12 @@
 		(uuid "bab033b1-a4d7-41a6-b96d-e37b0181b3f6")
 	)
 	(junction
+		(at 33.02 68.58)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c0d60d93-60e1-4d98-90b4-5e469106a41e")
+	)
+	(junction
 		(at 116.84 110.49)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2673,6 +2679,18 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "dce11a06-0c7f-4c2c-8f6a-6d4aea8fc015")
+	)
+	(junction
+		(at 67.31 68.58)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e423ace4-53f1-4f0e-9b40-18f164658241")
+	)
+	(junction
+		(at 33.02 78.74)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "edba304f-41e0-44cf-a7b4-50c032e6d71c")
 	)
 	(junction
 		(at 160.02 30.48)
@@ -2730,7 +2748,7 @@
 	)
 	(wire
 		(pts
-			(xy 41.91 86.36) (xy 41.91 99.06)
+			(xy 52.07 86.36) (xy 52.07 99.06)
 		)
 		(stroke
 			(width 0)
@@ -2800,7 +2818,7 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 88.9) (xy 44.45 88.9)
+			(xy 49.53 88.9) (xy 54.61 88.9)
 		)
 		(stroke
 			(width 0)
@@ -2877,6 +2895,16 @@
 			(type default)
 		)
 		(uuid "243f1d8b-0577-4f2b-9c97-8b6b87b4e6e4")
+	)
+	(wire
+		(pts
+			(xy 67.31 68.58) (xy 67.31 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2496cdc7-36a8-45d6-9fdd-53141b067ffe")
 	)
 	(wire
 		(pts
@@ -3030,6 +3058,16 @@
 	)
 	(wire
 		(pts
+			(xy 33.02 69.85) (xy 33.02 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "437f6c75-39b5-4900-8404-fb4c8b536577")
+	)
+	(wire
+		(pts
 			(xy 130.81 69.85) (xy 130.81 72.39)
 		)
 		(stroke
@@ -3060,6 +3098,16 @@
 	)
 	(wire
 		(pts
+			(xy 20.32 78.74) (xy 33.02 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4a5042d4-6f38-47e4-94a3-8186f94c01fd")
+	)
+	(wire
+		(pts
 			(xy 140.97 30.48) (xy 144.78 30.48)
 		)
 		(stroke
@@ -3070,7 +3118,7 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 83.82) (xy 44.45 83.82)
+			(xy 49.53 83.82) (xy 54.61 83.82)
 		)
 		(stroke
 			(width 0)
@@ -3110,7 +3158,7 @@
 	)
 	(wire
 		(pts
-			(xy 41.91 101.6) (xy 41.91 99.06)
+			(xy 52.07 101.6) (xy 52.07 99.06)
 		)
 		(stroke
 			(width 0)
@@ -3130,7 +3178,7 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 91.44) (xy 85.09 91.44)
+			(xy 80.01 91.44) (xy 85.09 91.44)
 		)
 		(stroke
 			(width 0)
@@ -3160,7 +3208,7 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 86.36) (xy 41.91 86.36)
+			(xy 54.61 86.36) (xy 52.07 86.36)
 		)
 		(stroke
 			(width 0)
@@ -3350,6 +3398,16 @@
 	)
 	(wire
 		(pts
+			(xy 20.32 77.47) (xy 20.32 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "83f6957f-0156-4691-bd45-e4e900e8362f")
+	)
+	(wire
+		(pts
 			(xy 86.36 176.53) (xy 73.66 176.53)
 		)
 		(stroke
@@ -3417,6 +3475,26 @@
 			(type default)
 		)
 		(uuid "9665312e-bc8e-4f7f-bff4-509e835cf53c")
+	)
+	(wire
+		(pts
+			(xy 33.02 78.74) (xy 33.02 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "97d899e8-5970-430f-9885-fd3e02293cae")
+	)
+	(wire
+		(pts
+			(xy 33.02 68.58) (xy 67.31 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9846f573-b9c3-447f-a753-2b8158a9f56c")
 	)
 	(wire
 		(pts
@@ -3500,6 +3578,16 @@
 	)
 	(wire
 		(pts
+			(xy 33.02 80.01) (xy 33.02 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a71ee4ef-0f44-4afa-8c21-c51c4fb83942")
+	)
+	(wire
+		(pts
 			(xy 180.34 30.48) (xy 180.34 34.29)
 		)
 		(stroke
@@ -3560,7 +3648,7 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 83.82) (xy 69.85 83.82)
+			(xy 85.09 83.82) (xy 80.01 83.82)
 		)
 		(stroke
 			(width 0)
@@ -3720,6 +3808,16 @@
 	)
 	(wire
 		(pts
+			(xy 20.32 69.85) (xy 20.32 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e3ea6c19-6d67-4206-805d-51c7bf8c9d30")
+	)
+	(wire
+		(pts
 			(xy 139.7 137.16) (xy 143.51 137.16)
 		)
 		(stroke
@@ -3740,7 +3838,7 @@
 	)
 	(wire
 		(pts
-			(xy 41.91 99.06) (xy 57.15 99.06)
+			(xy 52.07 99.06) (xy 67.31 99.06)
 		)
 		(stroke
 			(width 0)
@@ -3750,7 +3848,7 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 91.44) (xy 44.45 91.44)
+			(xy 49.53 91.44) (xy 54.61 91.44)
 		)
 		(stroke
 			(width 0)
@@ -3820,7 +3918,7 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 71.12) (xy 57.15 76.2)
+			(xy 67.31 67.31) (xy 67.31 68.58)
 		)
 		(stroke
 			(width 0)
@@ -3837,6 +3935,16 @@
 			(type default)
 		)
 		(uuid "fa446bb0-6a36-49d6-8a31-2b10f8900b82")
+	)
+	(wire
+		(pts
+			(xy 20.32 68.58) (xy 33.02 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fbb1a576-86d3-4475-83b1-b1c03198c3e5")
 	)
 	(wire
 		(pts
@@ -3870,7 +3978,7 @@
 	)
 	(hierarchical_label "DAC_SCK"
 		(shape input)
-		(at 39.37 83.82 180)
+		(at 49.53 83.82 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3914,7 +4022,7 @@
 	)
 	(hierarchical_label "DAC_SDI"
 		(shape input)
-		(at 39.37 88.9 180)
+		(at 49.53 88.9 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3936,7 +4044,7 @@
 	)
 	(hierarchical_label "DAC_CS"
 		(shape input)
-		(at 39.37 91.44 180)
+		(at 49.53 91.44 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4128,6 +4236,130 @@
 			(project "brain-core"
 				(path "/8e2e31f3-eed5-4de1-966c-f4162758c735/a5dac03c-0548-4574-b19b-4dd5fbd38e47"
 					(reference "#PWR043")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 20.32 73.66 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "05b8a876-775f-478e-a713-a5df642b751e")
+		(property "Reference" "C18"
+			(at 24.13 72.3899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10u"
+			(at 24.13 74.9299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 21.2852 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 20.32 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 20.32 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C19702"
+			(at 20.32 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" ""
+			(at 20.32 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part No." ""
+			(at 20.32 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part URL" ""
+			(at 20.32 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor" "JLCPCB"
+			(at 20.32 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field4" ""
+			(at 20.32 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5c649f15-c37c-4dc6-934e-50e515431cb6")
+		)
+		(pin "2"
+			(uuid "fb1e1ca7-a83a-4d03-896c-4a40a8eb9493")
+		)
+		(instances
+			(project "brain-core"
+				(path "/8e2e31f3-eed5-4de1-966c-f4162758c735/a5dac03c-0548-4574-b19b-4dd5fbd38e47"
+					(reference "C18")
 					(unit 1)
 				)
 			)
@@ -4829,7 +5061,7 @@
 	)
 	(symbol
 		(lib_id "Analog_DAC:MCP4822")
-		(at 57.15 86.36 0)
+		(at 67.31 86.36 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4837,7 +5069,7 @@
 		(dnp no)
 		(uuid "27d9b870-01c2-4c48-9f8e-3bab70fca06c")
 		(property "Reference" "U6"
-			(at 46.99 73.66 0)
+			(at 57.15 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4845,7 +5077,7 @@
 			)
 		)
 		(property "Value" "MCP4822"
-			(at 49.53 75.9714 0)
+			(at 59.69 75.9714 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4853,7 +5085,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
-			(at 77.47 93.98 0)
+			(at 87.63 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4862,7 +5094,7 @@
 			)
 		)
 		(property "Datasheet" "http://ww1.microchip.com/downloads/en/DeviceDoc/20002249B.pdf"
-			(at 77.47 93.98 0)
+			(at 87.63 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4871,7 +5103,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 57.15 86.36 0)
+			(at 67.31 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4880,7 +5112,7 @@
 			)
 		)
 		(property "Part No." "579-MCP4822-E/P "
-			(at 57.15 86.36 0)
+			(at 67.31 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4889,7 +5121,7 @@
 			)
 		)
 		(property "Part URL" "https://mou.sr/4gecDm5"
-			(at 57.15 86.36 0)
+			(at 67.31 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4898,7 +5130,7 @@
 			)
 		)
 		(property "Vendor" "Mouser"
-			(at 57.15 86.36 0)
+			(at 67.31 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4907,7 +5139,7 @@
 			)
 		)
 		(property "LCSC" ""
-			(at 57.15 86.36 0)
+			(at 67.31 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5448,7 +5680,7 @@
 	(symbol
 		(lib_name "+5V_1")
 		(lib_id "power:+5V")
-		(at 57.15 71.12 0)
+		(at 67.31 67.31 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5457,7 +5689,7 @@
 		(fields_autoplaced yes)
 		(uuid "44212be8-79ab-4794-ad29-d8fb1e1cddaa")
 		(property "Reference" "#PWR042"
-			(at 57.15 74.93 0)
+			(at 67.31 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5466,7 +5698,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 57.15 66.04 0)
+			(at 67.31 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5474,7 +5706,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 57.15 71.12 0)
+			(at 67.31 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5483,7 +5715,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 57.15 71.12 0)
+			(at 67.31 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5492,7 +5724,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 57.15 71.12 0)
+			(at 67.31 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6001,7 +6233,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 41.91 101.6 0)
+		(at 52.07 101.6 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6010,7 +6242,7 @@
 		(fields_autoplaced yes)
 		(uuid "66ff186c-6063-431f-9144-f225739302c7")
 		(property "Reference" "#PWR032"
-			(at 41.91 107.95 0)
+			(at 52.07 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6019,7 +6251,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 41.91 106.68 0)
+			(at 52.07 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6027,7 +6259,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 41.91 101.6 0)
+			(at 52.07 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6036,7 +6268,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 41.91 101.6 0)
+			(at 52.07 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6045,7 +6277,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 41.91 101.6 0)
+			(at 52.07 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6250,6 +6482,130 @@
 			(project "brain-core"
 				(path "/8e2e31f3-eed5-4de1-966c-f4162758c735/a5dac03c-0548-4574-b19b-4dd5fbd38e47"
 					(reference "#PWR039")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 33.02 73.66 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7bdff3b1-1df4-46ce-9c86-d120e9bafc53")
+		(property "Reference" "C17"
+			(at 36.83 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 36.83 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 33.9852 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 33.02 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 33.02 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C14663"
+			(at 33.02 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" ""
+			(at 33.02 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part No." ""
+			(at 33.02 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part URL" ""
+			(at 33.02 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor" "JLCPCB"
+			(at 33.02 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field4" ""
+			(at 33.02 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "14ee8fa3-4376-4d4f-9b7d-1634047e0294")
+		)
+		(pin "2"
+			(uuid "9f47de0a-8a49-4707-b196-f68c5b2b0653")
+		)
+		(instances
+			(project "brain-core"
+				(path "/8e2e31f3-eed5-4de1-966c-f4162758c735/a5dac03c-0548-4574-b19b-4dd5fbd38e47"
+					(reference "C17")
 					(unit 1)
 				)
 			)
@@ -7942,6 +8298,72 @@
 			(project "brain-core"
 				(path "/8e2e31f3-eed5-4de1-966c-f4162758c735/a5dac03c-0548-4574-b19b-4dd5fbd38e47"
 					(reference "C9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 33.02 80.01 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "edda1a39-e3a3-452f-8753-fbfc91a7bb27")
+		(property "Reference" "#PWR066"
+			(at 33.02 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 33.02 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 33.02 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 33.02 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 33.02 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c72a201f-fa81-44fb-8b7a-6ffae4c2423d")
+		)
+		(instances
+			(project "brain-core"
+				(path "/8e2e31f3-eed5-4de1-966c-f4162758c735/a5dac03c-0548-4574-b19b-4dd5fbd38e47"
+					(reference "#PWR066")
 					(unit 1)
 				)
 			)
