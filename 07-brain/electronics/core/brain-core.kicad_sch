@@ -147,6 +147,235 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Connector_Generic:Conn_01x05"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x05"
+				(at 0 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x05_1_1"
+				(rectangle
+					(start -1.27 6.35)
+					(end 1.27 -6.35)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start -1.27 5.207)
+					(end 0 4.953)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 2.667)
+					(end 0 2.413)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -4.953)
+					(end 0 -5.207)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 5.08 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 2.54 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -5.08 0)
+					(length 3.81)
+					(name "Pin_5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Connector_Generic:Conn_02x02_Odd_Even"
 			(pin_names
 				(offset 1.016)
@@ -2057,16 +2286,6 @@
 	)
 	(wire
 		(pts
-			(xy 250.19 132.08) (xy 262.89 132.08)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "05c2ebf7-70be-4724-b268-ce6521d50626")
-	)
-	(wire
-		(pts
 			(xy 88.9 81.28) (xy 101.6 81.28)
 		)
 		(stroke
@@ -2257,6 +2476,16 @@
 	)
 	(wire
 		(pts
+			(xy 256.54 132.08) (xy 259.08 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "40e6b1f7-1614-4a06-9cd7-c34c8531d3c0")
+	)
+	(wire
+		(pts
 			(xy 271.78 59.69) (xy 275.59 59.69)
 		)
 		(stroke
@@ -2287,6 +2516,16 @@
 	)
 	(wire
 		(pts
+			(xy 256.54 127) (xy 259.08 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "49c7fce3-777b-4e64-9a31-40aca4324eda")
+	)
+	(wire
+		(pts
 			(xy 273.05 143.51) (xy 275.59 143.51)
 		)
 		(stroke
@@ -2294,16 +2533,6 @@
 			(type default)
 		)
 		(uuid "4e592d64-faf0-4603-b48d-f598a43da249")
-	)
-	(wire
-		(pts
-			(xy 250.19 134.62) (xy 262.89 134.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4f3ba0a6-fece-4abb-91f0-95ea18745685")
 	)
 	(wire
 		(pts
@@ -2344,16 +2573,6 @@
 			(type default)
 		)
 		(uuid "54410f72-7b72-4f76-ac92-7b6f3b5d57ed")
-	)
-	(wire
-		(pts
-			(xy 250.19 129.54) (xy 262.89 129.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "556076d7-86bd-47c5-b75e-748beccf2997")
 	)
 	(wire
 		(pts
@@ -2587,6 +2806,16 @@
 	)
 	(wire
 		(pts
+			(xy 256.54 121.92) (xy 259.08 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a17d7bfb-6c8d-4364-91f6-d8d6774060a0")
+	)
+	(wire
+		(pts
 			(xy 88.9 86.36) (xy 101.6 86.36)
 		)
 		(stroke
@@ -2657,16 +2886,6 @@
 	)
 	(wire
 		(pts
-			(xy 250.19 127) (xy 262.89 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a9bab6ec-0796-43c6-ba63-15bee6a19cd5")
-	)
-	(wire
-		(pts
 			(xy 273.05 102.87) (xy 273.05 110.49)
 		)
 		(stroke
@@ -2704,6 +2923,16 @@
 			(type default)
 		)
 		(uuid "ae1544a4-4af4-47ae-8753-4178f68d3a06")
+	)
+	(wire
+		(pts
+			(xy 256.54 129.54) (xy 259.08 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aeb6049b-a56c-4aa2-8a80-a64b3b77eb14")
 	)
 	(wire
 		(pts
@@ -2814,16 +3043,6 @@
 			(type default)
 		)
 		(uuid "d890bf20-65ea-41d5-a640-fd7f2fbc9771")
-	)
-	(wire
-		(pts
-			(xy 250.19 137.16) (xy 262.89 137.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dc320122-6e0e-4880-822d-f8cad4e45b3e")
 	)
 	(wire
 		(pts
@@ -2984,6 +3203,16 @@
 			(type default)
 		)
 		(uuid "fe5097cc-73f2-46d5-a94e-a44beb857054")
+	)
+	(wire
+		(pts
+			(xy 256.54 124.46) (xy 259.08 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fe8ddf22-1657-4829-8bbd-6e20a0801e9e")
 	)
 	(wire
 		(pts
@@ -4732,134 +4961,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_02x05_Odd_Even")
-		(at 255.27 132.08 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9614c68b-8cff-4eb6-9b6d-3261456fcf5e")
-		(property "Reference" "J_USB_C_BRKOUT1"
-			(at 256.54 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Conn_02x05_Top_Bottom"
-			(at 256.54 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x05_P2.54mm_Vertical"
-			(at 255.27 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 255.27 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, double row, 02x05, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 255.27 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part No." ""
-			(at 255.27 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part URL" ""
-			(at 255.27 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Vendor" ""
-			(at 255.27 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" ""
-			(at 255.27 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e6c5ca9b-1e7c-40d2-9f9c-39b82285289d")
-		)
-		(pin "2"
-			(uuid "4dd4795a-f235-4ad4-a276-b765745443b8")
-		)
-		(pin "3"
-			(uuid "d3c38545-fe58-4f5e-9af7-9f0d7b853a78")
-		)
-		(pin "4"
-			(uuid "1178d40d-26d3-4901-9223-40cbf8b8e7b1")
-		)
-		(pin "5"
-			(uuid "b9e502e3-12d4-4f59-9951-d9659b653f04")
-		)
-		(pin "6"
-			(uuid "94d4cf28-7258-4770-b2a3-278d3eb7d3a3")
-		)
-		(pin "7"
-			(uuid "57033bdd-113f-464a-9fae-1b9875e99ab2")
-		)
-		(pin "8"
-			(uuid "8ce3a5cf-c785-4cd5-ac43-3e615153b7e5")
-		)
-		(pin "9"
-			(uuid "ffb1d20a-27bc-46f2-bba3-eead39ccf72e")
-		)
-		(pin "10"
-			(uuid "df3b1b5a-6c26-4ec5-9657-1354dba75e9d")
-		)
-		(instances
-			(project ""
-				(path "/8e2e31f3-eed5-4de1-966c-f4162758c735"
-					(reference "J_USB_C_BRKOUT1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+12V")
 		(at 299.72 113.03 0)
 		(unit 1)
@@ -4986,6 +5087,119 @@
 			(project "brain-core"
 				(path "/8e2e31f3-eed5-4de1-966c-f4162758c735"
 					(reference "#PWR012")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x05")
+		(at 251.46 127 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a250e0e1-062b-469b-8023-1614413ef7b8")
+		(property "Reference" "J_USB_C_BRKOUT_HEAD1"
+			(at 251.46 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x05"
+			(at 251.46 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical"
+			(at 251.46 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 251.46 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 251.46 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part No." ""
+			(at 251.46 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part URL" ""
+			(at 251.46 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor" ""
+			(at 251.46 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 251.46 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b5beb89c-ad82-410c-9534-1f501507948a")
+		)
+		(pin "2"
+			(uuid "8a5525b8-e27b-4d02-b1f9-89ca67551131")
+		)
+		(pin "3"
+			(uuid "acd5820d-dd9c-42cb-b948-830c0c04bc9e")
+		)
+		(pin "4"
+			(uuid "0d98acf9-aad9-411b-a019-962cbb3c8360")
+		)
+		(pin "5"
+			(uuid "83f86836-7efb-4ebf-a69a-7c8b54487ff0")
+		)
+		(instances
+			(project "brain-core"
+				(path "/8e2e31f3-eed5-4de1-966c-f4162758c735"
+					(reference "J_USB_C_BRKOUT_HEAD1")
 					(unit 1)
 				)
 			)
@@ -5914,6 +6128,120 @@
 			(project ""
 				(path "/8e2e31f3-eed5-4de1-966c-f4162758c735"
 					(reference "#PWR074")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x05")
+		(at 264.16 127 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e43a92f0-9f31-4402-8ac6-4a711b30b533")
+		(property "Reference" "J_USB_C_BRKOUT1"
+			(at 266.7 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x05"
+			(at 266.7 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Shmoergh_Custom_Footprints:Adafruit 5978 USB-C Breakout"
+			(at 264.16 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 264.16 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 264.16 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part No." ""
+			(at 264.16 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part URL" ""
+			(at 264.16 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor" ""
+			(at 264.16 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 264.16 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bac7a975-a23e-4a56-be62-36839bcd6f11")
+		)
+		(pin "2"
+			(uuid "ab5372f0-1e10-4239-8e65-a7a4e499ad86")
+		)
+		(pin "3"
+			(uuid "84588b65-5d8d-4cb0-acd0-87eb2b199abe")
+		)
+		(pin "4"
+			(uuid "e17c5e2e-71af-4767-bca6-f2c3d0814b2e")
+		)
+		(pin "5"
+			(uuid "e5ceb68e-d7ea-4988-96f6-c1743495ea83")
+		)
+		(instances
+			(project ""
+				(path "/8e2e31f3-eed5-4de1-966c-f4162758c735"
+					(reference "J_USB_C_BRKOUT1")
 					(unit 1)
 				)
 			)

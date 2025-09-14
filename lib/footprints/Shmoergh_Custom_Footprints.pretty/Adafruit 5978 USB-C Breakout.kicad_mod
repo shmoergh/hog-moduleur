@@ -1,0 +1,284 @@
+(footprint "Adafruit 5978 USB-C Breakout"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Through hole straight socket strip, 1x05, 2.54mm pitch, single row (from Kicad 4.0.7), script generated")
+	(tags "Through hole socket strip THT 1x05 2.54mm single row")
+	(property "Reference" "REF**"
+		(at 0 -7.85 0)
+		(layer "F.SilkS")
+		(uuid "ba3194b1-f83e-4ad0-adff-56630607cd49")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Adafruit 5978 USB-C Breakout"
+		(at 0 7.85 0)
+		(layer "F.Fab")
+		(uuid "fd76de46-8104-4aab-95ab-5e51b8fbbc31")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 -5.08 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f5934020-546f-4135-b0b0-7280666699ec")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 -5.08 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "df7a2c8f-223a-4a61-a06a-27e73d3745c3")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -2.5 -5.5)
+		(end -2.5 5.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "612512a7-5c10-41ac-9f0b-6c00fd721e35")
+	)
+	(fp_line
+		(start -1 -7)
+		(end 8.6 -7)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "6d11082f-0d77-44c0-8e0f-69295a729d31")
+	)
+	(fp_line
+		(start -1 7)
+		(end 8.6 7)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "451f08da-faad-4567-848f-d88a4a5b0b88")
+	)
+	(fp_line
+		(start 10.1 -5.5)
+		(end 10.1 5.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "5c053437-5f42-4306-8f86-54d59d0cc5df")
+	)
+	(fp_arc
+		(start -2.5 -5.5)
+		(mid -2.06066 -6.56066)
+		(end -1 -7)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "1800ac8f-7749-4fd7-87fa-fe9238e74969")
+	)
+	(fp_arc
+		(start -1 7)
+		(mid -2.06066 6.56066)
+		(end -2.5 5.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "85b1593b-cf34-4afd-9c21-4ff0ce6a6a2d")
+	)
+	(fp_arc
+		(start 8.6 -7)
+		(mid 9.66066 -6.56066)
+		(end 10.1 -5.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "f376076f-94cc-4632-8e6b-a09e054b63f1")
+	)
+	(fp_arc
+		(start 10.1 5.5)
+		(mid 9.66066 6.56066)
+		(end 8.6 7)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "dbb88a7e-a0c6-4ba3-94a3-44729fc01a54")
+	)
+	(fp_rect
+		(start -2.5 -7)
+		(end 22 7)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "18ae7916-4a49-4546-b536-a52fd2242820")
+	)
+	(fp_rect
+		(start 7.6 -4.5)
+		(end 21.6 4.5)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "3bbc4fc3-757a-4f18-ab08-668e758e2017")
+	)
+	(fp_text user "USB C Connector"
+		(at 9.6 0.4 0)
+		(unlocked yes)
+		(layer "F.CrtYd")
+		(uuid "7a91ae84-84e4-4579-904b-945df01afcbc")
+		(effects
+			(font
+				(size 0.75 0.75)
+				(thickness 0.1)
+				(italic yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 90)
+		(layer "F.Fab")
+		(uuid "f73f0bfb-80d9-4536-a59c-26c1bd826827")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "" np_thru_hole circle
+		(at 5.1 -4.2)
+		(size 2.5 2.5)
+		(drill 2.5)
+		(layers "F&B.Cu" "*.Mask")
+		(uuid "38f61790-b0d1-4a52-94c4-19e82f4a9bb6")
+	)
+	(pad "" np_thru_hole circle
+		(at 5.1 4.2)
+		(size 2.5 2.5)
+		(drill 2.5)
+		(layers "F&B.Cu" "*.Mask")
+		(uuid "980906a9-550a-4b5b-bdb4-77fc2fa49d25")
+	)
+	(pad "1" thru_hole rect
+		(at 0 -5.08)
+		(size 1.7 1.7)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "e32ef091-1d1c-47de-8a1a-42e2e86d04b7")
+	)
+	(pad "2" thru_hole circle
+		(at 0 -2.54)
+		(size 1.7 1.7)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "a7eaaa50-7c10-418d-9e2d-c020d3e9e156")
+	)
+	(pad "3" thru_hole circle
+		(at 0 0)
+		(size 1.7 1.7)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "0bd14f5f-f785-4216-9e72-31f2651a4ec6")
+	)
+	(pad "4" thru_hole circle
+		(at 0 2.54)
+		(size 1.7 1.7)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "38519c77-c78a-41e8-b9d2-764ec489300e")
+	)
+	(pad "5" thru_hole circle
+		(at 0 5.08)
+		(size 1.7 1.7)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "f2bac8ae-077a-4f13-9957-d3a127aaea45")
+	)
+	(zone
+		(net 0)
+		(net_name "")
+		(layer "F.CrtYd")
+		(uuid "df12c7ef-ba7d-4480-9680-f126291f2a6b")
+		(hatch edge 0.5)
+		(connect_pads
+			(clearance 0)
+		)
+		(min_thickness 0.25)
+		(filled_areas_thickness no)
+		(keepout
+			(tracks not_allowed)
+			(vias not_allowed)
+			(pads not_allowed)
+			(copperpour allowed)
+			(footprints allowed)
+		)
+		(placement
+			(enabled no)
+			(sheetname "")
+		)
+		(fill
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+		)
+		(polygon
+			(pts
+				(xy 7.6 -4.5) (xy 21.6 -4.5) (xy 21.6 4.5) (xy 7.6 4.5)
+			)
+		)
+	)
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Connector_PinSocket_2.54mm.3dshapes/PinSocket_1x05_P2.54mm_Vertical.step"
+		(offset
+			(xyz 0 5.08 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
