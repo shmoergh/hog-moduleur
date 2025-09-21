@@ -2588,6 +2588,15 @@
 				(hide yes)
 			)
 		)
+		(property "CHECKED" "YES"
+			(at 140.97 58.42 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b925f4ed-5ffe-475e-bde4-ac1d3ff35ec5")
 		)
@@ -2838,6 +2847,15 @@
 			)
 		)
 		(property "Sim.Pins" ""
+			(at 201.93 60.96 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CHECKED" "YES"
 			(at 201.93 60.96 90)
 			(effects
 				(font
@@ -3115,7 +3133,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C21190"
 			(at 186.69 60.96 90)
 			(effects
 				(font
@@ -3179,6 +3197,15 @@
 			)
 		)
 		(property "Sim.Pins" ""
+			(at 186.69 60.96 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CHECKED" "YES"
 			(at 186.69 60.96 90)
 			(effects
 				(font
@@ -3255,7 +3282,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C21190"
 			(at 186.69 114.3 90)
 			(effects
 				(font
@@ -3319,6 +3346,15 @@
 			)
 		)
 		(property "Sim.Pins" ""
+			(at 186.69 114.3 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CHECKED" "YES"
 			(at 186.69 114.3 90)
 			(effects
 				(font
@@ -3407,6 +3443,33 @@
 			)
 		)
 		(property "Sim.Pins" ""
+			(at 43.18 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C6961"
+			(at 43.18 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor" "JLCPCB"
+			(at 43.18 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CHECKED" "YES"
 			(at 43.18 175.26 0)
 			(effects
 				(font
@@ -3575,6 +3638,15 @@
 				(hide yes)
 			)
 		)
+		(property "CHECKED" "YES"
+			(at 62.23 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "5f7db20c-e3e0-4bfb-a19a-65fae5e69371")
 		)
@@ -3717,6 +3789,15 @@
 				(hide yes)
 			)
 		)
+		(property "CHECKED" "YES"
+			(at 62.23 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "bf82f5f0-bebd-4bc5-97f4-99c093849d8c")
 		)
@@ -3785,7 +3866,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C4216"
 			(at 116.84 96.52 90)
 			(effects
 				(font
@@ -3849,6 +3930,15 @@
 			)
 		)
 		(property "Sim.Pins" ""
+			(at 116.84 96.52 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CHECKED" "YES"
 			(at 116.84 96.52 90)
 			(effects
 				(font
@@ -3996,6 +4086,15 @@
 				(hide yes)
 			)
 		)
+		(property "CHECKED" "YES"
+			(at 92.71 43.18 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "fb48f1fc-adc1-473d-a743-d543fc337a1c")
 		)
@@ -4129,7 +4228,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C25808"
 			(at 92.71 55.88 90)
 			(effects
 				(font
@@ -4193,6 +4292,15 @@
 			)
 		)
 		(property "Sim.Pins" ""
+			(at 92.71 55.88 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CHECKED" "YES"
 			(at 92.71 55.88 90)
 			(effects
 				(font
@@ -4268,7 +4376,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C25808"
 			(at 92.71 109.22 90)
 			(effects
 				(font
@@ -4332,6 +4440,15 @@
 			)
 		)
 		(property "Sim.Pins" ""
+			(at 92.71 109.22 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CHECKED" "YES"
 			(at 92.71 109.22 90)
 			(effects
 				(font
@@ -4479,6 +4596,15 @@
 				(hide yes)
 			)
 		)
+		(property "CHECKED" "YES"
+			(at 92.71 96.52 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "8e6b61e9-ac36-4c96-8142-11d820755fc6")
 		)
@@ -4557,6 +4683,33 @@
 			)
 		)
 		(property "Sim.Pins" ""
+			(at 161.29 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C6961"
+			(at 161.29 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor" "JLCPCB"
+			(at 161.29 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CHECKED" "YES"
 			(at 161.29 60.96 0)
 			(effects
 				(font
@@ -4701,6 +4854,15 @@
 			)
 		)
 		(property "Sim.Pins" ""
+			(at 201.93 114.3 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CHECKED" "YES"
 			(at 201.93 114.3 90)
 			(effects
 				(font
@@ -4968,6 +5130,33 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C6961"
+			(at 29.21 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor" "JLCPCB"
+			(at 29.21 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CHECKED" "YES"
+			(at 29.21 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "4749988e-1951-4ea1-a630-2ed0fe85d0bb")
 		)
@@ -5138,6 +5327,33 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C6961"
+			(at 161.29 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor" "JLCPCB"
+			(at 161.29 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CHECKED" "YES"
+			(at 161.29 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "7"
 			(uuid "1e59dbee-975b-43c9-810d-c2fbf2ff51b1")
 		)
@@ -5287,6 +5503,15 @@
 			)
 		)
 		(property "Sim.Pins" ""
+			(at 140.97 111.76 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CHECKED" "YES"
 			(at 140.97 111.76 90)
 			(effects
 				(font
@@ -5495,7 +5720,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C4216"
 			(at 116.84 43.18 90)
 			(effects
 				(font
@@ -5559,6 +5784,15 @@
 			)
 		)
 		(property "Sim.Pins" ""
+			(at 116.84 43.18 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CHECKED" "YES"
 			(at 116.84 43.18 90)
 			(effects
 				(font
@@ -5709,6 +5943,15 @@
 				(hide yes)
 			)
 		)
+		(property "CHECKED" "YES"
+			(at 50.8 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b0bae0e3-96f4-4e4c-b731-769fa802ec6e")
 		)
@@ -5851,6 +6094,15 @@
 				(hide yes)
 			)
 		)
+		(property "CHECKED" "YES"
+			(at 50.8 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "973d0401-0dcd-4b39-9367-1d2c45a91593")
 		)
@@ -5929,6 +6181,33 @@
 			)
 		)
 		(property "Sim.Pins" ""
+			(at 115.57 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C6961"
+			(at 115.57 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor" "JLCPCB"
+			(at 115.57 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CHECKED" "YES"
 			(at 115.57 58.42 0)
 			(effects
 				(font
@@ -6094,6 +6373,15 @@
 				(hide yes)
 			)
 		)
+		(property "CHECKED" "YES"
+			(at 162.56 100.33 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c1b71c60-7a2a-4464-89a7-5a520faa115e")
 		)
@@ -6233,6 +6521,15 @@
 				(hide yes)
 			)
 		)
+		(property "CHECKED" "YES"
+			(at 162.56 46.99 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "8cf4bcd4-4b9d-453d-9c96-ad415ee45be5")
 		)
@@ -6311,6 +6608,33 @@
 			)
 		)
 		(property "Sim.Pins" ""
+			(at 115.57 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C6961"
+			(at 115.57 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor" "JLCPCB"
+			(at 115.57 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CHECKED" "YES"
 			(at 115.57 111.76 0)
 			(effects
 				(font

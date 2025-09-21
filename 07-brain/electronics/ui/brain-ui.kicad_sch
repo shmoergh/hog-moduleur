@@ -2431,6 +2431,12 @@
 		(uuid "5621698d-55ae-457e-aeaf-5f7f7cd3dbed")
 	)
 	(junction
+		(at 105.41 181.61)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "59831a53-328f-4153-a9af-619b3e75c64f")
+	)
+	(junction
 		(at 250.19 116.84)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3175,6 +3181,16 @@
 			(type default)
 		)
 		(uuid "84332db6-8435-4dd5-b509-5f38eba108ba")
+	)
+	(wire
+		(pts
+			(xy 105.41 184.15) (xy 105.41 181.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "865dca74-9bd2-4165-b962-250b817e3dce")
 	)
 	(wire
 		(pts
@@ -4883,6 +4899,72 @@
 			(project "brain-ui"
 				(path "/ab333f71-eefa-415f-b212-ebe7a942b1c8"
 					(reference "#PWR018")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 105.41 184.15 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1b826552-7bb4-46fe-bb38-d3909e9e74c6")
+		(property "Reference" "#FLG04"
+			(at 105.41 186.055 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 105.41 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 105.41 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 105.41 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 105.41 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6f01d95b-bae3-429d-9e02-137ce5210351")
+		)
+		(instances
+			(project "brain-ui"
+				(path "/ab333f71-eefa-415f-b212-ebe7a942b1c8"
+					(reference "#FLG04")
 					(unit 1)
 				)
 			)

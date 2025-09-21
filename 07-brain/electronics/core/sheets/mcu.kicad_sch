@@ -3876,7 +3876,7 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor" ""
+		(property "Vendor" "Mouser"
 			(at 43.18 88.9 0)
 			(effects
 				(font
@@ -3999,7 +3999,7 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor" ""
+		(property "Vendor" "Mouser"
 			(at 71.12 45.72 0)
 			(effects
 				(font
@@ -4172,7 +4172,7 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor" ""
+		(property "Vendor" "JLCPCB"
 			(at 36.83 43.18 0)
 			(effects
 				(font
@@ -4182,6 +4182,15 @@
 			)
 		)
 		(property "LCSC" "C165948"
+			(at 36.83 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CHECKED" "YES"
 			(at 36.83 43.18 0)
 			(effects
 				(font
@@ -4321,7 +4330,7 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor" ""
+		(property "Vendor" "Mouser"
 			(at 148.59 78.74 0)
 			(effects
 				(font
@@ -4615,7 +4624,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C23186"
 			(at 63.5 33.02 90)
 			(effects
 				(font
@@ -4679,6 +4688,15 @@
 			)
 		)
 		(property "Sim.Pins" ""
+			(at 63.5 33.02 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CHECKED" "YES"
 			(at 63.5 33.02 90)
 			(effects
 				(font
@@ -4886,7 +4904,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C23186"
 			(at 63.5 35.56 90)
 			(effects
 				(font
@@ -4950,6 +4968,15 @@
 			)
 		)
 		(property "Sim.Pins" ""
+			(at 63.5 35.56 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CHECKED" "YES"
 			(at 63.5 35.56 90)
 			(effects
 				(font
@@ -5111,7 +5138,7 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor" ""
+		(property "Vendor" "Mouser"
 			(at 29.21 88.9 0)
 			(effects
 				(font

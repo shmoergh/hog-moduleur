@@ -903,7 +903,7 @@
 				)
 			)
 		)
-		(property "Vendor" ""
+		(property "Vendor" "Mouser"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1250,7 +1250,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C25804"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1572,6 +1572,32 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "1de82e46-c56e-4e7a-bf7f-4737f30c0b06")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C6961"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c4272cf3-971b-403f-8a72-a3d3ad2f9998")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Vendor" "JLCPCB"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "31d66890-4228-4668-86d1-e1b625d5a662")
 			(effects
 				(font
 					(size 1 1)
@@ -1960,7 +1986,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C25803"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2869,7 +2895,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C23231"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3172,7 +3198,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C25819"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3805,7 +3831,7 @@
 				)
 			)
 		)
-		(property "Vendor" ""
+		(property "Vendor" "Mouser"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -4441,7 +4467,7 @@
 				)
 			)
 		)
-		(property "Vendor" ""
+		(property "Vendor" "JLCPCB"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -4898,7 +4924,7 @@
 				)
 			)
 		)
-		(property "Vendor" ""
+		(property "Vendor" "Mouser"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5730,7 +5756,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C21190"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -6336,7 +6362,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C4216"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -6665,7 +6691,7 @@
 				)
 			)
 		)
-		(property "Vendor" ""
+		(property "Vendor" "Mouser"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -6970,7 +6996,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C21190"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -7287,7 +7313,7 @@
 				)
 			)
 		)
-		(property "Vendor" "-"
+		(property "Vendor" "N/A"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -7498,6 +7524,32 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "b742d91b-6dd0-4d4d-aabb-80936da53918")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C6961"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e1c2c800-76ea-4250-9aab-4a914b872822")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Vendor" "JLCPCB"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "cc838366-3fb7-44e3-9cb6-37f7255e4775")
 			(effects
 				(font
 					(size 1 1)
@@ -7886,7 +7938,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C4216"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -9080,7 +9132,7 @@
 				)
 			)
 		)
-		(property "Vendor" ""
+		(property "Vendor" "Mouser"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -9634,7 +9686,7 @@
 				)
 			)
 		)
-		(property "Vendor" "-"
+		(property "Vendor" "N/A"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -9826,7 +9878,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C25808"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -10156,7 +10208,7 @@
 				)
 			)
 		)
-		(property "Vendor" ""
+		(property "Vendor" "Mouser"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -10569,7 +10621,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C25803"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -11986,7 +12038,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C25803"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -12289,7 +12341,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C23186"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -12746,7 +12798,7 @@
 				)
 			)
 		)
-		(property "Vendor" ""
+		(property "Vendor" "Mouser"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -13115,7 +13167,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C25819"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -13418,7 +13470,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C25803"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -14764,7 +14816,7 @@
 				)
 			)
 		)
-		(property "Vendor" ""
+		(property "Vendor" "JLCPCB"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -14777,7 +14829,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C92651"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -15199,7 +15251,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C23234"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -15515,7 +15567,7 @@
 				)
 			)
 		)
-		(property "Vendor" ""
+		(property "Vendor" "Mouser"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -15872,7 +15924,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C4190"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -16175,7 +16227,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C23231"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -16498,6 +16550,32 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "3c3ab9b7-0d20-4fd5-898f-e5cf995b8a4d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C5647"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "51394af6-9e58-4fb2-bd6b-aa3a35732b3d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Vendor" "JLCPCB"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2a64bef6-247d-471f-9329-7467c3aa4cc0")
 			(effects
 				(font
 					(size 1 1)
@@ -17405,6 +17483,32 @@
 				)
 			)
 		)
+		(property "LCSC" "C6961"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b79ceead-9b88-4133-ada8-e5dd1464262a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Vendor" "JLCPCB"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "acd48624-a416-45a8-a56c-a7d13a81fb55")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "SOIC*3.9x4.9mm*P1.27mm* DIP*W7.62mm* TO*99* OnSemi*Micro8* TSSOP*3x3mm*P0.65mm* TSSOP*4.4x3mm*P0.65mm* MSOP*3x3mm*P0.65mm* SSOP*3.9x4.9mm*P0.635mm* LFCSP*2x2mm*P0.5mm* *SIP* SOIC*5.3x6.2mm*P1.27mm*")
 		(path "/a5dac03c-0548-4574-b19b-4dd5fbd38e47/73804e20-fe11-425a-9f40-2515aff52cce")
 		(sheetname "/Audio CV Out/")
@@ -18089,7 +18193,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C22787"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -18801,7 +18905,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C1653"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -19749,7 +19853,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C25803"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -20079,7 +20183,7 @@
 				)
 			)
 		)
-		(property "Vendor" ""
+		(property "Vendor" "Mouser"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -20863,7 +20967,7 @@
 				)
 			)
 		)
-		(property "Vendor" ""
+		(property "Vendor" "Mouser"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -22246,7 +22350,7 @@
 				)
 			)
 		)
-		(property "Part No." "579-MCP4822-E/P "
+		(property "Part No." ""
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -22259,7 +22363,7 @@
 				)
 			)
 		)
-		(property "Part URL" "https://mou.sr/4gecDm5"
+		(property "Part URL" ""
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -22272,7 +22376,7 @@
 				)
 			)
 		)
-		(property "Vendor" "Mouser"
+		(property "Vendor" "JLCPCB"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -22285,7 +22389,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C623653"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -22707,7 +22811,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C25804"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -23010,7 +23114,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C25808"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -23630,7 +23734,7 @@
 				)
 			)
 		)
-		(property "Vendor" "-"
+		(property "Vendor" "N/A"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -23822,7 +23926,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C25803"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -24252,7 +24356,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C21190"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -24884,6 +24988,32 @@
 				)
 			)
 		)
+		(property "LCSC" "C6961"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "039f0563-b84d-4de7-8e96-e719d10d0ff0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Vendor" "JLCPCB"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a2368c7c-e1fb-4b94-bfb9-b750a9f397ae")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "SOIC*3.9x4.9mm*P1.27mm* DIP*W7.62mm* TO*99* OnSemi*Micro8* TSSOP*3x3mm*P0.65mm* TSSOP*4.4x3mm*P0.65mm* MSOP*3x3mm*P0.65mm* SSOP*3.9x4.9mm*P0.635mm* LFCSP*2x2mm*P0.5mm* *SIP* SOIC*5.3x6.2mm*P1.27mm*")
 		(path "/a5dac03c-0548-4574-b19b-4dd5fbd38e47/1f47fe0f-7099-4c3e-9d97-9e0e2e8676b4")
 		(sheetname "/Audio CV Out/")
@@ -25285,6 +25415,32 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "7b6e3b45-fec5-4b66-ac05-424f85fa4be9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C9386"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "dcd43044-d2af-4c53-a073-31c7c6e0db31")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Vendor" "JLCPCB"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c4a31013-bfb2-427b-ab39-79712e91812e")
 			(effects
 				(font
 					(size 1 1)
@@ -26073,7 +26229,7 @@
 				)
 			)
 		)
-		(property "Vendor" ""
+		(property "Vendor" "Mouser"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -26846,7 +27002,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C25803"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -27149,7 +27305,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C21190"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -27478,7 +27634,7 @@
 				)
 			)
 		)
-		(property "Vendor" ""
+		(property "Vendor" "Mouser"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -28089,7 +28245,7 @@
 				)
 			)
 		)
-		(property "Vendor" "-"
+		(property "Vendor" "N/A"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -28281,7 +28437,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C23186"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -28584,7 +28740,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C21190"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -28914,7 +29070,7 @@
 				)
 			)
 		)
-		(property "Vendor" ""
+		(property "Vendor" "Mouser"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -29283,7 +29439,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C1653"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -29963,7 +30119,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C25803"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -31774,7 +31930,7 @@
 				)
 			)
 		)
-		(property "Value" "BAT54W"
+		(property "Value" "BAT54"
 			(at 0 2.4 0)
 			(layer "F.Fab")
 			(uuid "8931c81c-0c91-4715-8296-0d48a60a432d")
@@ -31835,7 +31991,7 @@
 				)
 			)
 		)
-		(property "Vendor" ""
+		(property "Vendor" "JLCPCB"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -31848,7 +32004,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C22466368"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -32631,7 +32787,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C21190"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -33106,7 +33262,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Vendor" ""
+		(property "Vendor" "Mouser"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")

@@ -4076,7 +4076,7 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor" ""
+		(property "Vendor" "Mouser"
 			(at 280.67 45.72 0)
 			(effects
 				(font
@@ -4197,7 +4197,7 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor" "-"
+		(property "Vendor" "N/A"
 			(at 264.16 160.02 0)
 			(effects
 				(font
@@ -4333,7 +4333,7 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor" "-"
+		(property "Vendor" "N/A"
 			(at 242.57 160.02 0)
 			(effects
 				(font
@@ -4608,7 +4608,7 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor" ""
+		(property "Vendor" "Mouser"
 			(at 280.67 97.79 0)
 			(effects
 				(font
@@ -4813,7 +4813,7 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor" "-"
+		(property "Vendor" "N/A"
 			(at 284.48 160.02 0)
 			(effects
 				(font
@@ -4956,7 +4956,7 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor" ""
+		(property "Vendor" "Mouser"
 			(at 280.67 143.51 0)
 			(effects
 				(font
@@ -5092,7 +5092,7 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor" ""
+		(property "Vendor" "Mouser"
 			(at 308.61 115.57 0)
 			(effects
 				(font
@@ -5207,7 +5207,7 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor" "-"
+		(property "Vendor" "N/A"
 			(at 304.8 160.02 0)
 			(effects
 				(font
@@ -5352,7 +5352,7 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor" ""
+		(property "Vendor" "Mouser"
 			(at 295.91 123.19 0)
 			(effects
 				(font
@@ -5644,7 +5644,7 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor" ""
+		(property "Vendor" "Mouser"
 			(at 280.67 62.23 0)
 			(effects
 				(font
@@ -5778,7 +5778,7 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor" ""
+		(property "Vendor" "Mouser"
 			(at 280.67 77.47 0)
 			(effects
 				(font
