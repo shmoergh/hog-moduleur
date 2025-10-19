@@ -34,9 +34,9 @@ bool AudioCvOut::init(spi_inst_t* spi_instance, uint cs_pin, uint sck_pin, uint 
 	coupling_pin_a_ = coupling_pin_a;
 	coupling_pin_b_ = coupling_pin_b;
 
-	// Initialize SPI
-	spi_init(spi_instance_, kSpiFrequency);
-	// spi_set_format(spi_instance_, 16, SPI_CPOL_0, SPI_CPHA_0, SPI_MSB_FIRST);
+    // Initialize SPI and set explicit 8-bit MSB-first transfers, CPOL=0, CPHA=0
+    spi_init(spi_instance_, kSpiFrequency);
+    spi_set_format(spi_instance_, 8, SPI_CPOL_0, SPI_CPHA_0, SPI_MSB_FIRST);
 
 	// Configure SPI pins (SCK and TX/MOSI) for SPI function
 	gpio_set_function(sck_pin_, GPIO_FUNC_SPI);
