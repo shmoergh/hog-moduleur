@@ -42,14 +42,13 @@ static void onNoteOn(uint8_t note, uint8_t velocity, uint8_t channel) {
 static void onNoteOff(uint8_t note, uint8_t velocity, uint8_t channel) {
 	(void) velocity;
 	(void) channel;
-	g_stack.remove(note);
-	if (g_stack.isEmpty()) {
-		// No active note -> 0 V on DAC A, gate LOW
-		g_dac.setVoltage(AudioCvOutChannel::kChannelA, 0.0f);
-		g_gate.set(false);
-	} else {
-		applyCurrentNoteCv();
-	}
+    g_stack.remove(note);
+    if (g_stack.isEmpty()) {
+        // No active note -> gate LOW, hold last CV
+        g_gate.set(false);
+    } else {
+        applyCurrentNoteCv();
+    }
 }
 
 static inline void applyCurrentNoteCv() {
