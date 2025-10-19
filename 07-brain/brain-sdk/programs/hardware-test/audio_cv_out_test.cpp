@@ -9,14 +9,16 @@ using brain::io::AudioCvOutChannel;
 using brain::io::AudioCvOutCoupling;
 
 static void waitForEnter(const char* prompt = "Press Enter to continue...") {
-	printf("%s\r\n", prompt);
-	fflush(stdout);
-	while (true) {
-		int ch = getchar_timeout_us(1000 * 1000);
-		if (ch == '\n' || ch == '\r') {
-			break;
-		}
-	}
+	// printf("%s\r\n", prompt);
+	sleep_ms(10000);
+
+	// fflush(stdout);
+	// while (true) {
+	// 	int ch = getchar_timeout_us(1000 * 1000);
+	// 	if (ch == '\n' || ch == '\r') {
+	// 		break;
+	// 	}
+	// }
 }
 
 void testAudioCvOut() {

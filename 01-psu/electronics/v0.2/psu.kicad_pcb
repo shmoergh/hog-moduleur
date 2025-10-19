@@ -10835,6 +10835,27 @@
 		(layer "User.2")
 		(uuid "ba1269e0-962f-4766-bee9-f5c9c7e2b359")
 	)
+	(gr_line
+		(start 30.3 76.8)
+		(end 30.3 68)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "User.4")
+		(uuid "05ebd349-d5df-40fa-9244-3434d524e87d")
+	)
+	(gr_rect
+		(start 36 68)
+		(end 44 80)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "User.4")
+		(uuid "62dde418-43b2-41b3-b793-b4a14947e35b")
+	)
 	(gr_text "DC IN \n(+)"
 		(at 62.738 96.647 90)
 		(layer "F.SilkS")
@@ -11848,6 +11869,44 @@
 			(at 18.85 79.25 90)
 			(layer "User.2")
 			(uuid "bb8f623a-6404-411d-830d-9bf3e40c571a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+	)
+	(dimension
+		(type orthogonal)
+		(layer "User.4")
+		(uuid "cd97585e-f2da-417c-969d-d7dd6d655dc0")
+		(pts
+			(xy 30.3 72.4) (xy 36 72.4)
+		)
+		(height -6)
+		(orientation 0)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 3)
+			(units_format 0)
+			(precision 4)
+			(suppress_zeroes yes)
+		)
+		(style
+			(thickness 0.1)
+			(arrow_length 1.27)
+			(text_position_mode 0)
+			(arrow_direction outward)
+			(extension_height 0.58642)
+			(extension_offset 0.5)
+			(keep_text_aligned yes)
+		)
+		(gr_text "5.7"
+			(at 33.15 65.25 0)
+			(layer "User.4")
+			(uuid "cd97585e-f2da-417c-969d-d7dd6d655dc0")
 			(effects
 				(font
 					(size 1 1)

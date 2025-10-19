@@ -50,15 +50,15 @@ void waitForUserInput() {
 	printf("\r\n=== MIDI INPUT TEST SETUP ===\r\n");
 	printf("1. Connect a MIDI controller to the Brain module's MIDI input\r\n");
 	printf("2. Ensure the controller is powered on and configured to send on MIDI channel 1\r\n");
-	printf("3. Press Enter when ready to start the test...\r\n");
+	// printf("3. Press Enter when ready to start the test...\r\n");
 
 	// Wait for user to press Enter
-	while (true) {
-		int c = getchar_timeout_us(1000);  // 1ms timeout
-		if (c == '\r' || c == '\n') {
-			break;
-		}
-	}
+	// while (true) {
+	// 	int c = getchar_timeout_us(1000);  // 1ms timeout
+	// 	if (c == '\r' || c == '\n') {
+	// 		break;
+	// 	}
+	// }
 }
 
 void testMidi() {

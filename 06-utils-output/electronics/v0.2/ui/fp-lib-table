@@ -1,0 +1,6 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "Shmoergh_Custom_Footprints")(type "KiCad")(uri "/Users/peterzimon/Shmoergh/hog-moduleur/lib/footprints/Shmoergh_Custom_Footprints.pretty")(options "")(descr ""))
+  (lib (name "Shmoergh_Logo")(type "KiCad")(uri "/Users/peterzimon/Shmoergh/hog-moduleur/lib/footprints/Shmoergh_Logo.pretty")(options "")(descr ""))
+  (lib (name "PTA4543-2015DPB103")(type "KiCad")(uri "/Users/peterzimon/Shmoergh/hog-moduleur/lib/footprints/PTA4543-2015DPB103")(options "")(descr ""))
+)
