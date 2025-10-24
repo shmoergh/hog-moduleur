@@ -1,4 +1,4 @@
-26026746516243069
+26030269923207553
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -95256,6 +95256,13 @@ LEM Hall Effect Voltage transducer
 5
 5
 Shmoergh_Custom_Footprints
+Adafruit 5978 USB-C Breakout
+Through hole straight socket strip, 1x05, 2.54mm pitch, single row (from Kicad 4.0.7), script generated
+Through hole socket strip THT 1x05 2.54mm single row
+0
+5
+5
+Shmoergh_Custom_Footprints
 CUI_SJ1-3554NG
 
 
@@ -95460,6 +95467,13 @@ SPST_Narrow_Circular_Pushbutton_LED
 6
 Shmoergh_Custom_Footprints
 SR1712-0203
+
+
+0
+12
+10
+Shmoergh_Custom_Footprints
+SR1712-0204
 
 
 0
