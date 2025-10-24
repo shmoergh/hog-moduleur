@@ -2075,20 +2075,6 @@
 		)
 		(uuid f764abbb-a3da-41f6-9ed1-ca4b9db2277d)
 	)
-	(text "H"
-		(exclude_from_sim no)
-		(at 173.99 106.68 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
-				(color 255 0 221 1)
-			)
-			(justify left bottom)
-		)
-		(uuid "0ad098bd-1279-4388-9f73-1465339377f2")
-	)
 	(text "Vol pot (log): it's buffered\nso size should have no effect\non output impedance."
 		(exclude_from_sim no)
 		(at 158.75 30.48 0)
@@ -2343,7 +2329,7 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 109.22) (xy 181.61 124.46)
+			(xy 181.61 92.71) (xy 181.61 124.46)
 		)
 		(stroke
 			(width 0)
@@ -2373,7 +2359,7 @@
 	)
 	(wire
 		(pts
-			(xy 233.68 92.71) (xy 172.72 92.71)
+			(xy 233.68 92.71) (xy 181.61 92.71)
 		)
 		(stroke
 			(width 0)
@@ -2670,16 +2656,6 @@
 			(type default)
 		)
 		(uuid "57e58c22-eca5-4ca6-b6f5-bbcf52dcfd6d")
-	)
-	(wire
-		(pts
-			(xy 176.53 109.22) (xy 181.61 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "59f1431e-4848-481a-a96a-17cc6a910394")
 	)
 	(wire
 		(pts
@@ -3001,16 +2977,6 @@
 			(type default)
 		)
 		(uuid "bbd424e8-bc7c-4449-a58a-5cc86a4d4f5d")
-	)
-	(wire
-		(pts
-			(xy 172.72 92.71) (xy 172.72 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bcf8c400-d550-40d4-8120-ad0dd12603fe")
 	)
 	(wire
 		(pts
@@ -3741,72 +3707,6 @@
 			(project "mods-and-utils-core"
 				(path "/8e2e31f3-eed5-4de1-966c-f4162758c735/41496549-080e-47b7-9088-5316bbc20ed8"
 					(reference "#PWR022")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 172.72 113.03 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "18ea2221-aa27-4216-90ff-556ed3173176")
-		(property "Reference" "#PWR029"
-			(at 172.72 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 172.72 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 172.72 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 172.72 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 172.72 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c3323f47-a018-42d6-a280-32f7e566c57b")
-		)
-		(instances
-			(project "mods-and-utils-core"
-				(path "/8e2e31f3-eed5-4de1-966c-f4162758c735/41496549-080e-47b7-9088-5316bbc20ed8"
-					(reference "#PWR029")
 					(unit 1)
 				)
 			)
@@ -6305,142 +6205,6 @@
 			(project "utils-output-core"
 				(path "/8e2e31f3-eed5-4de1-966c-f4162758c735/41496549-080e-47b7-9088-5316bbc20ed8"
 					(reference "#D14")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Potentiometer_Trim")
-		(at 172.72 109.22 0)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "949248af-f9b8-447f-8fe9-312161a9e19c")
-		(property "Reference" "RV_HEADPHONE_LIM1"
-			(at 170.942 110.3884 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "100k"
-			(at 170.942 108.077 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Potentiometer_THT:Potentiometer_ACP_CA6-H2,5_Horizontal"
-			(at 172.72 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 172.72 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 172.72 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser" ""
-			(at 172.72 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part No." "531-PT6KH104A1010PM "
-			(at 172.72 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part URL" "https://mou.sr/49zQlIS"
-			(at 172.72 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Vendor" "Mouser"
-			(at 172.72 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" ""
-			(at 172.72 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Field4" ""
-			(at 172.72 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "CHECKED" "YES"
-			(at 172.72 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4b877440-6c8f-4ce7-8a9a-2e2610d5f34d")
-		)
-		(pin "2"
-			(uuid "ad83ce68-37c9-49df-897a-3c76cf6f6ce1")
-		)
-		(pin "3"
-			(uuid "04f02a13-e5a0-431f-83f2-2d3969411459")
-		)
-		(instances
-			(project "mods-and-utils-core"
-				(path "/8e2e31f3-eed5-4de1-966c-f4162758c735/41496549-080e-47b7-9088-5316bbc20ed8"
-					(reference "RV_HEADPHONE_LIM1")
 					(unit 1)
 				)
 			)
