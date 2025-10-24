@@ -26235,6 +26235,19 @@
 			(justify left bottom)
 		)
 	)
+	(gr_text "v0.2"
+		(at 131.62 107.5 0)
+		(layer "F.SilkS" knockout)
+		(uuid "7f417a63-d581-4db4-b7e4-bf29e4ff72e5")
+		(effects
+			(font
+				(size 1.25 1.25)
+				(thickness 0.25)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
 	(gr_text "LINE LEVEL"
 		(at 171.498 108.897 0)
 		(layer "F.SilkS")
