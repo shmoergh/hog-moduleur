@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "Hog Moduleur VCO UI")
-		(date "2025-07-06")
-		(rev "v0.1")
+		(date "2025-10-24")
+		(rev "v0.2")
 		(company "Shmøergh")
 	)
 	(lib_symbols
