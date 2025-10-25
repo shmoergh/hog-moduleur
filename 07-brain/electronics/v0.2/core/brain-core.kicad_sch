@@ -2307,16 +2307,6 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 58.42) (xy 54.61 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "78d3a94a-cc40-4cf7-b285-24f161b9fb0a")
-	)
-	(wire
-		(pts
 			(xy 88.9 115.57) (xy 101.6 115.57)
 		)
 		(stroke
@@ -2394,6 +2384,16 @@
 			(type default)
 		)
 		(uuid "996e451d-1883-4fee-ac5a-a3ac4729c5f1")
+	)
+	(wire
+		(pts
+			(xy 288.29 92.71) (xy 292.1 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9a2b4444-9d26-4c3b-911f-bc08d403dbd1")
 	)
 	(wire
 		(pts
@@ -2714,16 +2714,6 @@
 			(type default)
 		)
 		(uuid "ef3c8a9c-b6b1-49fc-ad93-28dab7f7943a")
-	)
-	(wire
-		(pts
-			(xy 288.29 92.71) (xy 293.37 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ef606ed6-d003-41b2-95fb-e430f1f5268b")
 	)
 	(wire
 		(pts
@@ -3477,28 +3467,6 @@
 			)
 		)
 	)
-	(global_label "POT_3"
-		(shape input)
-		(at 52.07 58.42 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "9e70b4c0-bc3d-4d2f-84c4-6dbcf5304b1a")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 43.3396 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "AUDIO_CV_IN_2"
 		(shape input)
 		(at 293.37 102.87 0)
@@ -3543,7 +3511,7 @@
 			)
 		)
 	)
-	(global_label "BTN_LED_2"
+	(global_label "BTN_LED_1"
 		(shape output)
 		(at 160.02 62.23 0)
 		(fields_autoplaced yes)
@@ -3605,6 +3573,28 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "BTN_3"
+		(shape input)
+		(at 160.02 59.69 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "cc72648f-38fa-461e-95d3-733ef9f6a871")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 168.7504 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -3741,8 +3731,8 @@
 			)
 		)
 	)
-	(global_label "BTN_LED_2"
-		(shape output)
+	(global_label "BTN_3"
+		(shape input)
 		(at 292.1 45.72 0)
 		(fields_autoplaced yes)
 		(effects
@@ -3753,29 +3743,7 @@
 		)
 		(uuid "e6d87d53-e853-46a2-bb2c-e07ddc36c8bc")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 305.2451 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "BTN_LED_1"
-		(shape output)
-		(at 160.02 59.69 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "e88e90fb-9a6b-4014-9436-28e19d525378")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 173.1651 59.69 0)
+			(at 300.8304 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3825,28 +3793,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "POT_3"
-		(shape input)
-		(at 293.37 92.71 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "f1abd24a-475d-4687-a5ed-40ef0f838135")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 302.1004 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 				(hide yes)
 			)
 		)
@@ -4128,6 +4074,73 @@
 			(project "brain-core"
 				(path "/8e2e31f3-eed5-4de1-966c-f4162758c735"
 					(reference "J3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 292.1 92.71 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1a7d2780-7510-439c-909d-f0ea60abecaa")
+		(property "Reference" "#PWR076"
+			(at 298.45 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 295.91 92.7099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 292.1 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 292.1 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 292.1 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d85425b8-6771-415d-9d3f-c5502a7bb94f")
+		)
+		(instances
+			(project ""
+				(path "/8e2e31f3-eed5-4de1-966c-f4162758c735"
+					(reference "#PWR076")
 					(unit 1)
 				)
 			)
@@ -6044,16 +6057,6 @@
 				(justify left)
 			)
 		)
-		(pin "POT_3" input
-			(at 54.61 58.42 180)
-			(uuid "1e633eac-72d0-4572-9a3a-698ab5d61fe3")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 		(instances
 			(project "brain-core"
 				(path "/8e2e31f3-eed5-4de1-966c-f4162758c735"
@@ -6566,7 +6569,7 @@
 				(justify right)
 			)
 		)
-		(pin "BTN_1_LED" output
+		(pin "BTN_3" output
 			(at 147.32 59.69 0)
 			(uuid "9accef8d-3691-4d39-9bd1-82388d365ef0")
 			(effects
@@ -6576,7 +6579,7 @@
 				(justify right)
 			)
 		)
-		(pin "BTN_2_LED" output
+		(pin "BTN_1_LED" output
 			(at 147.32 62.23 0)
 			(uuid "21c9ca51-36d0-4d75-a622-6e960b647741")
 			(effects

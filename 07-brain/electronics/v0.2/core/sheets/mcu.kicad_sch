@@ -3548,7 +3548,7 @@
 		)
 		(uuid "1ed75231-d704-4e51-bdd8-1b419cc8138f")
 	)
-	(hierarchical_label "BTN_2_LED"
+	(hierarchical_label "BTN_1_LED"
 		(shape output)
 		(at 191.77 87.63 0)
 		(effects
@@ -3724,7 +3724,7 @@
 		)
 		(uuid "e7081395-b2af-4fa9-92a1-b962cd1dbe1e")
 	)
-	(hierarchical_label "BTN_1_LED"
+	(hierarchical_label "BTN_3"
 		(shape output)
 		(at 191.77 90.17 0)
 		(effects
