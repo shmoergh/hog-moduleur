@@ -60,19 +60,27 @@
       ],
       "drc_exclusions": [
         [
-          "duplicate_footprints|109728000|100711000|1803348a-5821-42b4-92e3-1026eef41e6f|17b0b43c-b1ac-48f6-ac65-6e2bf8d44168",
+          "duplicate_footprints|104267000|89662000|17b0b43c-b1ac-48f6-ac65-6e2bf8d44168|1570278b-82ec-4f2d-b0dd-a09123d4a0ea",
           ""
         ],
         [
-          "duplicate_footprints|38989000|100711000|19a0040c-a8da-4514-b8ff-c375841dae12|17b0b43c-b1ac-48f6-ac65-6e2bf8d44168",
+          "duplicate_footprints|109728000|100711000|1803348a-5821-42b4-92e3-1026eef41e6f|1570278b-82ec-4f2d-b0dd-a09123d4a0ea",
           ""
         ],
         [
-          "duplicate_footprints|42291000|84836000|f41faa66-1567-47bf-b7b1-7acd7015cc9c|17b0b43c-b1ac-48f6-ac65-6e2bf8d44168",
+          "duplicate_footprints|124079000|104267000|3fac6ae6-f4e0-403a-b538-20489403fdd1|1570278b-82ec-4f2d-b0dd-a09123d4a0ea",
           ""
         ],
         [
-          "duplicate_footprints|55372000|107569000|badafc35-d779-4bb9-a206-e4332999d9b3|17b0b43c-b1ac-48f6-ac65-6e2bf8d44168",
+          "duplicate_footprints|38989000|100711000|19a0040c-a8da-4514-b8ff-c375841dae12|1570278b-82ec-4f2d-b0dd-a09123d4a0ea",
+          ""
+        ],
+        [
+          "duplicate_footprints|55372000|107569000|badafc35-d779-4bb9-a206-e4332999d9b3|1570278b-82ec-4f2d-b0dd-a09123d4a0ea",
+          ""
+        ],
+        [
+          "duplicate_footprints|84836000|87884000|f41faa66-1567-47bf-b7b1-7acd7015cc9c|1570278b-82ec-4f2d-b0dd-a09123d4a0ea",
           ""
         ],
         [
@@ -84,15 +92,23 @@
           ""
         ],
         [
+          "extra_footprint|120650000|91313000|1570278b-82ec-4f2d-b0dd-a09123d4a0ea|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "extra_footprint|124079000|104267000|3fac6ae6-f4e0-403a-b538-20489403fdd1|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
           "extra_footprint|38989000|100711000|19a0040c-a8da-4514-b8ff-c375841dae12|00000000-0000-0000-0000-000000000000",
           ""
         ],
         [
-          "extra_footprint|42291000|84836000|f41faa66-1567-47bf-b7b1-7acd7015cc9c|00000000-0000-0000-0000-000000000000",
+          "extra_footprint|55372000|107569000|badafc35-d779-4bb9-a206-e4332999d9b3|00000000-0000-0000-0000-000000000000",
           ""
         ],
         [
-          "extra_footprint|55372000|107569000|badafc35-d779-4bb9-a206-e4332999d9b3|00000000-0000-0000-0000-000000000000",
+          "extra_footprint|84836000|87884000|f41faa66-1567-47bf-b7b1-7acd7015cc9c|00000000-0000-0000-0000-000000000000",
           ""
         ],
         [
