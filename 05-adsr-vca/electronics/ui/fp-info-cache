@@ -1,4 +1,4 @@
-26030257303901161
+26032024150097327
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -95259,6 +95259,13 @@ Sensor_Voltage
 LEM_LV25-P
 LEM LV25-P Voltage transducer, https://www.lem.com/sites/default/files/products_datasheets/lv_25-p.pdf
 LEM Hall Effect Voltage transducer
+0
+5
+5
+Shmoergh_Custom_Footprints
+Adafruit 5978 USB-C Breakout
+Through hole straight socket strip, 1x05, 2.54mm pitch, single row (from Kicad 4.0.7), script generated
+Through hole socket strip THT 1x05 2.54mm single row
 0
 5
 5

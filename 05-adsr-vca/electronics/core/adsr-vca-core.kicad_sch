@@ -1011,6 +1011,18 @@
 		(uuid "005c64cd-d1f8-4c43-99f8-ec50c2b15f14")
 	)
 	(junction
+		(at 205.74 92.71)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "31915b5c-9d4c-4e91-929b-6201db72b28c")
+	)
+	(junction
+		(at 205.74 95.25)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "34190526-c2ba-4b9b-826e-172e35d8f5fc")
+	)
+	(junction
 		(at 223.52 116.84)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1178,13 +1190,13 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 74.93) (xy 57.15 74.93)
+			(xy 205.74 92.71) (xy 208.28 92.71)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3d328b5d-d758-4564-94ca-17ae7333a37e")
+		(uuid "342fb0bf-af58-4ecf-b6c9-d2b8ff63cefd")
 	)
 	(wire
 		(pts
@@ -1258,6 +1270,16 @@
 	)
 	(wire
 		(pts
+			(xy 205.74 92.71) (xy 205.74 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "543150c7-3e73-41ab-9c1c-3a9526e5f1dd")
+	)
+	(wire
+		(pts
 			(xy 220.98 73.66) (xy 223.52 73.66)
 		)
 		(stroke
@@ -1265,16 +1287,6 @@
 			(type default)
 		)
 		(uuid "5760f56e-1f2f-4304-a409-140b67d6b06e")
-	)
-	(wire
-		(pts
-			(xy 205.74 92.71) (xy 208.28 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "63a5d0bc-580d-407b-91e8-7a806aa2a211")
 	)
 	(wire
 		(pts
@@ -1345,26 +1357,6 @@
 			(type default)
 		)
 		(uuid "74183f3b-3b64-48ca-b7ff-60a91afc138e")
-	)
-	(wire
-		(pts
-			(xy 205.74 90.17) (xy 208.28 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7b9bdbc5-7b67-49b2-83b3-d8302e69f6a1")
-	)
-	(wire
-		(pts
-			(xy 54.61 72.39) (xy 57.15 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7f59244d-64b6-4801-bd8d-6777a0084e14")
 	)
 	(wire
 		(pts
@@ -1588,6 +1580,16 @@
 	)
 	(wire
 		(pts
+			(xy 208.28 90.17) (xy 205.74 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e09ec3f3-0e6f-438d-b91f-d6ee3505a32d")
+	)
+	(wire
+		(pts
 			(xy 226.06 25.4) (xy 226.06 34.29)
 		)
 		(stroke
@@ -1675,6 +1677,16 @@
 			(type default)
 		)
 		(uuid "fa010d41-712b-412a-8a7c-7e2f0fd43994")
+	)
+	(wire
+		(pts
+			(xy 205.74 90.17) (xy 205.74 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fa5edd05-1f52-4904-9437-7fb23cfda49b")
 	)
 	(wire
 		(pts
@@ -1824,28 +1836,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "LED_A"
-		(shape bidirectional)
-		(at 205.74 90.17 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "432a606a-c3dc-460f-b505-9da78d5f75d8")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 196.1402 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -2026,50 +2016,6 @@
 			)
 		)
 	)
-	(global_label "LED_K"
-		(shape bidirectional)
-		(at 54.61 74.93 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "76ba5c4c-f6d2-47d7-aa62-8a4570b22996")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 44.8288 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "LED_A"
-		(shape bidirectional)
-		(at 54.61 72.39 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "774b9ed8-2537-4499-911d-70db574d49a7")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 45.0102 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "VCA_OUT"
 		(shape output)
 		(at 93.98 92.71 0)
@@ -2237,28 +2183,6 @@
 		(uuid "bc339296-1a8e-499e-9781-2a594d2dab11")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 44.8514 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "LED_K"
-		(shape bidirectional)
-		(at 205.74 92.71 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "ccb794f3-f0d1-45af-a89a-e6e91e49430f")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 195.9588 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3487,26 +3411,6 @@
 		(pin "GATE" input
 			(at 57.15 46.99 180)
 			(uuid "69372597-26c9-4f00-a328-b863716ce4c0")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "LED_A" bidirectional
-			(at 57.15 72.39 180)
-			(uuid "4d17e6a2-073a-43fc-98ee-8b549d96420c")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "LED_K" bidirectional
-			(at 57.15 74.93 180)
-			(uuid "ab259221-3198-411c-acea-24e30933a0c4")
 			(effects
 				(font
 					(size 1.27 1.27)

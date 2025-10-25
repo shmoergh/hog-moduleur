@@ -869,189 +869,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:LED"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "D"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "LED"
-				(at 0 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Light emitting diode"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Pins" "1=K 2=A"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "LED diode"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "LED_0_1"
-				(polyline
-					(pts
-						(xy -3.048 -0.762) (xy -4.572 -2.286) (xy -3.81 -2.286) (xy -4.572 -2.286) (xy -4.572 -1.524)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.778 -0.762) (xy -3.302 -2.286) (xy -2.54 -2.286) (xy -3.302 -2.286) (xy -3.302 -1.524)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 0) (xy 1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 -1.27) (xy -1.27 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "LED_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:R"
 			(pin_numbers
 				(hide yes)
@@ -1487,211 +1304,6 @@
 					(at 3.81 0 180)
 					(length 1.27)
 					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Transistor_BJT:BC847"
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "Q"
-				(at 5.08 1.905 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "BC847"
-				(at 5.08 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-				(at 5.08 -1.905 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "http://www.infineon.com/dgdl/Infineon-BC847SERIES_BC848SERIES_BC849SERIES_BC850SERIES-DS-v01_01-en.pdf?fileId=db3a304314dca389011541d4630a1657"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Description" "0.1A Ic, 45V Vce, NPN Transistor, SOT-23"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "NPN Small Signal Transistor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "SOT?23*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "BC847_0_1"
-				(polyline
-					(pts
-						(xy -2.54 0) (xy 0.635 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.635 1.905) (xy 0.635 -1.905)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 1.27 0)
-					(radius 2.8194)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "BC847_1_1"
-				(polyline
-					(pts
-						(xy 0.635 0.635) (xy 2.54 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.635 -0.635) (xy 2.54 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -1.778) (xy 1.778 -1.27) (xy 2.286 -2.286) (xy 1.27 -1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(pin input line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "B"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 5.08 270)
-					(length 2.54)
-					(name "C"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 -5.08 90)
-					(length 2.54)
-					(name "E"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2302,17 +1914,6 @@
 		)
 		(uuid f4bff305-30f6-4194-add2-86a1fc5d575c)
 	)
-	(text "R27 value depending \non LED color"
-		(exclude_from_sim no)
-		(at 243.84 139.7 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "008694d9-6382-48ba-9630-f4dfbcc86c83")
-	)
 	(text "4-10.6V"
 		(exclude_from_sim no)
 		(at 246.38 72.39 0)
@@ -2501,12 +2102,6 @@
 		(uuid "e0066c17-0278-4348-86d8-dd2053ca9785")
 	)
 	(junction
-		(at 238.76 96.52)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ea7acd9e-1a29-4224-843b-52852fb005f5")
-	)
-	(junction
 		(at 238.76 91.44)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2551,10 +2146,6 @@
 		(uuid "1be48e16-c264-47d0-b9ca-59687188a7a7")
 	)
 	(no_connect
-		(at 269.24 107.95)
-		(uuid "236d36e9-d29e-455d-bbe7-45a409a15bd1")
-	)
-	(no_connect
 		(at 173.99 29.21)
 		(uuid "2dcb2ac9-a453-4add-9e39-9c48bdee8f67")
 	)
@@ -2573,10 +2164,6 @@
 	(no_connect
 		(at 195.58 87.63)
 		(uuid "8c4f8710-6f65-4898-94b3-d56106abc7d2")
-	)
-	(no_connect
-		(at 269.24 115.57)
-		(uuid "a8115e98-79aa-42c8-9256-1c7cd8e6de0b")
 	)
 	(no_connect
 		(at 146.05 99.06)
@@ -2728,16 +2315,6 @@
 	)
 	(wire
 		(pts
-			(xy 254 106.68) (xy 254 110.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1f5461d0-e28f-46d5-b4fb-8492e7559e7a")
-	)
-	(wire
-		(pts
 			(xy 46.99 173.99) (xy 34.29 173.99)
 		)
 		(stroke
@@ -2785,16 +2362,6 @@
 			(type dash)
 		)
 		(uuid "2c27b721-5414-4fb4-be5a-586b646de508")
-	)
-	(wire
-		(pts
-			(xy 238.76 96.52) (xy 238.76 110.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2ec573f2-6bbe-43f5-8404-a1fbc872221c")
 	)
 	(polyline
 		(pts
@@ -2885,26 +2452,6 @@
 			(type default)
 		)
 		(uuid "41070cce-cf7a-4ce9-834c-919263d27714")
-	)
-	(wire
-		(pts
-			(xy 254 130.81) (xy 254 128.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "436d00db-1481-49be-971d-03e69fe2741b")
-	)
-	(wire
-		(pts
-			(xy 254 97.79) (xy 254 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "441a381d-5264-4dd5-8e75-1c5f7026b127")
 	)
 	(wire
 		(pts
@@ -3168,16 +2715,6 @@
 	)
 	(wire
 		(pts
-			(xy 257.81 113.03) (xy 254 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "75a91c4f-4922-41d1-b28b-38e8605f328e")
-	)
-	(wire
-		(pts
 			(xy 115.57 120.65) (xy 138.43 120.65)
 		)
 		(stroke
@@ -3265,16 +2802,6 @@
 			(type default)
 		)
 		(uuid "80632365-b5f7-4949-b6cb-c2aeedb5fe3b")
-	)
-	(wire
-		(pts
-			(xy 257.81 110.49) (xy 254 110.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "81a7c954-1406-4937-8afd-e8ac81fb2aa3")
 	)
 	(wire
 		(pts
@@ -3646,16 +3173,6 @@
 		)
 		(uuid "cc22f310-fe8d-4389-9b4d-3059ef00ddd1")
 	)
-	(wire
-		(pts
-			(xy 238.76 118.11) (xy 238.76 123.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d480db29-1214-4069-9373-8ad897c00b53")
-	)
 	(polyline
 		(pts
 			(xy 210.82 52.07) (xy 213.36 52.07)
@@ -3685,16 +3202,6 @@
 			(type default)
 		)
 		(uuid "d5a43c95-b0f8-4dd0-af8f-48803d1e06de")
-	)
-	(wire
-		(pts
-			(xy 238.76 123.19) (xy 246.38 123.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "da64b68d-5d8d-4ac9-be6e-6657c4e90b6d")
 	)
 	(wire
 		(pts
@@ -3745,16 +3252,6 @@
 			(type default)
 		)
 		(uuid "e4dffc77-dc2d-4373-b1bb-ea7c84283b76")
-	)
-	(wire
-		(pts
-			(xy 254 113.03) (xy 254 118.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e66c1aac-490d-4ebc-8003-729c210e5f63")
 	)
 	(wire
 		(pts
@@ -3942,17 +3439,6 @@
 		)
 		(uuid "a7eae0c6-a850-4e95-82c1-efd706150fdc")
 	)
-	(hierarchical_label "LED_A"
-		(shape bidirectional)
-		(at 257.81 110.49 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "cdb191b7-2189-4411-a8ca-cd7a02766608")
-	)
 	(hierarchical_label "RELEASE_1"
 		(shape bidirectional)
 		(at 162.56 109.22 0)
@@ -3963,17 +3449,6 @@
 			(justify left)
 		)
 		(uuid "d57f9027-25a4-41ad-83ae-557c2e881aba")
-	)
-	(hierarchical_label "LED_K"
-		(shape bidirectional)
-		(at 257.81 113.03 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "db0bcd57-67cd-4230-9041-4a7f11ad38b3")
 	)
 	(hierarchical_label "SUSTAIN_2"
 		(shape bidirectional)
@@ -4381,85 +3856,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED")
-		(at 269.24 111.76 270)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "0c439cde-6cad-432f-a4b1-04bbc55b2cc7")
-		(property "Reference" "#D1"
-			(at 271.78 114.6176 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "LED"
-			(at 271.78 112.0776 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 269.24 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 269.24 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 269.24 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 269.24 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "82511027-d61b-44db-b696-1f19b4602503")
-		)
-		(pin "2"
-			(uuid "c4b3b9e5-f305-4d14-8cea-055b04e79020")
-		)
-		(instances
-			(project ""
-				(path "/8e2e31f3-eed5-4de1-966c-f4162758c735/ab337492-f07a-4675-9a14-453f63abdb23"
-					(reference "#D1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 34.29 177.8 0)
 		(unit 1)
@@ -4765,136 +4161,6 @@
 			(project "adsr-vca-core"
 				(path "/8e2e31f3-eed5-4de1-966c-f4162758c735/ab337492-f07a-4675-9a14-453f63abdb23"
 					(reference "#PWR09")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 238.76 114.3 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "20ca6fac-8504-428a-a19f-a1d7e75453dd")
-		(property "Reference" "R15"
-			(at 233.68 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "47k"
-			(at 233.68 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 240.538 114.3 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 238.76 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 238.76 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C25819"
-			(at 238.76 114.3 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "CHECKED" "YES"
-			(at 238.76 114.3 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Vendor" "JLCPCB"
-			(at 238.76 114.3 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part No." ""
-			(at 238.76 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part URL" ""
-			(at 238.76 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Arwill" ""
-			(at 238.76 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Hestore" ""
-			(at 238.76 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d30dc4db-a6c6-49c2-b670-4285bee1a204")
-		)
-		(pin "2"
-			(uuid "bb7f119c-508a-4b28-8235-40225bd27ac7")
-		)
-		(instances
-			(project "adsr-vca-core"
-				(path "/8e2e31f3-eed5-4de1-966c-f4162758c735/ab337492-f07a-4675-9a14-453f63abdb23"
-					(reference "R15")
 					(unit 1)
 				)
 			)
@@ -5865,72 +5131,6 @@
 			(project "adsr-vca-core"
 				(path "/8e2e31f3-eed5-4de1-966c-f4162758c735/ab337492-f07a-4675-9a14-453f63abdb23"
 					(reference "R17")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+12V")
-		(at 254 97.79 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "734ce3f2-2bb6-4bed-8829-f73ab6c474a6")
-		(property "Reference" "#PWR015"
-			(at 254 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+12V"
-			(at 254 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 254 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 254 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 254 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "483a6371-c70e-4415-9730-1f13132ab81c")
-		)
-		(instances
-			(project "adsr-vca-core"
-				(path "/8e2e31f3-eed5-4de1-966c-f4162758c735/ab337492-f07a-4675-9a14-453f63abdb23"
-					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -9120,202 +8320,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 254 130.81 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ea1135ce-f577-4002-b87b-d7396424172c")
-		(property "Reference" "#PWR016"
-			(at 254 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 254 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 254 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 254 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 254 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b2dd47cb-0917-4c5f-89e3-5646f4cb5158")
-		)
-		(instances
-			(project ""
-				(path "/8e2e31f3-eed5-4de1-966c-f4162758c735/ab337492-f07a-4675-9a14-453f63abdb23"
-					(reference "#PWR016")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 254 102.87 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "f5982e1a-ce74-4cbd-860e-710fe553e78b")
-		(property "Reference" "R16"
-			(at 248.92 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1k"
-			(at 248.92 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Shmoergh_Custom_Footprints:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
-			(at 255.778 102.87 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 254 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 254 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" ""
-			(at 254 102.87 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "CHECKED" ""
-			(at 254 102.87 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Vendor" "Mouser"
-			(at 254 102.87 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part No." ""
-			(at 254 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part URL" ""
-			(at 254 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Arwill" ""
-			(at 254 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Hestore" ""
-			(at 254 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d1a05d7e-18cc-44ac-9142-2980e73cd196")
-		)
-		(pin "2"
-			(uuid "7fb33c63-1999-47b8-9902-4a38850a82c3")
-		)
-		(instances
-			(project "adsr-vca-core"
-				(path "/8e2e31f3-eed5-4de1-966c-f4162758c735/ab337492-f07a-4675-9a14-453f63abdb23"
-					(reference "R16")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Transistor_BJT:BC857")
 		(at 143.51 120.65 0)
 		(mirror x)
@@ -9432,127 +8436,6 @@
 			(project ""
 				(path "/8e2e31f3-eed5-4de1-966c-f4162758c735/ab337492-f07a-4675-9a14-453f63abdb23"
 					(reference "Q1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Transistor_BJT:BC847")
-		(at 251.46 123.19 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "fd8e139f-3377-4e43-a176-1c0f0a6c4b80")
-		(property "Reference" "Q2"
-			(at 256.54 121.9199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "BC847"
-			(at 256.54 124.4599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 256.54 125.095 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.infineon.com/dgdl/Infineon-BC847SERIES_BC848SERIES_BC849SERIES_BC850SERIES-DS-v01_01-en.pdf?fileId=db3a304314dca389011541d4630a1657"
-			(at 251.46 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "0.1A Ic, 45V Vce, NPN Transistor, SOT-23"
-			(at 251.46 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part No." ""
-			(at 251.46 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part URL" ""
-			(at 251.46 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Vendor" "JLCPCB"
-			(at 251.46 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C7420337"
-			(at 251.46 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "CHECKED" "YES"
-			(at 251.46 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "2ddab571-363e-4837-b9b0-9e0f0b52e0ba")
-		)
-		(pin "1"
-			(uuid "c4828266-046c-4f4a-a8d3-634375c2ad95")
-		)
-		(pin "3"
-			(uuid "9b8c72a0-b650-45e0-a7af-b3542f56038c")
-		)
-		(instances
-			(project ""
-				(path "/8e2e31f3-eed5-4de1-966c-f4162758c735/ab337492-f07a-4675-9a14-453f63abdb23"
-					(reference "Q2")
 					(unit 1)
 				)
 			)
