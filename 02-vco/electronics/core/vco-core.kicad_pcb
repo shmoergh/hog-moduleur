@@ -41804,7 +41804,7 @@
 			(justify bottom)
 		)
 	)
-	(gr_text "OUT"
+	(gr_text "CV"
 		(at 145.336 153.855 0)
 		(layer "F.SilkS" knockout)
 		(uuid "d8cdfdbe-8e1a-4aea-99ae-dc01d03b8206")
@@ -42442,7 +42442,7 @@
 			(justify bottom mirror)
 		)
 	)
-	(gr_text "OUT"
+	(gr_text "CV"
 		(at 146.352 153.855 0)
 		(layer "B.SilkS" knockout)
 		(uuid "5f8d1379-b2e1-4709-95a0-5e94e787a4d3")

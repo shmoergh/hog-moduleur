@@ -1291,7 +1291,7 @@
 		)
 		(uuid "44f6f55c-0b19-4d11-9c29-b9d3fc4f37b3")
 	)
-	(text "OUT OUT"
+	(text "CV INPUT"
 		(exclude_from_sim no)
 		(at 209.55 66.04 0)
 		(effects
