@@ -1,0 +1,14 @@
+﻿Designator,Footprint,Quantity,Value,LCSC Part #
+"D1, D2, D3, D4, D5, D6",LED_D3.0mm,6,LED,
+"J1, J5, J8",PinSocket_2x03_P2.54mm_Vertical,3,Conn_02x03_Odd_Even,
+"J2, J3",PinSocket_1x02_P2.54mm_Vertical,2,Conn_01x02,
+"J4, J6",PinSocket_2x02_P2.54mm_Vertical,2,Conn_02x02_Odd_Even,
+J7,PinSocket_2x05_P2.54mm_Vertical,1,Conn_02x05_Odd_Even,
+"J_AUDIO_CV_IN1, J_AUDIO_CV_IN2, J_AUDIO_CV_OUT1, J_AUDIO_CV_OUT2, J_PULSE_IN1, J_PULSE_OUT1",Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical_CircularHoles,6,PJ398SM,
+J_MIDI1,Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical_CircularHoles,1,PJ398SM-STEREO,
+"Q1, Q2, Q3, Q4, Q5, Q6",TO-92_Inline_Wide,6,2N3904,
+"R1, R2",R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,2,470,
+"R10, R13, R14, R5, R6, R9",R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,6,1k,
+"R11, R12, R3, R4, R7, R8",R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,6,47k,C25803
+"RV_POT1, RV_POT2, RV_POT3",Potentiometer_Bourns_Single-PTV09A,3,100k,
+"U_BTN1, U_BTN2",SPST_Circular_Pushbutton_LED,2,SW_SPST_Push_LED,
