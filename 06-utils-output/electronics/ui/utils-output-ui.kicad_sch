@@ -9165,7 +9165,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1M"
+		(property "Value" "A1M"
 			(at 31.75 27.9401 0)
 			(effects
 				(font

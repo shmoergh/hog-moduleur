@@ -4836,7 +4836,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_SPST_Push_LED"
+		(property "Value" "SW_SPST_Push"
 			(at 145.9865 133.35 0)
 			(effects
 				(font
@@ -4952,7 +4952,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_SPST_Push_LED"
+		(property "Value" "SW_SPST_Push"
 			(at 100.2665 133.35 0)
 			(effects
 				(font

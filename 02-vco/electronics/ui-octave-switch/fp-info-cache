@@ -1,4 +1,4 @@
-26028503077011387
+26032034944275844
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -95256,6 +95256,13 @@ LEM Hall Effect Voltage transducer
 5
 5
 Shmoergh_Custom_Footprints
+Adafruit 5978 USB-C Breakout
+Through hole straight socket strip, 1x05, 2.54mm pitch, single row (from Kicad 4.0.7), script generated
+Through hole socket strip THT 1x05 2.54mm single row
+0
+5
+5
+Shmoergh_Custom_Footprints
 CUI_SJ1-3554NG
 
 
@@ -95318,6 +95325,13 @@ HARWIN_S1711-46R
 0
 1
 1
+Shmoergh_Custom_Footprints
+Jack_3.5mm_PJ301xPJ342
+TRS 3.5mm, vertical, Thonkiconn, PCB mount, (http://www.qingpu-electronics.com/en/products/WQP-PJ398SM-362.html)
+WQP-PJ398SM WQP-PJ301M-12 TRS 3.5mm mono vertical jack thonkiconn qingpu
+0
+7
+4
 Shmoergh_Custom_Footprints
 Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical_CircularHoles
 TRS 3.5mm, vertical, Thonkiconn, PCB mount, (http://www.qingpu-electronics.com/en/products/WQP-PJ398SM-362.html)
