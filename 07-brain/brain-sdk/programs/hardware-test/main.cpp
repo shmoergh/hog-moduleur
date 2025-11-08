@@ -21,8 +21,8 @@ int main() {
 	// while (true) {
 	printf("\r\n=== Starting test iteration ===\r\n");
 
-	// printf("\r\n-> Running LED test...\r\n");
-	// testLED();
+	printf("\r\n-> Running LED test...\r\n");
+	testLED();
 
 	// printf("\r\n-> Running button test...\r\n");
 	// testButton();
@@ -36,8 +36,8 @@ int main() {
 	// printf("\r\n-> Running MIDI parser test...\r\n");
 	// testMidi();
 
-	printf("\r\n-> Running Audio CV Out test...\r\n");
-	testAudioCvOut();
+	// printf("\r\n-> Running Audio CV Out test...\r\n");
+	// testAudioCvOut();
 
 	// printf("\r\n-> Running Audio CV In test...\r\n");
 	// testAudioCvIn();
