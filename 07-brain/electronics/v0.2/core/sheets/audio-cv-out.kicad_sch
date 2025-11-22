@@ -3,7 +3,7 @@
 	(generator "eeschema")
 	(generator_version "9.0")
 	(uuid "d0be8f9e-cbf6-43b2-ba02-2a902bc75120")
-	(paper "A4")
+	(paper "User" 350 210)
 	(lib_symbols
 		(symbol "+5V_1"
 			(power)
@@ -2549,12 +2549,6 @@
 		(uuid "2ac04f96-59d4-4a81-912a-259d46cf6147")
 	)
 	(junction
-		(at 39.37 168.91)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2bb3dac7-4592-4f93-b3c6-88487421a7df")
-	)
-	(junction
 		(at 106.68 92.71)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2565,6 +2559,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "325f25f5-d9d5-418a-a71f-332153946927")
+	)
+	(junction
+		(at 271.78 137.16)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "33886aab-3025-4fd3-9d4f-ceb13fc21dfe")
 	)
 	(junction
 		(at 21.59 168.91)
@@ -2591,6 +2591,12 @@
 		(uuid "556ad221-ac22-4bfb-95fd-e93e482e1d18")
 	)
 	(junction
+		(at 49.53 176.53)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5f6c042e-071c-40ba-8659-dd97fad3ea9e")
+	)
+	(junction
 		(at 226.06 33.02)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2603,16 +2609,22 @@
 		(uuid "7425aa81-85a1-4a52-8986-0a76301dfd1b")
 	)
 	(junction
+		(at 40.64 184.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7d249b29-a15a-496f-ae12-421410d209ec")
+	)
+	(junction
 		(at 121.92 39.37)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7d5c5cfc-3679-40ff-a87d-d3805967bc6c")
 	)
 	(junction
-		(at 39.37 184.15)
+		(at 40.64 168.91)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "8734f7c1-cfa5-4a7f-8fd6-067461c866a2")
+		(uuid "845980dc-f2d8-4cd0-a125-0307cfa9ffc8")
 	)
 	(junction
 		(at 144.78 30.48)
@@ -2627,6 +2639,12 @@
 		(uuid "8fa31937-6dfe-427d-89e7-210155b17c31")
 	)
 	(junction
+		(at 31.75 168.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "91dff959-7dcf-41ce-8c6f-763bc6f9508c")
+	)
+	(junction
 		(at 73.66 176.53)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2637,6 +2655,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "998ce047-a6ce-4e0e-b727-7f9fbdaf68b2")
+	)
+	(junction
+		(at 31.75 184.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9a333abc-73d0-4d57-a5d0-cd0e4200ff8c")
 	)
 	(junction
 		(at 60.96 168.91)
@@ -2651,10 +2675,10 @@
 		(uuid "a9a35272-9ed4-4c6f-aa8d-23c0b8cf6f28")
 	)
 	(junction
-		(at 224.79 134.62)
+		(at 49.53 184.15)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "ab2cbace-1899-4d0f-a04a-d36ad863dbc9")
+		(uuid "af319cfe-1840-44f4-bba5-bdadd090e9ed")
 	)
 	(junction
 		(at 116.84 102.87)
@@ -2663,10 +2687,28 @@
 		(uuid "bab033b1-a4d7-41a6-b96d-e37b0181b3f6")
 	)
 	(junction
+		(at 270.51 35.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "be748fe4-010b-4f3b-9038-542dd62598a3")
+	)
+	(junction
+		(at 49.53 168.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c06cd442-f7b7-4a9c-854d-68646ee42e14")
+	)
+	(junction
 		(at 33.02 68.58)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c0d60d93-60e1-4d98-90b4-5e469106a41e")
+	)
+	(junction
+		(at 224.79 134.62)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cc10f2d4-2aac-4ab1-8917-fb390bc8e1b2")
 	)
 	(junction
 		(at 116.84 110.49)
@@ -2738,6 +2780,16 @@
 	)
 	(wire
 		(pts
+			(xy 270.51 35.56) (xy 270.51 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0782acfa-51b2-4dd3-ada9-81ef07521359")
+	)
+	(wire
+		(pts
 			(xy 60.96 176.53) (xy 73.66 176.53)
 		)
 		(stroke
@@ -2765,6 +2817,16 @@
 			(type default)
 		)
 		(uuid "0abcd58b-9787-4131-9b2e-f2b9641926c8")
+	)
+	(wire
+		(pts
+			(xy 236.22 43.18) (xy 236.22 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0aec0819-f550-4dd0-b28e-6f84e9366864")
 	)
 	(wire
 		(pts
@@ -2798,6 +2860,16 @@
 	)
 	(wire
 		(pts
+			(xy 49.53 176.53) (xy 60.96 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0f08c9b6-f3ec-429d-b190-6c690378636d")
+	)
+	(wire
+		(pts
 			(xy 205.74 35.56) (xy 203.2 35.56)
 		)
 		(stroke
@@ -2805,6 +2877,16 @@
 			(type default)
 		)
 		(uuid "11ed6eec-428e-4249-ba7e-18732a44e983")
+	)
+	(wire
+		(pts
+			(xy 236.22 139.7) (xy 236.22 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "128a3c66-554c-4393-8b75-588992d83249")
 	)
 	(wire
 		(pts
@@ -2865,6 +2947,16 @@
 			(type default)
 		)
 		(uuid "185b36eb-bb73-465c-a818-6b5e952e57b9")
+	)
+	(wire
+		(pts
+			(xy 49.53 184.15) (xy 60.96 184.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1a43c227-9f4f-483f-acf3-fc3fc98b331f")
 	)
 	(wire
 		(pts
@@ -3078,6 +3170,16 @@
 	)
 	(wire
 		(pts
+			(xy 224.79 134.62) (xy 240.03 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4552acda-05b4-421b-931b-25c76352617b")
+	)
+	(wire
+		(pts
 			(xy 175.26 30.48) (xy 180.34 30.48)
 		)
 		(stroke
@@ -3148,6 +3250,16 @@
 	)
 	(wire
 		(pts
+			(xy 271.78 137.16) (xy 266.7 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5b5db83a-0d63-431b-9f2d-c3241b77d640")
+	)
+	(wire
+		(pts
 			(xy 110.49 95.25) (xy 120.65 95.25)
 		)
 		(stroke
@@ -3165,6 +3277,16 @@
 			(type default)
 		)
 		(uuid "60011f59-bc9a-4099-8251-ea1d5e6edbb2")
+	)
+	(wire
+		(pts
+			(xy 240.03 139.7) (xy 236.22 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "607f3c13-430e-4a5f-9688-1bb1fb59f35c")
 	)
 	(wire
 		(pts
@@ -3218,7 +3340,7 @@
 	)
 	(wire
 		(pts
-			(xy 241.3 134.62) (xy 236.22 134.62)
+			(xy 275.59 137.16) (xy 271.78 137.16)
 		)
 		(stroke
 			(width 0)
@@ -3318,7 +3440,7 @@
 	)
 	(wire
 		(pts
-			(xy 21.59 168.91) (xy 39.37 168.91)
+			(xy 21.59 168.91) (xy 31.75 168.91)
 		)
 		(stroke
 			(width 0)
@@ -3428,16 +3550,6 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 168.91) (xy 60.96 168.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "90b0fb25-c290-4e02-bf90-04871567e840")
-	)
-	(wire
-		(pts
 			(xy 173.99 137.16) (xy 179.07 137.16)
 		)
 		(stroke
@@ -3518,7 +3630,7 @@
 	)
 	(wire
 		(pts
-			(xy 242.57 33.02) (xy 237.49 33.02)
+			(xy 275.59 35.56) (xy 270.51 35.56)
 		)
 		(stroke
 			(width 0)
@@ -3538,6 +3650,16 @@
 	)
 	(wire
 		(pts
+			(xy 40.64 168.91) (xy 49.53 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f8fa989-cb53-4a33-9eeb-edc9bbf00caf")
+	)
+	(wire
+		(pts
 			(xy 110.49 76.2) (xy 110.49 87.63)
 		)
 		(stroke
@@ -3548,6 +3670,16 @@
 	)
 	(wire
 		(pts
+			(xy 40.64 184.15) (xy 49.53 184.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a2052dfb-6f26-45e0-8cdd-6d3abd04c370")
+	)
+	(wire
+		(pts
 			(xy 179.07 137.16) (xy 179.07 140.97)
 		)
 		(stroke
@@ -3555,6 +3687,16 @@
 			(type default)
 		)
 		(uuid "a4ac5c07-fbfb-4ea3-996b-7ad0f87e3ec0")
+	)
+	(wire
+		(pts
+			(xy 255.27 35.56) (xy 259.08 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a50643bd-bd08-4057-93bb-4937efeda009")
 	)
 	(wire
 		(pts
@@ -3678,6 +3820,16 @@
 	)
 	(wire
 		(pts
+			(xy 31.75 184.15) (xy 40.64 184.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "be42a7b3-6f16-43fb-9567-54ac0e169b21")
+	)
+	(wire
+		(pts
 			(xy 135.89 146.05) (xy 143.51 146.05)
 		)
 		(stroke
@@ -3748,16 +3900,6 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 184.15) (xy 60.96 184.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c8cc3c23-4376-4978-9cea-8f1f65b1bfae")
-	)
-	(wire
-		(pts
 			(xy 85.09 91.44) (xy 85.09 134.62)
 		)
 		(stroke
@@ -3768,7 +3910,7 @@
 	)
 	(wire
 		(pts
-			(xy 226.06 33.02) (xy 229.87 33.02)
+			(xy 226.06 33.02) (xy 240.03 33.02)
 		)
 		(stroke
 			(width 0)
@@ -3788,13 +3930,43 @@
 	)
 	(wire
 		(pts
-			(xy 224.79 134.62) (xy 228.6 134.62)
+			(xy 255.27 137.16) (xy 259.08 137.16)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "d0df6832-a9fe-4247-b776-d90dbdcf2bb4")
+	)
+	(wire
+		(pts
+			(xy 236.22 147.32) (xy 271.78 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d13d1163-fa33-49f3-a8d3-a7e2a193a9e9")
+	)
+	(wire
+		(pts
+			(xy 49.53 168.91) (xy 60.96 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d54b7988-7d1f-45c6-870a-2a8bb25eed5f")
+	)
+	(wire
+		(pts
+			(xy 236.22 38.1) (xy 240.03 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d6d43893-a5c4-4b56-ab6d-0a08c700a4f8")
 	)
 	(wire
 		(pts
@@ -3838,6 +4010,16 @@
 	)
 	(wire
 		(pts
+			(xy 31.75 168.91) (xy 40.64 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e9120d7d-200c-4312-b06a-801010678e77")
+	)
+	(wire
+		(pts
 			(xy 52.07 99.06) (xy 67.31 99.06)
 		)
 		(stroke
@@ -3868,6 +4050,16 @@
 	)
 	(wire
 		(pts
+			(xy 270.51 43.18) (xy 236.22 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ec6bacfc-713f-4f3e-b247-1fc3e9a9b3c4")
+	)
+	(wire
+		(pts
 			(xy 121.92 33.02) (xy 121.92 39.37)
 		)
 		(stroke
@@ -3888,7 +4080,7 @@
 	)
 	(wire
 		(pts
-			(xy 21.59 184.15) (xy 39.37 184.15)
+			(xy 21.59 184.15) (xy 31.75 184.15)
 		)
 		(stroke
 			(width 0)
@@ -3915,6 +4107,16 @@
 			(type default)
 		)
 		(uuid "f48dcc4d-33bb-4331-b6d9-bc5c35314b14")
+	)
+	(wire
+		(pts
+			(xy 271.78 147.32) (xy 271.78 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f7e99bc3-85f3-40c8-afa2-a9239541c199")
 	)
 	(wire
 		(pts
@@ -3955,6 +4157,16 @@
 			(type default)
 		)
 		(uuid "fc102362-9b2b-42d3-9cb7-ac8cd986b518")
+	)
+	(wire
+		(pts
+			(xy 270.51 35.56) (xy 266.7 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fcfcc958-c1f8-476d-988b-d7cda3d7e7aa")
 	)
 	(wire
 		(pts
@@ -4011,7 +4223,7 @@
 	)
 	(hierarchical_label "AUDIO_CV_OUT_1"
 		(shape output)
-		(at 242.57 33.02 0)
+		(at 275.59 35.56 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4033,7 +4245,7 @@
 	)
 	(hierarchical_label "AUDIO_CV_OUT_2"
 		(shape output)
-		(at 241.3 134.62 0)
+		(at 275.59 137.16 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5014,6 +5226,24 @@
 				(hide yes)
 			)
 		)
+		(property "Part No." ""
+			(at 212.09 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part URL" ""
+			(at 212.09 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "0959194f-c181-4db9-af91-52b9bea76b05")
 		)
@@ -5049,7 +5279,7 @@
 	)
 	(symbol
 		(lib_id "Amplifier_Operational:TL072")
-		(at 41.91 176.53 0)
+		(at 43.18 176.53 0)
 		(unit 3)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5058,7 +5288,7 @@
 		(fields_autoplaced yes)
 		(uuid "1f47fe0f-7099-4c3e-9d97-9e0e2e8676b4")
 		(property "Reference" "U5"
-			(at 40.64 175.2599 0)
+			(at 41.91 175.2599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5067,7 +5297,7 @@
 			)
 		)
 		(property "Value" "TL072"
-			(at 40.64 177.7999 0)
+			(at 41.91 177.7999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5076,7 +5306,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
-			(at 41.91 176.53 0)
+			(at 43.18 176.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5085,7 +5315,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tl071.pdf"
-			(at 41.91 176.53 0)
+			(at 43.18 176.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5094,7 +5324,7 @@
 			)
 		)
 		(property "Description" "Dual Low-Noise JFET-Input Operational Amplifiers, DIP-8/SOIC-8"
-			(at 41.91 176.53 0)
+			(at 43.18 176.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5103,7 +5333,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 41.91 176.53 0)
+			(at 43.18 176.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5112,7 +5342,7 @@
 			)
 		)
 		(property "Sim.Pins" ""
-			(at 41.91 176.53 0)
+			(at 43.18 176.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5121,7 +5351,7 @@
 			)
 		)
 		(property "LCSC" "C6961"
-			(at 41.91 176.53 0)
+			(at 43.18 176.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5130,7 +5360,7 @@
 			)
 		)
 		(property "Vendor" "JLCPCB"
-			(at 41.91 176.53 0)
+			(at 43.18 176.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5139,7 +5369,7 @@
 			)
 		)
 		(property "CHECKED" "YES"
-			(at 41.91 176.53 0)
+			(at 43.18 176.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5692,6 +5922,157 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 49.53 172.72 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2ceedcf6-48d3-4ba1-8cfd-20e269deace8")
+		(property "Reference" "C19"
+			(at 53.34 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 53.34 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 50.4952 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 49.53 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 49.53 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C14663"
+			(at 49.53 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" ""
+			(at 49.53 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part No." ""
+			(at 49.53 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part URL" ""
+			(at 49.53 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor" "JLCPCB"
+			(at 49.53 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field4" ""
+			(at 49.53 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 49.53 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 49.53 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CHECKED" "YES"
+			(at 49.53 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "02fc0a95-dce3-41e7-8a0b-146916631ef0")
+		)
+		(pin "2"
+			(uuid "f435a71a-77a6-4e67-84dd-7f53069f7954")
+		)
+		(instances
+			(project "brain-core"
+				(path "/8e2e31f3-eed5-4de1-966c-f4162758c735/a5dac03c-0548-4574-b19b-4dd5fbd38e47"
+					(reference "C19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Amplifier_Operational:TL072")
 		(at 133.35 30.48 0)
 		(unit 1)
@@ -5817,6 +6198,128 @@
 			(project ""
 				(path "/8e2e31f3-eed5-4de1-966c-f4162758c735/a5dac03c-0548-4574-b19b-4dd5fbd38e47"
 					(reference "U5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Amplifier_Operational:TL072")
+		(at 247.65 137.16 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2f72da90-c4ff-4cda-babd-aad52417f954")
+		(property "Reference" "U11"
+			(at 247.65 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TL072"
+			(at 247.65 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+			(at 247.65 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tl071.pdf"
+			(at 247.65 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Dual Low-Noise JFET-Input Operational Amplifiers, DIP-8/SOIC-8"
+			(at 247.65 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part No." ""
+			(at 247.65 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part URL" ""
+			(at 247.65 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor" "JLCPCB"
+			(at 247.65 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C6961"
+			(at 247.65 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "803176a1-44b0-458c-9e81-013bb57bd77c")
+		)
+		(pin "2"
+			(uuid "ed638f35-1ed0-4d08-aea4-903a0e72b29b")
+		)
+		(pin "1"
+			(uuid "d1d6c834-1287-401f-be16-afe62e226b3e")
+		)
+		(pin "5"
+			(uuid "25f4a364-92f7-4823-9e93-12aad7a9256f")
+		)
+		(pin "6"
+			(uuid "ae1e1e37-f219-40f4-b455-dbe3f3e51277")
+		)
+		(pin "7"
+			(uuid "2b7c24c8-cf33-4a38-880a-7e8efef207fa")
+		)
+		(pin "8"
+			(uuid "ca30f447-e2d0-4020-b7f9-93c2c77e1dc0")
+		)
+		(pin "4"
+			(uuid "cc6375e1-4124-4391-8e63-664338a4f4de")
+		)
+		(instances
+			(project ""
+				(path "/8e2e31f3-eed5-4de1-966c-f4162758c735/a5dac03c-0548-4574-b19b-4dd5fbd38e47"
+					(reference "U11")
 					(unit 1)
 				)
 			)
@@ -6142,7 +6645,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 232.41 134.62 90)
+		(at 262.89 137.16 90)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6151,7 +6654,7 @@
 		(dnp no)
 		(uuid "45be05aa-bda6-4339-ad8c-fbd31476aa19")
 		(property "Reference" "R22"
-			(at 232.41 132.08 90)
+			(at 262.89 134.62 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6159,7 +6662,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 232.41 129.54 90)
+			(at 262.89 132.08 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6167,7 +6670,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 232.41 132.842 90)
+			(at 262.89 135.382 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6176,7 +6679,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 232.41 134.62 0)
+			(at 262.89 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6185,7 +6688,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 232.41 134.62 0)
+			(at 262.89 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6194,7 +6697,7 @@
 			)
 		)
 		(property "LCSC" "C21190"
-			(at 232.41 134.62 90)
+			(at 262.89 137.16 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6203,7 +6706,7 @@
 			)
 		)
 		(property "Mouser" ""
-			(at 232.41 134.62 0)
+			(at 262.89 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6212,7 +6715,7 @@
 			)
 		)
 		(property "Part No." ""
-			(at 232.41 134.62 0)
+			(at 262.89 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6221,7 +6724,7 @@
 			)
 		)
 		(property "Part URL" ""
-			(at 232.41 134.62 0)
+			(at 262.89 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6230,7 +6733,7 @@
 			)
 		)
 		(property "Vendor" "JLCPCB"
-			(at 232.41 134.62 0)
+			(at 262.89 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6239,7 +6742,7 @@
 			)
 		)
 		(property "Field4" ""
-			(at 232.41 134.62 0)
+			(at 262.89 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6248,7 +6751,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 232.41 134.62 90)
+			(at 262.89 137.16 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6257,7 +6760,7 @@
 			)
 		)
 		(property "Sim.Pins" ""
-			(at 232.41 134.62 90)
+			(at 262.89 137.16 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6266,7 +6769,7 @@
 			)
 		)
 		(property "CHECKED" "YES"
-			(at 232.41 134.62 90)
+			(at 262.89 137.16 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6736,6 +7239,128 @@
 		)
 	)
 	(symbol
+		(lib_id "Amplifier_Operational:TL072")
+		(at 247.65 35.56 0)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "66cff073-80ee-4486-a08b-8cd0cfb284af")
+		(property "Reference" "U11"
+			(at 247.65 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TL072"
+			(at 247.65 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+			(at 247.65 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tl071.pdf"
+			(at 247.65 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Dual Low-Noise JFET-Input Operational Amplifiers, DIP-8/SOIC-8"
+			(at 247.65 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part No." ""
+			(at 247.65 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part URL" ""
+			(at 247.65 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor" "JLCPCB"
+			(at 247.65 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C6961"
+			(at 247.65 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "803176a1-44b0-458c-9e81-013bb57bd77c")
+		)
+		(pin "2"
+			(uuid "ed638f35-1ed0-4d08-aea4-903a0e72b29b")
+		)
+		(pin "1"
+			(uuid "d1d6c834-1287-401f-be16-afe62e226b3e")
+		)
+		(pin "5"
+			(uuid "25f4a364-92f7-4823-9e93-12aad7a9256f")
+		)
+		(pin "6"
+			(uuid "ae1e1e37-f219-40f4-b455-dbe3f3e51277")
+		)
+		(pin "7"
+			(uuid "2b7c24c8-cf33-4a38-880a-7e8efef207fa")
+		)
+		(pin "8"
+			(uuid "ca30f447-e2d0-4020-b7f9-93c2c77e1dc0")
+		)
+		(pin "4"
+			(uuid "cc6375e1-4124-4391-8e63-664338a4f4de")
+		)
+		(instances
+			(project ""
+				(path "/8e2e31f3-eed5-4de1-966c-f4162758c735/a5dac03c-0548-4574-b19b-4dd5fbd38e47"
+					(reference "U11")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 52.07 101.6 0)
 		(unit 1)
@@ -6893,6 +7518,24 @@
 			)
 		)
 		(property "CHECKED" "YES"
+			(at 24.13 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part No." ""
+			(at 24.13 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part URL" ""
 			(at 24.13 176.53 0)
 			(effects
 				(font
@@ -7485,6 +8128,281 @@
 		)
 	)
 	(symbol
+		(lib_id "Amplifier_Operational:TL072")
+		(at 34.29 176.53 0)
+		(unit 3)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "85e63e8b-de42-4a9d-a2ba-f92b66261ece")
+		(property "Reference" "U11"
+			(at 33.02 175.2599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TL072"
+			(at 33.02 177.7999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+			(at 34.29 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tl071.pdf"
+			(at 34.29 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Dual Low-Noise JFET-Input Operational Amplifiers, DIP-8/SOIC-8"
+			(at 34.29 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part No." ""
+			(at 34.29 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part URL" ""
+			(at 34.29 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor" "JLCPCB"
+			(at 34.29 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C6961"
+			(at 34.29 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "803176a1-44b0-458c-9e81-013bb57bd77c")
+		)
+		(pin "2"
+			(uuid "ed638f35-1ed0-4d08-aea4-903a0e72b29b")
+		)
+		(pin "1"
+			(uuid "d1d6c834-1287-401f-be16-afe62e226b3e")
+		)
+		(pin "5"
+			(uuid "25f4a364-92f7-4823-9e93-12aad7a9256f")
+		)
+		(pin "6"
+			(uuid "ae1e1e37-f219-40f4-b455-dbe3f3e51277")
+		)
+		(pin "7"
+			(uuid "2b7c24c8-cf33-4a38-880a-7e8efef207fa")
+		)
+		(pin "8"
+			(uuid "ca30f447-e2d0-4020-b7f9-93c2c77e1dc0")
+		)
+		(pin "4"
+			(uuid "cc6375e1-4124-4391-8e63-664338a4f4de")
+		)
+		(instances
+			(project ""
+				(path "/8e2e31f3-eed5-4de1-966c-f4162758c735/a5dac03c-0548-4574-b19b-4dd5fbd38e47"
+					(reference "U11")
+					(unit 3)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 49.53 180.34 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8a9f57bb-4efd-469d-845d-8c1b0a71f3cf")
+		(property "Reference" "C20"
+			(at 53.34 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 53.34 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 50.4952 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 49.53 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 49.53 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C14663"
+			(at 49.53 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" ""
+			(at 49.53 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part No." ""
+			(at 49.53 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part URL" ""
+			(at 49.53 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor" "JLCPCB"
+			(at 49.53 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field4" ""
+			(at 49.53 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 49.53 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 49.53 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CHECKED" "YES"
+			(at 49.53 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a1077994-e524-4885-975c-e3a2fa11daf6")
+		)
+		(pin "2"
+			(uuid "f1ac847b-2af7-40e1-9ca2-0ed14cee523c")
+		)
+		(instances
+			(project "brain-core"
+				(path "/8e2e31f3-eed5-4de1-966c-f4162758c735/a5dac03c-0548-4574-b19b-4dd5fbd38e47"
+					(reference "C20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 203.2 110.49 0)
 		(mirror x)
@@ -7635,7 +8553,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 233.68 33.02 90)
+		(at 262.89 35.56 90)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7644,7 +8562,7 @@
 		(dnp no)
 		(uuid "a0c39e78-30eb-46bb-9065-05fd73b53fff")
 		(property "Reference" "R23"
-			(at 233.68 30.48 90)
+			(at 262.89 33.02 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7652,7 +8570,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 233.68 27.94 90)
+			(at 262.89 30.48 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7660,7 +8578,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 233.68 31.242 90)
+			(at 262.89 33.782 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7669,7 +8587,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 233.68 33.02 0)
+			(at 262.89 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7678,7 +8596,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 233.68 33.02 0)
+			(at 262.89 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7687,7 +8605,7 @@
 			)
 		)
 		(property "LCSC" "C21190"
-			(at 233.68 33.02 90)
+			(at 262.89 35.56 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7696,7 +8614,7 @@
 			)
 		)
 		(property "Mouser" ""
-			(at 233.68 33.02 0)
+			(at 262.89 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7705,7 +8623,7 @@
 			)
 		)
 		(property "Part No." ""
-			(at 233.68 33.02 0)
+			(at 262.89 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7714,7 +8632,7 @@
 			)
 		)
 		(property "Part URL" ""
-			(at 233.68 33.02 0)
+			(at 262.89 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7723,7 +8641,7 @@
 			)
 		)
 		(property "Vendor" "JLCPCB"
-			(at 233.68 33.02 0)
+			(at 262.89 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7732,7 +8650,7 @@
 			)
 		)
 		(property "Field4" ""
-			(at 233.68 33.02 0)
+			(at 262.89 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7741,7 +8659,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 233.68 33.02 90)
+			(at 262.89 35.56 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7750,7 +8668,7 @@
 			)
 		)
 		(property "Sim.Pins" ""
-			(at 233.68 33.02 90)
+			(at 262.89 35.56 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7759,7 +8677,7 @@
 			)
 		)
 		(property "CHECKED" "YES"
-			(at 233.68 33.02 90)
+			(at 262.89 35.56 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7872,6 +8790,24 @@
 			)
 		)
 		(property "CHECKED" "YES"
+			(at 132.08 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part No." ""
+			(at 132.08 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part URL" ""
 			(at 132.08 137.16 0)
 			(effects
 				(font

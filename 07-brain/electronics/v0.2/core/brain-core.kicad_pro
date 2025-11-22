@@ -80,10 +80,6 @@
           ""
         ],
         [
-          "duplicate_footprints|155242000|148902000|dae4fbde-8a8d-4b77-b526-9eafe3afc15b|8ac9be66-a987-4523-9df1-82395ec334e9",
-          ""
-        ],
-        [
           "duplicate_footprints|175943000|93022000|79064e43-c91f-4b5f-ba5e-584d16e84755|8ac9be66-a987-4523-9df1-82395ec334e9",
           ""
         ],
@@ -97,10 +93,6 @@
         ],
         [
           "extra_footprint|133652000|116009000|422ddaeb-42ba-496b-97b1-15af4c6756fb|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "extra_footprint|155242000|148902000|dae4fbde-8a8d-4b77-b526-9eafe3afc15b|00000000-0000-0000-0000-000000000000",
           ""
         ],
         [
@@ -140,8 +132,8 @@
           ""
         ],
         [
-          "unconnected_items|126000000|57500000|F.Cu|4|141e77fc-0378-40cd-b49d-6bebf126aa62|41135e58-e436-4b93-ba1a-b3f16326a845",
-          "This is connected on the UI"
+          "unconnected_items|134795000|88074000|F.Cu|4|41135e58-e436-4b93-ba1a-b3f16326a845|c87c6692-8bfe-430b-88e3-7c16c346583c",
+          "This is fine - connected on the UI board"
         ]
       ],
       "meta": {
