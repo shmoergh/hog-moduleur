@@ -138,6 +138,10 @@
         [
           "silk_edge_clearance|184500000|78547000|e1f2313f-94bd-4f3e-ae86-2d656e3d0f6e|7efcfb8b-616e-42d9-a02b-88b0f5877715",
           ""
+        ],
+        [
+          "unconnected_items|126000000|57500000|F.Cu|4|141e77fc-0378-40cd-b49d-6bebf126aa62|41135e58-e436-4b93-ba1a-b3f16326a845",
+          "This is connected on the UI"
         ]
       ],
       "meta": {
@@ -656,6 +660,7 @@
       "single_global_label": "ignore",
       "unannotated": "error",
       "unconnected_wire_endpoint": "warning",
+      "undefined_netclass": "error",
       "unit_value_mismatch": "error",
       "unresolved_variable": "error",
       "wire_dangling": "error"

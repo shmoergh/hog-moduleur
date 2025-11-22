@@ -2207,7 +2207,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 59.69) (xy 160.02 59.69)
+			(xy 147.32 58.42) (xy 160.02 58.42)
 		)
 		(stroke
 			(width 0)
@@ -2677,7 +2677,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 62.23) (xy 160.02 62.23)
+			(xy 147.32 60.96) (xy 160.02 60.96)
 		)
 		(stroke
 			(width 0)
@@ -2836,7 +2836,7 @@
 		(uuid "2fb4f152-c466-4920-9f2b-f3c7b2ddae22")
 	)
 	(label "GPIO_21"
-		(at 149.86 62.23 0)
+		(at 149.86 60.96 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2996,7 +2996,7 @@
 		(uuid "f367b29f-8998-4bd0-9d72-5912ce2eb65a")
 	)
 	(label "GPIO_20"
-		(at 149.86 59.69 0)
+		(at 149.86 58.42 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3513,7 +3513,7 @@
 	)
 	(global_label "BTN_LED_1"
 		(shape output)
-		(at 160.02 62.23 0)
+		(at 160.02 60.96 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3523,7 +3523,7 @@
 		)
 		(uuid "ac86d15f-7b85-4c71-a30a-1f43a49758aa")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 173.1651 62.23 0)
+			(at 173.1651 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3579,7 +3579,7 @@
 	)
 	(global_label "BTN_3"
 		(shape input)
-		(at 160.02 59.69 0)
+		(at 160.02 58.42 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3589,7 +3589,7 @@
 		)
 		(uuid "cc72648f-38fa-461e-95d3-733ef9f6a871")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 168.7504 59.69 0)
+			(at 168.7504 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6570,7 +6570,7 @@
 			)
 		)
 		(pin "BTN_3" output
-			(at 147.32 59.69 0)
+			(at 147.32 58.42 0)
 			(uuid "9accef8d-3691-4d39-9bd1-82388d365ef0")
 			(effects
 				(font
@@ -6580,7 +6580,7 @@
 			)
 		)
 		(pin "BTN_1_LED" output
-			(at 147.32 62.23 0)
+			(at 147.32 60.96 0)
 			(uuid "21c9ca51-36d0-4d75-a622-6e960b647741")
 			(effects
 				(font

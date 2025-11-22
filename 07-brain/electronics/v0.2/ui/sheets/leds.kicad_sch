@@ -2588,7 +2588,7 @@
 				)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "4.7k"
 			(at 158.75 44.45 0)
 			(effects
 				(font
@@ -3120,7 +3120,7 @@
 				)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "4.7k"
 			(at 158.75 107.95 0)
 			(effects
 				(font
@@ -3307,7 +3307,7 @@
 				)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "4.7k"
 			(at 222.25 44.45 0)
 			(effects
 				(font
@@ -3549,7 +3549,7 @@
 				)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "4.7k"
 			(at 95.25 44.45 0)
 			(effects
 				(font
@@ -3670,7 +3670,7 @@
 				)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "4.7k"
 			(at 95.25 107.95 0)
 			(effects
 				(font
@@ -3791,7 +3791,7 @@
 				)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "4.7k"
 			(at 222.25 107.95 0)
 			(effects
 				(font

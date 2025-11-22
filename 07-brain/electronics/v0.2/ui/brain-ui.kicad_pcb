@@ -886,7 +886,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "4.7k"
 			(at 6.6 0.5 90)
 			(layer "F.SilkS")
 			(uuid "7574ef23-4029-4e48-b7df-3047f64ecae7")
@@ -1469,7 +1469,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "4.7k"
 			(at 6.6 0.5 0)
 			(layer "F.SilkS")
 			(hide yes)
@@ -2394,7 +2394,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "4.7k"
 			(at 6.6 0.5 90)
 			(layer "F.SilkS")
 			(uuid "fcd42363-f93d-4ae6-9742-592673ce6347")
@@ -3958,7 +3958,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "4.7k"
 			(at 6.6 0.5 0)
 			(layer "F.SilkS")
 			(uuid "9dcbc5b3-aba8-45ca-97ab-9dbbee4d5286")
@@ -5213,7 +5213,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "4.7k"
 			(at 6.6 0.5 0)
 			(layer "F.SilkS")
 			(uuid "cc590dc6-2eb5-44cd-bd3a-f7d2152667e0")
@@ -7488,7 +7488,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "4.7k"
 			(at 6.6 0.5 90)
 			(layer "F.SilkS")
 			(uuid "a054d5be-ac86-492c-85f3-7cad02eb9b77")
@@ -8889,7 +8889,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_SPST_Push_LED"
+		(property "Value" "SW_SPST_Push"
 			(at 0 -7.366 0)
 			(layer "F.Fab")
 			(uuid "f7a22a88-8bd9-44b8-9342-04a096c0b56f")
@@ -9332,7 +9332,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_SPST_Push_LED"
+		(property "Value" "SW_SPST_Push"
 			(at 0 -7.366 0)
 			(layer "F.Fab")
 			(uuid "1d1aed37-62f6-4c4f-a6fc-de38a0655652")
