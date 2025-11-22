@@ -1,0 +1,8 @@
+﻿Designator,Mid X,Mid Y,Rotation,Layer
+J_ENV_VCA1,79.85,-88.23,90.0,top
+J_ENV_VCA2,143.85,-88.23,90.0,top
+J_FILTER1,261.35,-64.27,270.0,bottom
+J_MIXER1,197.35,-64.27,270.0,bottom
+J_UTILS_OUT1,198.35,-84.73,90.0,top
+J_VCO1,70.62,-64.27,270.0,bottom
+J_VCO2,134.62,-64.27,270.0,bottom

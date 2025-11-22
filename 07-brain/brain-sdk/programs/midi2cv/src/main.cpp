@@ -37,10 +37,18 @@ constexpr uint NUM_LEDS = 6;
 
 static inline void applyCurrentNoteCv();
 
+// Debug logging (disable for production to prevent MIDI event drops due to printf blocking)
+// Set to 1 to see Note On/Off events (useful for debugging)
+// Set to 0 for production (prevents printf blocking that can drop MIDI events)
+#define DEBUG_MIDI_EVENTS 0
+
 // MIDI callbacks (C-style function pointers)
 static void onNoteOn(uint8_t note, uint8_t velocity, uint8_t channel) {
 	(void) velocity;
 	(void) channel;
+#if DEBUG_MIDI_EVENTS
+	printf("[NoteON ] note=%u vel=%u ch=%u\r\n", note, velocity, channel);
+#endif
 	g_stack.pushTop(note);
 	g_gate.set(true);  // logical HIGH (Pulse handles hardware inversion)
 	g_led.on();
@@ -50,6 +58,9 @@ static void onNoteOn(uint8_t note, uint8_t velocity, uint8_t channel) {
 static void onNoteOff(uint8_t note, uint8_t velocity, uint8_t channel) {
 	(void) velocity;
 	(void) channel;
+#if DEBUG_MIDI_EVENTS
+	printf("[NoteOFF] note=%u vel=%u ch=%u\r\n", note, velocity, channel);
+#endif
 	g_stack.remove(note);
 	if (g_stack.isEmpty()) {
 		// No active note -> gate LOW, hold last CV
@@ -70,7 +81,9 @@ static inline void applyCurrentNoteCv() {
 	if (volts < 0.0f) volts = 0.0f;
 	if (volts > 10.0f) volts = 10.0f;
 
-	printf("\r\n Volt: %f", volts);
+	// NOTE: printf() in callback hot path causes blocking that can drop MIDI events
+	// Uncomment for debugging only, not for production use
+	// printf("\r\n Volt: %f", volts);
 
 	g_dac.setVoltage(AudioCvOutChannel::kChannelA, volts);
 }

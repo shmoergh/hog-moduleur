@@ -120,7 +120,7 @@ void testMidi() {
 			last_status_time = now;
 		}
 
-		sleep_ms(10);  // Small delay to prevent busy waiting
+		sleep_ms(1);  // Minimal delay to prevent busy waiting while staying responsive
 	}
 
 	printf("\r\n\r\nSUCCESS: All required MIDI messages received!\r\n");

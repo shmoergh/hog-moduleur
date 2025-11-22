@@ -2,8 +2,15 @@
 
 #include <hardware/gpio.h>
 #include <hardware/uart.h>
+#include <hardware/structs/uart.h>
+#include <cstdio>
 
 #include "brain-common/brain-gpio-setup.h"
+
+// Debug flag for MIDI parser internals
+// Set to 1 to enable detailed MIDI byte logging (useful for debugging hardware issues)
+// Set to 0 for production (reduces overhead and prevents blocking)
+#define DEBUG_MIDI_PARSER 0
 
 namespace brain::io {
 
@@ -46,6 +53,10 @@ bool MidiParser::omni() const {
 }
 
 void MidiParser::feed(uint8_t byte) noexcept {
+#if DEBUG_MIDI_PARSER
+	printf("[MIDI] RX byte: 0x%02X (state=%d)\r\n", byte, static_cast<int>(state_));
+#endif
+
 	// Handle real-time messages immediately at any time
 	if (isRealtimeByte(byte)) {
 		handleRealtimeByte(byte);
@@ -54,6 +65,9 @@ void MidiParser::feed(uint8_t byte) noexcept {
 
 	// Ignore System Common messages (SysEx, etc.) for v1
 	if (isSystemCommonByte(byte)) {
+#if DEBUG_MIDI_PARSER
+		printf("[MIDI] System Common byte detected, resetting\r\n");
+#endif
 		reset();  // Clear any partial message
 		return;
 	}
@@ -110,12 +124,19 @@ void MidiParser::feed(uint8_t byte) noexcept {
 			case State::AwaitData2:
 				data_[1] = byte;
 				data_count_ = 2;
+#if DEBUG_MIDI_PARSER
+				printf("[MIDI] Complete msg: status=0x%02X data=[0x%02X, 0x%02X]\r\n",
+				       current_status_, data_[0], data_[1]);
+#endif
 				processMessage();
 				state_ = State::Idle;
 				break;
 		}
 	} else {
 		// Invalid byte, reset state
+#if DEBUG_MIDI_PARSER
+		printf("[MIDI] Invalid byte, resetting\r\n");
+#endif
 		reset();
 	}
 }
@@ -161,6 +182,10 @@ bool MidiParser::initUart(uart_inst_t* uart, uint8_t rx_gpio, uint32_t baud_rate
 	// Set UART format for MIDI (8 data bits, 1 stop bit, no parity)
 	uart_set_format(uart_, 8, 1, UART_PARITY_NONE);
 
+	// Enable UART FIFOs to handle burst MIDI data
+	// This is critical for fast MIDI messages (e.g., rapid note on/off)
+	uart_set_fifo_enabled(uart_, true);
+
 	// Disable hardware flow control
 	uart_set_hw_flow(uart_, false, false);
 
@@ -175,7 +200,26 @@ void MidiParser::processUartInput() {
 
 	// Read any available MIDI bytes and feed them to the parser
 	while (uart_is_readable(uart_)) {
-		uint8_t byte = uart_getc(uart_);
+		// Read the byte - this also reads the error flags atomically
+		uint32_t data_reg = uart_get_hw(uart_)->dr;
+		uint8_t byte = data_reg & 0xFF;
+
+		// Check for UART errors (these are in the same register read)
+		if (data_reg & (UART_UARTDR_OE_BITS | UART_UARTDR_BE_BITS |
+		                UART_UARTDR_PE_BITS | UART_UARTDR_FE_BITS)) {
+#if DEBUG_MIDI_PARSER
+			printf("[MIDI] UART ERROR: byte=0x%02X OE=%d BE=%d PE=%d FE=%d\r\n",
+			       byte,
+			       !!(data_reg & UART_UARTDR_OE_BITS),
+			       !!(data_reg & UART_UARTDR_BE_BITS),
+			       !!(data_reg & UART_UARTDR_PE_BITS),
+			       !!(data_reg & UART_UARTDR_FE_BITS));
+#endif
+			// Discard corrupted byte and reset parser state
+			reset();
+			continue;
+		}
+
 		feed(byte);
 	}
 }
