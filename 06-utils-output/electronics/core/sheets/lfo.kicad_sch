@@ -2208,7 +2208,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Shmoergh_Custom_Footprints:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 126.492 111.76 90)
 			(effects
 				(font
@@ -2235,7 +2235,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C22962"
+		(property "LCSC" ""
 			(at 128.27 111.76 90)
 			(effects
 				(font
@@ -2271,7 +2271,7 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor" "JLCPCB"
+		(property "Vendor" ""
 			(at 128.27 111.76 0)
 			(effects
 				(font
