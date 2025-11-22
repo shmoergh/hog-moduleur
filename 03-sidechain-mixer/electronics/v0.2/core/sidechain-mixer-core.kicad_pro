@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 3.2,
-          "height": 5.6,
-          "width": 5.6
+          "drill": 0.8,
+          "height": 1.27,
+          "width": 2.54
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -60,51 +60,67 @@
       ],
       "drc_exclusions": [
         [
-          "courtyards_overlap|157423000|127383000|d0d8ce34-0511-4944-8875-33b4778b0b93|fcaa28c8-d4b7-47c3-ae44-94dcc6490c66",
-          "Fine, diode will fit"
-        ],
-        [
-          "courtyards_overlap|157457000|110873000|d0d8ce34-0511-4944-8875-33b4778b0b93|dbc3266b-7d78-45a2-8bb7-90cb78a238b1",
-          "This is fine, the diode will fit"
-        ],
-        [
-          "duplicate_footprints|131250000|90000000|c224a55d-db0e-4be1-a859-b6b4854d2aba|7a5d9bc6-02d5-4d04-a4f0-0b38af90d68b",
+          "courtyards_overlap|157203000|127383000|6f76c493-db6e-4c7c-831a-ba7966a704d0|bf1dd2b0-9eed-4bfc-a959-6b9a22a15fca",
           ""
         ],
         [
-          "duplicate_footprints|152448000|98610000|9be7a3d6-e71c-41ad-9cc9-9785ade4006a|3c33adbb-c34a-4882-9cf7-62a8423b52ec",
+          "courtyards_overlap|157330000|110619000|b6e4735a-7ed3-4903-9d28-edbd7b995c64|bf1dd2b0-9eed-4bfc-a959-6b9a22a15fca",
           ""
         ],
         [
-          "duplicate_footprints|174165000|136456000|cb62be64-5c5e-472f-9628-7114614c1979|3c33adbb-c34a-4882-9cf7-62a8423b52ec",
+          "duplicate_footprints|133652000|145473000|b10df968-c308-420e-80b6-75308b9f9949|2d977b20-56e8-42ae-aaf6-7097252fadf7",
           ""
         ],
         [
-          "duplicate_footprints|180750000|96500000|ac205561-dee1-4ef7-8468-eb18df7dcb15|7a5d9bc6-02d5-4d04-a4f0-0b38af90d68b",
+          "duplicate_footprints|138097000|123502000|2507f307-2638-4a7a-9445-19b18a2e2a39|144f3ad3-ac97-47ef-a042-6c6a46632972",
           ""
         ],
         [
-          "extra_footprint|125750000|145500000|7a5d9bc6-02d5-4d04-a4f0-0b38af90d68b|00000000-0000-0000-0000-000000000000",
+          "duplicate_footprints|148511000|112199000|2c349562-6002-4b66-b636-bc7f46a5ab3f|144f3ad3-ac97-47ef-a042-6c6a46632972",
           ""
         ],
         [
-          "extra_footprint|131250000|90000000|c224a55d-db0e-4be1-a859-b6b4854d2aba|00000000-0000-0000-0000-000000000000",
+          "duplicate_footprints|167307000|101658000|820ab5ca-caa9-4e12-b064-30afaa56051a|144f3ad3-ac97-47ef-a042-6c6a46632972",
           ""
         ],
         [
-          "extra_footprint|152448000|98610000|9be7a3d6-e71c-41ad-9cc9-9785ade4006a|00000000-0000-0000-0000-000000000000",
+          "duplicate_footprints|171117000|134678000|d8083e2e-f1de-4bf3-b78d-5e9c8f19d57a|144f3ad3-ac97-47ef-a042-6c6a46632972",
           ""
         ],
         [
-          "extra_footprint|168958000|150172000|3c33adbb-c34a-4882-9cf7-62a8423b52ec|00000000-0000-0000-0000-000000000000",
+          "duplicate_footprints|180388000|145981000|e49e73da-9528-4359-a3e7-a2509485b4de|2d977b20-56e8-42ae-aaf6-7097252fadf7",
           ""
         ],
         [
-          "extra_footprint|174165000|136456000|cb62be64-5c5e-472f-9628-7114614c1979|00000000-0000-0000-0000-000000000000",
+          "extra_footprint|125143000|96197000|2d977b20-56e8-42ae-aaf6-7097252fadf7|00000000-0000-0000-0000-000000000000",
           ""
         ],
         [
-          "extra_footprint|180750000|96500000|ac205561-dee1-4ef7-8468-eb18df7dcb15|00000000-0000-0000-0000-000000000000",
+          "extra_footprint|133652000|145473000|b10df968-c308-420e-80b6-75308b9f9949|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "extra_footprint|133906000|101404000|144f3ad3-ac97-47ef-a042-6c6a46632972|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "extra_footprint|138097000|123502000|2507f307-2638-4a7a-9445-19b18a2e2a39|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "extra_footprint|148511000|112199000|2c349562-6002-4b66-b636-bc7f46a5ab3f|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "extra_footprint|167307000|101658000|820ab5ca-caa9-4e12-b064-30afaa56051a|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "extra_footprint|171117000|134678000|d8083e2e-f1de-4bf3-b78d-5e9c8f19d57a|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "extra_footprint|180388000|145981000|e49e73da-9528-4359-a3e7-a2509485b4de|00000000-0000-0000-0000-000000000000",
           ""
         ]
       ],
@@ -301,7 +317,32 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [],
+    "erc_exclusions": [
+      [
+        "wire_dangling|1117600|1168400|c666ec28-1860-46a9-adfd-9a11a6ba9273|00000000-0000-0000-0000-000000000000|/8e2e31f3-eed5-4de1-966c-f4162758c735/392b84ef-7d00-474b-a582-028beb91858c||",
+        ""
+      ],
+      [
+        "wire_dangling|3149600|254000|b3ac2a35-e4ea-4217-a8ca-4e517b45496c|00000000-0000-0000-0000-000000000000|/8e2e31f3-eed5-4de1-966c-f4162758c735/392b84ef-7d00-474b-a582-028beb91858c||",
+        ""
+      ],
+      [
+        "wire_dangling|3225800|215900|174deef3-4c92-46cd-90e2-1d3ee709fa32|3f860ecd-f094-4041-b870-c80f83d75bb9|/8e2e31f3-eed5-4de1-966c-f4162758c735/392b84ef-7d00-474b-a582-028beb91858c||",
+        ""
+      ],
+      [
+        "wire_dangling|3289300|190500|e458cba9-394d-4c38-84b4-794829c29c32|3f860ecd-f094-4041-b870-c80f83d75bb9|/8e2e31f3-eed5-4de1-966c-f4162758c735/392b84ef-7d00-474b-a582-028beb91858c||",
+        ""
+      ],
+      [
+        "wire_dangling|520700|1993900|aed8a479-dd5d-47a0-aa6a-74ddf4726843|d4ffc5eb-71f0-4e64-a857-bc758212d148|/8e2e31f3-eed5-4de1-966c-f4162758c735/392b84ef-7d00-474b-a582-028beb91858c||",
+        ""
+      ],
+      [
+        "wire_dangling|558800|1955800|ccd42448-9fb5-4cc5-9780-e6cae20bec68|d4ffc5eb-71f0-4e64-a857-bc758212d148|/8e2e31f3-eed5-4de1-966c-f4162758c735/392b84ef-7d00-474b-a582-028beb91858c||",
+        ""
+      ]
+    ],
     "meta": {
       "version": 0
     },
@@ -526,7 +567,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "vcf-core.kicad_pro",
+    "filename": "sidechain-mixer-core.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -544,7 +585,7 @@
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 2147483647,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.508,
+        "track_width": 0.25,
         "via_diameter": 0.8,
         "via_drill": 0.4,
         "wire_width": 6
@@ -566,7 +607,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "plot/",
+      "plot": "plot",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",
@@ -666,8 +707,8 @@
         },
         {
           "group_by": false,
-          "label": "Part no.",
-          "name": "Part no.",
+          "label": "Mouser Part no.",
+          "name": "Mouser Part no.",
           "show": true
         },
         {
@@ -720,78 +761,6 @@
         },
         {
           "group_by": false,
-          "label": "Price",
-          "name": "Price",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Purchase-URL",
-          "name": "Purchase-URL",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "STANDARD",
-          "name": "STANDARD",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "MAXIMUM_PACKAGE_HEIGHT",
-          "name": "MAXIMUM_PACKAGE_HEIGHT",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "MF",
-          "name": "MF",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "SnapEDA_Link",
-          "name": "SnapEDA_Link",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "MP",
-          "name": "MP",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Availability",
-          "name": "Availability",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "PARTREV",
-          "name": "PARTREV",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Package",
-          "name": "Package",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "MANUFACTURER",
-          "name": "MANUFACTURER",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Check_prices",
-          "name": "Check_prices",
-          "show": false
-        },
-        {
-          "group_by": false,
           "label": "Part No.",
           "name": "Part No.",
           "show": false
@@ -802,7 +771,7 @@
       "include_excluded_from_bom": true,
       "name": "",
       "sort_asc": true,
-      "sort_field": "Reference"
+      "sort_field": "${EXCLUDE_FROM_BOM}"
     },
     "connection_grid_size": 50.0,
     "drawing": {
@@ -858,8 +827,8 @@
       "Root"
     ],
     [
-      "41bfce4d-858a-4e9b-b7dc-4f2e623e90fb",
-      "VCF"
+      "392b84ef-7d00-474b-a582-028beb91858c",
+      "Sidechain Mixer"
     ],
     [
       "8bc1c38c-66cf-4d37-87f2-6eda8e5acaa7",

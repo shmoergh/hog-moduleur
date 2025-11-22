@@ -1,0 +1,26 @@
+﻿Designator,Footprint,Quantity,Value,LCSC Part #
+"C1, C2, C3, C4, C5, C6, C7, C8",0603,8,100n,C14663
+"C10, C11, C12, C13, C14",0603,5,47p,C1671
+"C23, C24",CP_Elec_6.3x7.7,2,100u,C2836437
+C9,CP_Elec_5x5.4,1,10u,C30110
+"D1, D2",D_SOD-123,2,1N4148,C81598
+"D6, D7",D_SOD-323,2,1N5817,C5190152
+"J1, J6",PinHeader_1x04_P2.54mm_Vertical,2,Conn_01x04,
+J2,PinHeader_2x05_P2.54mm_Vertical,1,Conn_02x05_Odd_Even,
+J3,IDC-Header_2x05_P2.54mm_Horizontal,1,Conn_02x05_Odd_Even,
+J4,PinHeader_1x02_P2.54mm_Vertical,1,Conn_01x02,
+J5,PinHeader_2x03_P2.54mm_Vertical,1,Conn_02x03_Odd_Even,
+J8,PinHeader_1x06_P2.54mm_Vertical,1,Conn_01x06,
+Q1,SOT-363_SC-70-6,1,BC847BS,C5380687
+"R1, R10, R16, R17, R2, R3, R4, R5, R6, R7, R9",0603,11,100k,C25803
+R11,0603,1,1k,C21190
+"R12, R21, R22",0603,3,10k,C25804
+R13,0603,1,33k,C4216
+"R14, R15",0603,2,200k,C25811
+"R18, R19, R26, R28, R29",R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,5,10k,
+"R23, R24",0603,2,470k,C23178
+R8,0603,1,220,C22962
+"RV_ATTACK1, RV_RELEASE1","Potentiometer_ACP_CA6-H2,5_Horizontal",2,10-100k,
+RV_BIAS1,"Potentiometer_ACP_CA6-H2,5_Horizontal",1,100k,
+RV_COMP1,"Potentiometer_ACP_CA6-H2,5_Horizontal",1,10k,
+"U1, U2, U3, U4",SOIC-8_3.9x4.9mm_P1.27mm,4,TL072,C6961
